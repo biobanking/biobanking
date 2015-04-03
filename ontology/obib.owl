@@ -1189,6 +1189,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000026">
+        <rdfs:label xml:lang="en">medication role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000115>A role borne by some material entity which can be delivered/administrated into some organism and the role is realized during a clinical treatment process aiming to treat symptoms, signs or diagnosed disease.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000027">
@@ -1245,6 +1257,29 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity used for specimen collection. It can contain a container to hold a specimen and material (e.g. paper) carrying information about the specimen and the specimen source (e.g. patient).</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029">
+        <rdfs:label xml:lang="en">medication material</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>A material entity that is bearer of a medication role.</obo:IAO_0000115>
     </owl:Class>
     
 
