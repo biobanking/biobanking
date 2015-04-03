@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/externalByhand.owl#"
-     xml:base="http://purl.obolibrary.org/obo/obib/externalByhand.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/externalByhand.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
     
 
 
@@ -568,6 +568,36 @@ Note: this definition was taken over from &quot;geopolitical organization&quot;.
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167">
+        <rdfs:label xml:lang="en">age measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measurement of age of an organism</obo:IAO_0000115>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In MageTab file, we use
+initialTimePoint (a process) + age (a number expected) + TimeUnit (definied in UO, such as year, hour, day, etc.)
+Now we use the term label indicating the start time point of measuring the age, (number + TimeUnit) are expected instances of the class</obo:IAO_0000232>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_178 Age</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg, Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discussed on Nov 15, dev call
+All subtype will be defined by textual definition now.</obo:IAO_0000232>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note that we are currently defining subtypes of age measurement datum that specify when the age is relative to, e.g. planting, as we don&apos;t have adequate temporal predicates yet.
+life of bearer doesn&apos;t imply organism
+this assay measures time not developmental stage. we recognize that development can take different time periods under different conditions such as media / temperature
+age as a quality is dubious; we plan to revisit
+stages in development are currently handled with controlled vocabulary, such as 2-somite stage </obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">age measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
     
 
 
