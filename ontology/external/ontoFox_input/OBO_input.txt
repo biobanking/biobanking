@@ -9,12 +9,18 @@ EFO
 [Low level source term URIs]
 http://www.ebi.ac.uk/efo/EFO_0004318 #smoking behavior
 http://www.ebi.ac.uk/efo/EFO_0004774 #chewing tobacco behavior
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0004318
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://www.ebi.ac.uk/efo/EFO_0004774
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -189,3 +195,33 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+
+
+# objectProperty
+[Source ontology]
+#comment here
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002180 #has component
+http://purl.obolibrary.org/obo/BFO_0000063 #precedes
+http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002180 #has component
+subPropertyOf http://purl.obolibrary.org/obo/BFO_0000051 #has part
+http://purl.obolibrary.org/obo/BFO_0000063 #precedes
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002222 #temporal relation
+http://purl.obolibrary.org/obo/BFO_0000062 #preceded by
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002222 #temporal relation
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
