@@ -232,6 +232,18 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has member</rdfs:label>
+        <obo:IAO_0000115>has member is a mereological relation between a collection and an item.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/cl#lacks_part -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#lacks_part">
