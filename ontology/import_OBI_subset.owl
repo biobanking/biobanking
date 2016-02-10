@@ -5519,7 +5519,91 @@ The following are NOT conclusions based on data: data themselves; results from p
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
     </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/OBI_0002087 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002087">
+        <rdfs:label xml:lang="en">containing a specimen function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
+        <obo:IAO_0000115 xml:lang="en">A contain function that involves physical contact with a specimen. This function is typically performed in such a way that the specimen is usable for an investigation or assay.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Biobank</dc:source>
+        <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Duke Biobank, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/792/</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">containing a specimen function</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:Class>
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0002088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002088">
+        <rdfs:label xml:lang="en">specimen container</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002087"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
+        <obo:IAO_0000115 xml:lang="en">A container with the function of containing a specimen.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Biobank</dc:source>
+        <obo:IAO_0000112 xml:lang="en">COPAN eSwab, CPT vacutainer, PAXgene Blood DNA tube</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/792/</obo:IAO_0000116>
+        <rdfs:comment xml:lang="en">Specimen containers are typically constructed or treated in a particular manner in order to perform their containing a specimen function. This will be a defined class so that any container (e.g., cryotube, vacutainer, conical test tube) with the function of containing a specimen will be inferred to be a specimen container.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">specimen container</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:Class>
+
+   <!-- http://purl.obolibrary.org/obo/OBI_0002089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002089">
+        <rdfs:label xml:lang="en">physical store</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000401"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
+        <obo:IAO_0000115 xml:lang="en">A container with an environmental control function.</obo:IAO_0000115>
+        <dc:source xml:lang="en">Biobank</dc:source>
+        <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/793/</obo:IAO_0000116>
+        <obo:IAO_0000112 xml:lang="en">a freezer. a humidity controlled box.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">physical store</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002095">
+        <rdfs:label xml:lang="en">specimen family creation</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000094"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002077"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">A material processing that has as its input a specimen and as its output a collection of specimens.</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Aliquoting one specimen to multiple tubes, slicing a tissue specimen into multiple sections, processing blood into buffy coat, red cells, and serum.</obo:IAO_0000112>
+        <dc:source xml:lang="en">Biobank</dc:source>
+        <obo:IAO_0000116 xml:lang="en">For details see tracker: https://sourceforge.net/p/obi/obi-terms/778/</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen, Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">specimen family creation</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:Class>    
 
     <!-- http://purl.obolibrary.org/obo/OBI_0100016 -->
 
