@@ -1492,6 +1492,24 @@
     </owl:Class>
     
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0000905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000905">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in vitro transcription</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomolecule synthesis of RNA in vitro used for applications such as can be used in blot hybridizations and nuclease protection assays.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+    </owl:Class>
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device </rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instrument used in the diagnosis of disease or other conditions or for use in the care, treatment, or prevention of disease that does not achieve any of its primary intended purposes by chemical action or by being metabolized.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+    </owl:Class>
+
 
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
@@ -1594,6 +1612,15 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
     
+
+   <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
+        <rdfs:label>health care encounter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A temporally-connected health care process that has as participants an organization or person realizing the health care provider role and a person realizing the patient role.  The health care provider role and patient are realized during the health care encounter</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
 
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000104 -->
