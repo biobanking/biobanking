@@ -23,8 +23,8 @@
         <dc:contributor>Mathias Brochhausen</dc:contributor>
         <dc:contributor>Mikael Eriksson</dc:contributor>
         <dc:contributor>Sanela Kjellqvist</dc:contributor>
-        <dc:contributor>Jan-Eric Litton</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
+        <dc:contributor>Jan-Eric Litton</dc:contributor>
         <dc:contributor>Alice Nzinga</dc:contributor>
         <dc:contributor>Martin N. Fransson</dc:contributor>
         <dc:contributor>Loreana Norlin</dc:contributor>
@@ -424,14 +424,6 @@
         <obo:IAO_0000119>Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204.</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">a is owned by b if b has complete power over a. All rights and obligations of ownership are grounded in this (primitive) relation. The claims and obligations of ownership can be partially transferred to a third party by the owner, b.</obo:IAO_0000115>
         <owl:inverseOf rdf:resource="&obo;OMIABIS_0000008"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -442,6 +434,14 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
     </owl:ObjectProperty>
     
 
@@ -1304,13 +1304,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A device that  is designed to collect, ship and store blood specimens in an easy and inexpensive way.</obo:IAO_0000115>
@@ -1473,14 +1473,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000035"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000030"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A blood specimen that is located on a blood spot card.</obo:IAO_0000115>
@@ -1496,6 +1496,12 @@
     <owl:Class rdf:about="&obo;OBIB_0000040">
         <rdfs:label xml:lang="en">collection packet with empty container and unfilled information material</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBIB_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
@@ -1515,12 +1521,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A collection packet which contains a container without a specimen and an unfilled form that will be used to fill in information about specimen to be collected.</obo:IAO_0000115>
@@ -1585,14 +1585,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000056"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A processed material which is a small cylinder of finely cut tobacco leaves rolled in thin paper for smoking.</obo:IAO_0000115>
@@ -1746,14 +1746,14 @@
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000049"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000055"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A smoking behavior that uses a smoking pipe to inhale or taste tobacco material.</obo:IAO_0000115>
@@ -2558,6 +2558,18 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000024"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="&obo;OMIABIS_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;OMIABIS_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -2570,18 +2582,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="&obo;OMIABIS_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="&obo;OMIABIS_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role borne by a human being that is part of an group of individuals and acts as contact person for the group. This role gets realized by the bearer being a participant in a contacting process.</obo:IAO_0000115>
@@ -4017,12 +4017,16 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;OMIABIS_0000060">
         <rdfs:label xml:lang="en">survey data</rdfs:label>
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:allValuesFrom rdf:resource="&obo;OMIABIS_0001035"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                        <owl:allValuesFrom rdf:resource="&obo;OMIABIS_0001035"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A data set that contains the outcome of a survey.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -4351,6 +4355,12 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_1110109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0001936"/>
             </owl:Restriction>
@@ -4359,12 +4369,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;REO_0000280"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_1110109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">labeling</obo:IAO_0000118>
