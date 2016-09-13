@@ -372,6 +372,14 @@
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a.</obo:IAO_0000115>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -382,14 +390,6 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                    <rdf:Description rdf:about="&obo;IAO_0000030"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -602,12 +602,6 @@
     <owl:Class rdf:about="&obo;ERO_0000979">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBIB_0000015"/>
             </owl:Restriction>
@@ -616,6 +610,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBIB_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -893,6 +893,12 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -905,12 +911,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A planned process that gets rid of a material that is no longer useful or desirable.</obo:IAO_0000115>
@@ -1185,13 +1185,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A collection packet which contains an empty container that will be used for holding a specimen.</obo:IAO_0000115>
@@ -1473,14 +1473,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000030"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000035"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A blood specimen that is located on a blood spot card.</obo:IAO_0000115>
@@ -1496,12 +1496,6 @@
     <owl:Class rdf:about="&obo;OBIB_0000040">
         <rdfs:label xml:lang="en">collection packet with empty container and unfilled information material</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBIB_0000028"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
@@ -1521,6 +1515,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A collection packet which contains a container without a specimen and an unfilled form that will be used to fill in information about specimen to be collected.</obo:IAO_0000115>
@@ -1627,14 +1627,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000056"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A processed material which is a tightly-rolled bundle of dried and fermented tobacco that is ignited so that its smoke may be drawn into the mouth.</obo:IAO_0000115>
@@ -1746,14 +1746,14 @@
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000055"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000049"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBIB_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A smoking behavior that uses a smoking pipe to inhale or taste tobacco material.</obo:IAO_0000115>
@@ -3908,13 +3908,15 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000049 -->
 
     <owl:Class rdf:about="&obo;OMIABIS_0000049">
-        <rdfs:label xml:lang="en">bone marrow specimen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:label xml:lang="en">obsolete_bone marrow specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:comment xml:lang="en"> Bone marrow contains two types of stem cells: haematopoietic (which can produce blood cells) and stromal (which can produce fat, cartilage and bone). </rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A specimen that refers to the tissue at the center of large bones which is the place where new blood cells are produced.
 </obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.who.int/transplantation/activities/GlobalGlossaryonDonationTransplantation.pdf</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="&obo;OBI_0002512"/>
     </owl:Class>
     
 
@@ -4349,12 +4351,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_1110109"/>
             </owl:Restriction>
@@ -4369,6 +4365,12 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;REO_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">labeling</obo:IAO_0000118>
@@ -4510,6 +4512,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A data set that contains additional information about a group of individuals and is gathered through a survey. </obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">The equivalent class restriction includes data combination since the the output of survey execution is from one participant, while the survey data is the combination of data gathered from multipe participants or multiple executions of the survey.</rdfs:comment>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000103"/>
     </owl:Class>
     
 
@@ -5722,12 +5725,14 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001075 -->
 
     <owl:Class rdf:about="&obo;OMIABIS_0001075">
-        <rdfs:label xml:lang="en">cerebrospinal fluid specimen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:label xml:lang="en">obsolete_cerebrospinal fluid specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <rdfs:comment>Abbreviated as &apos;CSF&apos;.</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">A specimen that refers to a portion of a fluid largely secreted by the choroid plexuses of the ventricles of the brain, filling the ventricles and the subarachnoid cavities of the brain and spinal cord, collected from an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://www.ncbi.nlm.nih.gov/books/NBK398/</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="&obo;OBI_0002502"/>
     </owl:Class>
     
 
@@ -5735,10 +5740,12 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001076 -->
 
     <owl:Class rdf:about="&obo;OMIABIS_0001076">
-        <rdfs:label xml:lang="en">faeces specimen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:label xml:lang="en">obsolete_faeces specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A specimen that comprises of a portion of faeces collected from an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="&obo;OBI_0002503"/>
     </owl:Class>
     
 
@@ -5746,11 +5753,13 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001077 -->
 
     <owl:Class rdf:about="&obo;OMIABIS_0001077">
-        <rdfs:label xml:lang="en">saliva specimen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <rdfs:label xml:lang="en">obsolete_saliva specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A specimen consisting of a portion of saliva collected from an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">It is a clear, tasteless, odorless, slightly acidic (pH 6.8) viscid fluid, secreted from the parotid, sublingual, and submandibular salivary glands and the mucous glands of the oral cavity.</rdfs:comment>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="&obo;OBI_0002507"/>
     </owl:Class>
     
 
