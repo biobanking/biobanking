@@ -1,0 +1,9 @@
+Release notes for 20160914
+Terms needed for OBIB were of sufficient interest to OBI for inclusion there and are imported for this release. 
+The terms included those for specimen containers, relating collected specimens, and specimens from organism ('tissue specimens').
+The import led to duplication of some terms (https://github.com/biobanking/biobanking/issues/17) originating from OMIABIS. 
+After checking with the MIABIS 2.0 group, those terms were made obsolete (relabeled, moved under ObsoleteClass).
+'term replaced by' annotation property points to the new terms. 
+An evaluation of OBIB was performed using HL7DAM-CDISC use case 1 and 4 additional terms were added for full coverage of that use case.
+The list of terms imported is in https://github.com/biobanking/biobanking/issues/15
+Also included were related terms from UBERON defining anatomic derivation of specimens. 
