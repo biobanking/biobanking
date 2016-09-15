@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib.owl#"
      xml:base="http://purl.obolibrary.org/obo/obib.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib_merged.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-14</dc:date>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-09-14</owl:versionInfo>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ontology for biobanking is an ontology built for annotation and modeling of biobank repository and biobanking administration. It is developed based on subset of Ontology for Biomedical Investigation (OBI) using Basic Formal Ontology (BFO) and following OBO Foundry principles. The first version of the ontology is merged of two existing biobank related ontologies, OMIABIS and biobank ontology.</rdfs:comment>
