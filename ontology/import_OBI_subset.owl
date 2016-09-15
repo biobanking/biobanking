@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/import_OBI_subset.owl#"
      xml:base="http://purl.obolibrary.org/obo/import_OBI_subset.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -8269,16 +8269,6 @@ defines and states the requirements (positive or negative) for an entity to be c
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</obo:IAO_0000111>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
@@ -9257,18 +9247,7 @@ This interpretation is *not* the same as an at-all-times relation
 </obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">axiom holds for all times</obo:IAO_0000111>
     </owl:NamedIndividual>
-    
 
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002367 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UBERON_0002367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate gland</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate gland</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-    </owl:NamedIndividual>
-    
 
 
     <!-- http://purl.obolibrary.org/obo/iao.owl -->
