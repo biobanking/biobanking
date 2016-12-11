@@ -1,14 +1,15 @@
 Ontology for Biobanking (OBIB)
 ==========
 
-The Ontology for Biobanking (OBIB) is an ontology for the annotation and modeling of the activities, contents, and administration of a biobank. Biobanks are facilities that store specimens, such as bodily fluids and tissues, typically along with specimen annotation and clinical data. OBIB is based on a subset of the Ontology for Biomedical Investigation (OBI), has the Basic Formal Ontology (BFO) as its upper ontology, and is developed following OBO Foundry principles. The first version of OBIB resulted from the merging of two existing biobank-related ontologies, OMIABIS and biobank ontology.
+The ontology repository holds the source code for The Ontology for Biobanking (OBIB). The OBIB is an ontology for the annotation and modeling of the activities, contents, and administration of a biobank. 
 
-A publication describing OBIB:<br>
-Mathias Brochhausen, Jie Zheng, David Birtwell, Heather Williams, Anna Maria Masci, Helena Judge Ellis and Christian J. Stoeckert Jr. “OBIB-a novel ontology for biobanking” Journal of Biomedical Semantics (2016) 7:23 
-http://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0068-y
+The source code of the ontology is under src directory:
+    obib_dev.owl : developmental version of OBIB for editing
+    obib.owl : latest release file of OBIB
+    imports/ : directory contains obib_dev.owl imported OWL files
+    external/ : directory contains ontodog, ontofox input files used to retrieve terms from OBO Foundry ontologies
 
-The details of OMIABIS project can be found on the website:
-https://github.com/OMIABIS/omiabis-dev
+The latest version of the ontology can always be found at:
+    http://purl.obolibrary.org/obo/obib.owl
 
-The details of Biobank ontology project can be found on the website:
-https://github.com/biobanking/Penn-Biobank
+Please use biobanking repository's [Issue tracker] (https://github.com/biobanking/biobanking/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
