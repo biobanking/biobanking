@@ -10,6 +10,7 @@ The source code of the ontology is under src directory:
    * external/ : directory contains ontodog, ontofox input files used to retrieve terms from OBO Foundry ontologies
 
 The latest version of the ontology can always be found at:
+    
     http://purl.obolibrary.org/obo/obib.owl
 
 Please use biobanking repository's [Issue tracker] (https://github.com/biobanking/biobanking/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
