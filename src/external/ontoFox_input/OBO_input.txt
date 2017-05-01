@@ -253,3 +253,57 @@ http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
+[Source ontology]
+#comment here
+OMRSE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+[Source ontology]
+#comment here
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+http://purl.obolibrary.org/obo/RO_0002353 # output of
+http://purl.obolibrary.org/obo/RO_0002352 # input of
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+subPropertyOf http://purl.obolibrary.org/obo/RO_0000057 # has participant
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+subPropertyOf http://purl.obolibrary.org/obo/RO_0000057 # has participant
+http://purl.obolibrary.org/obo/RO_0002353 # output of
+subPropertyOf http://purl.obolibrary.org/obo/RO_0000056 # participates in
+http://purl.obolibrary.org/obo/RO_0002352 # input of
+subPropertyOf http://purl.obolibrary.org/obo/RO_0000056 # participates in
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
