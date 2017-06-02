@@ -8,47 +8,142 @@ http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl
 UBERON
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0001153 #cecumhttp://purl.obolibrary.org/obo/UBERON_0001156 #ascending colonhttp://purl.obolibrary.org/obo/UBERON_0001158 #descending colonhttp://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colonhttp://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colonhttp://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colonhttp://purl.obolibrary.org/obo/UBERON_0001052 #rectumhttp://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colonhttp://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0002358 #peritoneumhttp://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tubehttp://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundaryhttp://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemiushttp://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal glandhttp://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal glandhttp://purl.obolibrary.org/obo/UBERON_0001496 #ascending aortahttp://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colonhttp://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventriclehttp://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atriumhttp://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atriumhttp://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liverhttp://purl.obolibrary.org/obo/UBERON_0002107 #liverhttp://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lunghttp://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreashttp://purl.obolibrary.org/obo/UBERON_0001161 #body of stomachhttp://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid glandhttp://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid glandhttp://purl.obolibrary.org/obo/UBERON_0002116 #ileumhttp://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colonhttp://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosahttp://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junctionhttp://purl.obolibrary.org/obo/UBERON_0005448 #greater omentumhttp://purl.obolibrary.org/obo/UBERON_0003688 #omentumhttp://purl.obolibrary.org/obo/UBERON_0001835 #lower liphttp://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary glandhttp://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skinhttp://purl.obolibrary.org/obo/UBERON_0002119 #left ovaryhttp://purl.obolibrary.org/obo/UBERON_0002118 #right ovaryhttp://purl.obolibrary.org/obo/UBERON_0000992 #female gonadhttp://purl.obolibrary.org/obo/UBERON_0009853 #body of uterushttp://purl.obolibrary.org/obo/UBERON_0000995 #uterushttp://purl.obolibrary.org/obo/UBERON_0000996 #vagina
-http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/UBERON_0000064 #organ partsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundary
-subClassOf http://purl.obolibrary.org/obo/BFO_0000035 #process boundaryhttp://purl.obolibrary.org/obo/UBERON_0001153 #cecumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001156 #ascending colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001158 #descending colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001052 #rectumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002113 #kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002358 #peritoneumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tubesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001153 #cecum
+http://purl.obolibrary.org/obo/UBERON_0001156 #ascending colon
+http://purl.obolibrary.org/obo/UBERON_0001158 #descending colon
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+http://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colon
+http://purl.obolibrary.org/obo/UBERON_0001052 #rectum
+http://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colon
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+http://purl.obolibrary.org/obo/UBERON_0002358 #peritoneum
+http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tube
+http://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundary
 http://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemius
-subClassOf http://purl.obolibrary.org/obo/UBERON_0001134http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
-subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0002369 http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aortasubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventriclesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atriumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atriumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atriumsubClassOf http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
-http://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liversubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002107 #liversubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreassubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001161 #body of stomachsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0002116 #ileumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colonsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosasubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junctionsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0003688 #omentumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0005448 #greater omentumsubClassOf http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
-http://purl.obolibrary.org/obo/UBERON_0001835 #lower lipsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skinsubClassOf http://purl.obolibrary.org/obo/UBERON_0002097http://purl.obolibrary.org/obo/UBERON_0000992 #female gonadsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002119 #left ovarysubClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
-http://purl.obolibrary.org/obo/UBERON_0002118 #right ovarysubClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
-http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterussubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0000995 #uterussubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aorta
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+http://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventricle
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liver
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lung
+http://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreas
+http://purl.obolibrary.org/obo/UBERON_0001161 #body of stomach
+http://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0002116 #ileum
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+http://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosa
+http://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junction
+http://purl.obolibrary.org/obo/UBERON_0005448 #greater omentum
+http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+http://purl.obolibrary.org/obo/UBERON_0001835 #lower lip
+http://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary gland
+http://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skin
+http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
+http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
+http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
+http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
+http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
+http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundary
+subClassOf http://purl.obolibrary.org/obo/BFO_0000035 #process boundary
+http://purl.obolibrary.org/obo/UBERON_0001153 #cecum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001156 #ascending colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001158 #descending colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001052 #rectum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002358 #peritoneum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tube
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemius
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001134
+http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aorta
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventricle
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liver
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lung
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreas
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001161 #body of stomach
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002116 #ileum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosa
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junction
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0005448 #greater omentum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+http://purl.obolibrary.org/obo/UBERON_0001835 #lower lip
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skin
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junctionsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -57,30 +152,67 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonymmapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+
+
 
 [Source ontology]
 #comment here
 FMA
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/FMA_50707 #Anatomical locationhttp://purl.obolibrary.org/obo/FMA_24981 #left leghttp://purl.obolibrary.org/obo/FMA_24980 #right leghttp://purl.obolibrary.org/obo/FMA_43899 #left posterior tibial arteryhttp://purl.obolibrary.org/obo/FMA_22110 #left tibial nervehttp://purl.obolibrary.org/obo/FMA_22109 #right tibial nervehttp://purl.obolibrary.org/obo/FMA_37830 #skin of left leghttp://purl.obolibrary.org/obo/FMA_37829 #skin of right leghttp://purl.obolibrary.org/obo/FMA_83876 #right hemisphere of cerebellumhttp://purl.obolibrary.org/obo/FMA_242207 #cortex of right frontal lobehttp://purl.obolibrary.org/obo/FMA_57987 #right mammary glandhttp://purl.obolibrary.org/obo/FMA_63008 #Mucosa of abdominal part of esophagushttp://purl.obolibrary.org/obo/FMA_63062 #Muscularis mucosae abdominal part of esophagushttp://purl.obolibrary.org/obo/FMA_15584 #cortex of left kidneyhttp://purl.obolibrary.org/obo/FMA_17181 #wall of distal part of ileumhttp://purl.obolibrary.org/obo/FMA_19972 #anterior wall of vaginahttp://purl.obolibrary.org/obo/FMA_19973 #posterior wall of vagina
+http://purl.obolibrary.org/obo/FMA_50707 #Anatomical location
+http://purl.obolibrary.org/obo/FMA_24981 #left leg
+http://purl.obolibrary.org/obo/FMA_24980 #right leg
+http://purl.obolibrary.org/obo/FMA_43899 #left posterior tibial artery
+http://purl.obolibrary.org/obo/FMA_22110 #left tibial nerve
+http://purl.obolibrary.org/obo/FMA_22109 #right tibial nerve
+http://purl.obolibrary.org/obo/FMA_37830 #skin of left leg
+http://purl.obolibrary.org/obo/FMA_37829 #skin of right leg
+http://purl.obolibrary.org/obo/FMA_83876 #right hemisphere of cerebellum
+http://purl.obolibrary.org/obo/FMA_242207 #cortex of right frontal lobe
+http://purl.obolibrary.org/obo/FMA_57987 #right mammary gland
+http://purl.obolibrary.org/obo/FMA_63008 #Mucosa of abdominal part of esophagus
+http://purl.obolibrary.org/obo/FMA_63062 #Muscularis mucosae abdominal part of esophagus
+http://purl.obolibrary.org/obo/FMA_15584 #cortex of left kidney
+http://purl.obolibrary.org/obo/FMA_17181 #wall of distal part of ileum
+http://purl.obolibrary.org/obo/FMA_19972 #anterior wall of vagina
+http://purl.obolibrary.org/obo/FMA_19973 #posterior wall of vagina
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FMA_50707 #Anatomical locationsubClassOf http://purl.obolibrary.org/obo/BFO_0000002 #continuant
+http://purl.obolibrary.org/obo/FMA_50707 #Anatomical location
+subClassOf http://purl.obolibrary.org/obo/BFO_0000002 #continuant
 http://purl.obolibrary.org/obo/FMA_24981 #left leg
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/FMA_24980 #right legsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/FMA_43899 #left posterior tibial artery
-subClassOf http://purl.obolibrary.org/obo/UBERON_0007610http://purl.obolibrary.org/obo/FMA_22110 #left tibial nerve
-subClassOf http://purl.obolibrary.org/obo/UBERON_0001323http://purl.obolibrary.org/obo/FMA_22109 #right tibial nervesubClassOf http://purl.obolibrary.org/obo/UBERON_0001323http://purl.obolibrary.org/obo/FMA_37830 #skin of left leg
-subClassOf http://purl.obolibrary.org/obo/UBERON_0002097http://purl.obolibrary.org/obo/FMA_37829 #skin of right legsubClassOf http://purl.obolibrary.org/obo/UBERON_0002097http://purl.obolibrary.org/obo/FMA_83876 #right hemisphere of cerebellum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/FMA_24980 #right leg
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/FMA_43899 #left posterior tibial artery
+subClassOf http://purl.obolibrary.org/obo/UBERON_0007610
+http://purl.obolibrary.org/obo/FMA_22110 #left tibial nerve
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001323
+http://purl.obolibrary.org/obo/FMA_22109 #right tibial nerve
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001323
+http://purl.obolibrary.org/obo/FMA_37830 #skin of left leg
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/FMA_37829 #skin of right leg
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/FMA_83876 #right hemisphere of cerebellum
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/FMA_242207 #cortex of right frontal lobesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/FMA_242207 #cortex of right frontal lobe
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/FMA_57987 #right mammary gland
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/FMA_63008 #Mucosa of abdominal part of esophagus
-subClassOf http://purl.obolibrary.org/obo/UBERON_0002469http://purl.obolibrary.org/obo/FMA_63062 #Muscularis mucosae abdominal part of esophagus
-subClassOf http://purl.obolibrary.org/obo/UBERON_0004648http://purl.obolibrary.org/obo/FMA_15584 #cortex of left kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/FMA_17181 #wall of distal part of ileumsubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-http://purl.obolibrary.org/obo/FMA_19972 #anterior wall of vaginasubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/FMA_63008 #Mucosa of abdominal part of esophagus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002469
+http://purl.obolibrary.org/obo/FMA_63062 #Muscularis mucosae abdominal part of esophagus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0004648
+http://purl.obolibrary.org/obo/FMA_15584 #cortex of left kidney
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/FMA_17181 #wall of distal part of ileum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/FMA_19972 #anterior wall of vagina
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/FMA_19973 #posterior wall of vagina
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 
@@ -90,7 +222,8 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonymmapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 
 
 [Source ontology]
@@ -140,7 +273,8 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonymmapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 
 
 [Source ontology]
@@ -200,8 +334,16 @@ http://www.ebi.ac.uk/efo/EFO_0004318 #smoking behavior
 http://www.ebi.ac.uk/efo/EFO_0004774 #chewing tobacco behavior
 http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
-http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosishttp://www.ebi.ac.uk/efo/EFO_0003151 #Americanhttp://www.ebi.ac.uk/efo/EFO_0003150 #African Americanhttp://www.ebi.ac.uk/efo/EFO_0003159 #European-Americanhttp://www.ebi.ac.uk/efo/EFO_0003166 #Latino
-http://www.ebi.ac.uk/efo/EFO_0003152 #Asianhttp://www.ebi.ac.uk/efo/EFO_0003157 #Chinesehttp://www.ebi.ac.uk/efo/EFO_0003164 #Japanesehttp://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indianhttp://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003150 #African American
+http://www.ebi.ac.uk/efo/EFO_0003159 #European-American
+http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
+http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
+http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
+http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0004318
@@ -212,16 +354,24 @@ http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 subClassOf http://purl.obolibrary.org/obo/OBI_0000181 #population
 http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
 subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
-http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosissubClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
-http://www.ebi.ac.uk/efo/EFO_0003151 #AmericansubClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
-http://www.ebi.ac.uk/efo/EFO_0003150 #African AmericansubClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
-http://www.ebi.ac.uk/efo/EFO_0003159 #European-AmericansubClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0003151 #American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003150 #African American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003159 #European-American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
 http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
 subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
-http://www.ebi.ac.uk/efo/EFO_0003152 #AsiansubClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
-http://www.ebi.ac.uk/efo/EFO_0003157 #ChinesesubClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
-http://www.ebi.ac.uk/efo/EFO_0003164 #JapanesesubClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
-http://www.ebi.ac.uk/efo/EFO_0003153 #Asian IndiansubClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
 http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 
@@ -288,7 +438,43 @@ http://purl.obolibrary.org/obo/CHEBI_42191
 http://purl.obolibrary.org/obo/CHEBI_53258
 http://purl.obolibrary.org/obo/CHEBI_18723
 http://purl.obolibrary.org/obo/CHEBI_16842 #formaldehyde
-http://purl.obolibrary.org/obo/CHEBI_30879 #alcoholhttp://purl.obolibrary.org/obo/CHEBI_27338 #xylenehttp://purl.obolibrary.org/obo/CHEBI_49575 #diazepamhttp://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepamhttp://purl.obolibrary.org/obo/CHEBI_35717 #sedativehttp://purl.obolibrary.org/obo/CHEBI_119915 #fentanylhttp://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphonehttp://purl.obolibrary.org/obo/CHEBI_6754 #Meperidinehttp://purl.obolibrary.org/obo/CHEBI_17303 #morphinehttp://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesichttp://purl.obolibrary.org/obo/CHEBI_4717 #droperidolhttp://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetronhttp://purl.obolibrary.org/obo/CHEBI_50919 #antiemetichttp://purl.obolibrary.org/obo/CHEBI_8776 #ranitidinehttp://purl.obolibrary.org/obo/CHEBI_65265 #antacidhttp://purl.obolibrary.org/obo/CHEBI_6456 #lidocainehttp://purl.obolibrary.org/obo/CHEBI_8430 #procainehttp://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetichttp://purl.obolibrary.org/obo/CHEBI_3215 #bupivacainehttp://purl.obolibrary.org/obo/CHEBI_38867 #anesthetichttp://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodiumhttp://purl.obolibrary.org/obo/CHEBI_4910 #etomidatehttp://purl.obolibrary.org/obo/CHEBI_6121 #ketaminehttp://purl.obolibrary.org/obo/CHEBI_44915 #propofolhttp://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodiumhttp://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anesthetichttp://purl.obolibrary.org/obo/CHEBI_7907 #pancuroniumhttp://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)http://purl.obolibrary.org/obo/CHEBI_9939 #vecuroniumhttp://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxanthttp://purl.obolibrary.org/obo/CHEBI_6015 #isofluranehttp://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxidehttp://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anesthetichttp://purl.obolibrary.org/obo/CHEBI_35341 #steroidhttp://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agenthttp://purl.obolibrary.org/obo/CHEBI_50913 #fixativehttp://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
+http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
+http://purl.obolibrary.org/obo/CHEBI_27338 #xylene
+http://purl.obolibrary.org/obo/CHEBI_49575 #diazepam
+http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepam
+http://purl.obolibrary.org/obo/CHEBI_35717 #sedative
+http://purl.obolibrary.org/obo/CHEBI_119915 #fentanyl
+http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphone
+http://purl.obolibrary.org/obo/CHEBI_6754 #Meperidine
+http://purl.obolibrary.org/obo/CHEBI_17303 #morphine
+http://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesic
+http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
+http://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetron
+http://purl.obolibrary.org/obo/CHEBI_50919 #antiemetic
+http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidine
+http://purl.obolibrary.org/obo/CHEBI_65265 #antacid
+http://purl.obolibrary.org/obo/CHEBI_6456 #lidocaine
+http://purl.obolibrary.org/obo/CHEBI_8430 #procaine
+http://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetic
+http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacaine
+http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodium
+http://purl.obolibrary.org/obo/CHEBI_4910 #etomidate
+http://purl.obolibrary.org/obo/CHEBI_6121 #ketamine
+http://purl.obolibrary.org/obo/CHEBI_44915 #propofol
+http://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodium
+http://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anesthetic
+http://purl.obolibrary.org/obo/CHEBI_7907 #pancuronium
+http://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)
+http://purl.obolibrary.org/obo/CHEBI_9939 #vecuronium
+http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxant
+http://purl.obolibrary.org/obo/CHEBI_6015 #isoflurane
+http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxide
+http://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anesthetic
+http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+http://purl.obolibrary.org/obo/CHEBI_50913 #fixative
+http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_23367 #CHEBI:molecular entity
@@ -301,34 +487,78 @@ http://purl.obolibrary.org/obo/CHEBI_18723
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_16842
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_30879 #alcoholsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_27338 #xylenesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_49575 #diazepamsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepamsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_35717 #sedativesubClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_119915 #fentanylsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphonesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_6754 #MeperidinesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_17303 #morphinesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_27338 #xylene
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_49575 #diazepam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_35717 #sedative
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_119915 #fentanyl
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphone
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_6754 #Meperidine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_17303 #morphine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesic
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_4717 #droperidolsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_7773 #OndansetronsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_50919 #antiemeticsubClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidinesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_65265 #antacidsubClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_6456 #lidocainesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_8430 #procainesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacainesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_38867 #anestheticsubClassOf http://purl.obolibrary.org/obo/OBIB_0000026
-http://purl.obolibrary.org/obo/CHEBI_36333 #local anestheticsubClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetichttp://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodiumsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_4910 #etomidatesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_6121 #ketaminesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_44915 #propofolsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodiumsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anestheticsubClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetichttp://purl.obolibrary.org/obo/CHEBI_7907 #pancuroniumsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_9939 #vecuroniumsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxantsubClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_6015 #isofluranesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxidesubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anestheticsubClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetichttp://purl.obolibrary.org/obo/CHEBI_35341 #steroidsubClassOf http://purl.obolibrary.org/obo/CHEBI_23367
-http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agentsubClassOf http://purl.obolibrary.org/obo/OBIB_0000026http://purl.obolibrary.org/obo/CHEBI_50913 #fixativesubClassOf http://purl.obolibrary.org/obo/BFO_0000023
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetron
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_50919 #antiemetic
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_65265 #antacid
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_6456 #lidocaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_8430 #procaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_4910 #etomidate
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_6121 #ketamine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_44915 #propofol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_7907 #pancuronium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_9939 #vecuronium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxant
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_6015 #isoflurane
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+http://purl.obolibrary.org/obo/CHEBI_50913 #fixative
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
 subClassOf http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
 
@@ -338,7 +568,8 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonymmapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 
 
 [Source ontology]
@@ -413,92 +644,139 @@ http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 DOID
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/DOID_162 #cancerhttp://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinomahttp://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinomahttp://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinomahttp://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinomahttp://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinomahttp://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinomahttp://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinomahttp://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinomahttp://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinomahttp://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinomahttp://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinomahttp://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinomahttp://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinomahttp://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinomahttp://purl.obolibrary.org/obo/DOID_3905 #lung carcinomahttp://purl.obolibrary.org/obo/DOID_769 #neuroblastomahttp://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinomahttp://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinomahttp://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinomahttp://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinomahttp://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinomahttp://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinomahttp://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinomahttp://purl.obolibrary.org/obo/DOID_4451 #renal carcinomahttp://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumorhttp://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcomahttp://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinomahttp://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumorhttp://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasmhttp://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancerhttp://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasmhttp://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinomahttp://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinomahttp://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinomahttp://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinomahttp://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinomahttp://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumorhttp://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/DOID_162 #cancersubClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
-http://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_1520 #colon carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_162 #cancerhttp://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinomahttp://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_3905 #lung carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_162 #cancerhttp://purl.obolibrary.org/obo/DOID_769 #neuroblastomasubClassOf http://purl.obolibrary.org/obo/DOID_162 #cancerhttp://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4451 #renal carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_162 #cancerhttp://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumorsubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumorsubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasmsubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancersubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasmsubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinomasubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumorsubClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
+http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+http://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinoma
+http://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumor
+http://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcoma
+http://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinoma
+http://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumor
+http://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasm
+http://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancer
+http://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasm
+http://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinoma
+http://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
+http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
 http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
-subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonymmapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 
 
-
-[Source ontology]
-#comment here
-OMRSE
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
-http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
-http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
-http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
-http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider rolehttp://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
-subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
-http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023
-http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
-subClassOf http://purl.obolibrary.org/obo/BFO_0000027
-http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datumhttp://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datumsubClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider rolesubClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000117 #term editor
-http://purl.obolibrary.org/obo/IAO_0000119 #definition source
-http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
-http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
-includeAllAxiomsRecursively
 
 [Source ontology]
 #comment here
@@ -563,18 +841,44 @@ ERO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/ERO_0001092 #medical device
 http://purl.obolibrary.org/obo/ERO_0000905 #in vitro transcription
-http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationshiphttp://purl.obolibrary.org/obo/ERO_0002033 #family relationshiphttp://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriagehttp://purl.obolibrary.org/obo/ERO_0002047 #child relationshiphttp://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jewhttp://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jewhttp://purl.obolibrary.org/obo/ERO_0001983 #Africanhttp://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbeanhttp://purl.obolibrary.org/obo/ERO_0002090 #Latino, South Americanhttp://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandichttp://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriage
+http://purl.obolibrary.org/obo/ERO_0002047 #child relationship
+http://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jew
+http://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jew
+http://purl.obolibrary.org/obo/ERO_0001983 #African
+http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
+http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
+http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
+http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001092 #medical device
 subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 http://purl.obolibrary.org/obo/ERO_0000905 #in vitro transcription
 subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
-http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationshipsubClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationshiphttp://purl.obolibrary.org/obo/ERO_0002033 #family relationshipsubClassOf http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuanthttp://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriagesubClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
-http://purl.obolibrary.org/obo/ERO_0002047 #child relationshipsubClassOf http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationshiphttp://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi JewsubClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic grouphttp://purl.obolibrary.org/obo/ERO_0001979 #Sephardic JewsubClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic grouphttp://purl.obolibrary.org/obo/ERO_0001983 #African
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic grouphttp://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
-subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latinohttp://purl.obolibrary.org/obo/ERO_0002090 #Latino, South AmericansubClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latinohttp://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic grouphttp://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+subClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+subClassOf http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuant
+http://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriage
+subClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002047 #child relationship
+subClassOf http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+http://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jew
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jew
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001983 #African
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 
 [Source term retrieval setting]
@@ -587,36 +891,6 @@ http://purl.obolibrary.org/obo/IAO_0000117 #term editor
 http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
-
-
-[Source ontology]
-#comment here
-OMRSE
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000117 #term editor
-http://purl.obolibrary.org/obo/IAO_0000119 #definition source
-http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
-http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
-
 
 
 [Source ontology]
@@ -650,4 +924,97 @@ http://purl.obolibrary.org/obo/IAO_0000117 #term editor
 http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+
+[Source ontology]
+#comment here
+OMRSE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
+http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
+http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
+http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
+http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
+subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
+http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027
+http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
+http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
+http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000117 #term editor
+http://purl.obolibrary.org/obo/IAO_0000119 #definition source
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+includeAllAxiomsRecursively
+
+[Source ontology]
+#comment here
+OMRSE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000117 #term editor
+http://purl.obolibrary.org/obo/IAO_0000119 #definition source
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+
 
