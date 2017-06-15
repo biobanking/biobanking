@@ -285,7 +285,7 @@ OAE
 http://purl.obolibrary.org/obo/OAE_0001159 #colectomy
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OAE_000115
+http://purl.obolibrary.org/obo/OAE_0001159
 subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001041 #surgical procedure
 
 [Source term retrieval setting]
@@ -945,38 +945,15 @@ http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
 http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
 http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
 http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+http://purl.obolibrary.org/obo/IAO_0020021 #identity document
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
-subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
-http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023
-http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
-subClassOf http://purl.obolibrary.org/obo/BFO_0000027
-http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/IAO_0020021 #identity document
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 
 [Source term retrieval setting]
 
@@ -988,33 +965,3 @@ http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 includeAllAxiomsRecursively
-
-[Source ontology]
-#comment here
-OMRSE
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000117 #term editor
-http://purl.obolibrary.org/obo/IAO_0000119 #definition source
-http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
-http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
-
-
