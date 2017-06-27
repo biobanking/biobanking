@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obi.owl#"
-     xml:base="http://purl.obolibrary.org/obo/obi.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://usefulinc.com/ns/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
@@ -13,7 +13,7 @@
      xmlns:obi="http://purl.obolibrary.org/obo/obi/2017-02-22/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:doap="http://usefulinc.com/ns/doap#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obi.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</dc:date>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-02-22</owl:versionInfo>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Please cite the OBI consortium http://purl.obolibrary.org/obo/obi where traditional citation is called for. However it is adequate that individual terms be attributed simply by use of the identifying PURL for the term, in projects that refer to them.</rdfs:comment>
