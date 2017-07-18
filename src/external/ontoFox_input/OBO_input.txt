@@ -52,7 +52,7 @@ http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
 http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
 http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
 http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
-
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagushttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinehttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodehttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuehttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinehttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lung
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
@@ -144,7 +144,7 @@ http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagussubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lung
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -586,10 +586,13 @@ http://purl.obolibrary.org/obo/PATO_0000011 #age
 http://purl.obolibrary.org/obo/PATO_0000169 #viability
 http://purl.obolibrary.org/obo/PATO_0001421 #alive
 http://purl.obolibrary.org/obo/PATO_0001422 #dead
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #PATO:physical object quality
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+subClassOf http://purl.obolibrary.org/obo/PATO_0001018 #physical quality
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -852,6 +855,7 @@ http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
 http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
 http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001092 #medical device
@@ -880,6 +884,8 @@ http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
+subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -948,6 +954,8 @@ http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
 http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
 http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
 http://purl.obolibrary.org/obo/IAO_0020021 #identity document
+http://purl.obolibrary.org/obo/OMRSE_00000138 #female gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000141 #male gender identity datum
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
@@ -966,3 +974,26 @@ http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 includeAllAxiomsRecursively
+
+[Source ontology]
+#comment here
+FLU
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
+subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001046 #specimen barcode
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000117 #term editor
+http://purl.obolibrary.org/obo/IAO_0000119 #definition source
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+
