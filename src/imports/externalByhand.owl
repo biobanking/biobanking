@@ -70,6 +70,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
+        <obo:IAO_0000115>The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
+        <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
+    </owl:AnnotationProperty>
+	
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
