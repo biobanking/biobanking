@@ -549,7 +549,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is used to record the destruction of an organism cells or tissues by the organisms&apos; own enzymes or processes with nominal categories ranging from ���none�� to ���severe��.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is used to record the destruction of an organism cells or tissues by the organisms&apos; own enzymes or processes with nominal categories ranging from none to severe.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add instances 0-non, 1-slight, 2-moderate, 3-severe</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
