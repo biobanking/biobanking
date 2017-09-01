@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/obib/obib_bbrb.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -64,6 +65,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -90,6 +97,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00015464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00015464"/>
     
 
 
@@ -138,6 +151,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000414"/>
     
 
 
@@ -2957,6 +2976,1568 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the calendar date when a specimen was placed on dry ice for transport.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of specimen placement on dry ice for transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the time when a specimen was placed on dry ice for transport.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of specimen placement on dry ice for transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the calendar date when a specimen was stored at -75_ � 5_C.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of specimen freezing at -70 to -80 degrees C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the calendar date when a specimen was transported to another institution.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the time when a specimen was transported to another institution.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen shipping organization</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role borne by an organization that is the provider of a specimen that is transported to another organization.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen transporting organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role borne by an organization that is the recipient of a specimen that is transported from another organization.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen receiving organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of person responsible for specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who is responsible for the transport of a specimen to another organization.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of person responsible for specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of IATA-trained person verifying specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.iata.org/training/pages/index.aspx</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who verified the specimen transport was according to best practice, international standards, and industry regulations as trained by the IATA.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of IATA-trained person verifying specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of receiving specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the calendar date when a specimen was received after transport from another institution.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of receiving specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of receiving specimen shipment</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the time when a specimen was received after transport from another institution.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of receiving specimen transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature of interior kit at time of receipt</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on a collection packet when it is received with a specimen.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature of specimen collection packet at time of receipt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who received the specimen that was transported from another organization.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of person receiving specimen shipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity indicating that the physical condition of a specimen upon receipt after transport was good.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen shipment received in good condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity indicating that the physical condition of a specimen upon receipt after transport was poor.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen shipment received in poor condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information about the physical integrity or wholeness of the specimen that is deemed relevant for the specimen transport process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on specimen integrity after transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the calendar date when a specimen arrives in the gross pathology room for processing and review.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of specimen receipt for pathologist processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the time when a specimen arrives in the gross pathology room for processing and review.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of receipt for pathologist processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who performed a quality control inspection of the specimen that is to be transported to another organization.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of quality control inspector of specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who performed the data entry process for filling in a tissue recovery case report form.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of data entry person for tissue recovery form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who is the leader of the team responsible for entering the tissue recovery form data.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of team leader for filling out tissue recovery form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.leicabiosystems.com/pathologyleaders/an-introduction-to-specimen-processing/</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A standard operating procedure for fixation of a tissue to the state where it is completely infiltrated with a suitable histological wax and can be embedded ready for section cutting on the microtome for a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether equipment was maintained following the manufacturers recommendations.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equipment maintained as per manufacturer recommendations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information about maintenance discrepancies from manufacturer recommendations.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on maintenance discrepancy from manufacturer recommendations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role borne by a chemical that is realized in the formalin-fixed paraffin-embedded (FFPE) processes to remove alcohol used for specimen dehydration, remove stains, and prepare a specimen for infiltration medium.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE clearing agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether duration of the alcohol stage followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of alcohol stage duration to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the duration of the alcohol stage in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE alcohol stage duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether duration of the dehydration process followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of dehydration process duration to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the duration of the dehydration process in the formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE dehydration process duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether temperature of the dehydration process followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of dehydration process temperature to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on a specimen in alcohol during the dehydration process  in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE dehydration process temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the number of stages and replicates followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of stage and replicate numbers to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that indicates the number of stages and replicates in a FFPE process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of FFPE stages/replicates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the duration in clearing agent followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of duration in clearing agent to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the duration in clearing agent in the formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE clearing agent duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the temperature of clearing agent followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of temperature of clearing agent to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on a specimen in clearing agent in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE clearing agent temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the paraffin impregnation method followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence to paraffin impregnation method in FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol for the paraffin impregnation step of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE paraffin impregnation method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the paraffin temperature followed that prescribed in the FFPE tissue processing SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence of paraffin temperature to FFPE tissue processing SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on paraffin in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE paraffin temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information relevant to tissue processing in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on FFPE tissue processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A standard operating procedure for the paraffin embedding of a formalin-fixed paraffin-embedded (FFPE) tissue.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue paraffin embedding SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed during the paraffin processing for embedding in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE paraffin processing for embedding temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00015464"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paraffin that has not been previously used or recycled.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh paraffin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of an age measurement assay performed on paraffin.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age of paraffin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the total time that freshly poured blocks were cooled in the formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total time FFPE freshly poured blocks were cooled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A standard operating procedure for the handling, tracking, and storing of a formalin-fixed paraffin-embedded (FFPE) tissue block.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue block handling, tracking, and storage SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates whether the FFPE tissue block storage SOP was followed.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adherence to FFPE tissue block storage SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrepancies from a FFPE tissue block storage SOP.</obo:IAO_0000112>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information relevant to storage of a formalin-fixed paraffin-embedded (FFPE) tissue block.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on FFPE tissue block storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information relevant to paraffin embedding of a formalin-fixed paraffin-embedded (FFPE) tissue.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on paraffin embedding of FFPE tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide Prep Technician Name</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who performed a specimen slide preparation.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of specimen slide preparation technician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A standard operating procedure for the preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section preparation SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age that inheres in a microtome blade.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microtome blade age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000320"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microtome blade age that indicates that the microtome blade is as new as possible.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fresh microtome blade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol describing the preparation on the faced block prior to sectioning of a formalin-fixed paraffin-embedded (FFPE) tissue.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparation of FFPE block face for sectioning protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slide Charge</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that describes the carge on a glass slide.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">description of glass slide charge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">charged slide</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates that a glass slide has been positively charged.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">charged glass slide indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncharged slide</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates that a glass slide has not been positively charged.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncharged glass slide indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on a water bath used in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE water bath temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates the frequency with which microtome maintenance is performed and recorded.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microtome maintenance frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000327"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microtome maintenance frequency that indicates that microtome maintenance is performed and recorded daily.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daily microtome maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information about deviations from a microtome daily maintenance standard operating procedure.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on deviations from microtome daily maintenance SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that indicates the frequency with which water bath maintenance is performed and recorded.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water bath maintenance frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000330"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A water bath maintenance frequency that indicates that microtome maintenance is performed and recorded daily.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daily water bath maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information about deviations from a water bath daily maintenance standard operating procedure.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on deviations from water bath daily maintenance SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information relevant to preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on preparation of FFPE tissue section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000070"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A standard operating procedure for the hematoxylin and eosin (H&amp;E) staining and slide mounting of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E staining and mounting SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the duration in an oven for the hematoxylin and eosin staining of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E staining in oven duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a temperature measurement assay performed on a oven during a formalin-fixed paraffin-embedded (FFPE) tissue section hematoxylin and eosin (H&amp;E) staining.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oven temperature during FFPE tissue section H&amp;E staining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E deparaffinization method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol describing the deparaffinization method used during the hematoxylin and eosin (H&amp;E) stained slide preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E deparaffinization protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E staining method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol describing the staining method used during the hematoxylin and eosin (H&amp;E) stained slide preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E staining protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E clearing method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol describing the clearing method used during the hematoxylin and eosin (H&amp;E) stained slide preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E clearing protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E cover slipping method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol describing the method for applying a cover slip used during the hematoxylin and eosin (H&amp;E) stained slide preparation of a formalin-fixed paraffin-embedded (FFPE) tissue section.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue section H&amp;E cover slip protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process involving the manual performance of the FFPE tissue section H&amp;E deparaffinization protocol.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual FFPE tissue section H&amp;E deparaffinization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process involving the manual performance of the FFPE tissue section H&amp;E staining protocol.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual FFPE tissue section H&amp;E staining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process involving the manual performance of the FFPE tissue section H&amp;E clearing protocol.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual FFPE tissue section H&amp;E clearing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process involving the manual performance of the FFPE tissue section H&amp;E cover slip protocol.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual FFPE tissue section H&amp;E cover slipping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information relevant to the preparation of a formalin-fixed paraffin-embedded (FFPE) hematoxylin and eosin (H&amp;E) stained slide.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on preparation of FFPE H&amp;E stained slide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that indicates the frequency with which hematoxylin and eosin (H&amp;E) staining equipment maintenance is performed and recorded.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E staining equipment maintenance performed and recorded frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Add instances: daily, weekly, bi-monthly, per SOP</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that is used to record the frequency with which hematoxylin and eosin (H&amp;E) staining equipment maintenance is performed and recorded. Categories include daily, weekly, bi-monthly, and per SOP.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H&amp;E staining equipment maintenance performed and recorded frequency value specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states information about deviations from a hemtoxylin and eosin (H&amp;E) equipment maintenance standard operating procedure.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on deviations from H&amp;E equipment maintenance SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FLU_0001019"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen barcode associated with the specific chart (key) used to randomly assign specimens to one of several distinct experimental protocols.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen randomization key ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consent or Research Analyst/Coordinator role</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role borne by personnel responsible for managing human research protocol requirements including but not limited to screening, obtaining authorization, consenting and/or enrollment activities.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manager of human research protocol requirements role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that is a notification within a clinical data repository that a specimen donor was a transplant recipient.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transplant alert associated with specimen donor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that is a notification within a clinical data repository that specimen donor serology results include positive infectious disease data.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serology alert associated with specimen donor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time at which the parent specimen ID was recorded.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data and time parent specimen ID was recorded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity that states additional information deemed relevant for tissue specimen processing.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on tissue specimen processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain Endowment Bank at Miller School of Medicine, of the University of Miami.</obo:IAO_0000112>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain bank</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biobank that focuses on the special requirements of the human brain with regards to preservation, handling, and analysis.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human brain biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Biospecimen Repository</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biobank which receives its specimens primarily/exclusively from tissue source sites.� Activities include receipt, some processing, production of slides/images of the tissue, storage, and retrieval/shipping of materials on-demand.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central biobank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000357">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LDACC</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A laboratory that specializes in acquiring human tissues and analyzing components such as DNA and RNA from them.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laboratory, data analysis, and coordinating center for human specimens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000358">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRC</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A laboratory that performs a rigorous review of images of tissue specimens by a group of senior pathologists not involved in the specimen collection typically to evaluate and characterize the tissue (e.g., % necrosis).</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathology research center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the time when a specimen was placed in a container with stabilizing reagent.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time specimen place in stabilizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kit component ID</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier that specifically identifies a particular component of a collection packet.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection packet component ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time at which a specimen was frozen by placement in liguid nitrogen.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data and time specimen was frozen in liquid nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight of frozen tumor block after freezing in liquid nitrogen</obo:IAO_0000112>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass measurement datum that is the result of measuring the weight of a frozen tissue specimen.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight of frozen tissue specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol for the fixation step of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE fixation protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000363"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A FFPE fixation protocol that specifies the planned delay to fixation time.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE fixation delay protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen ID that specifically identifies a particular tissue cassete used in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE tissue cassette ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time at which the FFPE tissue cassette ID was recorded.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data and time FFPE tissue cassette ID was recorded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue cassette was placed in fixative as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue cassette placed in fixative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the duration of the the planned delay of placing the tissue cassette in fixative in the formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placement of tissue cassette in FFPE fixative delay duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue cassette was placed in a tissue processor as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue cassette placed in processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue processor cycle ended as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue processor cycle ended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000060"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time in fixative measurement that states the duration during which a specimen was submerged in fixative as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time in FFPE fixative measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue cassette was removed from a tissue processor as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue cassette removed from processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue embedding started as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue embedding started</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measuring the time between FFPE tissue processor cycle completion and embedding in a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement of time between FFPE tissue processor cycle completion and embedding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue cassette was frozen as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue cassette was frozen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE freezing method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol for the freezing step of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE freezing protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A FFPE freezing protocol that involves the use of dry ice.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE freezing by dry ice protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A FFPE freezing protocol that involves the use of liquid nitrogen vapor phase.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FFPE freezing by LN2 vapor phase protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date/Time Tissue Cryosettes Were Transferred to Storage</obo:IAO_0000112>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a tissue cassette was transferred to storage after a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue cassette transferred to storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who performed the dissection of a normal tissue adjacent to a tumor for a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of dissector of normal adjacent tissue to tumor for FFPE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000259"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen was processed in accordance with the specified SOP where the specified SOP is for a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen was processed in accordance with the FFPE SOP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item indicating the date and time when a specimen tissue was fixed or frozen as part of a formalin-fixed paraffin-embedded (FFPE) process.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time FFPE tissue was preserved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000259"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen was processed in accordance with the specified SOP where the specified SOP is for a formalin-fixed paraffin-embedded (FFPE) process and includes less than 1 hour delay in fixation and 23 hour time in fixative.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen was processed in accordance with the FFPE SOP including &lt;1 hour delay to fixation and 23 hour time in fixative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <oboInOwl:Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement made in regards to all non-consent issues related to or creating a limitation on tissues that can be procured including tissue type and reason for restriction.</oboInOwl:Definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment on procurement site restriction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -3019,6 +4600,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0001037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
@@ -3067,9 +4654,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0035944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035944"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Laboratory -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Laboratory"/>
 </rdf:RDF>
 
 
