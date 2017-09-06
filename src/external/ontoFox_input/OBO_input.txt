@@ -587,6 +587,8 @@ http://purl.obolibrary.org/obo/PATO_0000169 #viability
 http://purl.obolibrary.org/obo/PATO_0001421 #alive
 http://purl.obolibrary.org/obo/PATO_0001422 #dead
 http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+http://purl.obolibrary.org/obo/PATO_0001442 #wholeness
+http://purl.obolibrary.org/obo/PATO_0000140 #position
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #PATO:physical object quality
