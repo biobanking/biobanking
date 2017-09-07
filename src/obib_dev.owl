@@ -2156,7 +2156,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
         <obo:IAO_0000111>specimen weight</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>A mass measurement datum that is the result of an assay to measure the weight of a specimen.</obo:IAO_0000115>
         <obo:IAO_0000116>https://github.com/biobanking/biobanking/issues/24</obo:IAO_0000116>
         <obo:IAO_0000117>Anna Maria Masci, Chris Stoeckert</obo:IAO_0000117>
