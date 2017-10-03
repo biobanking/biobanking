@@ -344,6 +344,8 @@ http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
 http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
 http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
 http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0004318
@@ -374,6 +376,10 @@ http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
 subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
 http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -689,6 +695,11 @@ http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
 http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
 http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
 http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 #cancer
@@ -711,7 +722,7 @@ http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
 http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
@@ -771,6 +782,16 @@ http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
 subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
 http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
 subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -999,3 +1020,69 @@ http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 
+[Source ontology]
+#comment here
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C4813 #Recurrent Malignant Neoplasm
+http://purl.obolibrary.org/obo/NCIT_C94796 #Locally Recurrent Malignant Neoplasm
+http://purl.obolibrary.org/obo/MESH_D009362 #Neoplasm Metastasis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C4813 #Recurrent Malignant Neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/NCIT_C94796 #Locally Recurrent Malignant Neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/MESH_D009362 #Neoplasm Metastasis
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+
+[Source ontology]
+#comment here
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

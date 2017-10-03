@@ -63,6 +63,8 @@ We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
@@ -606,7 +608,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002233">
         <rdfs:label xml:lang="en">has input</rdfs:label>
-        <obo:IAO_0000115>p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.</obo:IAO_0000115>
+        <obo:IAO_0000115>p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.</obo:IAO_0000115>
         <obo:IAO_0000118>consumes</obo:IAO_0000118>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -971,9 +973,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16842">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formaldehyde</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aldehyde resulting from the formal oxidation of methanol.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORMALDEHYDE</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formaldehyde</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The simplest aldehyde.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formaldehyde</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1452,6 +1454,17 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050687">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell type cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0050917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050917">
@@ -1481,6 +1494,52 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that has_material_basis_in cells with clear cytoplasm and glycogen secreting hob nail cells.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clear-cell ovarian carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080183">
+        <rdfs:label xml:lang="en">medullary colon carcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
+        <obo:IAO_0000115>A colon carcinoma that is characterized by a solid growth pattern.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080184">
+        <rdfs:label xml:lang="en">mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
+        <obo:IAO_0000118>indeterminate bronchioloalveolar carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by a mixed array of different patterns (acinar, papillary, bronchioloalveolar, solid with mucin).</obo:IAO_0000115>
+        <obo:IAO_0000118>mixed mucinous and non-mucinous bronchioloalveolar adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080185">
+        <rdfs:label xml:lang="en">mucinous bronchioloalveolar adenocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by a tumour cells containing abundant mucin in their cytoplasm and composed of tall columnar cells growing along alveolar walls without stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080186">
+        <rdfs:label xml:lang="en">nonmucinous bronchioloalveolar adenocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by cells with cuboidal or columnar morphology with eosinophilic or clear cytoplasm and shows Clara cell or type 2 pneumocyte differentiation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2345,6 +2404,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -2442,6 +2507,12 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000115 xml:lang="en">data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
     
 
 
@@ -2744,6 +2815,17 @@ The term is used in the following meaning of being self generated. It does not s
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MESH_D009362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MESH_D009362">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm Metastasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The transfer of a neoplasm from one organ or part of the body to another remote from the primary site.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
@@ -2754,6 +2836,141 @@ The term is used in the following meaning of being self generated. It does not s
         <obo:IAO_0000111 xml:lang="en">Homo sapiens</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C106501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106501">
+        <rdfs:label>Birth Control Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000118>Birth Control Method</obo:IAO_0000118>
+        <obo:IAO_0000118>BCMETHOD</obo:IAO_0000118>
+        <obo:IAO_0000115>The method by which conception or impregnation is prevented. This may be achieved through the use of devices, drugs or surgery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15477">
+        <rdfs:label>Prior Radiation Therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000118>Prior RT</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Radiation</obo:IAO_0000118>
+        <obo:IAO_0000115>An indicator that a person has been previously received radiation treatment for the same condition.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Radiotherapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Radiation Therapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16168">
+        <rdfs:label>Prior Immunotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>Originally, therapeutic administration of serum or gamma globulin containing preformed antibodies produced by another individual; currently, immunotherapy includes nonspecific systemic stimulation, adjuvants, active specific immunotherapy, and adoptive immunotherapy.  New forms of immunotherapy include the use of monoclonal antibodies.  This approach has been widely adopted by cancer specialists, often in cases which fail to respond to other treatment.  Immunotherapy aims to boost immune system function, as with the administration of interferons and interleukin-2, or to attack cancerous cells directly, as with the injection of monoclonal antibodies.  Various immunotherapeutic techniques have also been employed among AIDS patients.  In addition, a number of alternative medical practices are claimed to enhance immune function, and various over-the-counter substances (e.g., goldenseal, lysine have gained popularity for this supposed property.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Immunotherapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16171">
+        <rdfs:label>Prior Chemotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000118>Prior Chemotherapy</obo:IAO_0000118>
+        <obo:IAO_0000115>Previous chemotherapy administered as treatment for this cancer.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Chemotherapy Regimens</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16175">
+        <rdfs:label>Prior Hormone Therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000118>Prior Hormone Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>prior hormonal therapy</obo:IAO_0000118>
+        <obo:IAO_0000115>An indication that an individual has been previously treated with hormonal therapy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29719">
+        <rdfs:label>Smoking History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000118>Smoking History</obo:IAO_0000118>
+        <obo:IAO_0000115>A record of an individual&#39;s background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C4813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4813">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Malignant Neoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Cancer</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Malignant Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Malignant Tumor</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The reemergence of a malignant neoplasm after a period of remission.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recurrence</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recurrent cancer</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C73993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C73993">
+        <rdfs:label>Pack Year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000118>Pack Year</obo:IAO_0000118>
+        <obo:IAO_0000118>{Pack Year}</obo:IAO_0000118>
+        <obo:IAO_0000118>pack year</obo:IAO_0000118>
+        <obo:IAO_0000115>A quantification of lifetime tobacco exposure defined as (number of cigarettes smoked per day x number of years smoked)/20. One pack-year is smoking 20 cigarettes a day for one year.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81229">
+        <rdfs:label>Alcohol Use History</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A description of an individual&#39;s current and past experience with alcoholic beverage consumption.</obo:IAO_0000115>
+        <obo:IAO_0000118>Alcohol Use History</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C94796">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locally Recurrent Malignant Neoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4813"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locally Recurrent Cancer</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Locally Recurrent Malignant Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The reemergence of a malignant neoplasm after a period of remission at the site of the original tumor or adjacent to it.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locally recurrent cancer</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
     </owl:Class>
     
 
@@ -3095,19 +3312,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -3116,6 +3320,19 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
@@ -4664,6 +4881,41 @@ However, Shaw explicates:
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hispanics or Latinos</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latino Population</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanish Origin</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any aspect of an individual&#39;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factor, Risk</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factors, Risk</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Factors</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003961 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003961">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hormone replacement therapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HORMONE REPLACE THER</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormone Replacement Therapies</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormone Replacement Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPLACE THER HORMONE</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replacement Therapies, Hormone</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replacement Therapy, Hormone</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THER HORMONE REPLACE</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic use of hormones to alleviate the effects of hormone deficiency.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapies, Hormone Replacement</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapy, Hormone Replacement</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
