@@ -9,6 +9,7 @@
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -2161,6 +2162,90 @@
         <obo:IAO_0000117>Anna Maria Masci, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>OBIB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">specimen weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000111>specimen slide ID</obo:IAO_0000111>
+        <obo:IAO_0000115>An identifier that specifically identifies a particular specimen slide.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">specimen slide ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16212"/>
+        <obo:IAO_0000111>surgical cancer treatment</obo:IAO_0000111>
+        <obo:IAO_0000115>A  cancer therapeutic procedure that involves a surgical procedure as a main part.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">surgical cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
+        <obo:IAO_0000111>specimen gross appearance of metastatic tumor</obo:IAO_0000111>
+        <obo:IAO_0000115>A specimen gross appearance of a tumor that has spread from its original site by discontinuous (not direct) spread, e.g. by blood or lymphatics.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">specimen gross appearance of metastatic tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
+        <obo:IAO_0000111>specimen gross appearance of tumor center</obo:IAO_0000111>
+        <obo:IAO_0000115>A specimen gross appearance of the most internal topographic location of the tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">specimen gross appearance of tumor center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
+        <obo:IAO_0000111>specimen gross appearance of tumor edge</obo:IAO_0000111>
+        <obo:IAO_0000115>A specimen gross appearance of the border of the tumor with non-tumorous tissue.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">specimen gross appearance of tumor edge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000459"/>
+        <obo:IAO_0000111>research authorization for post mortem specimen donation for a specific tissue or fluid</obo:IAO_0000111>
+        <obo:IAO_0000115>A research authorization documentation for postmortem specimen donation in which the authorization is for a specified tissue or biological fluid.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">research authorization for post mortem specimen donation for a specific tissue or fluid</rdfs:label>
     </owl:Class>
     
 
@@ -6102,6 +6187,69 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002009">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000087"/>
+        <obo:IAO_0000115>An autolysis value specification that indicates no apparent autolytic destruction of an organism cells or tissues.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">0-non autolyis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002010 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002010">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000087"/>
+        <obo:IAO_0000115>An autolysis value specification that indicates slight autolytic destruction of an organism cells or tissues.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">1-slight autolysis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002011 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000087"/>
+        <obo:IAO_0000115>An autolysis value specification that indicates moderate autolytic destruction of an organism cells or tissues.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">2-moderate autolysis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002012 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBI_0002012">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000087"/>
+        <obo:IAO_0000115>An autolysis value specification that indicates severe autolytic destruction of an organism cells or tissues.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">3-severe autolysis</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
