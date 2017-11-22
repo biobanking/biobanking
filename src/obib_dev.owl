@@ -2250,6 +2250,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000144"/>
+        <obo:IAO_0000111>tissue specimen suitability for molecular analysis</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>A conclusion textual entity that signifies whether a specimen is acceptable for molecular analysis based on the assessment by a pathologist of a tissue specimen based on qualities such as purity and size.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Helena Ellis</obo:IAO_0000117>
+        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">tissue specimen suitability for molecular analysis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002140 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002140">
