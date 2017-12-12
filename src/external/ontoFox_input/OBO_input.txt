@@ -52,7 +52,7 @@ http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
 http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
 http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
 http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
-
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagushttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinehttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodehttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuehttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinehttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lung
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
@@ -144,7 +144,7 @@ http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
-
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagussubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lung
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -285,7 +285,7 @@ OAE
 http://purl.obolibrary.org/obo/OAE_0001159 #colectomy
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OAE_000115
+http://purl.obolibrary.org/obo/OAE_0001159
 subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001041 #surgical procedure
 
 [Source term retrieval setting]
@@ -307,13 +307,23 @@ IDO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IDO_0000619 #immunosuppressive disposition
+http://purl.obolibrary.org/obo/IDO_0001008
+http://purl.obolibrary.org/obo/IDO_0001014
+http://purl.obolibrary.org/obo/IDO_0001013
+http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000619
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/IDO_0001008
+subClassOf http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
+http://purl.obolibrary.org/obo/IDO_0001014
+subClassOf http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
+http://purl.obolibrary.org/obo/IDO_0001013
+subClassOf http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
@@ -322,8 +332,7 @@ http://purl.obolibrary.org/obo/IAO_0000117 #term editor
 http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
-
-
+includeAllAxiomsRecursively
 
 [Source ontology]
 #comment here
@@ -344,6 +353,8 @@ http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
 http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
 http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
 http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0004318
@@ -374,6 +385,10 @@ http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
 subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
 http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -401,6 +416,8 @@ http://purl.obolibrary.org/obo/ICO_0000023 #completely filled informed consent f
 http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
 http://purl.obolibrary.org/obo/ICO_0000148 #candidate ineligible for study
 http://purl.obolibrary.org/obo/ICO_0000147 #candidate eligible for study
+http://purl.obolibrary.org/obo/ICO_0000046 #authorization
+http://purl.obolibrary.org/obo/ICO_0000075 #authorization documentation
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ICO_0000001 #informed consent form
@@ -415,6 +432,10 @@ http://purl.obolibrary.org/obo/ICO_0000148 #candidate ineligible for study
 subClassOf http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
 http://purl.obolibrary.org/obo/ICO_0000147 #candidate eligible for study
 subClassOf http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
+http://purl.obolibrary.org/obo/ICO_0000046 #authorization
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/ICO_0000075 #authorization documentation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -586,10 +607,15 @@ http://purl.obolibrary.org/obo/PATO_0000011 #age
 http://purl.obolibrary.org/obo/PATO_0000169 #viability
 http://purl.obolibrary.org/obo/PATO_0001421 #alive
 http://purl.obolibrary.org/obo/PATO_0001422 #dead
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+http://purl.obolibrary.org/obo/PATO_0001442 #wholeness
+http://purl.obolibrary.org/obo/PATO_0000140 #position
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241 #PATO:physical object quality
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+subClassOf http://purl.obolibrary.org/obo/PATO_0001018 #physical quality
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -653,6 +679,7 @@ http://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
 http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
@@ -684,6 +711,11 @@ http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
 http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
 http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
 http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 #cancer
@@ -704,16 +736,18 @@ http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
 http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
-subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
-http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
-subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
-subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinoma
-subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
 http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinoma
@@ -766,6 +800,16 @@ http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
 subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
 http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
 subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -852,6 +896,7 @@ http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
 http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
 http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001092 #medical device
@@ -880,6 +925,8 @@ http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
+subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -945,40 +992,20 @@ http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
 http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
 http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
 http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
+http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+http://purl.obolibrary.org/obo/IAO_0020021 #identity document
+http://purl.obolibrary.org/obo/OMRSE_00000138 #female gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000141 #male gender identity datum
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
-subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
-http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023
-http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
-subClassOf http://purl.obolibrary.org/obo/BFO_0000027
-http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 #identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000024
-http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
+http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/IAO_0020021 #identity document
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 
 [Source term retrieval setting]
+includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
@@ -991,20 +1018,14 @@ includeAllAxiomsRecursively
 
 [Source ontology]
 #comment here
-OMRSE
+FLU
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-subClassOf http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
-
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
+subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001046 #specimen barcode
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -1017,4 +1038,122 @@ http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
 
+[Source ontology]
+#comment here
+MONDO
 
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C4813 #Recurrent Malignant Neoplasm
+http://purl.obolibrary.org/obo/NCIT_C94796 #Locally Recurrent Malignant Neoplasm
+http://purl.obolibrary.org/obo/MESH_D009362 #Neoplasm Metastasis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C4813 #Recurrent Malignant Neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/NCIT_C94796 #Locally Recurrent Malignant Neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/MESH_D009362 #Neoplasm Metastasis
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+
+[Source ontology]
+#comment here
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedurehttp://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central African http://purl.obolibrary.org/obo/NCIT_C126529 #North African http://purl.obolibrary.org/obo/NCIT_C126530 #South African http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity http://purl.obolibrary.org/obo/NCIT_C126535 #Australian http://purl.obolibrary.org/obo/NCIT_C126536 #New Zealanderhttp://purl.obolibrary.org/obo/NCIT_C43851 #European http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian http://purl.obolibrary.org/obo/NCIT_C77817 #Western European http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C45514 #Lung Signet Ring Cell Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C5651 #Solid Lung Adenocarcinomahttp://purl.obolibrary.org/obo/NCIT_C45502 #Squamous Cell Lung Carcinoma,Papillary Variant
+http://purl.obolibrary.org/obo/NCIT_C45503 #Squamous Cell Lung Carcinoma,ClearCell Variant
+http://purl.obolibrary.org/obo/NCIT_C45504 #Squamous Cell Lung Carcinoma,SmallCell Variant
+http://purl.obolibrary.org/obo/NCIT_C27891 #RenalCellCarcinomaAssociatedwithXp11.2Transloc
+http://purl.obolibrary.org/obo/NCIT_C126303 #Tubulocystic Renal Cell Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C40080 #Borderline Ovarian Clear Cell Tumorhttp://purl.obolibrary.org/obo/NCIT_C7983  #BorderlineOvarianEndometrioidTumor/AtypicalPro
+http://purl.obolibrary.org/obo/NCIT_C7281 #BorderlineOvarianSeromucinousTumor/AtypicalProl
+http://purl.obolibrary.org/obo/NCIT_C40038 #BorderlineOvarianMucinousTumor,Endocervical-Li
+http://purl.obolibrary.org/obo/NCIT_C40037 #BorderlineOvarianMucinous Tumor,IntestinalType
+http://purl.obolibrary.org/obo/NCIT_C5226 #Borderline Ovarian Serous Tumor
+http://purl.obolibrary.org/obo/NCIT_C40088 #Borderline Ovarian Transitional Cell Tumor
+http://purl.obolibrary.org/obo/NCIT_C4509 #Undifferentiated Ovarian Carcinoma
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic ProceduresubClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
+subClassOf http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedure
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central African 
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126529 #North African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126530 #South African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799  http://purl.obolibrary.org/obo/NCIT_C126535 #Australian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126536 #New ZealandersubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C43851 #European subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77817 #Western European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520
+http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C45514 #Lung Signet Ring Cell Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C5651 #Solid Lung AdenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C45502 #Squamous Cell Lung Carcinoma,Papillary Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C45503 #Squamous Cell Lung Carcinoma,ClearCell Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C45504 #Squamous Cell Lung Carcinoma,SmallCell Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C27891 #RenalCellCarcinomaAssociatedwithXp11.2Transloc
+subClassOf http://purl.obolibrary.org/obo/DOID_4451
+http://purl.obolibrary.org/obo/NCIT_C126303 #Tubulocystic Renal Cell Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451
+http://purl.obolibrary.org/obo/NCIT_C40080 #Borderline Ovarian Clear Cell TumorsubClassOf http://purl.obolibrary.org/obo/DOID_0050934
+http://purl.obolibrary.org/obo/NCIT_C7983  #BorderlineOvarianEndometrioidTumor/AtypicalPro
+subClassOf http://purl.obolibrary.org/obo/DOID_5828
+http://purl.obolibrary.org/obo/NCIT_C7281 #BorderlineOvarianSeromucinousTumor/AtypicalProl
+subClassOf http://purl.obolibrary.org/obo/DOID_2152
+http://purl.obolibrary.org/obo/NCIT_C40038 #BorderlineOvarianMucinousTumor,Endocervical-Li
+subClassOf http://purl.obolibrary.org/obo/DOID_6067
+http://purl.obolibrary.org/obo/NCIT_C40037 #BorderlineOvarianMucinous Tumor,IntestinalType
+subClassOf http://purl.obolibrary.org/obo/DOID_6067
+http://purl.obolibrary.org/obo/NCIT_C5226 #Borderline Ovarian Serous Tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_0050933
+http://purl.obolibrary.org/obo/NCIT_C40088 #Borderline Ovarian Transitional Cell Tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_4000
+http://purl.obolibrary.org/obo/NCIT_C4509 #Undifferentiated Ovarian Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

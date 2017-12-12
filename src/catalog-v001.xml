@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl" uri="imports/import_BBRB.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl" uri="imports/import_OBI_subset.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl" uri="imports/externalByhand.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl" uri="imports/import_OBO.owl"/>
+</catalog>
