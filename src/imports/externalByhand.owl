@@ -641,12 +641,13 @@ Note: this definition was taken over from &quot;geopolitical organization&quot;.
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A proper name is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity. </obo:IAO_0000115>
+	<obo:IAO_0000115 xml:lang="en">An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">identifier</rdfs:label>
-        <rdfs:label xml:lang="en">proper name</rdfs:label>
+	<obo:IAO_0000118 xml:lang="en">proper name</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Sep 29, 2016: The current definition has been amended from the previous version: &quot;A proper name is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.&quot; to more accuratly reflect the necessary and sufficient condition on the class. (MB)</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0020010 -->
