@@ -11,6 +11,6 @@ The source code of the ontology is under src directory:
 
 The latest version of the ontology can always be found at:
     
-   [http://purl.obolibrary.org/obo/obib.owl] (http://purl.obolibrary.org/obo/obib.owl)
+   [http://purl.obolibrary.org/obo/obib.owl](http://purl.obolibrary.org/obo/obib.owl)
 
-Please use biobanking repository's [Issue tracker] (https://github.com/biobanking/biobanking/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use biobanking repository's [Issue tracker](https://github.com/biobanking/biobanking/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
