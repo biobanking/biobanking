@@ -117,6 +117,12 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition"/>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
@@ -4507,31 +4513,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OMIABIS_0000912 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000912">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_1110109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/REO_0000280"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001936"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000111 xml:lang="en">addition of molecular label</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">The addition of phycoerytherin label to an anti-CD8 antibody, to label all antibodies. The addition of anti-CD8-PE to a population of cells, to label the subpopulation cells that are CD8+.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -4539,7 +4521,8 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Matthew Brush</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI developer call, 3-12-12</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">addition of molecular label</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0600038"/>
+        <rdfs:label xml:lang="en">obsolete_addition of molecular label</rdfs:label>
     </owl:Class>
     
 
