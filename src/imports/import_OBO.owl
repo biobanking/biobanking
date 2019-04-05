@@ -10,7 +10,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl"/>
     
 
@@ -31,10 +31,10 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
-    <owl:AnnotationProperty rdf:about="file:/data/var/www/html/ontofox/userfiles/wgq5ygpm.in.owl">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
         <rdfs:label xml:lang="en-us">Description</rdfs:label>
         <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
@@ -235,7 +235,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
@@ -246,8 +248,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
         <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
         <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
@@ -442,6 +444,15 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0000660 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000660">
+        <rdfs:label xml:lang="en">results_in</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
@@ -626,6 +637,30 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000091 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000091">
+        <rdfs:label xml:lang="en">has disposition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000092"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000092 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000092">
+        <rdfs:label xml:lang="en">disposition of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180">
@@ -707,6 +742,22 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002297 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002297">
+        <rdfs:label xml:lang="en">results in formation of</rdfs:label>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_formation_of</oboInOwl:shorthand>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000112>an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.</obo:IAO_0000112>
+        <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
+        <obo:IAO_0000112 xml:lang="en">every &quot;endocardial cushion formation&quot; (GO:0003272) results_in_formation_of some &quot;endocardial cushion&quot; (UBERON:0002062)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002352 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002352">
@@ -747,6 +798,20 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000496">
+        <rdfs:label xml:lang="en">ORCID</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000600 xml:lang="en">An identifier curated by ORCID, Inc. to denote some academic author.</obo:IAO_0000600>
+        <obo:IAO_0000117>William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000117>Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An identifier curated by ORCID, Inc. to denote some academic author.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/apollo_sv.owl"/>
+    </owl:Class>
     
 
 
@@ -878,7 +943,23 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
+        <rdfs:label xml:lang="en">disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:BFO_0000179>disposition</obo:BFO_0000179>
+        <obo:BFO_0000180>Disposition</obo:BFO_0000180>
+        <obo:IAO_0000602>(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] </obo:IAO_0000602>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type.</obo:IAO_0000116>
+        <obo:IAO_0000601 xml:lang="en">If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])</obo:IAO_0000601>
+        <obo:IAO_0000112 xml:lang="en">an atom of element X has the disposition to decay to an atom of element Y</obo:IAO_0000112>
+        <obo:IAO_0000600 xml:lang="en">b is a disposition means: b is a realizable entity &amp; b’s bearer is some material entity &amp; b is such that if it ceases to exist, then its bearer is physically changed, &amp; b’s realization occurs when and because this bearer is in some special physical circumstances, &amp; this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])</obo:IAO_0000600>
+        <obo:IAO_0000112 xml:lang="en">certain people have a predisposition to colon cancer</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">children are innately disposed to categorize objects in certain ways.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the cell wall is disposed to filter chemicals in endocytosis and exocytosis</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:Class>
     
 
 
@@ -1040,9 +1121,8 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_119915">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fentanyl</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FENTANYL</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monocarboxylic acid amide resulting from the formal condensation of the aryl amino group of N-phenyl-1-(2-phenylethyl)piperidin-4-amine with propanoic acid.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The carboxamide resulting from the formal condensation of the aryl amino group of N-phenyl-1-(2-phenylethyl)piperidin-4-amine with propanoic acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1551,9 +1631,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050687">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell type cancer</rdfs:label>
+        <rdfs:label>cell type cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1562,9 +1642,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050917">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung combined type small cell adenocarcinoma</rdfs:label>
+        <rdfs:label>lung combined type small cell adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung combined type small cell carcinoma that has_material_basis_in epithelial tissue of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000115>A lung combined type small cell carcinoma that has_material_basis_in epithelial tissue of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1573,9 +1653,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050933">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian serous carcinoma</rdfs:label>
+        <rdfs:label>ovarian serous carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that has_material_basis_in the lining of the ovary and produces a serum-like fluid.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian carcinoma that has_material_basis_in the lining of the ovary and produces a serum-like fluid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1584,10 +1664,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050934">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian clear cell carcinoma</rdfs:label>
+        <rdfs:label>ovarian clear cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that has_material_basis_in cells with clear cytoplasm and glycogen secreting hob nail cells.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clear-cell ovarian carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovarian carcinoma that has_material_basis_in cells with clear cytoplasm and glycogen secreting hob nail cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>clear-cell ovarian carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1642,13 +1722,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_1520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1520">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon carcinoma</rdfs:label>
+        <rdfs:label>colon carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma OF colon</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma of colon</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma of colon (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118>carcinoma of colon</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1657,12 +1735,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
+        <rdfs:label>cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant tumor </obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>primary cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000118>malignant tumor</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1671,17 +1749,16 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_192">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex cord-gonadal stromal tumor</rdfs:label>
+        <rdfs:label>sex cord-gonadal stromal tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive organ cancer that is located_in the sex cord-derived tissues of the ovary and testis.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex Cord-Stromal neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex Cord-Stromal tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex cord stromal tumour</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex cord-stromal tumor, no ICD-O subtype (morphologic abnormality)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized gonadal neoplasm (morphologic abnormality)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized gonadal neoplasm NOS (morphologic abnormality)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialized gonadal tumor (qualifier value)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant testicular sex cord-stromal tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Sex cord stromal tumour</obo:IAO_0000118>
+        <obo:IAO_0000118>Sex Cord-Stromal neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Sex cord-stromal tumor, no ICD-O subtype</obo:IAO_0000118>
+        <obo:IAO_0000118>Sex Cord-Stromal tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Specialized gonadal tumor</obo:IAO_0000118>
+        <obo:IAO_0000115>A reproductive organ cancer that is located_in the sex cord-derived tissues of the ovary and testis.</obo:IAO_0000115>
+        <obo:IAO_0000118>malignant testicular sex cord-stromal tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Specialized gonadal neoplasm</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1690,11 +1767,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2152">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary epithelial cancer</rdfs:label>
+        <rdfs:label>ovary epithelial cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian cancer that is derives_from ovarian surface epithelium.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovarian Surface epithelial-Stromal tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tumor of ovary (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Surface epithelial-Stromal tumor</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovarian cancer that is derives_from ovarian surface epithelium.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1703,10 +1779,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2155">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian germ cell neoplasm</rdfs:label>
+        <rdfs:label>malignant ovarian germ cell neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant Ovarian germ cell tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant germ cell tumor of ovary (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant germ cell tumor of ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant Ovarian germ cell tumor</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1715,11 +1791,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_234">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon adenocarcinoma</rdfs:label>
+        <rdfs:label>colon adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic adenocarcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenocarcinoma of colon</obo:IAO_0000118>
+        <obo:IAO_0000115>A colon carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000118>adenocarcinoma of colon</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1728,15 +1804,15 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2394">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</rdfs:label>
+        <rdfs:label>ovarian cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant Ovarian tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant tumour of ovary</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary ovarian cancer</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>ovary neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant Ovarian tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>ovarian neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>primary ovarian cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000115>A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000118>malignant tumour of ovary</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1745,12 +1821,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2999">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulosa cell tumor</rdfs:label>
+        <rdfs:label>granulosa cell tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulosa cell neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulosa cell tumor, adult type (morphologic abnormality)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulosa cell tumour, sarcomatoid</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant granulosa cell neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Granulosa cell tumour, sarcomatoid</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant granulosa cell neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Granulosa cell neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Granulosa cell tumor, adult type</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovarian cancer that has_material_basis_in granulosa cells and arises from the sex cord stroma.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1759,9 +1836,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon mucinous adenocarcinoma</rdfs:label>
+        <rdfs:label>colon mucinous adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic mucinous adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic mucinous adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1770,9 +1847,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon signet ring adenocarcinoma</rdfs:label>
+        <rdfs:label>colon signet ring adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic Signet Ring adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic Signet Ring adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1781,10 +1858,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3604">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian mucinous cystadenocarcinoma</rdfs:label>
+        <rdfs:label>ovarian mucinous cystadenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovarian mucinous cystadenocarcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucinous cystadenocarcinoma of ovary (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118>mucinous cystadenocarcinoma of ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian mucinous cystadenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovarian cystadenocarcinoma that is characterized by the presence of mucin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1793,10 +1871,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3905 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3905">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung carcinoma</rdfs:label>
+        <rdfs:label>lung carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer of lung</obo:IAO_0000118>
+        <obo:IAO_0000115>A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis.</obo:IAO_0000115>
+        <obo:IAO_0000118>cancer of lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1805,10 +1883,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3907">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung squamous cell carcinoma</rdfs:label>
+        <rdfs:label>lung squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-small cell lung carcinoma that has_material_basis_in the squamous cell.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidermoid cell carcinoma of the lung</obo:IAO_0000118>
+        <obo:IAO_0000118>Epidermoid cell carcinoma of the lung</obo:IAO_0000118>
+        <obo:IAO_0000115>A non-small cell lung carcinoma that has_material_basis_in the squamous cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1817,11 +1895,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3910">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung adenocarcinoma</rdfs:label>
+        <rdfs:label>lung adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-small cell lung carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonsmall cell adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000118>bronchogenic lung adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A lung cancer that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000118>nonsmall cell adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1830,11 +1908,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary transitional cell carcinoma</rdfs:label>
+        <rdfs:label>ovary transitional cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian transitional cell neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian transitional cell cancer</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transitional cell carcinoma of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>transitional cell carcinoma of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovarian epithelial cancer that derives_from epithelial transitional cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>ovarian transitional cell cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant ovarian transitional cell neoplasm</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1843,7 +1922,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4217">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian Brenner tumor</rdfs:label>
+        <rdfs:label>malignant ovarian Brenner tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
         <obo:IAO_0000115>A malignant ovarian surface epithelial-stromal neoplasm that has_material_basis_in the surface epithelium of the ovary.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1854,12 +1933,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4450">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma</rdfs:label>
+        <rdfs:label>renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal carcinoma that has_material_basis_in the lining of the proximal convoluted renal tubule of the kidney.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCC</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenocarcinoma of kidney</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypernephroma</obo:IAO_0000118>
+        <obo:IAO_0000118>RCC</obo:IAO_0000118>
+        <obo:IAO_0000118>adenocarcinoma of kidney</obo:IAO_0000118>
+        <obo:IAO_0000118>hypernephroma</obo:IAO_0000118>
+        <obo:IAO_0000115>A renal carcinoma that has_material_basis_in the lining of the proximal convoluted renal tubule of the kidney.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1868,11 +1947,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4451">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal carcinoma</rdfs:label>
+        <rdfs:label>renal carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kidney cancer that derives_from the lining of the proximal convoluted tubule (the very small tubes in the kidney that filter the blood and remove waste products).</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma of kidney</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A kidney cancer that derives_from the lining of the proximal convoluted tubule (the very small tubes in the kidney that filter the blood and remove waste products).</obo:IAO_0000115>
+        <obo:IAO_0000118>kidney carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>carcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1881,10 +1960,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4463">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multilocular clear cell renal cell carcinoma</rdfs:label>
+        <rdfs:label>multilocular clear cell renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cystadenocarcinoma of kidney (disorder)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cystadenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>cystadenocarcinoma of kidney</obo:IAO_0000118>
+        <obo:IAO_0000118>renal cystadenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1893,12 +1972,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4464">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting duct carcinoma</rdfs:label>
+        <rdfs:label>collecting duct carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collecting duct carcinoma is a renal cell carcinoma described as a rare and aggressive type of renal cell carcinoma. The cancerous cells form irregular tubes inside the tumor. Collecting duct carcinoma is more common among young people and unfortunately is diagnosed in most cases when the cancer has metastasized (spread inside the body).</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma of renal Collecting duct</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal Medullary carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal carcinoma, collecting duct type</obo:IAO_0000118>
+        <obo:IAO_0000115>A renal cell carcinoma that begins in distal collecting ducts of the kidney with a tubulopapillary morphology and intracytoplasmic mucicarminophilic material.</obo:IAO_0000115>
+        <obo:IAO_0000118>renal Medullary carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>renal carcinoma, collecting duct type</obo:IAO_0000118>
+        <obo:IAO_0000118>carcinoma of renal Collecting duct</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1907,13 +1986,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4465">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</rdfs:label>
+        <rdfs:label>papillary renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that is characterized by the development of multiple, bilateral papillary renal tumors.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromophil carcinoma of kidney</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papillary renal cell carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary kidney carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporadic papillary renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Chromophil carcinoma of kidney</obo:IAO_0000118>
+        <obo:IAO_0000118>papillary kidney carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>sporadic papillary renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A renal cell carcinoma that is characterized by the development of multiple, bilateral papillary renal tumors.</obo:IAO_0000115>
+        <obo:IAO_0000118>Papillary renal cell carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1922,13 +2001,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4467">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal clear cell carcinoma</rdfs:label>
+        <rdfs:label>clear cell renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that has_material_basis_in cells that appear very pale or clear when examined under microscope.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clear cell carcinoma of kidney (disorder)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clear cell kidney carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conventional (Clear cell) renal cell carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conventional renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>conventional renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>renal clear cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A renal cell carcinoma that has_material_basis_in cells that appear very pale or clear when examined under microscope.</obo:IAO_0000115>
+        <obo:IAO_0000118>Clear cell carcinoma of kidney</obo:IAO_0000118>
+        <obo:IAO_0000118>conventional (Clear cell) renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>clear cell kidney carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1937,13 +2017,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4471">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromophobe renal cell carcinoma</rdfs:label>
+        <rdfs:label>chromophobe renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that has_material_basis_in chromophobe cell that appear pale when viewed under microscope, but that are larger and display different features than clear cells.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromophobe carcinoma of kidney</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromophobe adenocarcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney chromophobe</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma, chromophobe cell</obo:IAO_0000118>
+        <obo:IAO_0000118>renal cell carcinoma, chromophobe cell</obo:IAO_0000118>
+        <obo:IAO_0000118>Chromophobe carcinoma of kidney</obo:IAO_0000118>
+        <obo:IAO_0000118>kidney chromophobe</obo:IAO_0000118>
+        <obo:IAO_0000115>A renal cell carcinoma that has_material_basis_in chromophobe cell that appear pale when viewed under microscope, but that are larger and display different features than clear cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>chromophobe adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1952,7 +2032,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4472">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucinous tubular and spindle renal cell carcinoma</rdfs:label>
+        <rdfs:label>mucinous tubular and spindle renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -1962,12 +2042,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4926">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiolo-alveolar adenocarcinoma</rdfs:label>
+        <rdfs:label>bronchiolo-alveolar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchioalveolar lung carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchioloalveolar carcinoma</obo:IAO_0000118>
         <obo:IAO_0000115>A lung adenocarcinoma characterized by a predominantly lepidic pattern and 5 mm or less invasion in greatest dimension.</obo:IAO_0000115>
         <obo:IAO_0000118>Minimally Invasive Lung Adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Bronchioloalveolar carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Bronchioalveolar lung carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1976,9 +2056,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5519">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon squamous cell carcinoma</rdfs:label>
+        <rdfs:label>colon squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic Epidermoid carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic Epidermoid carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A squamous cell carcinoma that is located_in the colon.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1987,8 +2068,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5531">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian squamous cell carcinoma</rdfs:label>
+        <rdfs:label>ovarian squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
+        <obo:IAO_0000115>An ovarian carcinoma that derives_from squamous epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1997,9 +2079,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5588">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung papillary adenocarcinoma</rdfs:label>
+        <rdfs:label>lung papillary adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papillary adenocarcinoma of the lung</obo:IAO_0000118>
+        <obo:IAO_0000118>Papillary adenocarcinoma of the lung</obo:IAO_0000118>
+        <obo:IAO_0000115>A papillary adenocarcinoma that is located_in the lung.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2008,10 +2091,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5629">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosquamous colon carcinoma</rdfs:label>
+        <rdfs:label>adenosquamous colon carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon carcinoma that derives_from squamous cells and gland-like cells.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic Adenosquamous carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>A colon carcinoma that derives_from squamous cells and gland-like cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>Colonic Adenosquamous carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2020,10 +2103,10 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5746">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian serous cystadenocarcinoma</rdfs:label>
+        <rdfs:label>ovarian serous cystadenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovary serous adenocarcinoma that has_material_basis_in glandular epithelium, in which cystic accumulations of retained secretions are formed.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serous cystadenoma</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovary serous adenocarcinoma that has_material_basis_in glandular epithelium, in which cystic accumulations of retained secretions are formed.</obo:IAO_0000115>
+        <obo:IAO_0000118>serous cystadenoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2032,10 +2115,11 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5828 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5828">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endometrioid ovary carcinoma</rdfs:label>
+        <rdfs:label>endometrioid ovary carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovarian endometrioid carcinoma</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endometrioid carcinoma ovary (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118>endometrioid carcinoma ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian endometrioid carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovary adenocarcinoma that has_material_basis_in endometrial tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2044,11 +2128,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6067">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian mucinous neoplasm</rdfs:label>
+        <rdfs:label>ovarian mucinous neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovarian mucinous tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian mucinous neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucinous tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>mucinous tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>malignant ovarian mucinous neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian mucinous tumor</obo:IAO_0000118>
+        <obo:IAO_0000115>An ovary epithelial cancer that is characterized by the presence of mucin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2057,11 +2142,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6170">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian carcinosarcoma</rdfs:label>
+        <rdfs:label>ovarian carcinosarcoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovarian MMMT</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian malignant mesodermal (mullerian) mixed tumor</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian malignant mixed Mullerian tumor</obo:IAO_0000118>
+        <obo:IAO_0000115>A malignant ovarian surface epithelial-stromal neoplasm that is a mixed cell type cancer that has_material_basis_in carcinomatous (epithelial tissue) and sarcomatous (connective tissue) components.</obo:IAO_0000115>
+        <obo:IAO_0000118>ovarian malignant mixed Mullerian tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>ovarian malignant mesodermal (mullerian) mixed tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian MMMT</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2070,9 +2156,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6482">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung acinar adenocarcinoma</rdfs:label>
+        <rdfs:label>lung acinar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acinar adenocarcinoma of the lung</obo:IAO_0000118>
+        <obo:IAO_0000118>acinar adenocarcinoma of the lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2081,9 +2167,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6727">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon small cell carcinoma</rdfs:label>
+        <rdfs:label>colon small cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colonic small cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Colonic small cell carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2092,7 +2178,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_7045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7045">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basaloid lung carcinoma</rdfs:label>
+        <rdfs:label>basaloid lung carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2102,7 +2188,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_7267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7267">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung clear cell carcinoma</rdfs:label>
+        <rdfs:label>lung clear cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2112,10 +2198,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_769">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma</rdfs:label>
+        <rdfs:label>neuroblastoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autonomic nervous system neoplasm that derives_from immature nerve cells.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma (Schwannian Stroma-Poor)</obo:IAO_0000118>
+        <obo:IAO_0000115>An autonomic nervous system neoplasm that derives_from immature nerve cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2666,6 +2751,44 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020016">
+        <rdfs:label xml:lang="en">given name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000115 xml:lang="en">A given name, in Western contexts often referred to as a first name, is a personal name that specifies and differentiates between members of a group of individuals, especially in a family, all of whose members usually share the same family name (surname). A given name is purposefully given, usually by a child&#39;s parents at or near birth, in contrast to an inherited one such as a family name</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Given_name</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/apollo_sv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020017">
+        <rdfs:label xml:lang="en">family name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Family_name</obo:IAO_0000119>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A family name (in Western contexts often referred to as a surname or last name) is typically a part of a person&#39;s name which has been passed, according to law or custom, from one or both parents to their children.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/apollo_sv.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0020021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020021">
@@ -2860,11 +2983,13 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000001">
-        <rdfs:label>informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">A document that explains all relevant study information to assist a human subject in understanding the expectations and requirements of participation in a research study. This form document is presented to and signed by the study subject. </obo:IAO_0000115>
-        <obo:IAO_0000119>NCIt C16468</obo:IAO_0000119>
-        <obo:IAO_0000117>AK, FM, YH, YL, MH, EE</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en"></obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A document that explains all relevant information to assist a human being in understanding the expectations and requirements of participation in a process, and is an instrument in obtaining consent and, after having obtained consent, is a record that such a consent has occurred.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alla Karnovsky, Frank Manion, Yongqun He, Asiyah Yu Lin, Marcy Harris, Elizabeth Eisenhauer, Jonathan Vajda, Cooper Stansbury, J. Neil Otte</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">NCIt C16468</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">informed consent document</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2873,10 +2998,10 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000023">
-        <rdfs:label>completely filled informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">completely filled informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115>an informed consent form that has been filled with all required contents.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that has been filled with all required contents.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2885,10 +3010,10 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000024">
-        <rdfs:label>partially filled informed consent form</rdfs:label>
+        <rdfs:label xml:lang="en">partially filled informed consent form</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <obo:IAO_0000115>an informed consent form that has been partically filled with required contents.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An informed consent form that has been partially filled with required contents.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2897,11 +3022,11 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000046">
-        <rdfs:label>authorization</rdfs:label>
+        <rdfs:label xml:lang="en">act of authorizing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process of making the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">NCIt C41192</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">The process of makeing the decision of the competent authorities in form of a letter, document, or verbal or electronic form, that confirms that somebody has permission to do something or be somewhere, e.g. to realize a given project.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YL</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">permission</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
@@ -2911,10 +3036,10 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000075">
-        <rdfs:label>authorization documentation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete authorization document</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">The documentation that is the output of the authorizationa process.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">YL.</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A document that is the output of an authorization process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2925,8 +3050,8 @@ The term is used in the following meaning of being self generated. It does not s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000146">
         <rdfs:label xml:lang="en">eligibility of candidate participation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
-        <obo:IAO_0000115>A realizable entity that represents the eligibility of a candidate according to a study protocol.</obo:IAO_0000115>
-        <obo:IAO_0000117>Frank Manion, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A role that represents the eligibility of a candidate according to a study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Frank Manion, Yongqun He, Mathias Brochhausen, William Duncan</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2935,10 +3060,10 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000147">
-        <rdfs:label xml:lang="en">candidate eligible for study</rdfs:label>
+        <rdfs:label xml:lang="en">candidate eligible for study role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000146"/>
-        <obo:IAO_0000115>the participant meets all eligibility criteria defined within the study protocol</obo:IAO_0000115>
-        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a participant who meets all eligibility criteria defined within a study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
     </owl:Class>
     
@@ -2947,11 +3072,52 @@ The term is used in the following meaning of being self generated. It does not s
     <!-- http://purl.obolibrary.org/obo/ICO_0000148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000148">
-        <rdfs:label xml:lang="en">candidate ineligible for study</rdfs:label>
+        <rdfs:label xml:lang="en">candidate ineligible for study role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000146"/>
-        <obo:IAO_0000119>NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
-        <obo:IAO_0000115>the participant does not meet all eligibility criteria defined within the study protocol</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in a participant who does not meet all eligibility criteria defined within the study protocol.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">NCI BBRB: Biorepositories and Biospecimen Research Branch</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000450">
+        <rdfs:label xml:lang="en">pathogenic disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002297"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:comment>A pathogenic disposition is realized in processes that create a disorder.</rdfs:comment>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <rdfs:comment>The use of &#39;initiates&#39; is intended to convey that a pathogenic disposition is realized when processes resulting in a disorder begin because of some action on the part of the bearer of the disposition.  By this interpretation of &#39;initiates&#39;, disorder-causing entities such as glass, UV light, and toxins do not have a pathogenic disposition.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">A disposition to initiate processes that result in a disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">pathogenicity</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </owl:Class>
     
 
@@ -2983,6 +3149,31 @@ The term is used in the following meaning of being self generated. It does not s
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An organism that is experiencing pregnancy-induced or pathologic immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
+        <rdfs:label xml:lang="en">pathogen</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000450"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </owl:Class>
     
@@ -3923,6 +4114,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
     
@@ -3959,6 +4151,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
         <rdfs:label>health care encounter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2011-02-21T09:57:44Z</obo:IAO_0000232>
@@ -5915,39 +6108,6 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -5997,6 +6157,48 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     
 
@@ -6026,9 +6228,10 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/omrse.owl">
         <rdfs:label xml:lang="en">The Ontology of Medically Related Social Entities</rdfs:label>
+        <owl:versionInfo>2019-21-02</owl:versionInfo>
         <dc:creator>Amanda Hicks</dc:creator>
         <dc:contributor>Daniel Welch</dc:contributor>
-        <owl:versionInfo>2017-06-08</owl:versionInfo>
+        <dc:license>CC-BY 4.0</dc:license>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:creator xml:lang="en">Shariq Tariq</dc:creator>
         <dc:creator xml:lang="en">Swetha Garimalla</dc:creator>
