@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl#"
      xml:base="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns2="http://xmlns.com/foaf/0.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ns1="http://purl.org/dc/elements/1.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -39,14 +40,13 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
         <rdfs:label>Description</rdfs:label>
         <rdfs:label xml:lang="en-us">Description</rdfs:label>
         <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
+        <ns1:description xml:lang="en-us">Description may include but is not limited to: an abstract,
          table of contents, reference to a graphical representation
-         of content or a free-text account of the content.</dc:description>
+         of content or a free-text account of the content.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
@@ -110,9 +110,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label xml:lang="en-us">Contributor</rdfs:label>
         <rdfs:comment xml:lang="en-us">An entity responsible for making contributions to the
          content of the resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Examples of a Contributor include a person, an 
+        <ns1:description xml:lang="en-us">Examples of a Contributor include a person, an 
          organisation, or a service.  Typically, the name of a 
-         Contributor should be used to indicate the entity.</dc:description>
+         Contributor should be used to indicate the entity.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
@@ -162,6 +162,18 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &#39;sequence &#39; + [label], etc. , MA could specify &#39;mouse + [label]&#39; etc. Upon importing terms, ontology developers can choose to use the &#39;OBO foundry unique label&#39; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBO Foundry &lt;http://obofoundry.org/&gt;</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
@@ -183,10 +195,10 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label xml:lang="en-us">Source</rdfs:label>
         <rdfs:comment xml:lang="en-us">A reference to a resource from which the present resource
          is derived.</rdfs:comment>
-        <dc:description xml:lang="en-us">The present resource may be derived from the Source resource
+        <ns1:description xml:lang="en-us">The present resource may be derived from the Source resource
          in whole or in part.  Recommended best practice is to reference
          the resource by means of a string or number conforming to a
-         formal identification system.</dc:description>
+         formal identification system.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
@@ -246,20 +258,20 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:label xml:lang="en-us">Creator</rdfs:label>
         <rdfs:comment xml:lang="en-us">An entity primarily responsible for making the content 
          of the resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
+        <ns1:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
          or a service.  Typically, the name of a Creator should 
-         be used to indicate the entity.</dc:description>
+         be used to indicate the entity.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
         <rdfs:label>Subject and Keywords</rdfs:label>
         <rdfs:label xml:lang="en-us">Subject and Keywords</rdfs:label>
         <rdfs:comment xml:lang="en-us">The topic of the content of the resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Typically, a Subject will be expressed as keywords,
+        <ns1:description xml:lang="en-us">Typically, a Subject will be expressed as keywords,
          key phrases or classification codes that describe a topic
          of the resource.  Recommended best practice is to select 
          a value from a controlled vocabulary or formal 
-         classification scheme.</dc:description>
+         classification scheme.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
@@ -277,6 +289,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <ns1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T13:47:29Z</ns1:date>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark Miller</obo:IAO_0000117>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
         <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
         <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
@@ -307,7 +323,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
         <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
-        <foaf:page rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/oborel/obo-relations/wiki/ROAndTime</foaf:page>
+        <ns2:page rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/oborel/obo-relations/wiki/ROAndTime</ns2:page>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
         <rdfs:label xml:lang="en">elucidation</rdfs:label>
@@ -322,33 +338,23 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:label xml:lang="en-us">Date</rdfs:label>
         <rdfs:comment xml:lang="en-us">A date associated with an event in the life cycle of the
          resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Typically, Date will be associated with the creation or
+        <ns1:description xml:lang="en-us">Typically, Date will be associated with the creation or
          availability of the resource.  Recommended best practice
          for encoding the date value is defined in a profile of
-         ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</dc:description>
+         ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
         <rdfs:label>Format</rdfs:label>
         <rdfs:label xml:lang="en-us">Format</rdfs:label>
         <rdfs:comment xml:lang="en-us">The physical or digital manifestation of the resource.</rdfs:comment>
-        <dc:description xml:lang="en-us">Typically, Format may include the media-type or dimensions of
+        <ns1:description xml:lang="en-us">Typically, Format may include the media-type or dimensions of
          the resource. Format may be used to determine the software,
          hardware or other equipment needed to display or operate the
          resource. Examples of dimensions include size and duration.
          Recommended best practice is to select a value from a
          controlled vocabulary (for example, the list of Internet Media
-         Types [MIME] defining computer media formats).</dc:description>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
-        <rdfs:label>Title</rdfs:label>
-        <rdfs:label xml:lang="en-us">Title</rdfs:label>
-        <dc:description xml:lang="en-us">
-        Typically, a Title will be a name by which the resource is
-         formally known.
-    </dc:description>
-        <rdfs:comment xml:lang="en-us">A name given to the resource.</rdfs:comment>
+         Types [MIME] defining computer media formats).</ns1:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     
@@ -1015,7 +1021,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000116 xml:lang="en">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between a process and a continuant, in which the continuant is somehow involved in the process</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">has participant</obo:IAO_0000111>
-        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</dc:source>
+        <ns1:source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</ns1:source>
         <obo:IAO_0000118 xml:lang="en">has_participant</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this blood coagulation has participant this blood clot</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this investigation has participant this investigator</obo:IAO_0000112>
@@ -1259,7 +1265,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">located in</rdfs:label>
-        <dc:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</dc:source>
+        <ns1:source>http://www.obofoundry.org/ro/#OBO_REL:located_in</ns1:source>
         <obo:IAO_0000116 xml:lang="en">Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">a relation between two independent continuants, the target and the location, in which the target is entirely within the location</obo:IAO_0000115>
@@ -1941,13 +1947,13 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell line that is expected to be capable of indefinite propagation in an vitro culture.</obo:IAO_0000115>
@@ -1981,16 +1987,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
             <owl:Class>
                 <owl:complementOf>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
-                    </owl:Restriction>
-                </owl:complementOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom>
                             <owl:Class>
@@ -2003,6 +1999,16 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
                     </owl:Restriction>
                 </owl:complementOf>
             </owl:Class>
@@ -2081,7 +2087,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2112,7 +2118,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribosome is a protein complex</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stable macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2307,14 +2313,14 @@ Previous. An information content entity is a non-realizable information entity t
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">10 feet. 3 ml.</obo:IAO_0000112>
@@ -2562,14 +2568,14 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 xml:lang="en">2009/09/28 Alan Ruttenberg. Fucoidan-use-case</obo:IAO_0000116>
@@ -2720,14 +2726,14 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of length quality</obo:IAO_0000115>
@@ -2904,18 +2910,18 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000577"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000579"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>CRID</obo:IAO_0000118>
@@ -3359,12 +3365,6 @@ objectives is a planned process.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -3388,6 +3388,12 @@ objectives is a planned process.</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Could add specific objective specification</obo:IAO_0000232>
@@ -3464,11 +3470,17 @@ editor = PRS</obo:IAO_0000232>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                                 <owl:someValuesFrom>
@@ -3486,12 +3498,6 @@ editor = PRS</obo:IAO_0000232>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
@@ -3588,18 +3594,6 @@ In regard to the statement that reagents are &#39;distinct&#39; from the specifi
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
@@ -3607,6 +3601,18 @@ In regard to the statement that reagents are &#39;distinct&#39; from the specifi
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3950,6 +3956,12 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000652"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3984,12 +3996,6 @@ for now.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000444"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000319"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BP</obo:IAO_0000117>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class was renamed from &#39;administering substance&#39;, as this is commonly used only for additions into organisms.</obo:IAO_0000116>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Injecting a drug into a mouse. Adding IL-2 to a cell culture. Adding NaCl into water.</obo:IAO_0000112>
@@ -4005,7 +4011,7 @@ for now.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000275">
         <rdfs:label xml:lang="en">analyte role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
@@ -4019,12 +4025,6 @@ for now.</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.</obo:IAO_0000232>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP: Role Branch</obo:IAO_0000117>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose in blood (measured in an assay to determine the concentration of glucose).</obo:IAO_0000112>
@@ -4033,7 +4033,7 @@ for now.</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interestingly, an analyte is still an analyte even if it is not detected.  for this reason it does not bear a specified input role</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH (technically the inverse log of [H+]) may be considered a quality; this remains to be tested.</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualities such as weight, color are not assayed but measured, so they do not fall into this category.</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">A role borne by a molecular entity or an atom and realized in an analyte assay which achieves the objective to measure the magnitude/concentration/amount of the analyte in the entity bearing evaluant role</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A measurand role borne by a molecular entity or an atom and realized in an analyte assay which achieves the objective to measure the magnitude/concentration/amount of the analyte in the entity bearing evaluant role.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:Class>
     
@@ -4062,14 +4062,14 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000119>
@@ -4322,42 +4322,32 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0000443 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
-        <rdfs:label xml:lang="en">analyte assay</rdfs:label>
-        <owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyte assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000437"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000275"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters
-PERSON:Helen Parkinson
-PERSON:Philippe Rocca-Serra
-PERSON:Alan Ruttenberg
-GROUP:OBI Planned process branch</obo:IAO_0000119>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters, Helen Parkinson, Philippe Rocca-Serra, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI Planned process branch</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyte assay</obo:IAO_0000111>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logical def modified to remove expression below, as some analyte assays report below the level of detection, and therefore not a scalar measurement datum, replaced by measurement datum
-
-and 
-(&#39;has measurement unit label&#39; some &#39;measurement unit label&#39;) and 
-(&#39;is quality measurement of&#39; some &#39;molecular concentration&#39;))</obo:IAO_0000116>
-        <obo:IAO_0000116>2013-09-23: simplify equivalent axiom</obo:IAO_0000116>
-        <obo:IAO_0000115 xml:lang="en">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Note: is_realization of some analyte role isn&#39;t always true, for example when there is none of the analyte in the evaluant. For the moment we are writing it this way, but when the information ontology is further worked out this will be replaced with a condition discussing the measurement.</obo:IAO_0000116>
-        <obo:IAO_0000112 xml:lang="en">example of usage: In lab test for blood glucose, the test is the assay, the blood bears evaluant_role and glucose bears the analyte role. The evaluant is considered an input to the assay and the information entity that records the measurement of glucose concentration the output</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage: In lab test for blood glucose, the test is the assay, the blood bears evaluant_role and glucose bears the analyte role. The evaluant is considered an input to the assay and the information entity that records the measurement of glucose concentration the output</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:Class>
     
@@ -4370,14 +4360,14 @@ and
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000274"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000274"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">From Branch discussion with BP, AR, MC -- there is a need for the recipient to interact with the administered material.  for example, a tooth receiving a filling was not considered to be a target role.</obo:IAO_0000116>
@@ -4541,12 +4531,6 @@ and
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -4556,6 +4540,12 @@ and
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP:  Role Branch</obo:IAO_0000117>
@@ -4637,13 +4627,13 @@ and
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4709,14 +4699,14 @@ and
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5/31/2012: This process is not necessarily an acquisition, as specimens may be collected from materials already in posession</obo:IAO_0000232>
@@ -4910,12 +4900,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -4923,6 +4907,12 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09/28/2009 Alan Ruttenberg: This is made a subclass of the higher level processual entity in BFO because I don&#39;t want to take a stand on whether it is a process aggregate. Analogous to the situation with Material entity.</obo:IAO_0000116>
@@ -5053,14 +5043,14 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0666666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0666666"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group: UPenn Group</obo:IAO_0000119>
@@ -5183,14 +5173,14 @@ Updated both textual and logical definition. Both input and output material of f
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></obo:IAO_0000119>
@@ -5259,12 +5249,6 @@ Updated both textual and logical definition. Both input and output material of f
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -5274,6 +5258,12 @@ Updated both textual and logical definition. Both input and output material of f
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jackson Lab provides experimental animals, EBI provides training on databases, a core facility provides access to a DNA sequencer.</obo:IAO_0000112>
@@ -5589,14 +5579,14 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert</obo:IAO_0000117>
@@ -5617,12 +5607,6 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000423"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -5635,6 +5619,12 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extract that is the output of an extraction process in which nucleic acid molecules are isolated from a specimen.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Jie Zheng</obo:IAO_0000117>
@@ -5681,14 +5671,14 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000257"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000257"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA extract</obo:IAO_0000111>
@@ -5708,13 +5698,13 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000379"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000960"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000960"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000379"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device for processing histological tissue having a tissue carrier basket suspended from a turntable overlying a plurality of beakers suspended from a carrier plate. The turntable is raised, indexed, and lowered by a suitable driving mechanism to move the tissue basket sequentially through the beakers. Timers can each be programmed to control the movement of the turntable to provide various different cycles for processing the tissue. Some of the beakers are received in individual thermal baths to heat and control the temperature of the substances received in the beakers for treating the tissue.</obo:IAO_0000115>
@@ -5752,27 +5742,6 @@ Supported by Alan on Nov 15, 2010 dev call</obo:IAO_0000232>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_745 hatching</obo:IAO_0000119>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">age since hatching measurement datum</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001158">
-        <rdfs:label xml:lang="en">age measurement assay</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is the beginning of some transitional state of the bearer such as birth or when planted.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI group</obo:IAO_0000119>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This assay measures time not developmental stage.  we recognize that development takes different time periods under different conditions such as media / temperature. For example, age measurement assay of fly age, the output likes 28 days but not mid-life of age at room temperature.</obo:IAO_0000116>
-        <obo:IAO_0000111 xml:lang="en">age measurement assay</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
     
@@ -5858,12 +5827,6 @@ Supported by Alan on Nov 15, 2010 dev call</obo:IAO_0000232>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time measurement datum that is the result of measurement of age of an organism</obo:IAO_0000115>
@@ -6182,7 +6145,7 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:source>NIAID GSCID-BRC</dc:source>
+        <ns1:source>NIAID GSCID-BRC</ns1:source>
         <obo:OBI_0001886>Specimen Collection Date</obo:OBI_0001886>
         <obo:IAO_0000115 xml:lang="en">A time measurement datum that is the measure of the time when the specimens are collected.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
@@ -6216,6 +6179,12 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary cultured cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -6233,12 +6202,6 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cultured cell that has been passaged or derives from a cell that has been passaged in culture. </obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A secondary cultured cell has been passaged in culture or is a descendant of such a cell that is derived through propagation in culture.</rdfs:comment>
@@ -6285,14 +6248,14 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001866"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001866"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111>secondary cultured cell population</obo:IAO_0000111>
@@ -6397,13 +6360,13 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001937"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001937"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6475,10 +6438,10 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <dc:source>Biobank</dc:source>
+        <ns1:source>Biobank</ns1:source>
+        <obo:IAO_0000112 xml:lang="en">Blood cells collected from multiple donors over the course of a study.</obo:IAO_0000112>
         <obo:IAO_0000119>OBIB, OBI</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A material entity that has two or more specimens as its parts.</obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">Blood cells collected from multiple donors over the course of a study.</obo:IAO_0000112>
         <obo:IAO_0000116>Details see tracker: https://sourceforge.net/p/obi/obi-terms/778/</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">collection of specimens</obo:IAO_0000111>
@@ -6494,7 +6457,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002076"/>
         <obo:IAO_0000115 xml:lang="en">A collection of specimens derived from one common specimen via one or more material processing process(es).</obo:IAO_0000115>
         <obo:IAO_0000116>Details see tracker: https://sourceforge.net/p/obi/obi-terms/778/</obo:IAO_0000116>
-        <dc:source>Biobank</dc:source>
+        <ns1:source>Biobank</ns1:source>
         <obo:IAO_0000112 xml:lang="en">Aliquoting one specimen to multiple tubes and the collection of the aliquoted specimens are a specimen family. Slicing a tissue specimen into multiple sections for microscopy.</obo:IAO_0000112>
         <obo:IAO_0000117 xml:lang="en">Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB, OBI</obo:IAO_0000119>
@@ -6512,7 +6475,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
         <obo:IAO_0000119>Duke Biobank, OBIB</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A contain function that involves physical contact with a specimen. This function is typically performed in such a way that the specimen is usable for an investigation or assay.</obo:IAO_0000115>
-        <dc:source xml:lang="en">Biobank</dc:source>
+        <ns1:source xml:lang="en">Biobank</ns1:source>
         <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/792/</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">containing a specimen function</obo:IAO_0000111>
@@ -6533,7 +6496,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
         <obo:IAO_0000115 xml:lang="en">A container with the function of containing a specimen.</obo:IAO_0000115>
-        <dc:source xml:lang="en">Biobank</dc:source>
+        <ns1:source xml:lang="en">Biobank</ns1:source>
         <obo:IAO_0000112 xml:lang="en">COPAN eSwab, CPT vacutainer, PAXgene Blood DNA tube</obo:IAO_0000112>
         <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
@@ -6558,7 +6521,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000967"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001034"/>
         <obo:IAO_0000115 xml:lang="en">A container with an environmental control function.</obo:IAO_0000115>
-        <dc:source xml:lang="en">Biobank</dc:source>
+        <ns1:source xml:lang="en">Biobank</ns1:source>
         <obo:IAO_0000117 xml:lang="en">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Duke Biobank, OBIB</obo:IAO_0000119>
         <obo:IAO_0000116 xml:lang="en">For details see tracker item: http://sourceforge.net/p/obi/obi-terms/793/</obo:IAO_0000116>
@@ -6591,7 +6554,7 @@ The following are NOT conclusions based on data: data themselves; results from p
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A material processing that has as its input a specimen and as its output a collection of specimens.</obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">Aliquoting one specimen to multiple tubes, slicing a tissue specimen into multiple sections, processing blood into buffy coat, red cells, and serum.</obo:IAO_0000112>
-        <dc:source xml:lang="en">Biobank</dc:source>
+        <ns1:source xml:lang="en">Biobank</ns1:source>
         <obo:IAO_0000116 xml:lang="en">For details see tracker: https://sourceforge.net/p/obi/obi-terms/778/</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen, Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI, OBIB</obo:IAO_0000119>
@@ -6807,7 +6770,7 @@ The following are NOT conclusions based on data: data themselves; results from p
     <!-- http://purl.obolibrary.org/obo/OBI_0002140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002140">
-        <rdfs:label xml:lang="en">temperature measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature measurement assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6825,10 +6788,11 @@ The following are NOT conclusions based on data: data themselves; results from p
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An assay to determine the temperature of an evaluant.</obo:IAO_0000115>
-        <obo:IAO_0000119>OBI</obo:IAO_0000119>
-        <obo:IAO_0000111>temperature measurement assay</obo:IAO_0000111>
-        <obo:IAO_0000117>Chris Stoeckert, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay to determine the temperature of an evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature measurement assay</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:Class>
     
@@ -6837,7 +6801,7 @@ The following are NOT conclusions based on data: data themselves; results from p
     <!-- http://purl.obolibrary.org/obo/OBI_0002141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002141">
-        <rdfs:label xml:lang="en">volume measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume measurement assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6855,10 +6819,11 @@ The following are NOT conclusions based on data: data themselves; results from p
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Chris Stoeckert, Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000111>volume measurement assay</obo:IAO_0000111>
-        <obo:IAO_0000115>An assay to determine the volume of an evaluant.</obo:IAO_0000115>
-        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay to determine the volume of an evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume measurement assay</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:Class>
     
@@ -6867,14 +6832,17 @@ The following are NOT conclusions based on data: data themselves; results from p
     <!-- http://purl.obolibrary.org/obo/OBI_0002145 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002145">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen specific antibodies assay </rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen specific antibodies assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that measures the presence or amount of antibodies to a specified antigen. </obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that measures the presence or amount of antibodies to a specified antigen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test performed using antibodies produced by human B-cells that bind with human immunodeficiency virus (HIV) antigens</obo:IAO_0000112>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen specific antibodies assay </obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen specific antibodies assay</obo:IAO_0000111>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -6945,12 +6913,15 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to human immunodeficiency virus (HIV) antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV I/II Ab assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV antibody assay</obo:IAO_0000111>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV-1 and HIV-2 are two different viruses (http://i-base.info/qa/36)</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7023,11 +6994,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to human immunodeficiency virus (HIV) group O antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV I/II Plus O assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV group O antibody assay</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.cdc.gov/mmwr/preview/mmwrhtml/00042810.htm</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -7085,10 +7059,13 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to hepatitis B virus (HBV) surface antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBsAb assay</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface HBV antibody assay</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -7146,10 +7123,13 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to hepatitis B virus (HBV) core antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBcAb assay</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core HBV antibody assay</obo:IAO_0000111>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -7207,10 +7187,13 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detectimmunoglobulin M (IgM) antibodies that bind to hepatitis B virus (HBV) core antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBcAb-IgM assay</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core HBV IgM antibody assay</obo:IAO_0000111>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -7268,11 +7251,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to Hepatitis C virus (HCV) antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCV Ab assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCV antibody assay</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7329,11 +7315,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect immunoglobulin G (IgG) antibodies that bind to Epstein-Barr virus (EBV) antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBV IgG Ab assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBV IgG antibody assay</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7390,11 +7379,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect immunoglobulin M (IgM) antibodies that bind to Epstein-Barr virus (EBV) antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBV IgM Ab assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBV IgM antibody assay</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7451,11 +7443,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen specific antibodies assay that is meant to detect antibodies that bind to cytomegalovirus (CMV) antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMV Ab assay</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMV antibody assay</obo:IAO_0000111>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7492,9 +7487,12 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that is meant to detect general antibodies that react with substances that are produced by cellular damage caused by Treponema pallidum indicating a syphilis infection. VDRL tests require a microscope and can be done on cerebrospinal fluid as well as blood.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VDRL test</obo:IAO_0000118>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venereal disease research laboratory test</obo:IAO_0000111>
@@ -7533,12 +7531,15 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that is meant to detect with the aid of carbon or charcoal particles general antibodies that react with substances that are produced by cellular damage caused by Treponema pallidum indicating a syphilis infection. RPR tests can be done without a microscope.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPR assay</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.differencebetween.net/science/health/difference-between-vdlr-and-rpr/</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid plasma reagin test</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www.differencebetween.net/science/health/difference-between-vdlr-and-rpr/</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
     
@@ -7574,11 +7575,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that is meant to detect hepatitis B virus (HBV) surface antigens.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBV surface antigen assay</obo:IAO_0000111>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBsAg assay</obo:IAO_0000118>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7635,11 +7639,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that is meant to detect human immunodeficiency virus (HIV-1) nucleic acids.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV-1 NAT</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV-1 nucleic acid testing</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -7696,11 +7703,14 @@ The following are NOT conclusions based on data: data themselves; results from p
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analyte assay that is meant to detect hepatitis C virus (HCV) nucleic acids.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Bjoern Peters, Randi Vita, James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCV NAT</obo:IAO_0000118>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCV nucleic acid testing</obo:IAO_0000111>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Overton</obo:IAO_0000117>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
     </owl:Class>
@@ -9358,6 +9368,118 @@ The following are NOT conclusions based on data: data themselves; results from p
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposure to blood borne infectious disease exclusion criterion</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002444">
+        <rdfs:label xml:lang="en">measurand role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://en.wiktionary.org/wiki/measurand</obo:IAO_0000119>
+        <obo:IAO_0000115>A role borne by a material entity and realized in an assay which achieves the objective to measure the magnitude/concentration/amount of the measurand in the entity bearing evaluant role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Alan Ruttenberg, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/778</obo:IAO_0000233>
+        <obo:IAO_0000111 xml:lang="en">measurand role</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002453">
+        <rdfs:label xml:lang="en">health status inclusion criterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000115 xml:lang="en">An inclusion criterion that defines and states one or more clinically significant bodily components, dispositions, and/or bodily processes of an entity that are inferred from relevant clinical findings or self-reported, which, if met, makes the entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
+        <obo:IAO_0000234 xml:lang="en">MIABIS2.0</obo:IAO_0000234>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">health status inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">‘diagnosed with Type 2 diabetes mellitus’, ‘E11.4’, ’not finding of hypertension&#39;</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002454">
+        <rdfs:label xml:lang="en">clinically relevant lifestyle inclusion criterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000112 xml:lang="en">&#39;smoking behavior’</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">An inclusion criterion that defines and states one or more clinically relevant planned processes that a human being actively participates in , which, if met, makes the human being suitable for a given task or participation in a given process.</obo:IAO_0000115>
+        <obo:IAO_0000234 xml:lang="en">MIABIS2.0</obo:IAO_0000234>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">clinically relevant lifestyle inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002455">
+        <rdfs:label xml:lang="en">clinically relevant exposure inclusion criterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000112 xml:lang="en">&#39;exposure to cigarette smoke’, ‘exposure to lead through drinking water&#39;</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">An inclusion criterion that defines and states one or more clinically relevant histories of exposure of an entity, which, if met, makes the entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
+        <obo:IAO_0000234 xml:lang="en">MIABIS2.0</obo:IAO_0000234>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">clinically relevant exposure inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002456">
+        <rdfs:label xml:lang="en">gravidity inclusion criterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000112 xml:lang="en">&#39;pregnant’, ‘not pregnant&#39;</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">An inclusion criterion that defines and states one or more gravidity statuses of an organism, which, if met, makes the entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
+        <obo:IAO_0000234 xml:lang="en">MIABIS2.0</obo:IAO_0000234>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">gravidity inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002460">
+        <rdfs:label xml:lang="en">defined population inclusion criterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">920</obo:IAO_0000233>
+        <obo:IAO_0000115>An inclusion criterion that is based on fitting within the defined characteristics of a population based study design.</obo:IAO_0000115>
+        <obo:IAO_0000119>MIABIS 2.0</obo:IAO_0000119>
+        <obo:IAO_0000117>Chris Stoeckert, Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000234>MIABIS 2.0</obo:IAO_0000234>
+        <obo:IAO_0000111>defined population inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000112>inclusion based on age, sex, and living region (rural area or specified city).</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002465">
+        <rdfs:label>age since culture seeding measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
+        <obo:IAO_0000117>Stephen A. Fisher, Junhyong Kim, Dan Berrios</obo:IAO_0000117>
+        <obo:IAO_0000115>An age measurement datum that is the result of the measurement of the age of a cell since cultured (the process of seeding cells onto a culture dish).</obo:IAO_0000115>
+        <obo:IAO_0000118>age of culture</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">age since culture seeding measurement datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
     
 
@@ -11333,6 +11455,17 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:label xml:lang="en">blood plasma specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000112"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
                 <owl:someValuesFrom>
@@ -11347,17 +11480,6 @@ The following are NOT conclusions based on data: data themselves; results from p
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000112"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">03/21/2010: BP, blood plasma is defined as the output of certain separation processes, so this is in the domain of OBI, not FMA.</obo:IAO_0000116>
@@ -11486,7 +11608,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11498,7 +11620,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
@@ -11569,12 +11691,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -11592,6 +11708,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
                         </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11777,14 +11899,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000681"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
@@ -11825,14 +11947,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI-Branch</obo:IAO_0000119>
@@ -11908,12 +12030,6 @@ Manual editing of automatically recorded data in an anesthesia information manag
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000453"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -11925,6 +12041,12 @@ Manual editing of automatically recorded data in an anesthesia information manag
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000453"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device with a rapidly rotating container that applies centrifugal force to its contents</obo:IAO_0000115>
@@ -12046,8 +12168,18 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001928"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12059,6 +12191,12 @@ defines and states the requirements (positive or negative) for an entity to be c
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500026"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12085,22 +12223,6 @@ defines and states the requirements (positive or negative) for an entity to be c
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As with group assignment, should the specified output here be an organism which bears a role</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to obtain a population of human subjects to participate in an investigation by determining eligibility of subjects and obtaining informed consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
@@ -12120,8 +12242,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12132,8 +12254,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
@@ -12186,6 +12308,12 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000652"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000686"/>
             </owl:Restriction>
@@ -12194,12 +12322,6 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12250,7 +12372,7 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12275,7 +12397,7 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12296,8 +12418,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12308,14 +12430,14 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111>&#39;establishing cell culture&#39;</obo:IAO_0000111>
@@ -12335,6 +12457,12 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000678"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
@@ -12343,12 +12471,6 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000678"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell culture passaging</obo:IAO_0000118>
@@ -12376,8 +12498,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_1110109"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12388,8 +12510,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_1110109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling</obo:IAO_0000118>
@@ -12511,12 +12633,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302886"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -12526,6 +12642,12 @@ defines and states the requirements (positive or negative) for an entity to be c
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302886"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP: OBI Biomaterial Branch</obo:IAO_0000119>
@@ -17056,72 +17178,72 @@ This interpretation is *not* the same as an at-all-times relation
     <!-- http://purl.obolibrary.org/obo/obi.owl -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl">
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</dc:date>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-07</owl:versionInfo>
+        <ns1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</ns1:date>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-08-27</owl:versionInfo>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Please cite the OBI consortium http://purl.obolibrary.org/obo/obi where traditional citation is called for. However it is adequate that individual terms be attributed simply by use of the identifying PURL for the term, in projects that refer to them.</rdfs:comment>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
-        <dc:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</dc:contributor>
-        <dc:creator xml:lang="en">Alan Ruttenberg</dc:creator>
-        <dc:creator xml:lang="en">Allyson Lister</dc:creator>
-        <dc:subject xml:lang="en">An ontology for the annotation of biomedical and functional genomics experiments.</dc:subject>
-        <dc:creator xml:lang="en">Barry Smith</dc:creator>
-        <dc:creator xml:lang="en">Bill Bug</dc:creator>
-        <dc:creator xml:lang="en">Bjoern Peters</dc:creator>
-        <dc:creator xml:lang="en">Carlo Torniai</dc:creator>
-        <dc:creator xml:lang="en">Chris Mungall</dc:creator>
-        <dc:creator xml:lang="en">Chris Stoeckert</dc:creator>
-        <dc:creator xml:lang="en">Chris Taylor</dc:creator>
-        <dc:creator xml:lang="en">Christian Bolling</dc:creator>
-        <dc:creator xml:lang="en">Cristian Cocos</dc:creator>
-        <dc:creator xml:lang="en">Daniel Rubin</dc:creator>
-        <dc:creator xml:lang="en">Daniel Schober</dc:creator>
-        <dc:creator xml:lang="en">Dawn Field</dc:creator>
-        <dc:creator xml:lang="en">Dirk Derom</dc:creator>
-        <dc:creator xml:lang="en">Elisabetta Manduchi</dc:creator>
-        <dc:creator xml:lang="en">Eric Deutsch</dc:creator>
-        <dc:creator xml:lang="en">Frank Gibson</dc:creator>
-        <dc:creator xml:lang="en">Gilberto Fragoso</dc:creator>
-        <dc:creator xml:lang="en">Helen C. Causton</dc:creator>
-        <dc:creator xml:lang="en">Helen Parkinson</dc:creator>
-        <dc:creator xml:lang="en">Holger Stenzhorn</dc:creator>
-        <dc:creator xml:lang="en">James A. Overton</dc:creator>
-        <dc:creator xml:lang="en">James Malone</dc:creator>
-        <dc:creator xml:lang="en">Jay Greenbaum</dc:creator>
-        <dc:creator xml:lang="en">Jeffrey Grethe</dc:creator>
-        <dc:creator xml:lang="en">Jennifer Fostel</dc:creator>
-        <dc:creator xml:lang="en">Jessica Turner</dc:creator>
-        <dc:creator xml:lang="en">Jie Zheng</dc:creator>
-        <dc:creator xml:lang="en">Joe White</dc:creator>
-        <dc:creator xml:lang="en">John Westbrook</dc:creator>
-        <dc:creator xml:lang="en">Kevin Clancy</dc:creator>
-        <dc:creator xml:lang="en">Larisa Soldatova</dc:creator>
-        <dc:creator xml:lang="en">Lawrence Hunter</dc:creator>
-        <dc:creator xml:lang="en">Liju Fan</dc:creator>
-        <dc:creator xml:lang="en">Luisa Montecchi</dc:creator>
-        <dc:creator xml:lang="en">Matthew Brush</dc:creator>
-        <dc:creator xml:lang="en">Matthew Pocock</dc:creator>
-        <dc:creator xml:lang="en">Melanie Courtot</dc:creator>
-        <dc:creator xml:lang="en">Melissa Haendel</dc:creator>
-        <dc:creator xml:lang="en">Mervi Heiskanen</dc:creator>
-        <dc:creator xml:lang="en">Monnie McGee</dc:creator>
-        <dc:creator xml:lang="en">Norman Morrison</dc:creator>
-        <dc:format xml:lang="en">OWL-DL</dc:format>
-        <dc:title xml:lang="en">Ontology for Biomedical Investigation</dc:title>
-        <dc:creator xml:lang="en">Philip Lord</dc:creator>
-        <dc:creator xml:lang="en">Philippe Rocca-Serra</dc:creator>
-        <dc:creator xml:lang="en">Pierre Grenon</dc:creator>
-        <dc:creator xml:lang="en">Richard Bruskiewich</dc:creator>
-        <dc:creator xml:lang="en">Richard Scheuermann</dc:creator>
-        <dc:creator xml:lang="en">Robert Stevens</dc:creator>
-        <dc:creator xml:lang="en">Ryan R. Brinkman</dc:creator>
-        <dc:creator xml:lang="en">Stefan Wiemann</dc:creator>
-        <dc:creator xml:lang="en">Susanna-Assunta Sansone</dc:creator>
-        <dc:creator xml:lang="en">Tanya Gray</dc:creator>
-        <dc:description xml:lang="en">The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.</dc:description>
-        <dc:creator xml:lang="en">Tina Hernandez-Boussard</dc:creator>
-        <dc:creator xml:lang="en">Trish Whetzel</dc:creator>
-        <dc:creator xml:lang="en">Yongqun He</dc:creator>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <ns1:contributor xml:lang="en">Advisors for this project come from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester</ns1:contributor>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <ns1:creator xml:lang="en">Alan Ruttenberg</ns1:creator>
+        <ns1:creator xml:lang="en">Allyson Lister</ns1:creator>
+        <ns1:subject xml:lang="en">An ontology for the annotation of biomedical and functional genomics experiments.</ns1:subject>
+        <ns1:creator xml:lang="en">Barry Smith</ns1:creator>
+        <ns1:creator xml:lang="en">Bill Bug</ns1:creator>
+        <ns1:creator xml:lang="en">Bjoern Peters</ns1:creator>
+        <ns1:creator xml:lang="en">Carlo Torniai</ns1:creator>
+        <ns1:creator xml:lang="en">Chris Mungall</ns1:creator>
+        <ns1:creator xml:lang="en">Chris Stoeckert</ns1:creator>
+        <ns1:creator xml:lang="en">Chris Taylor</ns1:creator>
+        <ns1:creator xml:lang="en">Christian Bolling</ns1:creator>
+        <ns1:creator xml:lang="en">Cristian Cocos</ns1:creator>
+        <ns1:creator xml:lang="en">Daniel Rubin</ns1:creator>
+        <ns1:creator xml:lang="en">Daniel Schober</ns1:creator>
+        <ns1:creator xml:lang="en">Dawn Field</ns1:creator>
+        <ns1:creator xml:lang="en">Dirk Derom</ns1:creator>
+        <ns1:creator xml:lang="en">Elisabetta Manduchi</ns1:creator>
+        <ns1:creator xml:lang="en">Eric Deutsch</ns1:creator>
+        <ns1:creator xml:lang="en">Frank Gibson</ns1:creator>
+        <ns1:creator xml:lang="en">Gilberto Fragoso</ns1:creator>
+        <ns1:creator xml:lang="en">Helen C. Causton</ns1:creator>
+        <ns1:creator xml:lang="en">Helen Parkinson</ns1:creator>
+        <ns1:creator xml:lang="en">Holger Stenzhorn</ns1:creator>
+        <ns1:creator xml:lang="en">James A. Overton</ns1:creator>
+        <ns1:creator xml:lang="en">James Malone</ns1:creator>
+        <ns1:creator xml:lang="en">Jay Greenbaum</ns1:creator>
+        <ns1:creator xml:lang="en">Jeffrey Grethe</ns1:creator>
+        <ns1:creator xml:lang="en">Jennifer Fostel</ns1:creator>
+        <ns1:creator xml:lang="en">Jessica Turner</ns1:creator>
+        <ns1:creator xml:lang="en">Jie Zheng</ns1:creator>
+        <ns1:creator xml:lang="en">Joe White</ns1:creator>
+        <ns1:creator xml:lang="en">John Westbrook</ns1:creator>
+        <ns1:creator xml:lang="en">Kevin Clancy</ns1:creator>
+        <ns1:creator xml:lang="en">Larisa Soldatova</ns1:creator>
+        <ns1:creator xml:lang="en">Lawrence Hunter</ns1:creator>
+        <ns1:creator xml:lang="en">Liju Fan</ns1:creator>
+        <ns1:creator xml:lang="en">Luisa Montecchi</ns1:creator>
+        <ns1:creator xml:lang="en">Matthew Brush</ns1:creator>
+        <ns1:creator xml:lang="en">Matthew Pocock</ns1:creator>
+        <ns1:creator xml:lang="en">Melanie Courtot</ns1:creator>
+        <ns1:creator xml:lang="en">Melissa Haendel</ns1:creator>
+        <ns1:creator xml:lang="en">Mervi Heiskanen</ns1:creator>
+        <ns1:creator xml:lang="en">Monnie McGee</ns1:creator>
+        <ns1:creator xml:lang="en">Norman Morrison</ns1:creator>
+        <ns1:format xml:lang="en">OWL-DL</ns1:format>
+        <obo:IAO_0000589 xml:lang="en">Ontology for Biomedical Investigations</obo:IAO_0000589>
+        <ns1:creator xml:lang="en">Philip Lord</ns1:creator>
+        <ns1:creator xml:lang="en">Philippe Rocca-Serra</ns1:creator>
+        <ns1:creator xml:lang="en">Pierre Grenon</ns1:creator>
+        <ns1:creator xml:lang="en">Richard Bruskiewich</ns1:creator>
+        <ns1:creator xml:lang="en">Richard Scheuermann</ns1:creator>
+        <ns1:creator xml:lang="en">Robert Stevens</ns1:creator>
+        <ns1:creator xml:lang="en">Ryan R. Brinkman</ns1:creator>
+        <ns1:creator xml:lang="en">Stefan Wiemann</ns1:creator>
+        <ns1:creator xml:lang="en">Susanna-Assunta Sansone</ns1:creator>
+        <ns1:creator xml:lang="en">Tanya Gray</ns1:creator>
+        <ns1:description xml:lang="en">The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.</ns1:description>
+        <ns1:creator xml:lang="en">Tina Hernandez-Boussard</ns1:creator>
+        <ns1:creator xml:lang="en">Trish Whetzel</ns1:creator>
+        <ns1:creator xml:lang="en">Yongqun He</ns1:creator>
     </owl:NamedIndividual>
 </rdf:RDF>
 
