@@ -182,7 +182,7 @@ http://purl.obolibrary.org/obo/FMA_19973 #posterior wall of vagina
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FMA_50707 #Anatomical location
-subClassOf http://purl.obolibrary.org/obo/BFO_0000002 #continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
 http://purl.obolibrary.org/obo/FMA_24981 #left leg
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
 http://purl.obolibrary.org/obo/FMA_24980 #right leg
