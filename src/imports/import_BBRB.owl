@@ -242,7 +242,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50707"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an anatomical location that is just below (1 cm) the site of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical location that is just below (1 cm) the site of surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
@@ -256,7 +256,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50707"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent to tissue for PAXgene fixation.</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an anatomical location that is adjacent to the site where tissue was collected and subjected to fixation.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical location that is adjacent to the site where tissue was collected and subjected to fixation.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
@@ -376,7 +376,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a role which inheres in a person and is realized in the dissection of a body for anatomical instruction or pathological examination.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role which inheres in a person and is realized in the dissection of a body for anatomical instruction or pathological examination.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/prosector</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
@@ -4616,7 +4616,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of submitter of pathology case summary report.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who was the submitter of a pathology case summary report.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of submitting pathologist</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -4645,7 +4645,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A personal name that designates the person who served as the reviewer for quality assurance purposes of a pathology case summary report.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of submitting pathologist</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of reviewing pathologist</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name of reviewer of pathology case summary report.</rdfs:label>
@@ -6031,7 +6031,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000490"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An authorization documentation for post mortem specimen donation in which authorization is not obtained for whole brain donation.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue use limitations</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">authorization not obtained for whole brain donation</rdfs:label>
@@ -6347,7 +6346,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000516"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A timing of scoring performance status that occurs prior to an operation to treat cancer.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preoperative performance status score</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preoperative performance status score</rdfs:label>
@@ -7837,5 +7835,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
