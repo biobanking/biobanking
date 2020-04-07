@@ -1,7 +1,21 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl
 
-#List of ontologies: UBERON,FMA,DRON,PR,OAE,IDO,EFO,ICO,CHEBI,PATO,OGMS,DOID,OMRSE,PCO,RO,ERO,MONDO,FLU,NCIT,APOLLO_SV
+#List of ontologies: OBI,UBERON,FMA,DRON,PR,OAE,IDO,EFO,ICO,CHEBI,PATO,OGMS,DOID,OMRSE,PCO,RO,ERO,MONDO,FLU,NCIT,APOLLO_SV
+
+[Source ontology]
+#comment here
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0002614 #birth cohort study design
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0002614 #birth cohort study design
+subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001020 #cohort study design
+
+[Source annotation URIs]
+includeAllAnnotationProperties
 
 [Source ontology]
 #comment here
@@ -83,9 +97,9 @@ subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemius
 subClassOf http://purl.obolibrary.org/obo/UBERON_0001134
 http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
-subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369
 http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal gland
-subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369
 http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aorta
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
@@ -322,7 +336,7 @@ http://purl.obolibrary.org/obo/IDO_0001014
 subClassOf http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
 http://purl.obolibrary.org/obo/IDO_0001013
 subClassOf http://purl.obolibrary.org/obo/IDO_0000456 #immunosuppressed organism
-http://purl.obolibrary.org/obo/IDO_0000528 
+http://purl.obolibrary.org/obo/IDO_0000528
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
 [Source term retrieval setting]
@@ -1080,8 +1094,8 @@ http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
 http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
 http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
 http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
-http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedurehttp://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
-http://purl.obolibrary.org/obo/NCIT_C126528 #Central African http://purl.obolibrary.org/obo/NCIT_C126529 #North African http://purl.obolibrary.org/obo/NCIT_C126530 #South African http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity http://purl.obolibrary.org/obo/NCIT_C126535 #Australian http://purl.obolibrary.org/obo/NCIT_C126536 #New Zealanderhttp://purl.obolibrary.org/obo/NCIT_C43851 #European http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian http://purl.obolibrary.org/obo/NCIT_C77817 #Western European http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedurehttp://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central Africanhttp://purl.obolibrary.org/obo/NCIT_C126529 #North African http://purl.obolibrary.org/obo/NCIT_C126530 #South Africanttp://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian htp://purl.obolibrary.org/obo/NCIT_C41263 #South Asiantp://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian ht://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicitytp//purl.obolibrary.org/obo/NCIT_C126535 #Australian ht:/purl.obolibrary.org/obo/NCIT_C126536 #New Zealanderhttp://purl.obolibrary.org/obo/NCIT_C43851 #European tp/purl.obolibrary.org/obo/NCIT_C77819 #Eastern European ht:/url.obolibrary.org/obo/NCIT_C77811 #Mediterranean htp/prl.obolibrary.org/obo/NCIT_C126538 #Scandinavian htt:/ul.obolibrary.org/obo/NCIT_C77817 #Western European http/pr.obolibrary.org/obo/NCIT_C77820 #Middle Eastern http:/ulobolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
 http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
 http://purl.obolibrary.org/obo/NCIT_C45514 #Lung Signet Ring Cell Carcinoma
 http://purl.obolibrary.org/obo/NCIT_C5651 #Solid Lung Adenocarcinomahttp://purl.obolibrary.org/obo/NCIT_C45502 #Squamous Cell Lung Carcinoma,Papillary Variant
@@ -1115,11 +1129,11 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
 http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
 subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
 http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic ProceduresubClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
-http://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
+http://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy
 subClassOf http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedure
-http://purl.obolibrary.org/obo/NCIT_C126528 #Central African 
-subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126529 #North African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126530 #South African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799  http://purl.obolibrary.org/obo/NCIT_C126535 #Australian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126536 #New ZealandersubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C43851 #European subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77817 #Western European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central African
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126529 #North AfricansubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126530 #South African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast AsianubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian sbClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126534 #Central AsianuClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799http://purl.obolibrary.org/obo/NCIT_C126535 #AustralianubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126536 #New ZealandersubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C43851 #European sbClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern EuropeanuClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean sblassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126538 #ScandinavianuCassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77817 #Western European sblssOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern uCasOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_1520
 http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
 subClassOf http://purl.obolibrary.org/obo/DOID_3910
@@ -1187,4 +1201,3 @@ http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000117 #term editor
 http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000600 #elucidation
-
