@@ -23,6 +23,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
         <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
         <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
@@ -1863,12 +1864,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001866"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -1886,6 +1881,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000001"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</obo:IAO_0000111>
         <obo:IAO_0000115>A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture
@@ -1916,13 +1917,13 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture). </obo:IAO_0000115>
@@ -1982,6 +1983,16 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
             <owl:Class>
                 <owl:complementOf>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom>
                             <owl:Class>
@@ -1994,16 +2005,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:complementOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600037"/>
                     </owl:Restriction>
                 </owl:complementOf>
             </owl:Class>
@@ -2105,7 +2106,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019814">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin complex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein complex that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains, held together by disulfide bonds and sometimes complexed with additional proteins. An immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</obo:IAO_0000115>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin complex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -2113,10 +2114,10 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0043234 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-containing complex</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043234">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2124,10 +2125,9 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-containing complex</obo:IAO_0000111>
-        <obo:IAO_0000118>protein complex</obo:IAO_0000118>
-        <obo:IAO_0000112>A ribosome is a protein complex.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribosome is a protein complex</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stable macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -11892,6 +11892,21 @@ The following are NOT conclusions based on data: data themselves; results from p
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002614">
+        <rdfs:label>birth cohort study design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cohort study design for which the subjects are followed from the time of birth usually including information about gestation and follow up.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIABIS</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIABIS contributors</obo:IAO_0000119>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The LucKi Birth Cohort Study was designed and started in 2006 to follow children from birth into adulthood on a wide range of determinants, disorders, and diseases.</obo:IAO_0000112>
+        <obo:IAO_0000111>birth cohort study design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002615">
@@ -12113,12 +12128,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12126,6 +12135,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
@@ -12184,12 +12199,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -12207,6 +12216,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
                         </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
@@ -12386,14 +12401,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000681"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
@@ -12461,14 +12476,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302874"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302874"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra and OBI consortium</obo:IAO_0000117>
@@ -12505,17 +12520,12 @@ Manual editing of automatically recorded data in an anesthesia information manag
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000932"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000372"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302886"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
+                    </owl:Restriction>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12527,12 +12537,17 @@ Manual editing of automatically recorded data in an anesthesia information manag
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
-                    </owl:Restriction>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000372"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0302886"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12655,6 +12670,12 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001928"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -12704,12 +12725,6 @@ defines and states the requirements (positive or negative) for an entity to be c
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000810"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As with group assignment, should the specified output here be an organism which bears a role</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to obtain a population of human subjects to participate in an investigation by determining eligibility of subjects and obtaining informed consent.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
@@ -12729,8 +12744,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12741,8 +12756,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
@@ -12768,13 +12783,13 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12795,8 +12810,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000652"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000686"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12807,14 +12822,14 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pooling specimens</obo:IAO_0000111>
@@ -12859,12 +12874,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
@@ -12888,6 +12897,12 @@ defines and states the requirements (positive or negative) for an entity to be c
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
         <obo:IAO_0000112 xml:lang="en">When harvesting blood from a human, isolating T cells, and then limited dilution cloning of the cells, the maintaining_cell_culture step comprises all steps after the initial dilution and plating of the cells into culture, e.g. placing the culture into an incubator, changing or adding media, and splitting a cell culture</obo:IAO_0000112>
@@ -12905,6 +12920,12 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000079"/>
             </owl:Restriction>
@@ -12913,12 +12934,6 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12944,13 +12959,13 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12979,14 +12994,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001936"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/REO_0000280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12997,8 +13006,14 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/REO_0000280"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001936"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling</obo:IAO_0000118>
@@ -14713,7 +14728,7 @@ This interpretation is *not* the same as an at-all-times relation
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-31</dc:date>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11-12</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-08-06</owl:versionInfo>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Please cite the OBI consortium http://purl.obolibrary.org/obo/obi where traditional citation is called for. However it is adequate that individual terms be attributed simply by use of the identifying PURL for the term, in projects that refer to them.</rdfs:comment>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
