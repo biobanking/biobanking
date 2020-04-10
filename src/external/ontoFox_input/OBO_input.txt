@@ -1,7 +1,7 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl
 
-#List of ontologies: UBERON,FMA,DRON,PR,OAE,IDO,EFO,ICO,CHEBI,PATO,OGMS,DOID,OMRSE,PCO,RO,ERO,MONDO,FLU,NCIT,APOLLO_SV
+#List of ontologies: UBERON,FMA,DRON,PR,OAE,IDO,EFO,ICO,CHEBI,PATO,OGMS,DOID,OMRSE,PCO,RO,ERO,MONDO,FLU,NCIT,APOLLO_SV,OBI
 
 [Source ontology]
 #comment here
@@ -1188,3 +1188,22 @@ http://purl.obolibrary.org/obo/IAO_0000117 #term editor
 http://purl.obolibrary.org/obo/IAO_0000119 #definition source
 http://purl.obolibrary.org/obo/IAO_0000600 #elucidation
 
+[Source ontology]
+#comment here
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0002614 #birth cohort study design
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0002614
+subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001020 #cohort study design
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000117 #term editor
+http://purl.obolibrary.org/obo/IAO_0000119 #definition source
