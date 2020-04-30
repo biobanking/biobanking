@@ -1096,32 +1096,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
-        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:BFO_0000180>ObjectAggregate</obo:BFO_0000180>
-        <obo:IAO_0000116>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: object aggregates may gain and lose parts while remaining numerically identical (one and the same individual) over time. This holds both for aggregates whose membership is determined naturally (the aggregate of cells in your body) and aggregates determined by fiat (a baseball team, a congressional committee).</obo:IAO_0000116>
-        <obo:IAO_0000119>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &#39;A Theory of Granular Partitions&#39;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</obo:IAO_0000119>
-        <obo:IAO_0000602>(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] </obo:IAO_0000602>
-        <obo:IAO_0000112 xml:lang="en">a collection of cells in a blood biobank.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a swarm of bees is an aggregate of members who are linked together through natural bonds</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a symphony orchestra</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">defined by fiat: the aggregate of members of an organization</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">defined through physical attachment: the aggregate of atoms in a lump of granite</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">defined through physical containment: the aggregate of molecules of carbon dioxide in a sealed container</obo:IAO_0000112>
-        <obo:BFO_0000179>object-aggregate</obo:BFO_0000179>
-        <obo:IAO_0000112 xml:lang="en">an organization is an aggregate whose member parts have roles of specific types (for example in a jazz band, a chess club, a football team)</obo:IAO_0000112>
-        <obo:IAO_0000600 xml:lang="en">b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])</obo:IAO_0000600>
-        <obo:IAO_0000112 xml:lang="en">defined via attributive delimitations such as: the patients in this hospital</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the aggregate of bearings in a constant velocity axle joint</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the aggregate of blood cells in your body</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the nitrogen atoms in the atmosphere</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the restaurants in Palo Alto</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">your collection of Meissen ceramic plates.</obo:IAO_0000112>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
     
 
 
@@ -4372,23 +4347,11 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000022">
-        <rdfs:label xml:lang="en">aggregate of objectual organisms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">An object aggregate of objectual organisms.</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">Any arbitrary collection of organisms.  They need not be of the same taxonomic class.  </rdfs:comment>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023">
         <rdfs:label xml:lang="en">collection of humans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
         <rdfs:comment xml:lang="en">An object aggregate all of whose components are human beings.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
@@ -6199,13 +6162,7 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -6220,19 +6177,7 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
@@ -6244,16 +6189,34 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
