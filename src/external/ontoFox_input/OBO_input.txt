@@ -1006,6 +1006,8 @@ http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://purl.obolibrary.org/obo/IAO_0020021 #identity document
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
+subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 
 [Source term retrieval setting]
 includeAllIntermediates
