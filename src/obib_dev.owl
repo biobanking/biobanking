@@ -2866,7 +2866,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
-        <obo:IAO_0000115 xml:lang="en">A personal name that designates the person acting as contact for a sample collection or a study.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A personal name that designates the person acting as contact for a biobank.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Biobank contact person</obo:IAO_0000118>
         <rdfs:label xml:lang="en">name of biobank contact person</rdfs:label>
