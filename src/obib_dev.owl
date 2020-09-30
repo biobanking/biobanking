@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/obib.owl/"
      xml:base="http://purl.obolibrary.org/obo/obib/dev/obib.owl/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/obib.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
-        <dc:contributor>Mathias Brochhausen</dc:contributor>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:contributor>Jie Zheng</dc:contributor>
-        <dc:contributor>Mikael Eriksson</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version</owl:versionInfo>
-        <dc:contributor>Martin N. Fransson</dc:contributor>
-        <dc:contributor>Maria Anderberg</dc:contributor>
-        <dc:source xml:lang="en">MIABIS_v2_accepted and UPenn Biobank ontology</dc:source>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
+        <dc:contributor>Alice Nzinga</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
         <dc:contributor>Jan-Eric Litton</dc:contributor>
-        <dc:contributor>Roxana Merino-Martinez</dc:contributor>
-        <dc:contributor>William R. Hogan</dc:contributor>
-        <dc:contributor>Sanela Kjellqvist</dc:contributor>
+        <dc:contributor>Jie Zheng</dc:contributor>
         <dc:contributor>Loreana Norlin</dc:contributor>
-        <dc:contributor>Alice Nzinga</dc:contributor>
+        <dc:contributor>Maria Anderberg</dc:contributor>
+        <dc:contributor>Martin N. Fransson</dc:contributor>
+        <dc:contributor>Mathias Brochhausen</dc:contributor>
+        <dc:contributor>Mikael Eriksson</dc:contributor>
+        <dc:contributor>Roxana Merino-Martinez</dc:contributor>
+        <dc:contributor>Sanela Kjellqvist</dc:contributor>
+        <dc:contributor>William R. Hogan</dc:contributor>
         <dc:description>The Ontology for Biobanking (OBIB) is an ontology for the annotation and modeling of the activities, contents, and administration of a biobank. Biobanks are facilities that store specimens, such as bodily fluids and tissues, typically along with specimen annotation and clinical data. OBIB is based on a subset of the Ontology for Biomedical Investigation (OBI), has the Basic Formal Ontology (BFO) as its upper ontology, and is developed following OBO Foundry principles. The first version of OBIB resulted from the merging of two existing biobank-related ontologies, OMIABIS and biobank ontology.</dc:description>
+        <dc:source xml:lang="en">MIABIS_v2_accepted and UPenn Biobank ontology</dc:source>
         <dc:title xml:lang="en">Ontology for BIoBanking (OBIB)</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo xml:lang="en">development version</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2866,7 +2866,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020015"/>
-        <obo:IAO_0000115 xml:lang="en">A personal name that designates the person acting as contact for a sample collection or a study.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A personal name that designates the person acting as contact for a biobank.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Biobank contact person</obo:IAO_0000118>
         <rdfs:label xml:lang="en">name of biobank contact person</rdfs:label>
@@ -3096,7 +3096,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000578"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
                         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000024"/>
@@ -3104,8 +3104,8 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
-        <obo:IAO_0000115 xml:lang="en">A centrally registered identifier denoting a post-office box.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier denoting a post-office box.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">post-office box number</rdfs:label>
     </owl:Class>
@@ -4255,7 +4255,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A data set that contains the outcome of a survey.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A data item that contains the outcome of a survey.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">survey data</rdfs:label>
@@ -6209,5 +6209,5 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
