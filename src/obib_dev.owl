@@ -4313,7 +4313,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000012"/>
         <obo:IAO_0000115 xml:lang="en">A contact role borne by a member of a biobank organization and realized by serving as the contact for one of its biobanks.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">A contact role borne by a member of a sample collection or study organization and realized by serving as the contact for the collection or the study.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">biobank contact role</rdfs:label>
     </owl:Class>
     
@@ -4323,6 +4322,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A contact role borne by a member of a sample collection or study organization and realized by serving as the contact for the collection or the study.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sample collection or study contact role</rdfs:label>
     </owl:Class>
     
