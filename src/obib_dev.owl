@@ -357,7 +357,7 @@
             </owl:Class>
         </rdfs:range>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000600 xml:lang="en">This is a primitive relation. This relation is the foundation to the owners right to have the owned entity at his/her full disposal. </obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">This is a primitive relation. This relation is the foundation to the owners right to have the owned entity at his/her full disposal.</obo:IAO_0000600>
         <dc:source>Reinach, A. Sämtliche Werke. Texkritische Ausgabe, München: Philosophia Verlag, 1989, p.189-204.</dc:source>
         <rdfs:label xml:lang="en">owns</rdfs:label>
     </owl:ObjectProperty>
