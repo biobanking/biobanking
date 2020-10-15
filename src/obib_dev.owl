@@ -5483,8 +5483,8 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that states additional information about the specimen or donor that is deemed relevant for the specimen collection process.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Alice Nzinga</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">A textual entity that states additional information about the specimen or donor that is deemed relevant for the specimen collection process.</rdfs:comment>
         <rdfs:label xml:lang="en">comment from tissue procurement</rdfs:label>
     </owl:Class>
     
