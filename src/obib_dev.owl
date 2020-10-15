@@ -4660,7 +4660,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001003">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A data set that contains additional information about a group of individuals and is gathered through a survey. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A data set that contains additional information about a group of individuals and is gathered through a survey.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:comment xml:lang="en">The equivalent class restriction includes data combination since the the output of survey execution is from one participant, while the survey data is the combination of data gathered from multipe participants or multiple executions of the survey.</rdfs:comment>
