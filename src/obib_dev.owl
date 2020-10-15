@@ -4499,7 +4499,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">A specimen disease state data of the procured specimen that is unclear.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">This is a temporary state.</rdfs:comment>
-        <rdfs:label xml:lang="en">obsolote_unknown state specimen data</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_unknown state specimen data</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
