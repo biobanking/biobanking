@@ -5975,10 +5975,10 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115>A Homo sapiens who contributes specimen.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">sample donor</obo:IAO_0000118>
-        <rdfs:comment>A Homo sapiens who contributes specimen.</rdfs:comment>
         <rdfs:label xml:lang="en">specimen donor</rdfs:label>
     </owl:Class>
     
