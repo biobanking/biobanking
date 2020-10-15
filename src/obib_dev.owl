@@ -2769,8 +2769,8 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process that involves a human being and is intended to initiate a communication with another human being.</obo:IAO_0000115>
-        <obo:IAO_0000115>Contacting is the process of one human being starting a communication process with another human being. Contacting can be done using all modes of communication used by humans.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Contacting is the process of one human being starting a communication process with another human being. Contacting can be done using all modes of communication used by humans.</rdfs:comment>
         <rdfs:label xml:lang="en">contacting</rdfs:label>
     </owl:Class>
     
