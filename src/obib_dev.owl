@@ -4509,7 +4509,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <obo:IAO_0000115 xml:lang="en">A material processing that uses chemical process by which biological tissues are preserved from decay. Fixation terminates any ongoing biochemical reactions and may increase stability of the treated tissues. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A material processing that uses chemical process by which biological tissues are preserved from decay. Fixation terminates any ongoing biochemical reactions and may increase stability of the treated tissues.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Fixation_%28histology%29</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">http://sharedresources.fhcrc.org/training/tips-about-fixation-and-formalin</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">The choice of fixation depends on the type of study.</rdfs:comment>
