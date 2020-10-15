@@ -5053,13 +5053,11 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An objective specification that aims at the collective characterization and quantification of pools of biological molecules that translate into the structure, function, and dynamics of an organism or organisms.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">Technologies that measure some characteristic of a large family of cellular molecules, such as genes, proteins, or small metabolites, have been named by appending the suffix &quot;-omics,&quot; as in &quot;genomics.&quot; Omics refers to the collective technologies used to explore the roles, relationships, and actions of the various types of molecules that make up the cells of an organism.
-
-</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Omics</obo:IAO_0000119>
         <rdfs:comment xml:lang="en">A tentative procedure that is aimed at discovering some characteristic of a large familiy of cellular molecules, having named by appending suffix &quot;-omics.&quot;</rdfs:comment>
+        <rdfs:comment xml:lang="en">Technologies that measure some characteristic of a large family of cellular molecules, such as genes, proteins, or small metabolites, have been named by appending the suffix &quot;-omics,&quot; as in &quot;genomics.&quot; Omics refers to the collective technologies used to explore the roles, relationships, and actions of the various types of molecules that make up the cells of an organism.</rdfs:comment>
         <rdfs:comment xml:lang="en">interrelated experiments.</rdfs:comment>
         <rdfs:label xml:lang="en">omics experiment on specimen</rdfs:label>
     </owl:Class>
