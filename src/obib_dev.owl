@@ -4525,7 +4525,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">addition of molecular label</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">The addition of phycoerytherin label to an anti-CD8 antibody, to label all antibodies. The addition of anti-CD8-PE to a population of cells, to label the subpopulation cells that are CD8+.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">a material processing technique intended to add a molecular label to some input material entity, to allow detection of the molecular target of this label in a detection of molecular label assay</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A material processing technique intended to add a molecular label to some input material entity, to allow detection of the molecular target of this label in a detection of molecular label assay</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Matthew Brush</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labeling</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI developer call, 3-12-12</obo:IAO_0000119>
