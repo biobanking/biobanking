@@ -4708,7 +4708,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001005"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001006"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001007"/>
-        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when data about the sample collection was reported into a database. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when data about the sample collection was reported into a database.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">It is denoted by Date in ISO-standard (8601) time format.</rdfs:comment>
         <rdfs:label xml:lang="en">date of data entry</rdfs:label>
