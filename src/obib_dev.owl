@@ -2756,7 +2756,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An organization bearing legal personality that ownes or adminstrates a biobank.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An organization bearing legal personality that ownes or adminstrates a biobank.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">biobank juristic person</obo:IAO_0000118>
