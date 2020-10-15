@@ -4399,7 +4399,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 xml:lang="en">The principle investigtor or responsible person for a study or a sample collection.</obo:IAO_0000115>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
-        <rdfs:label xml:lang="en">study principle investigator or responsible</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_study principle investigator or responsible</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
