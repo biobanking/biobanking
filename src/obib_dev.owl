@@ -5075,7 +5075,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001016"/>
-        <obo:IAO_0000115 xml:lang="en">An objective specification that specifies the number of individuals to participate in a study and provide biological specimens to the study. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An objective specification that specifies the number of individuals to participate in a study and provide biological specimens to the study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">number of sampled human study participants objective</rdfs:label>
@@ -5387,7 +5387,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A survey data for a specimen donor. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A survey data for a specimen donor.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Examples: Individual Disease History, Individual History of Injuries, Medication, Perception of Health, Women&apos;s Health, Reproductive History, Familial Disease History, Life Habits/Behaviors, Sociodemographic Characteristics, Socioeconomic Characteristics, Physical Environment, Mental Health, Other.</rdfs:comment>
@@ -5416,7 +5416,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A planned process which involves editing of specimen collection data into a database after its initial entry. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process which involves editing of specimen collection data into a database after its initial entry.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sample collection data update</rdfs:label>
     </owl:Class>
     
@@ -5683,7 +5683,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
-        <obo:IAO_0000115 xml:lang="en">A collecting specimen from organism process that involves removing the specimen from an individual through a surgical procedure. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collecting specimen from organism process that involves removing the specimen from an individual through a surgical procedure.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">specimen surgical removal</rdfs:label>
     </owl:Class>
     
