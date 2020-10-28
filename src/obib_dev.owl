@@ -3211,7 +3211,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000026"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000646"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom>
@@ -3965,7 +3965,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000026"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000646"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom>
@@ -4027,7 +4027,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000646"/>
         <obo:IAO_0000115 xml:lang="en">Postal code that is part of the address of a human being serving as sample collection or study contact.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Sample Collection/Study contact ZIP</obo:IAO_0000118>
