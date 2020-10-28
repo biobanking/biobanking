@@ -3198,6 +3198,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Postal_code</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000646"/>
         <rdfs:comment xml:lang="en">MB: This class should probably be a subclass to CRID. However, the textual definition of CRID right now states that each instance has the CRID identifier as a part. This is not the case for postal codes. Therefore, they cannot be subsumed under CRID now. I am looking into changing IAO accordingly. Once that is done, the class ought to be a subclass of CRID.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete_postal code</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
