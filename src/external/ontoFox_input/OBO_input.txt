@@ -899,7 +899,6 @@ http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
 http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
 http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
-http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001092 #medical device
@@ -928,8 +927,6 @@ http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
-http://purl.obolibrary.org/obo/ERO_0001334 #biopsy
-subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
 
 [Source term retrieval setting]
 includeNoIntermediates

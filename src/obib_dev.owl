@@ -6199,6 +6199,27 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
         <rdfs:label xml:lang="en">3-severe autolysis</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBIB_0000210">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0002655"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBIB_0000211">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0002656"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
