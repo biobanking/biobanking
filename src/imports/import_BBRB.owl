@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/obib_bbrb.owl#"
      xml:base="http://purl.obolibrary.org/obo/obib/obib_bbrb.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl"/>
     
 
@@ -112,13 +112,7 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0001334 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001334"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FLU_0001019 -->
+     <!-- http://purl.obolibrary.org/obo/FLU_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0001019"/>
     
@@ -1754,7 +1748,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002650"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy of the left kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney biopsy (left)</obo:IAO_0000118>
@@ -1768,7 +1762,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000174">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002650"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy of the right kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney biopsy (right)</obo:IAO_0000118>
@@ -1908,7 +1902,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002650"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy of the left lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1921,7 +1915,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002650"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy of the right lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -2251,13 +2245,13 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy that uses a thin, hollow needle to draw cells from a body.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">needle biopsy</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fine needle biopsy</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_fine needle biopsy</rdfs:label>
     </owl:Class>
     
 
@@ -2265,13 +2259,13 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001334"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy that uses a hollow tube that allows extracting a core of tissue for testing. This type of needle biopsy uses a wider needle than does fine-needle aspiration.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core biopsy</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core needle biopsy</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_core needle biopsy</rdfs:label>
     </owl:Class>
     
 
@@ -7708,6 +7702,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002650"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0500027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500027"/>
@@ -7831,9 +7831,15 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004950 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004950"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
