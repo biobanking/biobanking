@@ -981,25 +981,26 @@ http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
 http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
 http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
 http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
-http://purl.obolibrary.org/obo/OMRSE_00000098 #racial identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000100 #ethnic identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000180 #AmericanIndianorAlaskaNative identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000181 #Asian identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000184 #white identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000182 #black or African American identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000183 #Native Hawaiian .. identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000128 #not hispanic .. identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000127 #hispanic .. identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000213 #racial identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000205 #ethnic identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000215 #OMB AmericanIndianorAlaskaNative identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000216 #OMB Asian identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000219 #OMB white identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000217 #OMB black or African American identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000218 #OMBNative Hawaiian .. identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000208 #OMB not Hispanic or Latino identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000207 #OMB Hispanic or Latino identity ICE
 http://purl.obolibrary.org/obo/OMRSE_00000012 #healthcare provider role
 http://purl.obolibrary.org/obo/OMRSE_00000014 #nurse role
-http://purl.obolibrary.org/obo/OMRSE_00000133 # gender identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000209 # gender identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000204 # social identity ICE
 http://purl.obolibrary.org/obo/IAO_0020021 #identity document
-http://purl.obolibrary.org/obo/OMRSE_00000138 #female gender identity datum
-http://purl.obolibrary.org/obo/OMRSE_00000141 #male gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000210 #female gender identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000211 #male gender identity ICE
+http://purl.obolibrary.org/obo/OMRSE_00000212 #non-binary identity ICE
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000132 # identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000204 # social identity ICE
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://purl.obolibrary.org/obo/IAO_0020021 #identity document
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity

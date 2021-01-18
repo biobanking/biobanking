@@ -24,6 +24,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
         <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
         <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
@@ -32,7 +33,6 @@
         <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
         <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
         <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
@@ -125,15 +125,6 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <rdfs:label xml:lang="en">term replaced by</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">Add as annotation triples in the granting ontology</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">Use on obsolete terms, relating the term to another term that can be used as a substitute</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">term replaced by</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
         <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
         <rdfs:comment>The &#39;term requester&#39; can credit the person, organization or project who request the ontology term.</rdfs:comment>
@@ -201,13 +192,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231">
-        <rdfs:label xml:lang="en">has obsolescence reason</rdfs:label>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">Relates an annotation property to an obsolescence reason. The values of obsolescence reasons come from a list of predefined terms, instances of the class obsolescence reason specification.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">has obsolescence reason</obo:IAO_0000111>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
         <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
         <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
@@ -245,7 +229,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
     </owl:AnnotationProperty>
@@ -444,69 +427,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000660">
         <rdfs:label xml:lang="en">results_in</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
-        <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Larry Hunter</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">has_specified_output</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
-        <rdfs:label>is_specified_output_of</rdfs:label>
-        <rdfs:label xml:lang="en">is_specified_output_of</rdfs:label>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">is_specified_output_of</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000020 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000020">
-        <rdfs:label>is-aggregate-of</rdfs:label>
-        <obo:IAO_0000231 xml:lang="en">BFO relation takes precedence.</obo:IAO_0000231>
-        <rdfs:comment xml:lang="en">We anticipate BFO 2.0 including and defining this relation.  When it does, we will obsolete this property and declare it equivalent to the BFO 2.0 relation.
-</rdfs:comment>
-        <owl:deprecated xml:lang="en">true</owl:deprecated>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -1719,9 +1639,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050687">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell type cancer</rdfs:label>
+        <rdfs:label>cell type cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1730,9 +1650,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050917">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung combined type small cell adenocarcinoma</rdfs:label>
+        <rdfs:label>lung combined type small cell adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung combined type small cell carcinoma that has_material_basis_in epithelial tissue of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000115>A lung combined type small cell carcinoma that has_material_basis_in epithelial tissue of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1741,9 +1661,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050933">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian serous carcinoma</rdfs:label>
+        <rdfs:label>ovarian serous carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that has_material_basis_in the lining of the ovary and produces a serum-like fluid.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian carcinoma that has_material_basis_in the lining of the ovary and produces a serum-like fluid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1752,9 +1672,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_0050934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050934">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian clear cell carcinoma</rdfs:label>
+        <rdfs:label>ovarian clear cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that has_material_basis_in cells with clear cytoplasm and glycogen secreting hob nail cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian carcinoma that has_material_basis_in cells with clear cytoplasm and glycogen secreting hob nail cells.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">clear-cell ovarian carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -1766,7 +1686,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080183">
         <rdfs:label xml:lang="en">medullary colon carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon carcinoma that is characterized by a solid growth pattern.</obo:IAO_0000115>
+        <obo:IAO_0000115>A colon carcinoma that is characterized by a solid growth pattern.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1777,7 +1697,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080184">
         <rdfs:label xml:lang="en">mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bronchiolo-alveolar adenocarcinoma that is characterized by a mixed array of different patterns (acinar, papillary, bronchioloalveolar, solid with mucin).</obo:IAO_0000115>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by a mixed array of different patterns (acinar, papillary, bronchioloalveolar, solid with mucin).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">indeterminate bronchioloalveolar carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">mixed mucinous and non-mucinous bronchioloalveolar adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1790,7 +1710,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080185">
         <rdfs:label xml:lang="en">mucinous bronchioloalveolar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bronchiolo-alveolar adenocarcinoma that is characterized by a tumour cells containing abundant mucin in their cytoplasm and composed of tall columnar cells growing along alveolar walls without stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by a tumour cells containing abundant mucin in their cytoplasm and composed of tall columnar cells growing along alveolar walls without stromal invasion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1801,7 +1721,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080186">
         <rdfs:label xml:lang="en">nonmucinous bronchioloalveolar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4926"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bronchiolo-alveolar adenocarcinoma that is characterized by cells with cuboidal or columnar morphology with eosinophilic or clear cytoplasm and shows Clara cell or type 2 pneumocyte differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A bronchiolo-alveolar adenocarcinoma that is characterized by cells with cuboidal or columnar morphology with eosinophilic or clear cytoplasm and shows Clara cell or type 2 pneumocyte differentiation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -1810,9 +1730,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_1520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1520">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon carcinoma</rdfs:label>
+        <rdfs:label>colon carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Colonic carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">carcinoma of colon</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1823,9 +1743,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
+        <rdfs:label>cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">malignant neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">malignant tumor</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">primary cancer</obo:IAO_0000118>
@@ -1837,9 +1757,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_192">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex cord-gonadal stromal tumor</rdfs:label>
+        <rdfs:label>sex cord-gonadal stromal tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive organ cancer that is located_in the sex cord-derived tissues of the ovary or testis and derives_from granulosa cells, Leydig cells, Sertoli cells, and fibroblasts.</obo:IAO_0000115>
+        <obo:IAO_0000115>A reproductive organ cancer that is located_in the sex cord-derived tissues of the ovary or testis and derives_from granulosa cells, Leydig cells, Sertoli cells, and fibroblasts.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Sex Cord-Stromal neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Sex cord stromal tumour</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Specialized gonadal neoplasm</obo:IAO_0000118>
@@ -1854,9 +1774,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2152">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary epithelial cancer</rdfs:label>
+        <rdfs:label>ovary epithelial cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian cancer that is derives_from ovarian surface epithelium.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cancer that is derives_from ovarian surface epithelium.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Ovarian Surface epithelial-Stromal tumor</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -1866,7 +1786,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2155">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian germ cell neoplasm</rdfs:label>
+        <rdfs:label>malignant ovarian germ cell neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
         <obo:IAO_0000118 xml:lang="en">malignant Ovarian germ cell tumor</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">malignant germ cell tumor of ovary</obo:IAO_0000118>
@@ -1878,9 +1798,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_234">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon adenocarcinoma</rdfs:label>
+        <rdfs:label>colon adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000115>A colon carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Colonic adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">adenocarcinoma of colon</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1891,9 +1811,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2394">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</rdfs:label>
+        <rdfs:label>ovarian cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000115>A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">malignant Ovarian tumor</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">malignant tumour of ovary</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">ovarian neoplasm</obo:IAO_0000118>
@@ -1908,9 +1828,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_2999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2999">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulosa cell tumor</rdfs:label>
+        <rdfs:label>granulosa cell tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sex cord-gonadal stromal tumor that has_material_basis_in granulosa cells and arises from the sex cord stroma.</obo:IAO_0000115>
+        <obo:IAO_0000115>A sex cord-gonadal stromal tumor that has_material_basis_in granulosa cells and arises from the sex cord stroma.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Granulosa cell neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Granulosa cell tumor, adult type</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Granulosa cell tumour, sarcomatoid</obo:IAO_0000118>
@@ -1923,7 +1843,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon mucinous adenocarcinoma</rdfs:label>
+        <rdfs:label>colon mucinous adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
         <obo:IAO_0000118 xml:lang="en">Colonic mucinous adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1934,7 +1854,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon signet ring adenocarcinoma</rdfs:label>
+        <rdfs:label>colon signet ring adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
         <obo:IAO_0000118 xml:lang="en">Colonic Signet Ring adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1945,9 +1865,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3604">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian mucinous cystadenocarcinoma</rdfs:label>
+        <rdfs:label>ovarian mucinous cystadenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian cystadenocarcinoma that is characterized by the presence of mucin.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cystadenocarcinoma that is characterized by the presence of mucin.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Ovarian mucinous cystadenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">mucinous cystadenocarcinoma of ovary</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1958,9 +1878,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3905 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3905">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung carcinoma</rdfs:label>
+        <rdfs:label>lung carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">cancer of lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -1970,9 +1890,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3907">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung squamous cell carcinoma</rdfs:label>
+        <rdfs:label>lung squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-small cell lung carcinoma that has_material_basis_in the squamous cell.</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-small cell lung carcinoma that has_material_basis_in the squamous cell.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Epidermoid cell carcinoma of the lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -1982,9 +1902,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_3910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3910">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung adenocarcinoma</rdfs:label>
+        <rdfs:label>lung adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung cancer that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
+        <obo:IAO_0000115>A lung non-small cell carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">bronchogenic lung adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">nonsmall cell adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1995,9 +1915,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovary transitional cell carcinoma</rdfs:label>
+        <rdfs:label>ovary transitional cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian epithelial cancer that derives_from epithelial transitional cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian epithelial cancer that derives_from epithelial transitional cells.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">malignant ovarian transitional cell neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">ovarian transitional cell cancer</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">transitional cell carcinoma of Ovary</obo:IAO_0000118>
@@ -2009,9 +1929,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4217">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant ovarian Brenner tumor</rdfs:label>
+        <rdfs:label>malignant ovarian Brenner tumor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant ovarian surface epithelial-stromal neoplasm that has_material_basis_in the surface epithelium of the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000115>A malignant ovarian surface epithelial-stromal neoplasm that has_material_basis_in the surface epithelium of the ovary.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2020,9 +1940,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4450">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal cell carcinoma</rdfs:label>
+        <rdfs:label>renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal carcinoma that has_material_basis_in the lining of the proximal convoluted renal tubule of the kidney.</obo:IAO_0000115>
+        <obo:IAO_0000115>A renal carcinoma that has_material_basis_in the lining of the proximal convoluted renal tubule of the kidney.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">RCC</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">adenocarcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">hypernephroma</obo:IAO_0000118>
@@ -2034,9 +1954,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4451">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal carcinoma</rdfs:label>
+        <rdfs:label>renal carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kidney cancer that derives_from the lining of the proximal convoluted tubule (the very small tubes in the kidney that filter the blood and remove waste products).</obo:IAO_0000115>
+        <obo:IAO_0000115>A kidney cancer that derives_from the lining of the proximal convoluted tubule (the very small tubes in the kidney that filter the blood and remove waste products).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">carcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">kidney carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -2047,7 +1967,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4463">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multilocular clear cell renal cell carcinoma</rdfs:label>
+        <rdfs:label>multilocular clear cell renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
         <obo:IAO_0000118 xml:lang="en">cystadenocarcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">renal cystadenocarcinoma</obo:IAO_0000118>
@@ -2059,9 +1979,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4464">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collecting duct carcinoma</rdfs:label>
+        <rdfs:label>collecting duct carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that begins in distal collecting ducts of the kidney with a tubulopapillary morphology and intracytoplasmic mucicarminophilic material.</obo:IAO_0000115>
+        <obo:IAO_0000115>A renal cell carcinoma that begins in distal collecting ducts of the kidney with a tubulopapillary morphology and intracytoplasmic mucicarminophilic material.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">carcinoma of renal Collecting duct</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">renal Medullary carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">renal carcinoma, collecting duct type</obo:IAO_0000118>
@@ -2073,9 +1993,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4465">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papillary renal cell carcinoma</rdfs:label>
+        <rdfs:label>papillary renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that is characterized by the development of multiple, bilateral papillary renal tumors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A renal cell carcinoma that is characterized by the development of multiple, bilateral papillary renal tumors.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Chromophil carcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Papillary renal cell carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">papillary kidney carcinoma</obo:IAO_0000118>
@@ -2088,9 +2008,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4467">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clear cell renal cell carcinoma</rdfs:label>
+        <rdfs:label>clear cell renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that has_material_basis_in cells that appear very pale or clear when examined under microscope.</obo:IAO_0000115>
+        <obo:IAO_0000115>A renal cell carcinoma that has_material_basis_in cells that appear very pale or clear when examined under microscope.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Clear cell carcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">clear cell kidney carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">conventional (Clear cell) renal cell carcinoma</obo:IAO_0000118>
@@ -2104,9 +2024,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4471">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromophobe renal cell carcinoma</rdfs:label>
+        <rdfs:label>chromophobe renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A renal cell carcinoma that has_material_basis_in chromophobe cell that appear pale when viewed under microscope, but that are larger and display different features than clear cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A renal cell carcinoma that has_material_basis_in chromophobe cell that appear pale when viewed under microscope, but that are larger and display different features than clear cells.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Chromophobe carcinoma of kidney</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">chromophobe adenocarcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">kidney chromophobe</obo:IAO_0000118>
@@ -2119,7 +2039,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4472">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mucinous tubular and spindle renal cell carcinoma</rdfs:label>
+        <rdfs:label>mucinous tubular and spindle renal cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2129,9 +2049,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_4926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4926">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiolo-alveolar adenocarcinoma</rdfs:label>
+        <rdfs:label>bronchiolo-alveolar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung adenocarcinoma characterized by a predominantly lepidic pattern and 5 mm or less invasion in greatest dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115>A lung adenocarcinoma characterized by a predominantly lepidic pattern and 5 mm or less invasion in greatest dimension.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Bronchioalveolar lung carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Bronchioloalveolar carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Minimally Invasive Lung Adenocarcinoma</obo:IAO_0000118>
@@ -2143,9 +2063,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5519">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon squamous cell carcinoma</rdfs:label>
+        <rdfs:label>colon squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A squamous cell carcinoma that is located_in the colon.</obo:IAO_0000115>
+        <obo:IAO_0000115>A squamous cell carcinoma that is located_in the colon.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Colonic Epidermoid carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2155,9 +2075,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5531">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian squamous cell carcinoma</rdfs:label>
+        <rdfs:label>ovarian squamous cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian carcinoma that derives_from squamous epithelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian carcinoma that derives_from squamous epithelial cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -2166,9 +2086,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5588">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung papillary adenocarcinoma</rdfs:label>
+        <rdfs:label>lung papillary adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A papillary adenocarcinoma that is located_in the lung.</obo:IAO_0000115>
+        <obo:IAO_0000115>A papillary adenocarcinoma that is located_in the lung.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Papillary adenocarcinoma of the lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2178,9 +2098,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5629">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosquamous colon carcinoma</rdfs:label>
+        <rdfs:label>adenosquamous colon carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A colon carcinoma that derives_from squamous cells and gland-like cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A colon carcinoma that derives_from squamous cells and gland-like cells.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Colonic Adenosquamous carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2190,9 +2110,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5746">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian serous cystadenocarcinoma</rdfs:label>
+        <rdfs:label>ovarian serous cystadenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovary serous adenocarcinoma that has_material_basis_in glandular epithelium, in which cystic accumulations of retained secretions are formed.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovary serous adenocarcinoma that has_material_basis_in glandular epithelium, in which cystic accumulations of retained secretions are formed.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">serous cystadenoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2202,9 +2122,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_5828 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5828">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endometrioid ovary carcinoma</rdfs:label>
+        <rdfs:label>endometrioid ovary carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovary adenocarcinoma that has_material_basis_in endometrial tissue.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovary adenocarcinoma that has_material_basis_in endometrial tissue.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Ovarian endometrioid carcinoma</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">endometrioid carcinoma ovary</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -2215,9 +2135,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6067">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian mucinous neoplasm</rdfs:label>
+        <rdfs:label>ovarian mucinous neoplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovary epithelial cancer that is characterized by the presence of mucin.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovary epithelial cancer that is characterized by the presence of mucin.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Ovarian mucinous tumor</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">malignant ovarian mucinous neoplasm</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">mucinous tumor of Ovary</obo:IAO_0000118>
@@ -2229,9 +2149,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6170">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian carcinosarcoma</rdfs:label>
+        <rdfs:label>ovarian carcinosarcoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant ovarian surface epithelial-stromal neoplasm that is a mixed cell type cancer that has_material_basis_in carcinomatous (epithelial tissue) and sarcomatous (connective tissue) components.</obo:IAO_0000115>
+        <obo:IAO_0000115>A malignant ovarian surface epithelial-stromal neoplasm that is a mixed cell type cancer that has_material_basis_in carcinomatous (epithelial tissue) and sarcomatous (connective tissue) components.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Ovarian MMMT</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">ovarian malignant mesodermal (mullerian) mixed tumor</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">ovarian malignant mixed Mullerian tumor</obo:IAO_0000118>
@@ -2243,7 +2163,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6482">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung acinar adenocarcinoma</rdfs:label>
+        <rdfs:label>lung acinar adenocarcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
         <obo:IAO_0000118 xml:lang="en">acinar adenocarcinoma of the lung</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -2254,7 +2174,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_6727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6727">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon small cell carcinoma</rdfs:label>
+        <rdfs:label>colon small cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
         <obo:IAO_0000118 xml:lang="en">Colonic small cell carcinoma</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -2265,7 +2185,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_7045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7045">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basaloid lung carcinoma</rdfs:label>
+        <rdfs:label>basaloid lung carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2275,7 +2195,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_7267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7267">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung clear cell carcinoma</rdfs:label>
+        <rdfs:label>lung clear cell carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
@@ -2285,9 +2205,9 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/DOID_769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_769">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma</rdfs:label>
+        <rdfs:label>neuroblastoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autonomic nervous system neoplasm that derives_from immature nerve cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>An autonomic nervous system neoplasm that derives_from immature nerve cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3037,23 +2957,6 @@ Is part_of the appropriate relation to use for data items and documented identit
         <obo:IAO_0000115 xml:lang="en"> a role that inheres in a concretization of an identity document and is realized by an authentication process</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in a concretization of an identity document and is realized by an authentication process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021003">
-        <rdfs:label xml:lang="en">social act</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A planned process that is carried out by a conscious being or an organization, and is self-generated, directed towards another conscious being or an aggregate of conscious beings, an organization or an aggregate of organizations, and that needs to be perceived.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">A process that is carried out by a conscious being or an aggregate of conscious beings and is spontaneous, directed towards other conscious beings and aggregates thereof and needs to be perceived.</obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">Colonel Klink giving Sergeant Schultz an order, Jake promising Jill to take her to the junior prom</obo:IAO_0000112>
-        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">MB: Regarding the use of the term &#39;sponteneous&#39; in the definition:
-The term is used in the following meaning of being self generated. It does not stand in contrast to being planned.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
@@ -4381,14 +4284,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000023">
         <rdfs:label xml:lang="en">collection of humans</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000020"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
-        <rdfs:comment xml:lang="en">An object aggregate all of whose components are human beings.</rdfs:comment>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">An object aggregate all of whose components are human beings.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
@@ -4402,19 +4300,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
@@ -4425,6 +4310,20 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:IAO_0000115 xml:lang="en">A role inhering in an entity realized by social interactions in human society.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Previous definition: A role played by an entity in human social processes.</rdfs:comment>
@@ -4437,12 +4336,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033">
         <rdfs:label xml:lang="en">aggregate of organizations</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000020"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -4462,6 +4355,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
         <obo:IAO_0000115 xml:lang="en">An aggregate of organizations that have some feature in common, but is not itself an organization.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An object aggregate that is not itself an organization and whose members are only organizations that have some feature in common</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">It is often convenient to group organizations together that otherwise might not even interact with one another. </rdfs:comment>
@@ -4517,390 +4411,278 @@ However, Shaw explicates:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000083 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000204 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000083">
-        <rdfs:label xml:lang="en">obsolete OMB ethnic identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000100"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An ethnic identity datum that is the output of an ethnic identification process that uses OMB terminology for ethnicity or terminology that is mapped the OMB ethnicity terms.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB ethnic identity information content entity</obo:IAO_0100001>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000098">
-        <rdfs:label xml:lang="en">obsolete racial identity datum</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000132"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0020022"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000099"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000115 xml:lang="en">A racial identity is an information content entity that is the output of some racial identitification process and is intended to be a truthful statement about the genetic or cultural race of a person.  Unlike data items they are not necessilary contributed or acquired by a reliable method.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">racial identity information content entity</obo:IAO_0100001>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000099 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000099">
-        <rdfs:label xml:lang="en">racial identification process</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000134"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000098"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000100">
-        <rdfs:label xml:lang="en">obsolete ethnic identity datum</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000132"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0020022"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000101"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An ethnic identity datum is an information content entity that is the output of some ethnic identitification process and is intended to be a truthful statement about the cultural or national heritage of a person.  Unlike data items they are not necessilary contributed or acquired by a reliable method.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">ethnic identity information content entity</obo:IAO_0100001>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000101 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000101">
-        <rdfs:label xml:lang="en">ethnic identification process</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000134"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000100"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000127 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000127">
-        <rdfs:label xml:lang="en">obsolete hispanic or latino identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000083"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An OMB ethnic identity datum that indicates the person identified is of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB Hispanic or Latino identity information content entity</obo:IAO_0100001>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000128 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000128">
-        <rdfs:label xml:lang="en">obsolete not hispanic or latino identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000083"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An OMB ethnic identity datum that indicates the person identified is not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB not Hispanic or Latino identity information content entity</obo:IAO_0100001>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000132 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000132">
-        <rdfs:label xml:lang="en">obsolete identity datum</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0020022"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000134"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000204">
+        <rdfs:label xml:lang="en">social identity information content entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <dc:creator>Amanda Hicks</dc:creator>
-        <obo:IAO_0000115 xml:lang="en">An identity datum is an information content entity that is the output of some identitification process and is intended to be a truthful statement about a person&#39;s social identity.  Unlike data items they are not necessilary contributed or acquired by a reliable method.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">social identity information content entity</obo:IAO_0100001>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about some person and whether that person identifies as some particular aspect of social identity—such as a gender, an ethnicity, a race, or a sexual orientation—where the sense of identifying may correspond to either (i) an aspect of one’s cognitive representation of oneself, (ii) how one prefers to be regarded by others within some social context, or (iii) how one chooses to present oneself to others within some social context.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <rdfs:comment xml:lang="en">We include (i)-(iii) to acknowledge that there are different senses of &quot;identify&quot; that are relevant here, and that we may not always be sure which sense the person concretizing the social identity information content entity intended. While (i) concerns how one thinks of oneself, (ii) and (iii) are more focused on one&#39;s interactions with others. Importantly, some choose not to share with others how they identify in the sense of (i). For example, one can consider oneself to be some certain gender without either wanting others to know or choosing to present oneself in a corresponding way. We distinguish (ii) and (iii) because one can prefer to be regarded some certain way without attempting to present oneself in any corresponding way.</rdfs:comment>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000133 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000205 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000133">
-        <rdfs:label xml:lang="en">obsolete gender identity datum</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000132"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0020022"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000135"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <dc:creator>Amanda Hicks</dc:creator>
-        <obo:IAO_0000115>A gender identity is an information content entity that is the output of some gender identitification process and is intended to be a truthful statement about a person&#39;s subjective sense of their gender.  Unlike data items they are not necessilary contributed or acquired by a reliable method.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">gender identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000205">
+        <rdfs:label xml:lang="en">ethnic identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
+        <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some ethnicity.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <rdfs:comment xml:lang="en">Ethnicity is separate from but related to racial identity. It refers more to identifying with a particular culture than with individuals similar in physical appearance. It includes things like Hispanic ethnicity (which spans many nations) and national cultural identities like Irish and ethnic groups within nations such as Catalan and Armenian.</rdfs:comment>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000134 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000206 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000134">
-        <rdfs:label xml:lang="en">identification process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <dc:creator>Amanda Hicks</dc:creator>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000206">
+        <rdfs:label xml:lang="en">OMB ethnic identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An ethnic identity information content entity that uses OMB terminology for ethnicity or terminology that is strictly mapped onto the OMB ethnicity terms.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <rdfs:comment xml:lang="en">OMB dichotomizes ethnicity into Hispanic or Latino and Not Hispanic or Latino, and ignores all other forms of ethnicity.</rdfs:comment>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000135 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000207 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000135">
-        <rdfs:label xml:lang="en">gender identification process</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000134"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000133"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000207">
+        <rdfs:label xml:lang="en">OMB Hispanic or Latino identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000206"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB ethnic identity information content entity that is about some person&#39;s identifying as Hispanic or Latino, which are intended to mean being of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">It comprehends people of Portuguese culture or origin in Brazil.</rdfs:comment>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000138 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000208 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000138">
-        <rdfs:label xml:lang="en">obsolete female gender identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000133"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a gender identity datum resulting from a gender identification process in which ‘female’ is selected based on the participant&#39;s subjective sense of gender</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">female gender identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000208">
+        <rdfs:label xml:lang="en">OMB not Hispanic or Latino identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000206"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB ethnic identity information content entity that is about some person&#39;s identifying as neither Hispanic nor Latino, which are intended to mean being of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000141 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000209 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000141">
-        <rdfs:label xml:lang="en">obsolete male gender identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000133"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000119 xml:lang="en"></obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">a gender identity datum resulting from a gender identification process in which ‘male’ is selected based on the participant&#39;s subjective sense of gender</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">male gender identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000209">
+        <rdfs:label xml:lang="en">gender identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
+        <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some gender.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000180 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000210 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000180">
-        <rdfs:label xml:lang="en">obsolete American Indian or Alaska Native identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000185"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms and that indicates that the subject of the identity has origins in any of the original peoples of North and South America (including Central America), and maintains tribal affiliation or community attachment.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB American Indian or Alaska Native identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000210">
+        <rdfs:label xml:lang="en">female gender identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+        <obo:IAO_0000115 xml:lang="en">A gender identity information content entity that is about some person&#39;s identifying as female in gender.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000181 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000211 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000181">
-        <rdfs:label xml:lang="en">obsolete Asian identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000185"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms and that indicates that the subject of the identity has origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB Asian identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000211">
+        <rdfs:label xml:lang="en">male gender identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+        <obo:IAO_0000115 xml:lang="en">A gender identity information content entity that is about some person&#39;s identifying as male in gender.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000182 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000212 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000182">
-        <rdfs:label xml:lang="en">obsolete black or African American identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000185"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms and that indicates that the subject of the identity has origins in any of the black racial groups of Africa.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB black or African American identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000212">
+        <rdfs:label xml:lang="en">non-binary identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+        <obo:IAO_0000115 xml:lang="en">A gender identity information content entity that is about some person&#39;s identifying as non-binary in gender.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000183 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000213 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000183">
-        <rdfs:label xml:lang="en">obsolete Native Hawaiian or other Pacific Islander identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000185"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms and that indicates that the subject of the identity has origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB Native Hawaiian or other Pacific Islander identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000213">
+        <rdfs:label xml:lang="en">racial identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
+        <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some race.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000184 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000214 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000184">
-        <rdfs:label xml:lang="en">obsolete white identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000185"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms and that indicates that the subject of the identity has origins in any of the original peoples of Europe, the Middle East, or North Africa.</obo:IAO_0000115>
-        <obo:IAO_0100001 xml:lang="en">OMB white identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000214">
+        <rdfs:label xml:lang="en">OMB racial identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000213"/>
+        <obo:IAO_0000115 xml:lang="en">A racial identity information content entity that uses OMB terminology and definitions for race or terminology that is strictly mapped onto the OMB race terms.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000185 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000215 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000185">
-        <rdfs:label xml:lang="en">obsolete OMB racial identity datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000098"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000115 xml:lang="en">A racial identity that is the output of a racial identification process that uses OMB terminology for race or terminology that is mapped the OMB race terms.</obo:IAO_0000115>
-        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
-        <obo:IAO_0100001 xml:lang="en">OMB racial identity information content entity</obo:IAO_0100001>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000215">
+        <rdfs:label xml:lang="en">OMB American Indian or Alaska Native identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000214"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB racial identity information content entity that is about some person&#39;s identifying as American Indian or Alaska Native, which is intended to mean having origins in any of the original peoples of North and South America (including Central America), and maintains tribal affiliation or community attachment.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <rdfs:comment xml:lang="en">This definition corresponds to that used by OMB. It is worth noting that the OMB definition from which this one is derived is problematic, in that it implies that one&#39;s race cannot be Native American or Alaskan Native unless one maintains tribal affiliations or community attachment.</rdfs:comment>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000216">
+        <rdfs:label xml:lang="en">OMB Asian identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000214"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB racial identity information content entity that is about some person&#39;s identifying as Asian, which is intended to mean having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000217">
+        <rdfs:label xml:lang="en">OMB black or African American identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000214"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB racial identity information content entity that is about some person&#39;s identifying as black or African American which is intended to mean having origins in any of the black racial groups of Africa.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000218">
+        <rdfs:label xml:lang="en">OMB Native Hawaiian or other Pacific Islander identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000214"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB racial identity information content entity that is about some person&#39;s identifying as Native Hawaiian or other Pacific Islander, which is intended to mean having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000219">
+        <rdfs:label xml:lang="en">OMB white identity information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000214"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <obo:IAO_0000115 xml:lang="en">An OMB racial identity information content entity that is about some person&#39;s identifying as white which is intended to mean having origins in any of the original peoples of Europe, the Middle East, or North Africa.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
     
@@ -6212,7 +5994,13 @@ This interpretation is *not* the same as an at-all-times relation
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -6221,64 +6009,7 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -6296,19 +6027,49 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     
 
@@ -6339,9 +6100,9 @@ This interpretation is *not* the same as an at-all-times relation
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/omrse.owl">
         <rdfs:label xml:lang="en">The Ontology of Medically Related Social Entities</rdfs:label>
         <dc:contributor>Daniel Welch</dc:contributor>
+        <owl:versionInfo>2020-10-27</owl:versionInfo>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:creator>Amanda Hicks</dc:creator>
-        <owl:versionInfo>2020-01-30</owl:versionInfo>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:creator xml:lang="en">Shariq Tariq</dc:creator>
         <dc:creator xml:lang="en">Swetha Garimalla</dc:creator>
