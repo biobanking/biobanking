@@ -38,7 +38,7 @@ build:
 # We use the official release version of ROBOT
 build/robot.jar: | build
 	@echo "Getting ROBOT" && \
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.4.0/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
 
 ROBOT := java -jar build/robot.jar
 
