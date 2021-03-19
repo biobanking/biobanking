@@ -64,8 +64,10 @@ build/obib_merged.owl: src/obib_dev.owl | build/robot.jar build
 	--version-iri "$(OBO)/obib/$(TODAY)/obib_merged.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output build/obib_merged.tmp.owl
-	sed '/<owl:imports/d' build/obib_merged.tmp.owl > $@
+	sed '/http:\/\/www\.w3\.org\/1999\/02\/22-rdf-syntax-ns#type/d' build/obib_merged.tmp.owl > build/obib_merged.tmp2.owl
+	sed '/<owl:imports/d' build/obib_merged.tmp2.owl > $@
 	rm build/obib_merged.tmp.owl
+	rm build/obib_merged.tmp2.owl
 
 obib.owl: build/obib_merged.owl
 	$(ROBOT) reason \
