@@ -30,10 +30,11 @@
         <dc:contributor>Loreana Norlin</dc:contributor>
         <dc:contributor>Maria Anderberg</dc:contributor>
         <dc:contributor>Martin N. Fransson</dc:contributor>
+        <dc:contributor>Mathias Brochhausen</dc:contributor>
         <dc:contributor>Mikael Eriksson</dc:contributor>
         <dc:contributor>Roxana Merino-Martinez</dc:contributor>
         <dc:contributor>Sanela Kjellqvist</dc:contributor>
-        <dc:contributor>William R. Hogan</dc:contributor>
+        <dc:contributor>William R. Hogan</dc:contributor>	
         <dc:description>The Ontology for Biobanking (OBIB) is an ontology for the annotation and modeling of the activities, contents, and administration of a biobank. Biobanks are facilities that store specimens, such as bodily fluids and tissues, typically along with specimen annotation and clinical data. OBIB is based on a subset of the Ontology for Biomedical Investigation (OBI), has the Basic Formal Ontology (BFO) as its upper ontology, and is developed following OBO Foundry principles. The first version of OBIB resulted from the merging of two existing biobank-related ontologies, OMIABIS and biobank ontology.</dc:description>
         <dc:source xml:lang="en">MIABIS_v2_accepted and UPenn Biobank ontology</dc:source>
         <dc:title xml:lang="en">Ontology for BIoBanking (OBIB)</dc:title>
