@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/obib_bbrb.owl#"
-     xml:base="http://purl.obolibrary.org/obo/obib/obib_bbrb.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_BBRB_org.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_BBRB_org.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -112,7 +112,7 @@
     
 
 
-     <!-- http://purl.obolibrary.org/obo/FLU_0001019 -->
+    <!-- http://purl.obolibrary.org/obo/FLU_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0001019"/>
     
@@ -462,7 +462,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000714"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A date of specimen collection for the first collection of blood from a donor.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -475,7 +475,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000714"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A date of specimen collection for the first collection of a tissue from a donor.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -527,7 +527,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000725"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time of surgical removal of specimen for the first removal of tissue from a donor.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -651,7 +651,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement that is an explanation as to why frozen specimens were not collected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -664,7 +664,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement made in regards to the resolution of an issue with the tissue.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -783,7 +783,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000714"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A date of specimen collection on which the surgery was performed during which the specimen was collected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -1023,7 +1023,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure in which the anus, rectum, and sigmoid colon are removed.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://my.clevelandclinic.org/health/articles/laparoscopic-abdominoperineal-resection-basic-surgical-steps</obo:IAO_0000119>
@@ -1116,7 +1116,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure that is done to treat cancer of the rectum in which the part of the rectum containing the cancer is removed. The remaining part of the rectum is reconnected to the colon.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAR</obo:IAO_0000118>
@@ -1130,7 +1130,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove all or part of the rectum. It is often needed to treat rectal cancer.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.hopkinsmedicine.org/healthlibrary/test_procedures/gastroenterology/proctectomy_135,53/</obo:IAO_0000119>
@@ -1262,7 +1262,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement of the epochs of oxygen desaturation of less than 92% for more than 5 minutes prior to organ excision.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -1463,7 +1463,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement of the pre-operative bowel preparation performed prior to surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -1476,7 +1476,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement of notable events that occurred during surgery.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -1502,7 +1502,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of the uterus, cervix, fallopian tubes, and ovaries. This is the most common surgery done for endometrial cancer.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.webmd.com/cancer/cervical-cancer/hysterectomy-for-endometrial-cancer</obo:IAO_0000119>
@@ -1515,7 +1515,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of the uterus, cervix, left fallopian tube, and left ovary.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1528,7 +1528,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of the uterus, cervix, right fallopian tube, and right ovary.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1541,7 +1541,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of both ovaries.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mayoclinic.org/tests-procedures/oophorectomy/home/ovc-20314905</obo:IAO_0000119>
@@ -1554,7 +1554,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of the left ovary.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1567,7 +1567,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure with the removal of the right ovary.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1580,7 +1580,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure that removes all organs from a person&apos;s pelvic cavity including the urinary bladder, urethra, rectum, and anus.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pelvic_exenteration</obo:IAO_0000119>
@@ -1593,7 +1593,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a mass (growth or tumor) on the ovary or in the pelvis.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://innovativegyn.com/conditions/ovarian-cyst-and-pelvic-mass/</obo:IAO_0000119>
@@ -1606,7 +1606,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove both ovaries and both fallopian tubes.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.cancer.gov/publications/dictionaries/cancer-terms?cdrid=322852</obo:IAO_0000119>
@@ -1619,7 +1619,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove the left ovary and left fallopian tube.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1632,7 +1632,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove the right ovary and right fallopian tube.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1709,7 +1709,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure in which the body of the uterus is removed but the cervix is kept intact, as compared to the more common total hysterectomy, in which the uterus, cervix and fundus (the part of the uterus above the fallopian tube openings) are removed.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.floridahospital.com/supracervical-hysterectomy</obo:IAO_0000119>
@@ -1776,7 +1776,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a mass (growth or tumor) in the left kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney mass excision (left)</obo:IAO_0000118>
@@ -1790,7 +1790,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000176">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove part of the left kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrectomy (partial left)</obo:IAO_0000118>
@@ -1804,7 +1804,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove the entire left kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrectomy (radical left)</obo:IAO_0000118>
@@ -1818,7 +1818,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure that is minimally invasive to remove a patient&apos;s left renal pelvis, kidney, ureter, and bladder cuff.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephroureterectomy (left)</obo:IAO_0000118>
@@ -1832,7 +1832,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a mass (growth or tumor) in the right kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney mass excision (right)</obo:IAO_0000118>
@@ -1846,7 +1846,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove part of the right kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrectomy (partial right)</obo:IAO_0000118>
@@ -1860,7 +1860,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove the entire right kidney.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephrectomy (radical right)</obo:IAO_0000118>
@@ -1874,7 +1874,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure that is minimally invasive to remove a patient&apos;s right renal pelvis, kidney, ureter, and bladder cuff.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephroureterectomy (right)</obo:IAO_0000118>
@@ -1928,7 +1928,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove one of the lobes of the left lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.hopkinsmedicine.org/healthlibrary/test_procedures/pulmonary/lobectomy_92,P07749/</obo:IAO_0000119>
@@ -1941,7 +1941,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove one of the lobes of the right lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.hopkinsmedicine.org/healthlibrary/test_procedures/pulmonary/lobectomy_92,P07749/</obo:IAO_0000119>
@@ -1954,7 +1954,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a mass (growth or tumor) in the left lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1967,7 +1967,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a mass (growth or tumor) in the right lung.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -1980,7 +1980,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure performed to remove an entire left lung</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cancercenter.com/treatments/pneumonectomy/</obo:IAO_0000119>
@@ -1993,7 +1993,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure performed to remove an entire right lung</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cancercenter.com/treatments/pneumonectomy/</obo:IAO_0000119>
@@ -2006,7 +2006,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a triangle-shaped slice of tissue from the left lung. It may be used to remove a tumor or some other type of tissue that requires removal and typically includes a small amount of normal tissue around it.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wedge_resection</obo:IAO_0000119>
@@ -2019,7 +2019,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A surgical procedure to remove a triangle-shaped slice of tissue from the right lung. It may be used to remove a tumor or some other type of tissue that requires removal and typically includes a small amount of normal tissue around it.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Wedge_resection</obo:IAO_0000119>
@@ -2045,7 +2045,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The reason(s) that the pre-operative/pre-anesthesia blood samples were not received in the tissue bank as per the BPV Collection and Processing SOP.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement providing a reason that the pre-operative/pre-anesthesia blood samples were not received in a biobank as per SOP.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
@@ -2165,7 +2165,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000721"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent Tissue Specimen ID of required study tumor tissue received in Tissue Bank from the Pathology Gross Room</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen ID denoting a specimen that is used to create a specimen family.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
@@ -2238,34 +2238,6 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen gross appearance of tumor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000210 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000210">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy that uses a thin, hollow needle to draw cells from a body.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">needle biopsy</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926</obo:IAO_0000119>
-        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_fine needle biopsy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000211">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biopsy that uses a hollow tube that allows extracting a core of tissue for testing. This type of needle biopsy uses a wider needle than does fine-needle aspiration.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core biopsy</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926</obo:IAO_0000119>
-        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_core needle biopsy</rdfs:label>
     </owl:Class>
     
 
@@ -2711,7 +2683,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000244">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000724"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time DNA PAXgene tube was frozen at -20�_C �� 2�_C</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time of specimen freezing which occurred at approximately -20�_C.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
@@ -2725,7 +2697,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000724"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time DNA PAXgene tube was transferred to storage at -75�_C �� 5�_C</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time of specimen freezing which occurred at -75�_ �� 5�_C.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
@@ -4184,7 +4156,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain Endowment Bank at Miller School of Medicine, of the University of Miami.</obo:IAO_0000112>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biobank that focuses on the special requirements of the human brain with regards to preservation, handling, and analysis.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
@@ -4199,7 +4171,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biobank which receives its specimens primarily/exclusively from tissue source sites.� Activities include receipt, some processing, production of slides/images of the tissue, storage, and retrieval/shipping of materials on-demand.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Biospecimen Repository</obo:IAO_0000118>
@@ -4321,7 +4293,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000365 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000365">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000721"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen ID that specifically identifies a particular tissue cassete used in a formalin-fixed paraffin-embedded (FFPE) process.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -4570,7 +4542,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement made in regards to all non-consent issues related to or creating a limitation on tissues that can be procured including tissue type and reason for restriction.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -4663,7 +4635,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000391 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000391">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement that was submitted as feedback by a pathologist</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
@@ -5280,7 +5252,7 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000439">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000712"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comment from tissue procurement that was submitted as part of a follow-up documenting donor outcome after initial specimen collection.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
@@ -7640,6 +7612,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000616"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000712"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000714"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000716"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000721"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000724"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000725"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -7696,9 +7710,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OBI_0002140 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002140">
-        <rdfs:label>temperature measurement assay</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002140"/>
     
 
 
@@ -7735,48 +7747,6 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0000000"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001037"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001039"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001049"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001050"/>
     
 
 
@@ -7831,12 +7801,6 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004950 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004950"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
 </rdf:RDF>
 
 
