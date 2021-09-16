@@ -374,7 +374,7 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/IAO_0000582"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001012"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000688"/>
         <obo:IAO_0000115>A measurement datum that is the output of counting.</obo:IAO_0000115>
         <rdfs:comment>It can be denoted as an arithmetic value or in form of a word, and is usually as a result of a process.</rdfs:comment>
         <rdfs:label xml:lang="en">count</rdfs:label>
@@ -746,9 +746,9 @@ All subtype will be defined by textual definition now.</obo:IAO_0000232>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001012 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000688 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001012"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000688"/>
     
 
 
