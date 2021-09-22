@@ -7420,7 +7420,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused because legally authorized representative felt pressured</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative felt pressured</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative felt pressured</rdfs:label>
     </owl:Class>
     
 
@@ -7434,7 +7434,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused because legally authorized representative too distraught</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative felt too distraught</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative felt too distraught</rdfs:label>
     </owl:Class>
     
 
@@ -7448,7 +7448,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused because legally authorized representative needed more time to make a decision</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative needed more time to make a decision</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative needed more time to make a decision</rdfs:label>
     </owl:Class>
     
 
@@ -7462,7 +7462,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused because legally authorized representative was uncomfortable with the risks</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative was uncomfortable with the risks</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative was uncomfortable with the risks</rdfs:label>
     </owl:Class>
     
 
@@ -7490,7 +7490,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused because legally authorized representative did not agree with the activity of biobanking.</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative did not agree with the activity of biobanking.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative did not agree with the activity of biobanking</rdfs:label>
     </owl:Class>
     
 
@@ -7504,7 +7504,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refused  because legally authorized representative did not show up to the appointment as scheduled.</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB, OBIB</obo:IAO_0000119>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because  legally authorized representative  did not show up to the appointment as scheduled.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research authorization for post mortem specimen donation not obtained because legally authorized representative did not show up to the appointment as scheduled</rdfs:label>
     </owl:Class>
     
 
