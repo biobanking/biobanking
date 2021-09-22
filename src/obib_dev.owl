@@ -15,7 +15,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/obib.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/obib_dev.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl"/>
@@ -5711,9 +5711,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002000 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002000">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5739,9 +5739,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002001 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002001">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5765,9 +5765,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002002 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002002">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5791,9 +5791,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002003 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000111>specimen slide ID</obo:IAO_0000111>
         <obo:IAO_0000115>An identifier that specifically identifies a particular specimen slide.</obo:IAO_0000115>
@@ -5805,9 +5805,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002004 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002004 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002004">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16212"/>
         <obo:IAO_0000111>surgical cancer treatment</obo:IAO_0000111>
         <obo:IAO_0000115>A  cancer therapeutic procedure that involves a surgical procedure as a main part.</obo:IAO_0000115>
@@ -5819,9 +5819,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002005 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002005 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002005">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
         <obo:IAO_0000111>specimen gross appearance of metastatic tumor</obo:IAO_0000111>
         <obo:IAO_0000115>A specimen gross appearance of a tumor that has spread from its original site by discontinuous (not direct) spread, e.g. by blood or lymphatics.</obo:IAO_0000115>
@@ -5833,9 +5833,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002006 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002006">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
         <obo:IAO_0000111>specimen gross appearance of tumor center</obo:IAO_0000111>
         <obo:IAO_0000115>A specimen gross appearance of the most internal topographic location of the tumor.</obo:IAO_0000115>
@@ -5847,9 +5847,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002007 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002007 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002007">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000209"/>
         <obo:IAO_0000111>specimen gross appearance of tumor edge</obo:IAO_0000111>
         <obo:IAO_0000115>A specimen gross appearance of the border of the tumor with non-tumorous tissue.</obo:IAO_0000115>
@@ -5861,9 +5861,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002008 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002008">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000459"/>
         <obo:IAO_0000111>research authorization for post mortem specimen donation for a specific tissue or fluid</obo:IAO_0000111>
         <obo:IAO_0000115>A research authorization documentation for postmortem specimen donation in which the authorization is for a specified tissue or biological fluid.</obo:IAO_0000115>
@@ -5875,9 +5875,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0002013 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000144"/>
         <obo:IAO_0000111>tissue specimen suitability for molecular analysis</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
