@@ -13611,8 +13611,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
     <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
 
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-    
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
+        <rdfs:label>Obsolete Class</rdfs:label>
+    </owl:Class>    
 
 
     <!-- 
