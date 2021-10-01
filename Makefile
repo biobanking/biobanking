@@ -44,12 +44,62 @@ ROBOT := java -jar build/robot.jar
 
 ### Imports
 #
-# Use Ontofox to regenerate fresh import-OBO file
-.PHONY: src/imports/import_OBO.owl
-src/imports/import_OBO.owl:
-	@echo "Generating $@" && \
-	curl -s -F file=src/external/ontoFox_input/OBO_input.txt http://ontofox.hegroup.org/service.php > src/imports/import_OBO.owl
+# Use Ontofox to regenerate fresh import OWL files
+build/import_%.owl: src/ontoFox_input/input_%.txt | build/robot.jar build
+	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
 
+# Use ROBOT to remove external axioms
+src/imports/import_EFO.owl: build/import_EFO.owl
+	$(ROBOT) remove --input build/import_EFO.owl \
+	--base-iri 'http://www.ebi.ac.uk/efo/EFO_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
+
+src/imports/import_%.owl: build/import_%.owl
+	$(ROBOT) remove --input build/import_$*.owl \
+	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
+
+IMPORT_NAMES := APOLLO_SV\
+ CHEBI\
+ CL\
+ CLO\
+ DOID\
+ DRON\
+ EFO\
+ ENVO\
+ ERO\
+ FLU\
+ FMA\
+ GEO\
+ GO\
+ IAO\
+ ICO\
+ IDO\
+ MONDO\
+ NCBITaxon\
+ NCIT\
+ OAE\
+ OBI\
+ OGMS\
+ OMRSE\
+ PATO\
+ PCO\
+ PR\
+ RO\
+ SO\
+ UBERON\
+ UO
+
+IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/imports/import_$(x).owl)
+
+.PHONY: imports
+imports: $(IMPORT_FILES)
 
 ### Build
 #
