@@ -2,7 +2,6 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/obib.owl/"
      xml:base="http://purl.obolibrary.org/obo/obib/dev/obib.owl/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -13,14 +12,43 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:userfiles="file:/data/var/www/html/ontofox/userfiles/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/obib_dev.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_APOLLO_SV.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_CHEBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_CL.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_CLO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_DOID.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_DRON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_ENVO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_FLU.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_FMA.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_GO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_IAO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_ICO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_IDO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_MONDO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_NCBITaxon.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OAE.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OGMS.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_OMRSE.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_PATO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_PCO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_PR.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_RO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_SO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_UBERON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_UO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_UO_instance.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/obsolete.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor>Alice Nzinga</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
@@ -141,12 +169,6 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition"/>
     
 
 
