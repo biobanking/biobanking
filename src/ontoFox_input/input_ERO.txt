@@ -1,0 +1,63 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl
+
+[Source ontology]
+#comment here
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0001092 #medical device
+http://purl.obolibrary.org/obo/ERO_0000905 #in vitro transcription
+http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriage
+http://purl.obolibrary.org/obo/ERO_0002047 #child relationship
+http://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jew
+http://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jew
+http://purl.obolibrary.org/obo/ERO_0001983 #African
+http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
+http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
+http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
+http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+http://purl.obolibrary.org/obo/ERO_0000979 #freezer
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ERO_0001092 #medical device
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
+http://purl.obolibrary.org/obo/ERO_0000905 #in vitro transcription
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+subClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+subClassOf http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuant
+http://purl.obolibrary.org/obo/ERO_0002063 #relationship by marriage
+subClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
+http://purl.obolibrary.org/obo/ERO_0002047 #child relationship
+subClassOf http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
+http://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jew
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jew
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0001983 #African
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://purl.obolibrary.org/obo/ERO_0000979 #freezer
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

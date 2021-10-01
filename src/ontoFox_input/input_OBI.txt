@@ -1,0 +1,601 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_OBI.owl
+
+[Source ontology]
+#comment here
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000086 #reagent role
+http://purl.obolibrary.org/obo/OBI_0000093 #patient role
+http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0000097 #participant under investigation role
+http://purl.obolibrary.org/obo/OBI_0000102 #responsible party role
+http://purl.obolibrary.org/obo/OBI_0000103 #principal investigator role
+http://purl.obolibrary.org/obo/OBI_0000116 #worker role
+http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://purl.obolibrary.org/obo/OBI_0000202 #investigation agent role
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0000260 #plan
+http://purl.obolibrary.org/obo/OBI_0000272 #protocol
+http://purl.obolibrary.org/obo/OBI_0000274 #adding a material entity into a target
+http://purl.obolibrary.org/obo/OBI_0000319 #material to be added role
+http://purl.obolibrary.org/obo/OBI_0000399 #solid support function
+http://purl.obolibrary.org/obo/OBI_0000436 #needle
+http://purl.obolibrary.org/obo/OBI_0000444 #target of material addition role
+http://purl.obolibrary.org/obo/OBI_0000471 #study design execution
+http://purl.obolibrary.org/obo/OBI_0000651 #urine specimen
+http://purl.obolibrary.org/obo/OBI_0000655 #blood specimen
+http://purl.obolibrary.org/obo/OBI_0000659 #specimen collection
+http://purl.obolibrary.org/obo/OBI_0000679 #average value
+http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
+http://purl.obolibrary.org/obo/OBI_0000835 #manufacturer
+http://purl.obolibrary.org/obo/OBI_0000836 #test tube
+http://purl.obolibrary.org/obo/OBI_0000846 #is member of organization
+http://purl.obolibrary.org/obo/OBI_0000852 #record of missing knowledge
+http://purl.obolibrary.org/obo/OBI_0000880 #RNA extract
+http://purl.obolibrary.org/obo/OBI_0000947 #service provider role
+http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
+http://purl.obolibrary.org/obo/OBI_0000967 #container
+http://purl.obolibrary.org/obo/OBI_0000968 #device
+http://purl.obolibrary.org/obo/OBI_0001000 #questionnaire
+http://purl.obolibrary.org/obo/OBI_0001051 #DNA extract
+http://purl.obolibrary.org/obo/OBI_0001064 #automatic tissue processor
+http://purl.obolibrary.org/obo/OBI_0001167 #age measurement datum
+http://purl.obolibrary.org/obo/OBI_0001173 #service
+http://purl.obolibrary.org/obo/OBI_0001404 #genetic characteristics information
+http://purl.obolibrary.org/obo/OBI_0001472 #specimen with known storage state
+http://purl.obolibrary.org/obo/OBI_0001580 #material transport service
+http://purl.obolibrary.org/obo/OBI_0001619 #specimen collection time measurement datum
+http://purl.obolibrary.org/obo/OBI_0001688 #has organization member
+http://purl.obolibrary.org/obo/OBI_0001930 #categorical value specification
+http://purl.obolibrary.org/obo/OBI_0001936 #molecular-labeled material
+http://purl.obolibrary.org/obo/OBI_0002087 #containing a specimen function
+http://purl.obolibrary.org/obo/OBI_0002088 #specimen container
+http://purl.obolibrary.org/obo/OBI_0002089 #physical store
+http://purl.obolibrary.org/obo/OBI_0002095 #specimen family creation
+http://purl.obolibrary.org/obo/OBI_0002125 #H&E-stained fixed tissue slide specimen
+http://purl.obolibrary.org/obo/OBI_0002126 #IHC-stained fixed tissue slide specimen
+http://purl.obolibrary.org/obo/OBI_0002136 #RNA Integrity Number calculation
+http://purl.obolibrary.org/obo/OBI_0002137 #RNA Integrity Number value specification
+http://purl.obolibrary.org/obo/OBI_0002138 #temperature value specification
+http://purl.obolibrary.org/obo/OBI_0002139 #volume value specification
+http://purl.obolibrary.org/obo/OBI_0002140 #temperature measurement assay
+http://purl.obolibrary.org/obo/OBI_0002141 #volume measurement assay
+http://purl.obolibrary.org/obo/OBI_0002145 #antigen specific antibodies assay
+http://purl.obolibrary.org/obo/OBI_0002155 #venereal disease research laboratory test
+http://purl.obolibrary.org/obo/OBI_0002156 #rapid plasma reagin test
+http://purl.obolibrary.org/obo/OBI_0002157 #HBV surface antigen test
+http://purl.obolibrary.org/obo/OBI_0002158 #HIV-1 nucleic acid testing
+http://purl.obolibrary.org/obo/OBI_0002159 #HCV nucleic acid testing
+http://purl.obolibrary.org/obo/OBI_0002190 #courier organization
+http://purl.obolibrary.org/obo/OBI_0002191 #courier tracking number
+http://purl.obolibrary.org/obo/OBI_0002192 #Leica Peloris rapid tissue processor
+http://purl.obolibrary.org/obo/OBI_0002194 #Microm Ergostar HM200
+http://purl.obolibrary.org/obo/OBI_0002195 #microtome blade
+http://purl.obolibrary.org/obo/OBI_0002196 #Sakura Low profile Accu-Edge microtome blade
+http://purl.obolibrary.org/obo/OBI_0002197 #tissue section thickness
+http://purl.obolibrary.org/obo/OBI_0002198 #molecular analysis facility organization
+http://purl.obolibrary.org/obo/OBI_0002199 #reason for lack of data item
+http://purl.obolibrary.org/obo/OBI_0002200 #cannot be assessed determination
+http://purl.obolibrary.org/obo/OBI_0002201 #determination if assay will provide reliable results
+http://purl.obolibrary.org/obo/OBI_0002202 #GX
+http://purl.obolibrary.org/obo/OBI_0002203 #pTX
+http://purl.obolibrary.org/obo/OBI_0002204 #pNX
+http://purl.obolibrary.org/obo/OBI_0002205 #histologic grade according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002210 #histologic grade according to the Fuhrman Nuclear Grading System
+http://purl.obolibrary.org/obo/OBI_0002215 #histologic grade for ovarian tumor
+http://purl.obolibrary.org/obo/OBI_0002216 #histologic grade for ovarian tumor according to a two-tier grading system
+http://purl.obolibrary.org/obo/OBI_0002219 #histologic grade for ovarian tumor according to the World Health Organization
+http://purl.obolibrary.org/obo/OBI_0002224 #pathologic primary tumor stage for colon and rectum according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002232 #pathologic primary tumor stage for lung according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002243 #pathologic primary tumor stage for kidney according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002256 #pathologic primary tumor stage for ovary according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002270 #pathologic lymph node stage for colon and rectum according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002279 #pathologic lymph node stage for lung according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002284 #pathologic lymph node stage for kidney according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002287 #pathologic lymph node stage for ovary according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002290 #pathologic distant metastases stage for colon according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002298 #pathologic distant metastases stage for lung according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002306 #pathologic distant metastases stage for kidney according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002310 #pathologic distant metastases stage for ovary according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002314 #clinical tumor stage group according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002326 #International Federation of Gynecology and Obstetrics cervical cancer stage value specification
+http://purl.obolibrary.org/obo/OBI_0002341 #International Federation of Gynecology and Obstetrics ovarian cancer stage value specification
+http://purl.obolibrary.org/obo/OBI_0002356 #performance status value specification
+http://purl.obolibrary.org/obo/OBI_0002357 #Eastern Cooperative Oncology Group score value specification
+http://purl.obolibrary.org/obo/OBI_0002363 #Karnofsky score vaue specification
+http://purl.obolibrary.org/obo/OBI_0002368 #clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002369 #clinical history devoid of cancer
+http://purl.obolibrary.org/obo/OBI_0002370 #unknown clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002371 #diagnosis of cancer
+http://purl.obolibrary.org/obo/OBI_0002372 #family clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002373 #aunt clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002374 #brother clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002375 #daughter clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002376 #father clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002377 #mother clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002378 #sister clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002379 #son clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002380 #uncle clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002381 #grandmother clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002382 #grandfather clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002383 #nephew clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002384 #niece clinical history of cancer
+http://purl.obolibrary.org/obo/OBI_0002385 #diagnosis of infectious disease
+http://purl.obolibrary.org/obo/OBI_0002386 #diagnosis of hepatitis B
+http://purl.obolibrary.org/obo/OBI_0002387 #diagnosis of hepatitis C
+http://purl.obolibrary.org/obo/OBI_0002388 #diagnosis of HIV
+http://purl.obolibrary.org/obo/OBI_0002389 #clinical history of repeated HIV assays
+http://purl.obolibrary.org/obo/OBI_0002390 #exposure to second hand smoke
+http://purl.obolibrary.org/obo/OBI_0002391 #exposure to second hand smoke in household during childhood
+http://purl.obolibrary.org/obo/OBI_0002392 #exposure to second hand smoke in current household
+http://purl.obolibrary.org/obo/OBI_0002393 #pregnancy history
+http://purl.obolibrary.org/obo/OBI_0002394 #number of pregnancies
+http://purl.obolibrary.org/obo/OBI_0002395 #number of live births
+http://purl.obolibrary.org/obo/OBI_0002396 #age when gave birth to first child
+http://purl.obolibrary.org/obo/OBI_0002397 #gynecologic surgery history
+http://purl.obolibrary.org/obo/OBI_0002398 #hysterectomy history
+http://purl.obolibrary.org/obo/OBI_0002399 #unilateral oophorectomy history
+http://purl.obolibrary.org/obo/OBI_0002400 #neither hysterectomy nor oophorectomy history
+http://purl.obolibrary.org/obo/OBI_0002401 #hormonal birth control use history
+http://purl.obolibrary.org/obo/OBI_0002402 #hormonal birth control former use history
+http://purl.obolibrary.org/obo/OBI_0002403 #hormonal birth control current use history
+http://purl.obolibrary.org/obo/OBI_0002404 #no hormonal birth control use history
+http://purl.obolibrary.org/obo/OBI_0002405 #hormonal replacement therapy history
+http://purl.obolibrary.org/obo/OBI_0002406 #delivery form for hormonal replacement therapy 
+http://purl.obolibrary.org/obo/OBI_0002407 #pill delivery form for hormonal replacement therapy 
+http://purl.obolibrary.org/obo/OBI_0002408 #patch delivery form for hormonal replacement therapy 
+http://purl.obolibrary.org/obo/OBI_0002409 #cream delivery form for hormonal replacement therapy 
+http://purl.obolibrary.org/obo/OBI_0002410 #menopausal status
+http://purl.obolibrary.org/obo/OBI_0002411 #indeterminate menopausal status
+http://purl.obolibrary.org/obo/OBI_0002412 #premenopausal status
+http://purl.obolibrary.org/obo/OBI_0002413 #perimenopausal status
+http://purl.obolibrary.org/obo/OBI_0002414 #postmenopausal status
+http://purl.obolibrary.org/obo/OBI_0002415 #exposure to environmental and workplace carcinogens history
+http://purl.obolibrary.org/obo/OBI_0002416 #exposure to arsenic history
+http://purl.obolibrary.org/obo/OBI_0002417 #exposure to asbestos history
+http://purl.obolibrary.org/obo/OBI_0002418 #exposure to diesel exhaust history
+http://purl.obolibrary.org/obo/OBI_0002419 #exposure to chromium history
+http://purl.obolibrary.org/obo/OBI_0002420 #exposure to silica history
+http://purl.obolibrary.org/obo/OBI_0002421 #indicator of whether an inclusion criterion was met
+http://purl.obolibrary.org/obo/OBI_0002422 #indicator of whether all inclusion criteria were met
+http://purl.obolibrary.org/obo/OBI_0002500 #amniotic fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002501 #bile specimen
+http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002503 #feces specimen
+http://purl.obolibrary.org/obo/OBI_0002504 #digestive system fluid or secretion specimen
+http://purl.obolibrary.org/obo/OBI_0002505 #milk specimen
+http://purl.obolibrary.org/obo/OBI_0002506 #pericardial fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002507 #saliva specimen
+http://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
+http://purl.obolibrary.org/obo/OBI_0002509 #sweat specimen
+http://purl.obolibrary.org/obo/OBI_0002510 #synovial fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002511 #vitreous humor specimen
+http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimen
+http://purl.obolibrary.org/obo/OBI_0002513 #placenta specimen
+http://purl.obolibrary.org/obo/OBI_0002514 #peritoneal fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002516 #brain specimen
+http://purl.obolibrary.org/obo/OBI_0002517 #hair specimen
+http://purl.obolibrary.org/obo/OBI_0002518 #prostate gland specimen
+http://purl.obolibrary.org/obo/OBI_0002519 #skeletal muscle tissue specimen
+http://purl.obolibrary.org/obo/OBI_0002520 #heart specimen
+http://purl.obolibrary.org/obo/OBI_0002521 #renal medulla specimen
+http://purl.obolibrary.org/obo/OBI_0002522 #adrenal gland specimen
+http://purl.obolibrary.org/obo/OBI_0002523 #breast specimen
+http://purl.obolibrary.org/obo/OBI_0002524 #urinary bladder specimen
+http://purl.obolibrary.org/obo/OBI_0002525 #tibial artery specimen
+http://purl.obolibrary.org/obo/OBI_0002526 #skin of body specimen
+http://purl.obolibrary.org/obo/OBI_0002527 #pancreas specimen
+http://purl.obolibrary.org/obo/OBI_0002528 #stomach specimen
+http://purl.obolibrary.org/obo/OBI_0002529 #pituitary gland specimen
+http://purl.obolibrary.org/obo/OBI_0002530 #adipose tissue specimen
+http://purl.obolibrary.org/obo/OBI_0002531 #cortex of kidney specimen
+http://purl.obolibrary.org/obo/OBI_0002532 #esophagus mucosa specimen
+http://purl.obolibrary.org/obo/OBI_0002533 #colon specimen
+http://purl.obolibrary.org/obo/OBI_0002534 #lung specimen
+http://purl.obolibrary.org/obo/OBI_0002535 #esophagus muscularis mucosa specimen
+http://purl.obolibrary.org/obo/OBI_0002536 #cerebral cortex specimen
+http://purl.obolibrary.org/obo/OBI_0002537 #thyroid gland specimen
+http://purl.obolibrary.org/obo/OBI_0002538 #cerebellum specimen
+http://purl.obolibrary.org/obo/OBI_0002539 #tibial nerve specimen
+http://purl.obolibrary.org/obo/OBI_0002540 #coronary artery specimen
+http://purl.obolibrary.org/obo/OBI_0002541 #spleen specimen
+http://purl.obolibrary.org/obo/OBI_0002542 #aorta specimen
+http://purl.obolibrary.org/obo/OBI_0002543 #atrial appendage specimen
+http://purl.obolibrary.org/obo/OBI_0002544 #esophagogastric junction specimen
+http://purl.obolibrary.org/obo/OBI_0002545 #ileum specimen
+http://purl.obolibrary.org/obo/OBI_0002546 #liver specimen
+http://purl.obolibrary.org/obo/OBI_0002547 #minor salivary gland specimen
+http://purl.obolibrary.org/obo/OBI_0002548 #omentum specimen
+http://purl.obolibrary.org/obo/OBI_0002549 #ovary specimen
+http://purl.obolibrary.org/obo/OBI_0002550 #sigmoid colon specimen
+http://purl.obolibrary.org/obo/OBI_0002551 #suprapubic skin specimen
+http://purl.obolibrary.org/obo/OBI_0002552 #testis specimen
+http://purl.obolibrary.org/obo/OBI_0002553 #uterus specimen
+http://purl.obolibrary.org/obo/OBI_0002554 #vagina specimen
+http://purl.obolibrary.org/obo/OBI_0002599 #swab specimen
+http://purl.obolibrary.org/obo/OBI_0002615 #disease specific study design
+http://purl.obolibrary.org/obo/OBI_0002616 #genealogical record
+http://purl.obolibrary.org/obo/OBI_0002617 #national registry
+http://purl.obolibrary.org/obo/OBI_0002618 #national biomedical registry
+http://purl.obolibrary.org/obo/OBI_0002650 #biopsy
+http://purl.obolibrary.org/obo/OBI_0002775 #platelet-poor plasma preparation process
+http://purl.obolibrary.org/obo/OBI_0100016 #blood plasma specimen
+http://purl.obolibrary.org/obo/OBI_0100017 #blood serum specimen
+http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0302886 #centrifugation
+http://purl.obolibrary.org/obo/OBI_0302887 #staining
+http://purl.obolibrary.org/obo/OBI_0302893 #storage
+http://purl.obolibrary.org/obo/OBI_0302908 #document editing
+http://purl.obolibrary.org/obo/OBI_0302914 #digital curation
+http://purl.obolibrary.org/obo/OBI_0400168 #microtome
+http://purl.obolibrary.org/obo/OBI_0500000 #study design
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+http://purl.obolibrary.org/obo/OBI_0600004 #human subject enrollment
+http://purl.obolibrary.org/obo/OBI_0600016 #pooling specimen
+http://purl.obolibrary.org/obo/OBI_0600018 #material portioning
+http://purl.obolibrary.org/obo/OBI_1000024 #cell pellet
+http://purl.obolibrary.org/obo/OBI_1110087 #donor role
+http://purl.obolibrary.org/obo/OBI_1110109 #target of material addition
+http://purl.obolibrary.org/obo/OBI_1200000 #FFPE specimen
+http://purl.obolibrary.org/obo/OBI_2000000 #uterine cervix specimen
+http://purl.obolibrary.org/obo/OBI_2000001 #urethra specimen
+http://purl.obolibrary.org/obo/OBI_2000002 #cervical mucus specimen
+http://purl.obolibrary.org/obo/OBI_2000003 #throat specimen
+http://purl.obolibrary.org/obo/OBI_2000004 #eye
+http://purl.obolibrary.org/obo/OBI_2000005 #respiratory system specimen
+http://purl.obolibrary.org/obo/OBI_2000006 #upper respiratory tract specimen
+http://purl.obolibrary.org/obo/OBI_2000007 #nasopharynx specimen
+http://purl.obolibrary.org/obo/OBI_2000008 #semen specimen
+http://purl.obolibrary.org/obo/OBI_2000009 #bodily fluid specimen
+http://purl.obolibrary.org/obo/OBI_2000010 #chrorionic villus specimen
+http://purl.obolibrary.org/obo/OBI_2000011 #meconium specimen
+http://purl.obolibrary.org/obo/OBI_2000012 #umbilical cord blood specimen
+http://purl.obolibrary.org/obo/OBI_2000013 #arterial blood specimen
+http://purl.obolibrary.org/obo/OBI_2000014 #venous blood specimen
+http://purl.obolibrary.org/obo/OBI_2000015 #capillary blood specimen
+http://purl.obolibrary.org/obo/OBI_2000016 #erythrocyte specimen
+http://purl.obolibrary.org/obo/OBI_2000017 #reticulocyte specimen
+http://purl.obolibrary.org/obo/OBI_2000018 #leukocyte specimen
+http://purl.obolibrary.org/obo/OBI_0000462 #Affymetrix
+http://purl.obolibrary.org/obo/OBI_0000752 #Thermo
+http://purl.obolibrary.org/obo/OBI_0000753 #Waters
+http://purl.obolibrary.org/obo/OBI_0000754 #BIO-RAD
+http://purl.obolibrary.org/obo/OBI_0000756 #Ambion
+http://purl.obolibrary.org/obo/OBI_0000757 #Helicos
+http://purl.obolibrary.org/obo/OBI_0000758 #Roche
+http://purl.obolibrary.org/obo/OBI_0000759 #Illumina
+http://purl.obolibrary.org/obo/OBI_0000765 #Agilent
+http://purl.obolibrary.org/obo/OBI_0000769 #Li-Cor
+http://purl.obolibrary.org/obo/OBI_0000770 #Bruker Corporation
+http://purl.obolibrary.org/obo/OBI_0000776 #Applied Biosystems
+http://purl.obolibrary.org/obo/OBI_0000779 #Bruker Daltonics
+http://purl.obolibrary.org/obo/OBI_0000829 #Sysmex Corporation, Kobe, Japan
+http://purl.obolibrary.org/obo/OBI_0001213 #eBioscience
+http://purl.obolibrary.org/obo/OBI_0001224 #Cytopeia
+http://purl.obolibrary.org/obo/OBI_0001287 #Exalpha Biological
+http://purl.obolibrary.org/obo/OBI_0001312 #Apogee Flow Systems
+http://purl.obolibrary.org/obo/OBI_0001320 #Exbio Antibodies
+http://purl.obolibrary.org/obo/OBI_0001321 #Becton Dickinson (BD Biosciences)
+http://purl.obolibrary.org/obo/OBI_0001338 #Dako Cytomation
+http://purl.obolibrary.org/obo/OBI_0001340 #Millipore
+http://purl.obolibrary.org/obo/OBI_0001347 #Antigenix
+http://purl.obolibrary.org/obo/OBI_0001355 #Partec
+http://purl.obolibrary.org/obo/OBI_0001372 #Beckman Coulter
+http://purl.obolibrary.org/obo/OBI_0001375 #Advanced Instruments Inc. (AI Companies)
+http://purl.obolibrary.org/obo/OBI_0001424 #Miltenyi Biotec
+http://purl.obolibrary.org/obo/OBI_0001428 #AES Chemunex
+http://purl.obolibrary.org/obo/OBI_0001431 #Bentley Instruments
+http://purl.obolibrary.org/obo/OBI_0001434 #Invitrogen
+http://purl.obolibrary.org/obo/OBI_0001443 #Luminex
+http://purl.obolibrary.org/obo/OBI_0001458 #CytoBuoy
+http://purl.obolibrary.org/obo/OBI_0001855 #Nimblegen
+http://purl.obolibrary.org/obo/OBI_0001856 #Pacific Biosciences
+http://purl.obolibrary.org/obo/OBI_0001860 #NanoString Technologies
+http://purl.obolibrary.org/obo/OBI_0002755 #Oxford Nanopore Technologies
+http://purl.obolibrary.org/obo/OBI_0000901 #U.S. Food and Drug Administration
+http://purl.obolibrary.org/obo/OBI_0002314 #clinical tumor stage group according to AJCC 7th edition
+http://purl.obolibrary.org/obo/OBI_0002193 #Thermo Fisher Scientific
+http://purl.obolibrary.org/obo/OBI_0002291 #cM0 (colon)
+http://purl.obolibrary.org/obo/OBI_0002292 #cM1 (colon)
+http://purl.obolibrary.org/obo/OBI_0002293 #cM1a (colon)
+http://purl.obolibrary.org/obo/OBI_0002294 #cM1b (colon)
+http://purl.obolibrary.org/obo/OBI_0002295 #pM1 (colon)
+http://purl.obolibrary.org/obo/OBI_0002296 #pM1a (colon)
+http://purl.obolibrary.org/obo/OBI_0002297 #pM1b (colon)
+http://purl.obolibrary.org/obo/OBI_0002307 #cM0 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002308 #cM1 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002309 #pM1 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002299 #cM0 (lung)
+http://purl.obolibrary.org/obo/OBI_0002300 #cM1 (lung)
+http://purl.obolibrary.org/obo/OBI_0002301 #cM1a (lung)
+http://purl.obolibrary.org/obo/OBI_0002302 #cM1b (lung)
+http://purl.obolibrary.org/obo/OBI_0002303 #pM1 (lung)
+http://purl.obolibrary.org/obo/OBI_0002304 #pM1a (lung)
+http://purl.obolibrary.org/obo/OBI_0002305 #pM1b (lung)
+http://purl.obolibrary.org/obo/OBI_0002311 #cM0 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002312 #cM1 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002313 #pM1 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002271 #pN0 (colon)
+http://purl.obolibrary.org/obo/OBI_0002272 #pN1 (colon)
+http://purl.obolibrary.org/obo/OBI_0002273 #pN1a (colon)
+http://purl.obolibrary.org/obo/OBI_0002274 #pN1b (colon)
+http://purl.obolibrary.org/obo/OBI_0002275 #pN1c (colon)
+http://purl.obolibrary.org/obo/OBI_0002276 #pN2 (colon)
+http://purl.obolibrary.org/obo/OBI_0002277 #pN2a (colon)
+http://purl.obolibrary.org/obo/OBI_0002278 #pN2b (colon)
+http://purl.obolibrary.org/obo/OBI_0002285 #pN0 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002286 #pN1 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002280 #pN0 (lung)
+http://purl.obolibrary.org/obo/OBI_0002281 #pN1 (lung)
+http://purl.obolibrary.org/obo/OBI_0002282 #pN2 (lung)
+http://purl.obolibrary.org/obo/OBI_0002283 #pN3 (lung)
+http://purl.obolibrary.org/obo/OBI_0002288 #pN0 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002289 #pN1 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002225 #pT0 (colon)
+http://purl.obolibrary.org/obo/OBI_0002226 #pTis (colon)
+http://purl.obolibrary.org/obo/OBI_0002227 #pT1 (colon)
+http://purl.obolibrary.org/obo/OBI_0002228 #pT2 (colon)
+http://purl.obolibrary.org/obo/OBI_0002229 #pT3 (colon)
+http://purl.obolibrary.org/obo/OBI_0002230 #pT4a (colon)
+http://purl.obolibrary.org/obo/OBI_0002231 #pT4b (colon)
+http://purl.obolibrary.org/obo/OBI_0002244 #pT0 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002245 #pT1 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002246 #pT1a (kidney)
+http://purl.obolibrary.org/obo/OBI_0002247 #pT1b (kidney)
+http://purl.obolibrary.org/obo/OBI_0002248 #pT2 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002249 #pT2a (kidney)
+http://purl.obolibrary.org/obo/OBI_0002250 #pT2b (kidney)
+http://purl.obolibrary.org/obo/OBI_0002251 #pT3 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002252 #pT3a (kidney)
+http://purl.obolibrary.org/obo/OBI_0002253 #pT3b (kidney)
+http://purl.obolibrary.org/obo/OBI_0002254 #pT3c (kidney)
+http://purl.obolibrary.org/obo/OBI_0002255 #pT4 (kidney)
+http://purl.obolibrary.org/obo/OBI_0002233 #pT0 (lung)
+http://purl.obolibrary.org/obo/OBI_0002234 #pTis (lung)
+http://purl.obolibrary.org/obo/OBI_0002235 #pT1 (lung)
+http://purl.obolibrary.org/obo/OBI_0002236 #pT1a (lung)
+http://purl.obolibrary.org/obo/OBI_0002237 #pT1b (lung)
+http://purl.obolibrary.org/obo/OBI_0002238 #pT2 (lung)
+http://purl.obolibrary.org/obo/OBI_0002239 #pT2a (lung)
+http://purl.obolibrary.org/obo/OBI_0002240 #pT2b (lung)
+http://purl.obolibrary.org/obo/OBI_0002241 #pT3 (lung)
+http://purl.obolibrary.org/obo/OBI_0002242 #pT4 (lung)
+http://purl.obolibrary.org/obo/OBI_0002257 #pT0 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002258 #pT1 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002259 #pT1a (ovary)
+http://purl.obolibrary.org/obo/OBI_0002260 #pT1b (ovary)
+http://purl.obolibrary.org/obo/OBI_0002261 #pT1c (ovary)
+http://purl.obolibrary.org/obo/OBI_0002262 #pT2 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002263 #pT2a (ovary)
+http://purl.obolibrary.org/obo/OBI_0002264 #pT2b (ovary)
+http://purl.obolibrary.org/obo/OBI_0002265 #pT2c (ovary)
+http://purl.obolibrary.org/obo/OBI_0002266 #pT3 (ovary)
+http://purl.obolibrary.org/obo/OBI_0002267 #pT3a (ovary)
+http://purl.obolibrary.org/obo/OBI_0002268 #pT3b (ovary)
+http://purl.obolibrary.org/obo/OBI_0002269 #pT3c (ovary)
+http://purl.obolibrary.org/obo/OBI_0001004 #Edingburgh handedness inventory
+http://purl.obolibrary.org/obo/OBI_0002315 #Occult Carcinoma (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002316 #Stage 0 (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002317 #Stage I (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002318 #Stage IIA (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002319 #Stage IIB (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002320 #Stage IIC (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002321 #Stage IIIA (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002322 #Stage IIIB (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002323 #Stage IIIC (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002324 #Stage IVA (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0002325 #Stage IVB (AJCC 7th)
+http://purl.obolibrary.org/obo/OBI_0001937 #has specified numeric value
+http://purl.obolibrary.org/obo/OBI_0002135 #has specified value
+http://purl.obolibrary.org/obo/OBI_0002358 #3: symptomatic in bed more than 50% of the day but not bed ridden
+http://purl.obolibrary.org/obo/OBI_0002359 #2: symptomatic but in bed less than 50% of the day
+http://purl.obolibrary.org/obo/OBI_0002360 #4: bed ridden
+http://purl.obolibrary.org/obo/OBI_0002361 #0: asymptomatic
+http://purl.obolibrary.org/obo/OBI_0002362 #1: symptomatic but fully ambulatory
+http://purl.obolibrary.org/obo/OBI_0002206 #G1: Well differentiated
+http://purl.obolibrary.org/obo/OBI_0002207 #G2: Moderately differentiated
+http://purl.obolibrary.org/obo/OBI_0002208 #G3: Poorly differentiated
+http://purl.obolibrary.org/obo/OBI_0002209 #G4: Undifferentiated
+http://purl.obolibrary.org/obo/OBI_0002211 #G1 (Fuhrman)
+http://purl.obolibrary.org/obo/OBI_0002212 #G2 (Fuhrman)
+http://purl.obolibrary.org/obo/OBI_0002213 #G3 (Fuhrman)
+http://purl.obolibrary.org/obo/OBI_0002214 #G4 (Fuhrman)
+http://purl.obolibrary.org/obo/OBI_0002217 #Low grade ovarian tumor
+http://purl.obolibrary.org/obo/OBI_0002218 #High grade ovarian tumor
+http://purl.obolibrary.org/obo/OBI_0002220 #G1 (WHO)
+http://purl.obolibrary.org/obo/OBI_0002221 #G2 (WHO)
+http://purl.obolibrary.org/obo/OBI_0002222 #G3 (WHO)
+http://purl.obolibrary.org/obo/OBI_0002223 #G4 (WHO)
+http://purl.obolibrary.org/obo/OBI_0002327 #Stage IA (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002328 #Stage IA1 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002329 #Stage IA2 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002330 #Stage IB (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002331 #Stage IB1 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002332 #Stage IB2 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002333 #Stage IIA (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002334 #Stage IIA1 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002335 #Stage IIA2 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002336 #Stage IIB (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002337 #Stage IIIA (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002338 #Stage IIIB (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002339 #Stage IVA (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002340 #Stage IVB (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002342 #Stage 1 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002343 #Stage 1A (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002344 #Stage 1B (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002345 #Stage 1C (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002346 #Stage 2 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002347 #Stage 2A (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002348 #Stage 2B (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002349 #Stage 2C (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002350 #Stage 3 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002351 #Stage 3A (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002352 #Stage 3B (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002353 #Stage 3C (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002354 #Stage 4 (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002355 #Stage Unknown (FIGO)
+http://purl.obolibrary.org/obo/OBI_0002364 #100: asymptomatic
+http://purl.obolibrary.org/obo/OBI_0002365 #80-90: symptomatic but fully ambulatory
+http://purl.obolibrary.org/obo/OBI_0002366 #60-70: symptomatic but in bed less than 50% of the day
+http://purl.obolibrary.org/obo/OBI_0002367 #40-50: symptomatic, in bed more than 50% of the day, but not bed ridden
+http://purl.obolibrary.org/obo/OBI_0001905 #secondary cultured cell population
+http://purl.obolibrary.org/obo/OBI_0000370
+http://purl.obolibrary.org/obo/OBI_0000915
+http://purl.obolibrary.org/obo/OBI_0000922
+http://purl.obolibrary.org/obo/OBI_0500027
+http://purl.obolibrary.org/obo/OBI_0500028
+http://purl.obolibrary.org/obo/OBI_0002396
+http://purl.obolibrary.org/obo/OBI_0000017
+ http://purl.obolibrary.org/obo/OBI_0000372 #material separation function
+ http://purl.obolibrary.org/obo/OBI_0000397 #image acquisition function
+ http://purl.obolibrary.org/obo/OBI_0000398 #image creation device
+ http://purl.obolibrary.org/obo/OBI_0000441 #assay objective
+ http://purl.obolibrary.org/obo/OBI_0000686 #material combination objective
+ http://purl.obolibrary.org/obo/OBI_0000747 #material sample
+ http://purl.obolibrary.org/obo/OBI_0000832 #measurement device
+ http://purl.obolibrary.org/obo/OBI_0000917 #nasal swab specimen
+ http://purl.obolibrary.org/obo/OBI_0000927 #lyophilization storage
+ http://purl.obolibrary.org/obo/OBI_0000950 #paraffin specimen
+ http://purl.obolibrary.org/obo/OBI_0000965 #lyophilized specimen
+ http://purl.obolibrary.org/obo/OBI_0000981 #agar stab specimen
+ http://purl.obolibrary.org/obo/OBI_0000982 #computed tomography scanner
+ http://purl.obolibrary.org/obo/OBI_0001003 #agar stab storage
+ http://purl.obolibrary.org/obo/OBI_0001007 #image creation
+ http://purl.obolibrary.org/obo/OBI_0001034 #environmental control device
+ http://purl.obolibrary.org/obo/OBI_0001156 #age since planting measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001157 #age since hatching measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001159 #age since egg laying measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001161 #age since germination measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001163 #age since eclosion measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001164 #age since sowing measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001165 #age since coitus measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001168 #age since fertilization measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001169 #age since birth measurement datum
+ http://purl.obolibrary.org/obo/OBI_0001506 #specimen with pre- or post-mortem status
+ http://purl.obolibrary.org/obo/OBI_0001867 #establishing cell line
+ http://purl.obolibrary.org/obo/OBI_0001928 #selection
+ http://purl.obolibrary.org/obo/OBI_0002076 #collection of specimens
+ http://purl.obolibrary.org/obo/OBI_0002146 #HIV antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002147 #HIV group O antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002148 #surface HBV antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002149 #core HBV antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002150 #core HBV IgM antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002151 #HCV antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002152 #EBV IgG antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002153 #EBV IgM antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002154 #CMV antibody assay
+ http://purl.obolibrary.org/obo/OBI_0002423 #age of majority inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002424 #chemotherapy treatment exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002425 #radiation treatment exclusion criteria
+ http://purl.obolibrary.org/obo/OBI_0002426 #chemotherapy treatment within the recent past exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002427 #radiation treatment within the recent past exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002428 #BMI range inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002429 #blood transfusion exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002430 #history of metastatic cancer exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002431 #intravenous drug use exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002432 #history of sex with someone with a history of blood borne infection  exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002433 #history of sex with someone with a history of intravenous drugs exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002434 #HIV exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002435 #exposure to blood borne infectious disease exclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002453 #health status inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002454 #clinically relevant lifestyle inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002455 #clinically relevant exposure inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002456 #gravidity inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002460 #defined population inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002465 #age since culture seeding measurement datum
+ http://purl.obolibrary.org/obo/OBI_0002555 #age group inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002556 #minimum age value specification
+ http://purl.obolibrary.org/obo/OBI_0002557 #maximum age value specification
+ http://purl.obolibrary.org/obo/OBI_0002558 #use of medication inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002559 #hospital patient inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002560 #family status inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002561 #sex inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002562 #country of residence inclusion criteria
+ http://purl.obolibrary.org/obo/OBI_0002563 #ethnicity inclusion criterion
+ http://purl.obolibrary.org/obo/OBI_0002603 #areolar swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002604 #breast swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002605 #cheek swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002606 #nasopharyngeal swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002607 #oral swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002608 #oropharyngeal swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002609 #rectal swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002610 #tongue swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002611 #vagina swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002612 #fecal swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002613 #environmental swab specimen
+ http://purl.obolibrary.org/obo/OBI_0002614 #birth cohort study design
+ http://purl.obolibrary.org/obo/OBI_0002651 #image guided biopsy
+ http://purl.obolibrary.org/obo/OBI_0002652 #computed tomography assisted biopsy
+ http://purl.obolibrary.org/obo/OBI_0002653 #ultrasound-guided needle biopsy
+ http://purl.obolibrary.org/obo/OBI_0002654 #needle biopsy
+ http://purl.obolibrary.org/obo/OBI_0002655 #fine needle aspiration biopsy
+ http://purl.obolibrary.org/obo/OBI_0002656 #core needle biopsy
+ http://purl.obolibrary.org/obo/OBI_0002657 #surgical biopsy
+ http://purl.obolibrary.org/obo/OBI_0002660 #abdominal wall fat pad biopsy
+ http://purl.obolibrary.org/obo/OBI_0002661 #tail biopsy
+ http://purl.obolibrary.org/obo/OBI_0002662 #bone marrow biopsy
+ http://purl.obolibrary.org/obo/OBI_0002663 #skinpunch biopsy
+ http://purl.obolibrary.org/obo/OBI_0002679 #vacuum-assisted biopsy needle
+ http://purl.obolibrary.org/obo/OBI_0002745 #vacuum-assisted biopsy
+ http://purl.obolibrary.org/obo/OBI_0002746 #induced sputum specimen
+ http://purl.obolibrary.org/obo/OBI_0002774 #platelet-poor plasma specimen
+ http://purl.obolibrary.org/obo/OBI_0200166 #data transformation objective
+
+#ObjectProperty
+http://purl.obolibrary.org/obo/OBI_0000107 #provides_service_consumer_with
+http://purl.obolibrary.org/obo/OBI_0000124 #is_supported_by_data
+http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
+http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
+http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
+http://purl.obolibrary.org/obo/OBI_0000312 #is_specified_output_of
+http://purl.obolibrary.org/obo/OBI_0000417 #achieves_planned_objective
+http://purl.obolibrary.org/obo/OBI_0000643 #has grain
+http://purl.obolibrary.org/obo/OBI_0000833 #objective_achieved_by
+http://purl.obolibrary.org/obo/OBI_0000846 #is member of organization
+http://purl.obolibrary.org/obo/OBI_0001637 #has disposition to bind
+http://purl.obolibrary.org/obo/OBI_0001688 #has organization member
+http://purl.obolibrary.org/obo/OBI_0001927 #specifies value of
+http://purl.obolibrary.org/obo/OBI_0001938 #has value specification
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_2000016 #erythrocyte specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0002599
+http://purl.obolibrary.org/obo/OBI_0002415 #exposure to environmental and workplace carcinogens history
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/OBI_0000968
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047
+http://purl.obolibrary.org/obo/OBI_0100016 #blood plasma specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+subClassOf http://purl.obolibrary.org/obo/OBI_0001755 #selection criterion
+http://purl.obolibrary.org/obo/OBI_0001472 #specimen with known storage state
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+#http://purl.obolibrary.org/obo/OBI_0001167 #age measurement datum
+#subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0302887 #staining
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0002145 #antigen specific antibodies assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000443 #analyte assay
+http://purl.obolibrary.org/obo/OBI_0002599 #swab specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0002650 #biopsy
+subClassOf http://purl.obolibrary.org/obo/OBI_0600005 #collecting specimen from organism
+http://purl.obolibrary.org/obo/OBI_0000436 #needle
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
+http://purl.obolibrary.org/obo/OBI_0000835 #manufacturer
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/OBI_0002314 #clinical tumor stage group according to AJCC 7th edition
+subClassOf http://purl.obolibrary.org/obo/OBI_0001930
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

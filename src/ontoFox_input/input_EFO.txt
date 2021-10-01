@@ -1,0 +1,69 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl
+
+[Source ontology]
+#comment here
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0004318 #smoking behavior
+http://www.ebi.ac.uk/efo/EFO_0004774 #chewing tobacco behavior
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003150 #African American
+http://www.ebi.ac.uk/efo/EFO_0003159 #European-American
+http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
+http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
+http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
+http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0004318
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://www.ebi.ac.uk/efo/EFO_0004774
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0003151 #American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003150 #African American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003159 #European-American
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003151 #American
+http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003157 #Chinese
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003164 #Japanese
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003153 #Asian Indian
+subClassOf http://www.ebi.ac.uk/efo/EFO_0003152 #Asian
+http://www.ebi.ac.uk/efo/EFO_0003169 #Hispanic
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/alternative_term
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115

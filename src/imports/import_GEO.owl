@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000329 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GEO_000000329">
+        <obo:IAO_0000115 xml:lang="en">A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1&apos;s jurisdiction falls within the relevant jurisdiction of G2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:comment>&apos;is subordinate authority of&apos;
+Domain: governing organization
+Range: governing organization
+Formal properties: transitive, anti-symmetric, irreflexive
+Natural language definition: A governing organization G1 is subordinate to another governing organization G2 iff there is some authority possessed by G2 that is not possessed by G1 and G1 falls within the relevant jurisdiction of G2.</rdfs:comment>
+        <rdfs:label xml:lang="en">is subordinate authority of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000400"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/GEO_000000329"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000396"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000400"/>
+        <obo:IAO_0000115 xml:lang="en">a governmental organization that has a local, regional, or territorial government that recognizes a sovereign state as its higher political authority</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:label xml:lang="en">subnational entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000004"/>
+        <obo:IAO_0000115 xml:lang="en">A subnational entity that does not possess full political independence or sovereignty as a sovereign state, but remains politically outside of the controlling state and controls a geographical region that is outside the controlling state&apos;s integral region.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:comment xml:lang="en">Typically, the common feature is that the dependency does not conduct foreign affairs, and relegates this authority to the sovereign state.  But otherwise, it is largely or completely autonomous relative to the administrative subdivisions.  Examples include Puerto Rico (U.S.), Guam (U.S.), Greenland (Denmark), French Polynesia (France), and Falkland Islands (United Kingdom). </rdfs:comment>
+        <rdfs:label xml:lang="en">geopolitical dependency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">geographical entity of astronomical body</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A material entity that is (1) a bona fide or fiat object part of the crust, any bodies of liquid on or contained within the crust, or planetary boundary layer (if present) of a terrestrial planet (including Earth), dwarf planet, exoplanet, natural satellite, planetesimal, or small Solar System body, and that (2) overlaps the planetary surface (including having a boundary that coincides with part of the planetary surface).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:comment xml:lang="en">Includes atmosphere, crust, geographical regions (e.g., the geographical region over which the state of Florida has jurisdiction), bodies of water, mountains, etc.
+
+Generally, an individual organism is a distinct object that is not a part of the Earth, although this requires more thought.  But the intent is definitely for this class to NOT subsume organism universally.  Human beings are contained within, but not part of, the Earth, for example.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Note that despite the word &apos;planetary&apos; in &apos;planetary surface&apos;, it refers generally to surface of dwarf planets, asteroids, moons, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that not all planets have a surface per se (e.g., gas giants such as Jupiter and Saturn).  So only planets, natural satellites, etc. with a planetary surface (with or without a planetary boundary layer) have geographical entities.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that the term &apos;geography&apos; is also applied to the Earth&apos;s moon, Mars, Venus, and possibly even other moons and planets in our own solar system and beyond.  
+
+Thus, we are attempting to define things generally enough that they could be reused for the geographical entities/features on the Moon, Mars, other planets, exoplanets, other natural satellites (a.k.a moons), asteroids, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">geographical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000370"/>
+        <obo:IAO_0000115 xml:lang="en">A geographical entity that is demarcated at least in part by one or more closed fiat boundaries all of whose lines are part of the planetary surface.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">François Modave</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:label xml:lang="en">geographical region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000400"/>
+        <obo:IAO_0000115 xml:lang="en">A governmental organization with a defined territory on which it exercises internal and external sovereignty, a permanent population, a government, and the capacity to enter into relations with other sovereign states.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">de facto sovereign state</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">de facto state</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nation</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nation state</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Sovereign_state</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:comment xml:lang="en">Per Wikipedia, the word &apos;nation&apos; does not always refer to soverign states.  For example, the &quot;nation of Islam&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">sovereign state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that governs the people living in a particular geographical region or aggregate of geographical regions.  The geographical region it governs can change over time (such as the westward expansion of the United States and the addition of Hawaii). 
+
+Note: this definition was taken over from &quot;geopolitical organization&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/geo.owl"/>
+        <rdfs:comment xml:lang="en">IMPORTANT: The label &quot;geopolitical organization&quot; was previously used for OMRSE_00000044 (governmental organization).  &quot;geopoli organization&quot; is a label for a new and different class.</rdfs:comment>
+        <rdfs:label xml:lang="en">governmental organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,43 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_ICO.owl
+
+[Source ontology]
+#comment here
+ICO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ICO_0000001 #informed consent form
+http://purl.obolibrary.org/obo/ICO_0000024 #partially filled informed consent form
+http://purl.obolibrary.org/obo/ICO_0000023 #completely filled informed consent form
+http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
+http://purl.obolibrary.org/obo/ICO_0000148 #candidate ineligible for study
+http://purl.obolibrary.org/obo/ICO_0000147 #candidate eligible for study
+http://purl.obolibrary.org/obo/ICO_0000046 #authorization
+http://purl.obolibrary.org/obo/ICO_0000075 #authorization documentation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ICO_0000001 #informed consent form
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/ICO_0000024 #partially filled informed consent form
+subClassOf http://purl.obolibrary.org/obo/ICO_0000001
+http://purl.obolibrary.org/obo/ICO_0000023 #completely filled informed consent form
+subClassOf http://purl.obolibrary.org/obo/ICO_0000001
+http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
+subClassOf http://purl.obolibrary.org/obo/BFO_0000017 #realizable entity
+http://purl.obolibrary.org/obo/ICO_0000148 #candidate ineligible for study
+subClassOf http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
+http://purl.obolibrary.org/obo/ICO_0000147 #candidate eligible for study
+subClassOf http://purl.obolibrary.org/obo/ICO_0000146 #eligibility of candidate participation
+http://purl.obolibrary.org/obo/ICO_0000046 #authorization
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/ICO_0000075 #authorization documentation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

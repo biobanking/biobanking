@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomolecule synthesis of RNA in vitro used for applications such as can be used in blot hybridizations and nuclease protection assays.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in vitro transcription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storage of perishable items in a freezer.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instrument that consists of a thermally insulated compartment, cabinet, or room in which a subfreezing temperature is maintained for the rapid freezing and storing of perishable items.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freezer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood pressure monitor is a medical device.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instrument used in the diagnosis of disease or other conditions or for use in the care, treatment, or prevention of disease that does not achieve any of its primary intended purposes by chemical action or by being metabolized.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001978">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Jewish ethnic group comprised of persons who are descendants of Jews from Germany, Poland, Austria and Eastern Europe.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label xml:lang="en">Ashkenazi Jew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001979">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label xml:lang="en">Sephardic Jew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001983">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group comprised of persons with African ancestral origins who self identify, or are identified, as African.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label xml:lang="en">African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002032">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group that includes persons with significant ethnic contributions from more than one group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label>mixed ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between persons related as members of a domestic group, or a number of domestic groups linked through descent from a common ancestor, marriage, or adoption</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0002033"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family relationship between persons linked through descent from a common ancestor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological family relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0002037"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lineal family relationship from a person to their biological parent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">child relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0002033"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship by marriage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002076">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label>Nordic, Icelandic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002087">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latino, Carribean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0002090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002090">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label>Latino, South American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003166 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003166"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

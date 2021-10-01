@@ -1,0 +1,157 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_DOID.owl
+
+[Source ontology]
+#comment here
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
+http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolae adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+http://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinoma
+http://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumor
+http://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcoma
+http://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinoma
+http://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumor
+http://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasm
+http://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancer
+http://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasm
+http://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinoma
+http://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
+http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
+http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_162 #cancer
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/DOID_0050934 #ovarian clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_234 #colon adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_5629 #adenosquamos colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3029 #colon mucinous adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3033 #colon signet ring adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_6727 #colon small cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_5519 #colon squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_3910 #lung adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_6482 #lung acinar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_7267 #lung clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_0050917 #lung combined type small cell adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_5588 #lung papillary adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3907 #lung squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_7045 #baseloid lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+http://purl.obolibrary.org/obo/DOID_3905 #lung carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_4464 #collecting duct carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4471 #chromophobe renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4467 #renal clear cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4472 #Mucinous tubular and spindle cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4463 #multilocular clear cell renal carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4465 #papillary renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4450 #renal cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4451 #renal carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_4217 #malignant ovarian Brenner tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_6170 #ovarian carcinosarcoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5828 #endometriod ovary carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2999 #granulosa cell tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2155 #malignant ovarian germ cell neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2152 #ovary epithelial cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_6067 #ovarian mucinous neoplasm
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_3604 #ovarian mucinous cystadenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_0050933 #ovarian serous carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5746 #ovarian serous cystadenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_5531 #ovarian squamous cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_4000 #ovary transitional cell carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_192 #sex cord-gonadal stromal tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0050687 #cell type cancer
+subClassOf http://purl.obolibrary.org/obo/DOID_162 #cancer
+http://purl.obolibrary.org/obo/DOID_0080183 #medullary colon carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520 #colon carcinoma
+http://purl.obolibrary.org/obo/DOID_0080184 #mixed mucinous and nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080185 #mucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0080186 #nonmucinous bronchioloalveolar adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4926 #bronchiolo-alveolar adenocarcinoma
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

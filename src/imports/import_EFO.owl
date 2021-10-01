@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (MSH); A social group characterized by a distinctive social and cultural tradition maintained from generation to generation, a common history and origin and a sense of identification with the group; members of the group have distinctive features in their way of life, shared experiences and often a common genetic heritage; these features may be reflected in their experience of health and disease. (NCI); Ethnicity - an arbitrary classification of the social group a person belongs to, and either identifies with or is identified with by others, as a result of a complex of cultural, biological, geographical and other factors such as linguistic, dietary and religion traditions; ancestry, background, allegiance, or association; and physical characteristics traditionally associated with race. Increasingly the concept is used synonymously with race but this use trend has a pragmatic basis rather than scientific. (NCI); The concept of ethnic origin is an attempt to classify people, not according to their current ethnicity, but according to where their ancestors came from. Ethnic origin has become a popular classification in statistics, where the concept of race has been largely discarded. (from Wikipedia) (NCI); a group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (CSP)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group is a population whose members have a common heritage that is real or presumed such as common culture, language, religion, behaviour or biological trait.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethnic group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003150 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003150">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003151"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A term used in the United States to categorize a population group comprised of persons having origins in any of the black racial groups of Africa. Includes population subgroups (e.g., Kenyan, Nigerian, Haitian). The concept refers also to individuals who classify themselves as described.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_African American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003151 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003151">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003152 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003152">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denotes a person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including Cambodia, China, India, Japan, Korea, Malaysia, Mongolia, Pakistan, the Philippine Islands, Thailand, and Vietnam.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003153 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003153">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In North America the term is used to distinguish a person having origins in the original peoples of the Indian sub-continent from Native Americans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Asian Indian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003157 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003157">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denotes the inhabitants of China, a person from there, or their descendants elsewhere.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003159 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003159">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003151"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_European-American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003164 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003164">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denotes the inhabitants of Japan, a person from there, or their descendants elsewhere.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Japanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003166 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003166">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003151"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Latino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003169 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003169">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Hispanic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any aspect of an individual&apos;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">risk factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003961 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003961">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic use of hormones to alleviate the effects of hormone deficiency.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hormone replacement therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004318 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhaling and exhaling the smoke of tobacco or something similar to tobacco.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004774 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mastication of tobacco, correlated with an increased risk of oral cancers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing tobacco behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004950 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The point in time at which an individual was born.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004953 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The point at which a clinical diagnosis is made.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of diagnosis</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
