@@ -1,0 +1,142 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_IAO.owl
+
+[Source ontology]
+#comment here
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000178 #material information bearer
+http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/IAO_0000100 #data set
+http://purl.obolibrary.org/obo/IAO_0000102 #data about an ontology part
+http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000140 #setting datum
+http://purl.obolibrary.org/obo/IAO_0000029 #numeral
+http://purl.obolibrary.org/obo/IAO_0000129 #version number
+http://purl.obolibrary.org/obo/IAO_0000132 #lot number
+http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+http://purl.obolibrary.org/obo/IAO_0000009 #datum label
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/IAO_0000308 #figure
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/IAO_0000429 #email address
+http://purl.obolibrary.org/obo/IAO_0000578 #centrally registered identifier
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
+http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://purl.obolibrary.org/obo/IAO_0000001 #conditional specification
+http://purl.obolibrary.org/obo/IAO_0000005 #objective specification
+http://purl.obolibrary.org/obo/IAO_0000007 #action specification
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/IAO_0000579 #centrally registered identifier registry
+http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/IAO_0000582 #time stamped measurement datum
+http://purl.obolibrary.org/obo/IAO_0000144 #conclusion textual entity
+http://purl.obolibrary.org/obo/IAO_0000305 #document title
+http://purl.obolibrary.org/obo/IAO_0000422 #postal address
+http://purl.obolibrary.org/obo/IAO_0000329 #running title
+http://purl.obolibrary.org/obo/IAO_0000101 #image
+http://purl.obolibrary.org/obo/IAO_0000646 #postal code
+http://purl.obolibrary.org/obo/IAO_0000572 #documenting
+
+#object property
+http://purl.obolibrary.org/obo/IAO_0000039
+http://purl.obolibrary.org/obo/IAO_0000136
+http://purl.obolibrary.org/obo/IAO_0000219
+http://purl.obolibrary.org/obo/IAO_0000413
+http://purl.obolibrary.org/obo/IAO_0000221
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/IAO_0000178 #material information bearer
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+subClassOf http://purl.obolibrary.org/obo/IAO_0000009 #datum label
+http://purl.obolibrary.org/obo/IAO_0000100 #data set
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000140 #setting datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000029 #numeral
+subClassOf http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000129 #version number
+subClassOf http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000132 #lot number
+subClassOf http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+subClassOf http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000009 #datum label
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000308 #figure
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000429 #email address
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000578 #centrally registered identifier
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/IAO_0000001 #conditional specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000005 #objective specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000007 #action specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000579 #centrally registered identifier registry
+subClassOf http://purl.obolibrary.org/obo/IAO_0000100 #data set
+http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000582 #time stamped measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000144 #conclusion textual entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/IAO_0000305 #document title
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/IAO_0000422 #postal address
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/IAO_0000329 #running title
+subClassOf http://purl.obolibrary.org/obo/IAO_0000305 #document title
+http://purl.obolibrary.org/obo/IAO_0000101 #image
+subClassOf http://purl.obolibrary.org/obo/IAO_0000308 #figure
+http://purl.obolibrary.org/obo/IAO_0000646 #postal code
+subClassOf http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+http://purl.obolibrary.org/obo/IAO_0000572 #documenting
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

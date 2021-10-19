@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri name="http://purl.obolibrary.org/obo/obib/dev/obsolete.owl" uri="modules/obsolete.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_BBRB.owl" uri="imports/import_BBRB.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OBI_subset.owl" uri="imports/import_OBI_subset.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl" uri="imports/externalByhand.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OBO.owl" uri="imports/import_OBO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_APOLLO_SV.owl" uri="imports/import_APOLLO_SV.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_CHEBI.owl" uri="imports/import_CHEBI.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_CL.owl" uri="imports/import_CL.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_CLO.owl" uri="imports/import_CLO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_DOID.owl" uri="imports/import_DOID.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_DRON.owl" uri="imports/import_DRON.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl" uri="imports/import_EFO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_ENVO.owl" uri="imports/import_ENVO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_ERO.owl" uri="imports/import_ERO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_FLU.owl" uri="imports/import_FLU.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_FMA.owl" uri="imports/import_FMA.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl" uri="imports/import_GEO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_GO.owl" uri="imports/import_GO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_IAO.owl" uri="imports/import_IAO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_ICO.owl" uri="imports/import_ICO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_IDO.owl" uri="imports/import_IDO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_MONDO.owl" uri="imports/import_MONDO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_NCBITaxon.owl" uri="imports/import_NCBITaxon.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl" uri="imports/import_NCIT.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OAE.owl" uri="imports/import_OAE.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OBI.owl" uri="imports/import_OBI.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OGMS.owl" uri="imports/import_OGMS.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_OMRSE.owl" uri="imports/import_OMRSE.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_PATO.owl" uri="imports/import_PATO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_PCO.owl" uri="imports/import_PCO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_PR.owl" uri="imports/import_PR.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_RO.owl" uri="imports/import_RO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_SO.owl" uri="imports/import_SO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_UBERON.owl" uri="imports/import_UBERON.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_UO.owl" uri="imports/import_UO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_UO_instance.owl" uri="imports/import_UO_instance.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/obib_dev.owl" uri="obib_dev.owl"/>
 </catalog>
