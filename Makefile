@@ -101,6 +101,27 @@ IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/imports/import_$(x).owl)
 .PHONY: imports
 imports: $(IMPORT_FILES)
 
+### Templates
+#
+src/modules/%.owl: src/templates/%.tsv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/obib_dev.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri "http://purl.obolibrary.org/obo/obib/dev/$(notdir $@)" \
+	--output $@
+
+# Update all modules
+MODULE_NAMES := obsolete
+
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
+
+
 ### Build
 #
 # Here we create a standalone OWL file appropriate for release.
