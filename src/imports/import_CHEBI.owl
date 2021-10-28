@@ -232,7 +232,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent</rdfs:label>
@@ -293,7 +293,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35482">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A narcotic or opioid substance, synthetic or semisynthetic agent producing profound analgesia, drowsiness, and changes in mood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opioid analgesic</rdfs:label>
@@ -304,7 +304,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35717">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A central nervous system depressant used to induce drowsiness or sleep or to reduce psychological excitement or anxiety.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sedative</rdfs:label>
@@ -327,7 +327,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_38867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38867">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance which produces loss of feeling or sensation.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaesthetic</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -434,7 +434,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_50919 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50919">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drug used to prevent nausea or vomiting. An antiemetic may act by a wide range of mechanisms: it might affect the medullary control centres (the vomiting centre and the chemoreceptive trigger zone) or affect the peripheral receptors.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiemetic</rdfs:label>
@@ -445,7 +445,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_51371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drug used to produce muscle relaxation (excepting neuromuscular blocking agents). Its primary clinical and therapeutic use is the treatment of muscle spasm and immobility associated with strains, sprains, and injuries of the back and, to a lesser degree, injuries to the neck. Also used for the treatment of a variety of clinical conditions that have in common only the presence of skeletal muscle hyperactivity, for example, the muscle spasms that can occur in multiple sclerosis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle relaxant</rdfs:label>
@@ -545,7 +545,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_65265 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65265">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance which is used to neutralise stomach acidity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antacid</rdfs:label>
@@ -650,9 +650,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000026 -->
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000148 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000148"/>
 </rdf:RDF>
 
 

@@ -1,138 +1,139 @@
 ontology ID	label	Type	alternative term	definition	definition source	example of usage	term editor	term tracker item	parent class	obsolete	obsolescence reason	replacement term	ontology term requester
 ID	LABEL	TYPE	A alternative term SPLIT=|	A http://purl.obolibrary.org/obo/IAO_0000115	A definition source SPLIT=|	A example of usage SPLIT=|	A term editor SPLIT=|	AI term tracker item	C %	AT deprecated^^xsd:boolean	AI has obsolescence reason	AI term replaced by	A ontology term requester
-OMIABIS:0000000	obsolete_biobank	class			"definition derived from the definition of 'human biobank', based on http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf"		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000616	
-OMIABIS:0000001	obsolete_human biobank	class			"Deutscher Ethikrat: Human biobanks for research. Opinion. Berlin, 2010. http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf"				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000617	
-OMIABIS:0000002	obsolete_settlement part of address of sample collection or study contact	class	Sample Collection/Study contact city				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000618	
-OMIABIS:0000003	obsolete_biobank proper name	class	Name of biobank				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000619	
-OMIABIS:0000004	obsolete_ISO 3166-1 alpha-2 code	class			http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000620	
-OMIABIS:0000005	obsolete_biobank idenfier with ISO 3166-1 alpha-2 code	class	Biobank ID				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000621	
-OMIABIS:0000007	obsolete_ISO 3166-1 alpha-2 code for sample collection or study contact	class	Sample Collection/Study contact country				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000622	
-OMIABIS:0000010	obsolete_biobank organization	class	biobank juristic person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000623	
-OMIABIS:0000011	obsolete_contacting	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000624	
-OMIABIS:0000012	obsolete_contact role	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000625	
-OMIABIS:0000013	obsolete_biobank contact person	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000626	
-OMIABIS:0000014	obsolete_name of biobank contact person	class	Biobank contact person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000627	
-OMIABIS:0000015	obsolete_email address of biobank contact person	class	Biobank contact email				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000628	
-OMIABIS:0000016	obsolete_postal address of biobank contact person	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000629	
-OMIABIS:0000017	obsolete_department	class			http://en.wikipedia.org/wiki/Department				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000630	
-OMIABIS:0000018	obsolete_department of biobank contact	class	Biobank contact department				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000631	
-OMIABIS:0000019	obsolete_unique resource locator	class	uri		http://en.wikipedia.org/wiki/Uniform_resource_locator		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000632	
-OMIABIS:0000020	obsolete_biobank's unique resource locator	class	Biobank URL				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000633	
-OMIABIS:0000021	obsolete_telephone number	class			http://en.wikipedia.org/wiki/Telephone_number		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000634	
-OMIABIS:0000022	obsolete_telephone number of biobank contact	class	Biobank contact phone				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000635	
-OMIABIS:0000023	obsolete_post-office box number	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000636	
-OMIABIS:0000024	obsolete_post-office box	class			http://en.wikipedia.org/wiki/Post-office_box		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000637	
-OMIABIS:0000025	obsolete_telephone number of sample collection or study contact	class	Sample Collection/Study contact phone				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000638	
-OMIABIS:0000027	obsolete_postal code of biobank contact	class	Biobank contact ZIP				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000639	
-OMIABIS:0000028	obsolete_ISO 3166-1 alpha-2 code for biobank contact person	class	Biobank country code				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000640	
-OMIABIS:0000029	obsolete_settlement part of address	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000641	
-OMIABIS:0000030	obsolete_settlement part of address biobank contact	class	Biobank contact city				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000642	
-OMIABIS:0000031	obsolete_intra-settlement specification part of address	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000643	
-OMIABIS:0000032	obsolete_intra-settlement specification part of address of biobank contact	class	Biobank contact address				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000644	
-OMIABIS:0000033	obsolete_hosted study collection	class	Hosted studies				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000645	
-OMIABIS:0000034	obsolete_name of hosted study collection	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000646	
-OMIABIS:0000035	obsolete_email address of sample collection or study contact	class	Sample Collection/Study contact email				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000647	
-OMIABIS:0000036	obsolete_sample collection or study aim description	class	Sample collection or study description				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000648	
-OMIABIS:0000037	obsolete_study proper name	class	Study name				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000649	
-OMIABIS:0000038	obsolete_name of sample collection responsible or principal investigator	class	Sample Collection Responsible / Principal Investigator				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000650	
-OMIABIS:0000039	obsolete_name of sample collection or study contact person	class	Sample Collection/Study contact person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000651	
-OMIABIS:0000040	obsolete_department of sample collection or study contact	class	Sample Collection/Study contact department				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000652	
-OMIABIS:0000041	obsolete_street	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000653	
-OMIABIS:0000043	obsolete_intra-settlement specification part of address of sample collection or study contact	class	Sample Collection/Study contact address				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000654	
-OMIABIS:0000044	obsolete_postal code for sample collection or study contact	class	Sample Collection/Study contact ZIP				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000655	
-OMIABIS:0000045	obsolete_biobank location ISO 3166-1 alpha-2 code	class	Biobank country code				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000656	
-OMIABIS:0000046	obsolete_CTEP organization identifier	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000657	
-OMIABIS:0000047	obsolete_biobank identifier with ISO 3166-1 alpha-2 code and CTEP organization identifier	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000658	
-OMIABIS:0000050	obsolete_fixed tissue specimen	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000659	
-OMIABIS:0000051	obsolete_fixed tissue block specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000660	
-OMIABIS:0000052	obsolete_fixed tissue slide specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000661	
-OMIABIS:0000053	obsolete_flash frozen specimen	class			"http://en.wikipedia.org/wiki/Flash_freezing
+OMIABIS:0000000	obsolete biobank	class			"definition derived from the definition of 'human biobank', based on http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf"		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000616	
+OMIABIS:0000001	obsolete human biobank	class			"Deutscher Ethikrat: Human biobanks for research. Opinion. Berlin, 2010. http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf"				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000617	
+OMIABIS:0000002	obsolete settlement part of address of sample collection or study contact	class	Sample Collection/Study contact city		true		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000618	
+OMIABIS:0000003	obsolete biobank proper name	class	Name of biobank				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000619	
+OMIABIS:0000004	obsolete ISO 3166-1 alpha-2 code	class			http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000620	
+OMIABIS:0000005	obsolete biobank idenfier with ISO 3166-1 alpha-2 code	class	Biobank ID				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000621	
+OMIABIS:0000007	obsolete ISO 3166-1 alpha-2 code for sample collection or study contact	class	Sample Collection/Study contact country				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000622	
+OMIABIS:0000010	obsolete biobank organization	class	biobank juristic person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000623	
+OMIABIS:0000011	obsolete contacting	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000624	
+OMIABIS:0000012	obsolete contact role	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000625	
+OMIABIS:0000013	obsolete biobank contact person	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000626	
+OMIABIS:0000014	obsolete name of biobank contact person	class	Biobank contact person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000627	
+OMIABIS:0000015	obsolete email address of biobank contact person	class	Biobank contact email				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000628	
+OMIABIS:0000016	obsolete postal address of biobank contact person	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000629	
+OMIABIS:0000017	obsolete department	class			http://en.wikipedia.org/wiki/Department				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000630	
+OMIABIS:0000018	obsolete department of biobank contact	class	Biobank contact department				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000631	
+OMIABIS:0000019	obsolete unique resource locator	class	uri		http://en.wikipedia.org/wiki/Uniform_resource_locator		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000632	
+OMIABIS:0000020	obsolete biobank's unique resource locator	class	Biobank URL				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000633	
+OMIABIS:0000021	obsolete telephone number	class			http://en.wikipedia.org/wiki/Telephone_number		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000634	
+OMIABIS:0000022	obsolete telephone number of biobank contact	class	Biobank contact phone				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000635	
+OMIABIS:0000023	obsolete post-office box number	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000636	
+OMIABIS:0000024	obsolete post-office box	class			http://en.wikipedia.org/wiki/Post-office_box		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000637	
+OMIABIS:0000025	obsolete telephone number of sample collection or study contact	class	Sample Collection/Study contact phone				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000638	
+OMIABIS:0000027	obsolete postal code of biobank contact	class	Biobank contact ZIP				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000639	
+OMIABIS:0000028	obsolete ISO 3166-1 alpha-2 code for biobank contact person	class	Biobank country code				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000640	
+OMIABIS:0000029	obsolete settlement part of address	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000641	
+OMIABIS:0000030	obsolete settlement part of address biobank contact	class	Biobank contact city				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000642	
+OMIABIS:0000031	obsolete intra-settlement specification part of address	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000643	
+OMIABIS:0000032	obsolete intra-settlement specification part of address of biobank contact	class	Biobank contact address				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000644	
+OMIABIS:0000033	obsolete hosted study collection	class	Hosted studies				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000645	
+OMIABIS:0000034	obsolete name of hosted study collection	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000646	
+OMIABIS:0000035	obsolete email address of sample collection or study contact	class	Sample Collection/Study contact email				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000647	
+OMIABIS:0000036	obsolete sample collection or study aim description	class	Sample collection or study description				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000648	
+OMIABIS:0000037	obsolete study proper name	class	Study name				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000649	
+OMIABIS:0000038	obsolete name of sample collection responsible or principal investigator	class	Sample Collection Responsible / Principal Investigator				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000650	
+OMIABIS:0000039	obsolete name of sample collection or study contact person	class	Sample Collection/Study contact person				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000651	
+OMIABIS:0000040	obsolete department of sample collection or study contact	class	Sample Collection/Study contact department				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000652	
+OMIABIS:0000041	obsolete street	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000653	
+OMIABIS:0000043	obsolete intra-settlement specification part of address of sample collection or study contact	class	Sample Collection/Study contact address				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000654	
+OMIABIS:0000044	obsolete postal code for sample collection or study contact	class	Sample Collection/Study contact ZIP				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000655	
+OMIABIS:0000045	obsolete biobank location ISO 3166-1 alpha-2 code	class	Biobank country code				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000656	
+OMIABIS:0000046	obsolete CTEP organization identifier	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000657	
+OMIABIS:0000047	obsolete biobank identifier with ISO 3166-1 alpha-2 code and CTEP organization identifier	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000658	
+OMIABIS:0000050	obsolete fixed tissue specimen	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000659	
+OMIABIS:0000051	obsolete fixed tissue block specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000660	
+OMIABIS:0000052	obsolete fixed tissue slide specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000661	
+OMIABIS:0000053	obsolete flash frozen specimen	class			"http://en.wikipedia.org/wiki/Flash_freezing
 "				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000662	
-OMIABIS:0000054	obsolete_fresh tissue specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000663	
-OMIABIS:0000055	obsolete_frozen tissue block specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000664	
-OMIABIS:0000056	obsolete_frozen tissue slide specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000665	
-OMIABIS:0000057	obsolete_microdissected specimen	class			"http://www.ncbi.nlm.nih.gov/pubmed/11269646
+OMIABIS:0000054	obsolete fresh tissue specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000663	
+OMIABIS:0000055	obsolete frozen tissue block specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000664	
+OMIABIS:0000056	obsolete frozen tissue slide specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000665	
+OMIABIS:0000057	obsolete microdissected specimen	class			"http://www.ncbi.nlm.nih.gov/pubmed/11269646
 "		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000666	
-OMIABIS:0000060	obsolete_survey data	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000667	
-OMIABIS:0000061	obsolete_sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000668	
-OMIABIS:0000093	obsolete_biobank contact role	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000669	
-OMIABIS:0000094	obsolete_sample collection or study contact role	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000670	
-OMIABIS:0000099	obsolete_sample collection or study contact person	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000671	
-OMIABIS:00001006	obsolete_specimen disease state datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000672	
-OMIABIS:00001010	obsolete_diseased state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000673	
-OMIABIS:00001011	obsolete_mixed state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000674	
-OMIABIS:00001012	obsolete_normal state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000675	
-OMIABIS:0000911	obsolete_fixation	class			http://en.wikipedia.org/wiki/Fixation_%28histology%29|http://sharedresources.fhcrc.org/training/tips-about-fixation-and-formalin				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000676	
-OMIABIS:0001000	obsolete_age interval information	class					Alice Nzinga|Martin Fransson|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000677	
-OMIABIS:0001001	obsolete_average age	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000678	
-OMIABIS:0001002	obsolete_patient registry data	class	patient register data				Alice Nzinga|Martin Fransson		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000679	
-OMIABIS:0001004	obsolete_date of data entry	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000680	
-OMIABIS:0001005	obsolete_date of data update	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000681	
-OMIABIS:0001006	obsolete_end date of sampling for biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000682	
-OMIABIS:0001007	obsolete_start date of sampling for biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000683	
-OMIABIS:0001008	obsolete_comorbidity	class	"secondary infection, nosocomial infection"		amended from http://en.wikipedia.org/wiki/Comorbidity		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000684	
-OMIABIS:0001009	obsolete_primary diagnosis	class	main diagnosis				Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000685	
-OMIABIS:0001010	obsolete_count of current sampled human study participant	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000686	
-OMIABIS:0001011	obsolete_count of current total human study participant	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000687	
-OMIABIS:0001012	obsolete_physiological measurement data	class			http://www.improvement.nhs.uk/physiologydiagnostics/documents/WhatisPhysiologicalMeasurement.pdf		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000688	
-OMIABIS:0001013	obsolete_storage temperature setting	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000689	
-OMIABIS:0001014	obsolete_omics experiment on specimen	class			http://en.wikipedia.org/wiki/Omics		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000690	
-OMIABIS:0001015	obsolete_number of sampled human study participants objective	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000691	
-OMIABIS:0001016	obsolete_number of total human study participant objective	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000692	
-OMIABIS:0001017	obsolete_case control study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000693	
-OMIABIS:0001018	obsolete_cross sectional study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000694	
-OMIABIS:0001019	obsolete_longitudinal study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000695	
-OMIABIS:0001020	obsolete_cohort study design	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000696	
-OMIABIS:0001021	obsolete_panel study design	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000697	
-OMIABIS:0001022	obsolete_population based study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000698	
-OMIABIS:0001023	obsolete_quality control study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000699	
-OMIABIS:0001024	obsolete_twin study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000700	
-OMIABIS:0001025	obsolete_survey plan specification	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000701	
-OMIABIS:0001026	obsolete_medical record	class					Martin Fransson		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000702	
-OMIABIS:0001027	obsolete_sample medical record	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000703	
-OMIABIS:0001028	obsolete_sample handling summary	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000704	
-OMIABIS:0001029	obsolete_age interval information for sampled donors	class	sampled group age interval		"http://www.abta.org/Dictionary/67
+OMIABIS:0000060	obsolete survey data	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000667	
+OMIABIS:0000061	obsolete sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000668	
+OMIABIS:0000093	obsolete biobank contact role	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000669	
+OMIABIS:0000094	obsolete sample collection or study contact role	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000670	
+OMIABIS:0000099	obsolete sample collection or study contact person	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000671	
+OMIABIS:00001006	obsolete specimen disease state datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000672	
+OMIABIS:00001010	obsolete diseased state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000673	
+OMIABIS:00001011	obsolete mixed state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000674	
+OMIABIS:00001012	obsolete normal state specimen datum	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000675	
+OMIABIS:0000911	obsolete fixation	class			http://en.wikipedia.org/wiki/Fixation_%28histology%29|http://sharedresources.fhcrc.org/training/tips-about-fixation-and-formalin				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000676	
+OMIABIS:0001000	obsolete age interval information	class					Alice Nzinga|Martin Fransson|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000677	
+OMIABIS:0001001	obsolete average age	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000678	
+OMIABIS:0001002	obsolete patient registry data	class	patient register data				Alice Nzinga|Martin Fransson		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000679	
+OMIABIS:0001004	obsolete date of data entry	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000680	
+OMIABIS:0001005	obsolete date of data update	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000681	
+OMIABIS:0001006	obsolete end date of sampling for biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000682	
+OMIABIS:0001007	obsolete start date of sampling for biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000683	
+OMIABIS:0001008	obsolete comorbidity	class	"secondary infection, nosocomial infection"		amended from http://en.wikipedia.org/wiki/Comorbidity		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000684	
+OMIABIS:0001009	obsolete primary diagnosis	class	main diagnosis				Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000685	
+OMIABIS:0001010	obsolete count of current sampled human study participant	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000686	
+OMIABIS:0001011	obsolete count of current total human study participant	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000687	
+OMIABIS:0001012	obsolete physiological measurement data	class			http://www.improvement.nhs.uk/physiologydiagnostics/documents/WhatisPhysiologicalMeasurement.pdf		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000688	
+OMIABIS:0001013	obsolete storage temperature setting	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000689	
+OMIABIS:0001014	obsolete omics experiment on specimen	class			http://en.wikipedia.org/wiki/Omics		Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000690	
+OMIABIS:0001015	obsolete number of sampled human study participants objective	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000691	
+OMIABIS:0001016	obsolete number of total human study participant objective	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000692	
+OMIABIS:0001017	obsolete case control study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000693	
+OMIABIS:0001018	obsolete cross sectional study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000694	
+OMIABIS:0001019	obsolete longitudinal study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000695	
+OMIABIS:0001020	obsolete cohort study design	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000696	
+OMIABIS:0001021	obsolete panel study design	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000697	
+OMIABIS:0001022	obsolete population based study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000698	
+OMIABIS:0001023	obsolete quality control study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000699	
+OMIABIS:0001024	obsolete twin study design	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000700	
+OMIABIS:0001025	obsolete survey plan specification	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000701	
+OMIABIS:0001026	obsolete medical record	class					Martin Fransson		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000702	
+OMIABIS:0001027	obsolete sample medical record	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000703	
+OMIABIS:0001028	obsolete sample handling summary	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000704	
+OMIABIS:0001029	obsolete age interval information for sampled donors	class	sampled group age interval		"http://www.abta.org/Dictionary/67
 "		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000705	
-OMIABIS:0001031	obsolete_donor patient registry data	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000706	
-OMIABIS:0001032	obsolete_study subject survey data	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000707	
-OMIABIS:0001033	obsolete_sample collection data entry	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000708	
-OMIABIS:0001034	obsolete_sample collection data update	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000709	
-OMIABIS:0001035	obsolete_survey execution	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000710	
-OMIABIS:0001036	obsolete_temperature regulating	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000711	
-OMIABIS:0001037	obsolete_comment from tissue procurement	class			Alice Nzinga				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000712	
-OMIABIS:0001038	obsolete_specimen measurement	class				3mm X 3mm X 3mm	Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000713	
-OMIABIS:0001039	obsolete_date of specimen collection	class	date of specimen preparation				Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000714	
-OMIABIS:0001040	obsolete_specimen meeting specification	class	adherance to specification				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000715	
-OMIABIS:0001041	obsolete_surgical procedure	class			http://en.wikipedia.org/wiki/Surgery	mastectomy / craniotomy / liver resection e.t.c.			Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000716	
-OMIABIS:0001042	obsolete_specimen preparation contact	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000717	
-OMIABIS:0001043	obsolete_time in formalin measurement	class				15min	Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000718	
-OMIABIS:0001044	obsolete_specimen surgical removal	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000719	
-OMIABIS:0001045	obsolete_specimen freezing	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000720	
-OMIABIS:0001046	obsolete_specimen ID	class			http://biospecimens.cancer.gov/resources/sops/GTEx_SOPs/II/A/GTEx%20Tissue%20Procurement%20SOP%20%28PR-0004%20v1.2.1%29.pdf		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000721	
-OMIABIS:0001047	obsolete_case ID	class			http://biospecimens.cancer.gov/resources/sops/GTEx_SOPs/II/A/GTEx%20Tissue%20Procurement%20SOP%20%28PR-0004%20v1.2.1%29.pdf		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000722	
-OMIABIS:0001048	obsolete_specimen measurement specification	class			http://en.wikipedia.org/wiki/Specification_(technical_standard)		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000723	
-OMIABIS:0001049	obsolete_time of specimen freezing	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000724	
-OMIABIS:0001050	obsolete_time of surgical removal of specimen	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000725	
-OMIABIS:0001054	obsolete_normal specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000726	
-OMIABIS:0001078	obsolete_hosting biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000727	
-OMIABIS:0001079	obsolete_specimen donor	class	sample donor				Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000728	
-OMIABIS:0001080	obsolete_sample handling	class	specimen handling		"http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf
+OMIABIS:0001031	obsolete donor patient registry data	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000706	
+OMIABIS:0001032	obsolete study subject survey data	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000707	
+OMIABIS:0001033	obsolete sample collection data entry	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000708	
+OMIABIS:0001034	obsolete sample collection data update	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000709	
+OMIABIS:0001035	obsolete survey execution	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000710	
+OMIABIS:0001036	obsolete temperature regulating	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000711	
+OMIABIS:0001037	obsolete comment from tissue procurement	class			Alice Nzinga				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000712	
+OMIABIS:0001038	obsolete specimen measurement	class				3mm X 3mm X 3mm	Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000713	
+OMIABIS:0001039	obsolete date of specimen collection	class	date of specimen preparation				Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000714	
+OMIABIS:0001040	obsolete specimen meeting specification	class	adherance to specification				Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000715	
+OMIABIS:0001041	obsolete surgical procedure	class			http://en.wikipedia.org/wiki/Surgery	mastectomy / craniotomy / liver resection e.t.c.			Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000716	
+OMIABIS:0001042	obsolete specimen preparation contact	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000717	
+OMIABIS:0001043	obsolete time in formalin measurement	class				15min	Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000718	
+OMIABIS:0001044	obsolete specimen surgical removal	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000719	
+OMIABIS:0001045	obsolete specimen freezing	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000720	
+OMIABIS:0001046	obsolete specimen ID	class			http://biospecimens.cancer.gov/resources/sops/GTEx_SOPs/II/A/GTEx%20Tissue%20Procurement%20SOP%20%28PR-0004%20v1.2.1%29.pdf		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000721	
+OMIABIS:0001047	obsolete case ID	class			http://biospecimens.cancer.gov/resources/sops/GTEx_SOPs/II/A/GTEx%20Tissue%20Procurement%20SOP%20%28PR-0004%20v1.2.1%29.pdf		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000722	
+OMIABIS:0001048	obsolete specimen measurement specification	class			http://en.wikipedia.org/wiki/Specification_(technical_standard)		Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000723	
+OMIABIS:0001049	obsolete time of specimen freezing	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000724	
+OMIABIS:0001050	obsolete time of surgical removal of specimen	class					Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000725	
+OMIABIS:0001054	obsolete normal specimen	class							Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000726	
+OMIABIS:0001078	obsolete hosting biobank	class					Alice Nzinga		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000727	
+OMIABIS:0001079	obsolete specimen donor	class	sample donor				Alice Nzinga|Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000728	
+OMIABIS:0001080	obsolete sample handling	class	specimen handling		"http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf
 "				Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000729	
-OMIABIS:0001081	obsolete_start of sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000730	
-OMIABIS:0001082	obsolete_end of sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000731	
-OMIABIS:0000008	obsolete_owns	object property					Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000732	
-OMIABIS:0000009	obsolete_administrates	object property					Mathias Brochhausen|Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000733	
-OMIABIS:0000042	obsolete_is contact information about	object property					Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000734	
-OMIABIS:0000048	obsolete_is owned by	object property			"Reinach, A. SŠmtliche Werke. Texkritische Ausgabe, MŸnchen: Philosophia Verlag, 1989, p.189-204."					true		http://purl.obolibrary.org/obo/OBIB_0000735	
-OMIABIS:0000006	obsolete_sample collection or study identifier	class	Sample Collection/Study ID				Mathias Brochhausen		Obsolete Class	true			
-OMIABIS:0000026	obsolete_postal code	class			http://en.wikipedia.org/wiki/Postal_code		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/IAO_0000646	
-OMIABIS:0000049	obsolete_bone marrow specimen	class			http://www.who.int/transplantation/activities/GlobalGlossaryonDonationTransplantation.pdf		Alice Nzinga		Obsolete Class	true			
-OMIABIS:0000100	obsolete_study principle investigator or responsible	class							Obsolete Class	true			
-OMIABIS:00001013	obsolete_unknown state specimen data	class							Obsolete Class	true			
-OMIABIS:0000912	obsolete_addition of molecular label	class	labeling		"OBI developer call, 3-12-12"	"The addition of phycoerytherin label to an anti-CD8 antibody, to label all antibodies. The addition of anti-CD8-PE to a population of cells, to label the subpopulation cells that are CD8+."	PERSON: Matthew Brush		Obsolete Class	true			
-OMIABIS:0001003	obsolete_survey data	class					Alice Nzinga		Obsolete Class	true			
-OMIABIS:0001075	obsolete_cerebrospinal fluid specimen	class			http://www.ncbi.nlm.nih.gov/books/NBK398/		Alice Nzinga		Obsolete Class	true			
-OMIABIS:0001076	obsolete_faeces specimen	class					Alice Nzinga		Obsolete Class	true			
-OMIABIS:0001077	obsolete_saliva specimen	class					Alice Nzinga		Obsolete Class	true			
-http://purl.obolibrary.org/obo/OBIB_0000210	obsolete_fine needle biopsy	class	needle biopsy	"A biopsy that uses a thin, hollow needle to draw cells from a body."	http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926		"Person: Chris Stoeckert, Helena Ellis, Jie Zheng"		Obsolete Class	true	http://purl.obolibrary.org/obo/IAO_0000228	http://purl.obolibrary.org/obo/OBI_0002655	NCI BBRB
-http://purl.obolibrary.org/obo/OBIB_0000211	obsolete_core needle biopsy	class	core biopsy	A biopsy that uses a hollow tube that allows extracting a core of tissue for testing. This type of needle biopsy uses a wider needle than does fine-needle aspiration.	http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926		"Person: Chris Stoeckert, Helena Ellis, Jie Zheng"		Obsolete Class	true	http://purl.obolibrary.org/obo/IAO_0000228	http://purl.obolibrary.org/obo/OBI_0002656	NCI BBRB
+OMIABIS:0001081	obsolete start of sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000730	
+OMIABIS:0001082	obsolete end of sampling specimens for biobank	class					Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/OBIB_0000731	
+OMIABIS:0000008	obsolete owns	object property					Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000732	
+OMIABIS:0000009	obsolete administrates	object property					Mathias Brochhausen|Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000733	
+OMIABIS:0000042	obsolete is contact information about	object property					Mathias Brochhausen			true		http://purl.obolibrary.org/obo/OBIB_0000734	
+OMIABIS:0000048	obsolete is owned by	object property			"Reinach, A. SŠmtliche Werke. Texkritische Ausgabe, MŸnchen: Philosophia Verlag, 1989, p.189-204."					true		http://purl.obolibrary.org/obo/OBIB_0000735	
+OMIABIS:0000006	obsolete sample collection or study identifier	class	Sample Collection/Study ID				Mathias Brochhausen		Obsolete Class	true			
+OMIABIS:0000026	obsolete postal code	class			http://en.wikipedia.org/wiki/Postal_code		Mathias Brochhausen		Obsolete Class	true		http://purl.obolibrary.org/obo/IAO_0000646	
+OMIABIS:0000049	obsolete bone marrow specimen	class			http://www.who.int/transplantation/activities/GlobalGlossaryonDonationTransplantation.pdf		Alice Nzinga		Obsolete Class	true			
+OMIABIS:0000100	obsolete study principle investigator or responsible	class							Obsolete Class	true			
+OMIABIS:00001013	obsolete unknown state specimen data	class							Obsolete Class	true			
+OMIABIS:0000912	obsolete addition of molecular label	class	labeling		"OBI developer call, 3-12-12"	"The addition of phycoerytherin label to an anti-CD8 antibody, to label all antibodies. The addition of anti-CD8-PE to a population of cells, to label the subpopulation cells that are CD8+."	PERSON: Matthew Brush		Obsolete Class	true			
+OMIABIS:0001003	obsolete survey data	class					Alice Nzinga		Obsolete Class	true			
+OMIABIS:0001075	obsolete cerebrospinal fluid specimen	class			http://www.ncbi.nlm.nih.gov/books/NBK398/		Alice Nzinga		Obsolete Class	true			
+OMIABIS:0001076	obsolete faeces specimen	class					Alice Nzinga		Obsolete Class	true			
+OMIABIS:0001077	obsolete saliva specimen	class					Alice Nzinga		Obsolete Class	true			
+http://purl.obolibrary.org/obo/OBIB_0000210	obsolete fine needle biopsy	class	needle biopsy	"A biopsy that uses a thin, hollow needle to draw cells from a body."	http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926		"Person: Chris Stoeckert, Helena Ellis, Jie Zheng"		Obsolete Class	true	http://purl.obolibrary.org/obo/IAO_0000228	http://purl.obolibrary.org/obo/OBI_0002655	NCI BBRB
+http://purl.obolibrary.org/obo/OBIB_0000211	obsolete core needle biopsy	class	core biopsy	A biopsy that uses a hollow tube that allows extracting a core of tissue for testing. This type of needle biopsy uses a wider needle than does fine-needle aspiration.	http://www.mayoclinic.org/tests-procedures/needle-biopsy/basics/what-you-can-expect/prc-20012926		"Person: Chris Stoeckert, Helena Ellis, Jie Zheng"		Obsolete Class	true	http://purl.obolibrary.org/obo/IAO_0000228	http://purl.obolibrary.org/obo/OBI_0002656	NCI BBRB
+http://purl.obolibrary.org/obo/OBIB_0000026	obsolete medication role	class		"A role borne by some material entity which can be delivered/administrated into some organism and the role is realized during a clinical treatment process aiming to treat symptoms, signs or diagnosed disease."	Penn Group		"Person: Chris Stoeckert, Jie Zheng"	https://github.com/biobanking/biobanking/issues/79	Obsolete Class	true	http://purl.obolibrary.org/obo/IAO_0000228	http://purl.obolibrary.org/obo/OGMS_0000148	

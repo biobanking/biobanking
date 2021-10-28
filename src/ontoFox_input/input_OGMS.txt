@@ -14,6 +14,8 @@ http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
 http://purl.obolibrary.org/obo/OGMS_0000097 #health care encounter
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+http://purl.obolibrary.org/obo/OGMS_0000148 #medication role
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
@@ -32,6 +34,8 @@ http://purl.obolibrary.org/obo/OGMS_0000097 #health care encounter
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015
 http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/OGMS_0000148 #medication role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 
 [Source term retrieval setting]
 includeNoIntermediates

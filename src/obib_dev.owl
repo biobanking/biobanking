@@ -12,9 +12,11 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/obib_dev.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/externalByhand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_APOLLO_SV.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_CHEBI.owl"/>
@@ -48,7 +50,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_UO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_UO_instance.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/obsolete.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor>Alice Nzinga</dc:contributor>
         <dc:contributor>Chris Stoeckert</dc:contributor>
@@ -1411,18 +1412,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role borne by some material entity which can be delivered/administrated into some organism and the role is realized during a clinical treatment process aiming to treat symptoms, signs or diagnosed disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">medication role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBIB_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000027">
@@ -1492,7 +1481,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -13507,6 +13496,12 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000148"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
@@ -13635,7 +13630,8 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
     <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
         <rdfs:label>Obsolete Class</rdfs:label>
-    </owl:Class>    
+    </owl:Class>
+    
 
 
     <!-- 

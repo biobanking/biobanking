@@ -79,7 +79,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepam
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_35717 #sedative
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_119915 #fentanyl
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphone
@@ -89,17 +89,17 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_17303 #morphine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesic
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetron
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_50919 #antiemetic
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_65265 #antacid
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_6456 #lidocaine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_8430 #procaine
@@ -107,7 +107,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacaine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetic
 subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
 http://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodium
@@ -129,7 +129,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_9939 #vecuronium
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxant
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_6015 #isoflurane
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxide
@@ -139,7 +139,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
 http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
-subClassOf http://purl.obolibrary.org/obo/OBIB_0000026
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
 http://purl.obolibrary.org/obo/CHEBI_50913 #fixative
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
