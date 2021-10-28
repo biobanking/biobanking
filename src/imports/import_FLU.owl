@@ -48,7 +48,7 @@
     <!-- http://purl.obolibrary.org/obo/FLU_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FLU_0001019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000721"/>
         <obo:IAO_0000115 xml:lang="en">A specimen barcode is a specimen identification number formatted as an optical machine-readable representation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/flu.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen barcode</rdfs:label>
@@ -56,9 +56,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001046 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000721 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001046"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000721"/>
 </rdf:RDF>
 
 

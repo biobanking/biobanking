@@ -10,7 +10,7 @@ http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
-subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001046 #specimen barcode
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000721 #specimen ID 
 
 [Source term retrieval setting]
 includeNoIntermediates

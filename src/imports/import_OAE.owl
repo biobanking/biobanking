@@ -48,7 +48,7 @@
     <!-- http://purl.obolibrary.org/obo/OAE_0001159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000716"/>
         <obo:IAO_0000115>A surgery that is a surgical procedure to remove all or part of your colon.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <rdfs:label>colectomy</rdfs:label>
@@ -56,9 +56,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001041 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000716 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000716"/>
 </rdf:RDF>
 
 

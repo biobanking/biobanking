@@ -10,7 +10,7 @@ http://purl.obolibrary.org/obo/OAE_0001159 #colectomy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OAE_0001159
-subClassOf http://purl.obolibrary.org/obo/OMIABIS_0001041 #surgical procedure
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000716 #surgical procedure
 
 [Source term retrieval setting]
 includeNoIntermediates
