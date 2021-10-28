@@ -154,7 +154,7 @@ test_report.tsv: build/obib_merged.owl
         --fail-on none \
 	--output $@
 
-build/report.tsv: obib.owl
+ROBOT_report.tsv: obib.owl
 	$(ROBOT) report \
 	--input $< \
         --fail-on none \
@@ -210,7 +210,7 @@ test: reason verify
 #
 # Full build
 .PHONY: all
-all: test obib.owl build/terms-report.csv build/report.tsv
+all: test obib.owl build/terms-report.csv ROBOT_report.tsv
 
 # Remove generated files
 .PHONY: clean
