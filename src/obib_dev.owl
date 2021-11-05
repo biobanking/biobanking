@@ -11193,8 +11193,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000662">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000922"/>
         <obo:IAO_0000115 xml:lang="en">A frozen specimen that has been instantly/quickly frozen by subjecting the specimen to cryogenic temperatures, or in direct contact with liquid nitrogen at -320.8F 0r -196C.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Flash_freezing
-</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">http://en.wikipedia.org/wiki/Flash_freezing</obo:IAO_0000119>
         <rdfs:label xml:lang="en">flash frozen specimen</rdfs:label>
     </owl:Class>
     
@@ -11236,8 +11235,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <obo:IAO_0000115 xml:lang="en">A specimen that has been procured from a histology slide under direct microscopic visualization.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">http://www.ncbi.nlm.nih.gov/pubmed/11269646
-</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">http://www.ncbi.nlm.nih.gov/pubmed/11269646</obo:IAO_0000119>
         <rdfs:label xml:lang="en">microdissected specimen</rdfs:label>
     </owl:Class>
     
@@ -11777,8 +11775,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when the sampling of specimens for a biobank started.
-</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A data item that indicates the time when the sampling of specimens for a biobank started.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">It is denoted by Date in ISO-standard (8601) time format.</rdfs:comment>
         <rdfs:label xml:lang="en">start date of sampling for biobank</rdfs:label>
@@ -11796,8 +11793,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">secondary infection, nosocomial infection</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">amended from http://en.wikipedia.org/wiki/Comorbidity</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">It is argued that Comorbidity occurs due to a disposition established by a prior infection with a pathogenic organism of a different kind.
-</rdfs:comment>
+        <rdfs:comment xml:lang="en">It is argued that Comorbidity occurs due to a disposition established by a prior infection with a pathogenic organism of a different kind.</rdfs:comment>
         <rdfs:label xml:lang="en">comorbidity</rdfs:label>
     </owl:Class>
     
@@ -12283,8 +12279,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">Age interval information that is age information of specimen donors.</obo:IAO_0000115>
         <obo:IAO_0000117>Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">sampled group age interval</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">http://www.abta.org/Dictionary/67
-</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">http://www.abta.org/Dictionary/67</obo:IAO_0000119>
         <rdfs:label xml:lang="en">age interval information for sampled donors</rdfs:label>
     </owl:Class>
     
@@ -12753,8 +12748,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A data item that reports the time when a specimen was frozen.
-</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A data item that reports the time when a specimen was frozen.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">time of specimen freezing</rdfs:label>
@@ -12926,8 +12920,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process of preparing and submitting specimens to storage.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">specimen handling</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf
-</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">sample handling</rdfs:label>
     </owl:Class>
     
@@ -12960,8 +12953,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000668"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The process boundary marking the end of a sampling of specimens into a biobank.
-</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The process boundary marking the end of a sampling of specimens into a biobank.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">end of sampling specimens for biobank</rdfs:label>
     </owl:Class>

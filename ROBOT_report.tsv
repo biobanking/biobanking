@@ -23,8 +23,8 @@ ERROR	duplicate_definition	OBI:0000293	IAO:0000115	A relation between a planned 
 ERROR	duplicate_definition	OBI:0000295	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en
 ERROR	duplicate_definition	http://www.ebi.ac.uk/efo/EFO_0003166	IAO:0000115	A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.
 ERROR	duplicate_definition	http://www.ebi.ac.uk/efo/EFO_0003169	IAO:0000115	A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.
-ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	492a8354-e0bd-46b4-8fe2-46feb3d9d558genid48
-ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	492a8354-e0bd-46b4-8fe2-46feb3d9d558genid52
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	e95e5c05-db21-484d-a742-024fe99d296egenid48
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	e95e5c05-db21-484d-a742-024fe99d296egenid52
 ERROR	deprecated_property_reference	RO:0004097	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0004096>
 ERROR	misused_obsolete_label	ICO:0000075	rdfs:label	obsolete authorization document
 ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003150	rdfs:label	obsolete_African American
@@ -152,18 +152,6 @@ WARN	annotation_whitespace	IAO:0000579	IAO:0000112	PubMed is a CRID registry. It
 WARN	annotation_whitespace	IAO:0000597	IAO:0000112	"<Datatype: idrange:1Annotations: 'has ID range allocated to': \""Chris Mungall\""EquivalentTo: xsd:integer[> 2151 , <= 2300]@en>"
 WARN	annotation_whitespace	IAO:0020023	IAO:0000112	 I order a beer and the bartender authenticates my age by looking at my DOB on my driver's license.  I sign into my email account, and the system authenticates my permission to read the email by checking the password I enter against my password listed in the database.
 WARN	annotation_whitespace	IAO:0020023	IAO:0000115	"Authentication is the act of checking or verifying an identity claim (that is either tacit or explicit).
-@en"
-WARN	annotation_whitespace	OBIB:0000662	IAO:0000119	<http://en.wikipedia.org/wiki/Flash_freezing@en>
-WARN	annotation_whitespace	OBIB:0000666	IAO:0000119	<http://www.ncbi.nlm.nih.gov/pubmed/11269646@en>
-WARN	annotation_whitespace	OBIB:0000683	IAO:0000115	"A data item that indicates the time when the sampling of specimens for a biobank started.
-@en"
-WARN	annotation_whitespace	OBIB:0000684	rdfs:comment	"It is argued that Comorbidity occurs due to a disposition established by a prior infection with a pathogenic organism of a different kind.
-@en"
-WARN	annotation_whitespace	OBIB:0000705	IAO:0000119	<http://www.abta.org/Dictionary/67@en>
-WARN	annotation_whitespace	OBIB:0000724	IAO:0000115	"A data item that reports the time when a specimen was frozen.
-@en"
-WARN	annotation_whitespace	OBIB:0000729	IAO:0000119	<http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf@en>
-WARN	annotation_whitespace	OBIB:0000731	IAO:0000115	"The process boundary marking the end of a sampling of specimens into a biobank.
 @en"
 WARN	annotation_whitespace	OBI:0000070	IAO:0000116	<12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. >
 WARN	annotation_whitespace	OBI:0000086	IAO:0000232	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.
