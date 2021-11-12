@@ -21,21 +21,10 @@ ERROR	duplicate_definition	OBI:0000299	IAO:0000115	A relation between a planned 
 ERROR	duplicate_definition	OBI:0000312	IAO:0000115	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.@en
 ERROR	duplicate_definition	OBI:0000293	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en
 ERROR	duplicate_definition	OBI:0000295	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en
-ERROR	duplicate_definition	http://www.ebi.ac.uk/efo/EFO_0003166	IAO:0000115	A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.
-ERROR	duplicate_definition	http://www.ebi.ac.uk/efo/EFO_0003169	IAO:0000115	A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification.
-ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	e95e5c05-db21-484d-a742-024fe99d296egenid48
-ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	e95e5c05-db21-484d-a742-024fe99d296egenid52
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	be5f6463-75b3-4968-8cdf-bd6dae7972aagenid48
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	be5f6463-75b3-4968-8cdf-bd6dae7972aagenid52
 ERROR	deprecated_property_reference	RO:0004097	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0004096>
 ERROR	misused_obsolete_label	ICO:0000075	rdfs:label	obsolete authorization document
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003150	rdfs:label	obsolete_African American
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003151	rdfs:label	obsolete_American
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003152	rdfs:label	obsolete_Asian
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003153	rdfs:label	obsolete_Asian Indian
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003157	rdfs:label	obsolete_Chinese
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003159	rdfs:label	obsolete_European-American
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003164	rdfs:label	obsolete_Japanese
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003166	rdfs:label	obsolete_Latino
-ERROR	misused_obsolete_label	http://www.ebi.ac.uk/efo/EFO_0003169	rdfs:label	obsolete_Hispanic
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	<b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en>
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en
@@ -61,8 +50,6 @@ ERROR	multiple_definitions	CLO:0000031	IAO:0000115	"培养的细胞群体代表�
 "
 ERROR	multiple_definitions	OMRSE:00000033	IAO:0000115	An aggregate of organizations that have some feature in common, but is not itself an organization.@en
 ERROR	multiple_definitions	OMRSE:00000033	IAO:0000115	An object aggregate that is not itself an organization and whose members are only organizations that have some feature in common@en
-ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0001799	IAO:0000115	A group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (MSH); A social group characterized by a distinctive social and cultural tradition maintained from generation to generation, a common history and origin and a sense of identification with the group; members of the group have distinctive features in their way of life, shared experiences and often a common genetic heritage; these features may be reflected in their experience of health and disease. (NCI); Ethnicity - an arbitrary classification of the social group a person belongs to, and either identifies with or is identified with by others, as a result of a complex of cultural, biological, geographical and other factors such as linguistic, dietary and religion traditions; ancestry, background, allegiance, or association; and physical characteristics traditionally associated with race. Increasingly the concept is used synonymously with race but this use trend has a pragmatic basis rather than scientific. (NCI); The concept of ethnic origin is an attempt to classify people, not according to their current ethnicity, but according to where their ancestors came from. Ethnic origin has become a popular classification in statistics, where the concept of race has been largely discarded. (from Wikipedia) (NCI); a group of people with a common cultural heritage that sets them apart from others in a variety of social relationships. (CSP)
-ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0001799	IAO:0000115	An ethnic group is a population whose members have a common heritage that is real or presumed such as common culture, language, religion, behaviour or biological trait.
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	Any aspect of an individual's life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.
 ERROR	multiple_labels	CLO:0000001	rdfs:label	cell line cell
@@ -285,8 +272,6 @@ WARN	duplicate_exact_synonym	OBI:0002207	IAO:0000118	G2
 WARN	duplicate_exact_synonym	OBI:0002221	IAO:0000118	G2
 WARN	duplicate_exact_synonym	OBI:0002206	IAO:0000118	G1
 WARN	duplicate_exact_synonym	OBI:0002220	IAO:0000118	G1
-WARN	duplicate_exact_synonym	OBIB:0000640	IAO:0000118	Biobank country code@en
-WARN	duplicate_exact_synonym	OBIB:0000656	IAO:0000118	Biobank country code@en
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	CHEBI:27338	IAO:0000115	
 WARN	missing_definition	CHEBI:38870	IAO:0000115	
@@ -326,6 +311,12 @@ WARN	missing_definition	FMA:57987	IAO:0000115
 WARN	missing_definition	FMA:63008	IAO:0000115	
 WARN	missing_definition	FMA:63062	IAO:0000115	
 WARN	missing_definition	FMA:83876	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0019	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0021	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0463	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0487	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0568	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0590	IAO:0000115	
 WARN	missing_definition	IAO:0000004	IAO:0000115	
 WARN	missing_definition	IAO:0000039	IAO:0000115	
 WARN	missing_definition	IAO:0000114	IAO:0000115	
@@ -375,8 +366,6 @@ WARN	missing_definition	UO:0000005	IAO:0000115
 WARN	missing_definition	UO:0000051	IAO:0000115	
 WARN	missing_definition	UO:0000095	IAO:0000115	
 WARN	missing_definition	obo:cl#lacks_part	IAO:0000115	
-WARN	missing_definition	http://www.ebi.ac.uk/efo/EFO_0003151	IAO:0000115	
-WARN	missing_definition	http://www.ebi.ac.uk/efo/EFO_0003159	IAO:0000115	
 WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115	
 WARN	missing_obsolete_label	RO:0004096	rdfs:label	DEPRECATED inheres in@en
 WARN	missing_obsolete_label	RO:0004097	rdfs:label	DEPRECATED bearer of@en
