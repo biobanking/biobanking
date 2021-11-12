@@ -10318,7 +10318,6 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000620"/>
         <obo:IAO_0000115 xml:lang="en">The ISO 3166-1 alpha-2 code that is part of the biobank contact person&apos;s postal address.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">Biobank country code</obo:IAO_0000118>
         <rdfs:label xml:lang="en">ISO 3166-1 alpha-2 code for biobank contact person</rdfs:label>
     </owl:Class>
     
