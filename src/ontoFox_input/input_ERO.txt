@@ -36,19 +36,19 @@ subClassOf http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
 http://purl.obolibrary.org/obo/ERO_0002047 #child relationship
 subClassOf http://purl.obolibrary.org/obo/ERO_0002037 #biological family relationship
 http://purl.obolibrary.org/obo/ERO_0001978 #Ashkenazi Jew
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
 http://purl.obolibrary.org/obo/ERO_0001979 #Sephardic Jew
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
 http://purl.obolibrary.org/obo/ERO_0001983 #African
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
 http://purl.obolibrary.org/obo/ERO_0002087 #Latino, Caribbean
-subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0014 #Hispanic or Latin American
 http://purl.obolibrary.org/obo/ERO_0002090 #Latino, South American
-subClassOf http://www.ebi.ac.uk/efo/EFO_0003166 #Latino
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0014 #Hispanic or Latin American
 http://purl.obolibrary.org/obo/ERO_0002076 #Nordic, Icelandic
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
 http://purl.obolibrary.org/obo/ERO_0002032 #mixed ethnicity
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001799 #ethnic group
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
 http://purl.obolibrary.org/obo/ERO_0000979 #freezer
 subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 

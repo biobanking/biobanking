@@ -31,6 +31,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_FMA.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_GO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_HANCESTRO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_IAO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_ICO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obib/dev/import_IDO.owl"/>

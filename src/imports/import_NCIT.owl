@@ -117,6 +117,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
@@ -263,7 +269,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C128458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C128458">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115>A collection of ethnic geographical categories including Australian and New Zealander.</obo:IAO_0000115>
         <obo:IAO_0000118>Australian/New Zealand</obo:IAO_0000118>
         <obo:IAO_0000118>Australian/New Zealand Ethnicity</obo:IAO_0000118>
@@ -765,12 +771,6 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799"/>
 </rdf:RDF>
 
 

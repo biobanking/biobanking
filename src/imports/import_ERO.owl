@@ -95,7 +95,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0001978 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001978">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Jewish ethnic group comprised of persons who are descendants of Jews from Germany, Poland, Austria and Eastern Europe.
 </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
@@ -107,7 +107,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0001979 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001979">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label xml:lang="en">Sephardic Jew</rdfs:label>
     </owl:Class>
@@ -117,7 +117,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0001983 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001983">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group comprised of persons with African ancestral origins who self identify, or are identified, as African.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label xml:lang="en">African</rdfs:label>
@@ -128,7 +128,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0002032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002032">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ethnic group that includes persons with significant ethnic contributions from more than one group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label>mixed ethnicity</rdfs:label>
@@ -182,7 +182,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0002076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002076">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001799"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label>Nordic, Icelandic</rdfs:label>
     </owl:Class>
@@ -192,7 +192,7 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0002087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002087">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003166"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latino, Carribean</rdfs:label>
     </owl:Class>
@@ -202,10 +202,22 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0002090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002090">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003166"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label>Latino, South American</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0014"/>
     
 
 
@@ -218,18 +230,6 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001799 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001799"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0003166 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003166"/>
 </rdf:RDF>
 
 

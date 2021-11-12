@@ -15,6 +15,7 @@
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_FMA.owl" uri="imports/import_FMA.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_GEO.owl" uri="imports/import_GEO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_GO.owl" uri="imports/import_GO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/obib/dev/import_HANCESTRO.owl" uri="imports/import_HANCESTRO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_IAO.owl" uri="imports/import_IAO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_ICO.owl" uri="imports/import_ICO.owl"/>
     <uri name="http://purl.obolibrary.org/obo/obib/dev/import_IDO.owl" uri="imports/import_IDO.owl"/>
