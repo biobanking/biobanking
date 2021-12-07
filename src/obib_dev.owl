@@ -68,7 +68,6 @@
         <dc:source xml:lang="en">MIABIS_v2_accepted and UPenn Biobank ontology</dc:source>
         <dc:title xml:lang="en">Ontology for BIoBanking (OBIB)</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">development version</owl:versionInfo>
     </owl:Ontology>
     
 
