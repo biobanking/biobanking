@@ -439,27 +439,43 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
         <rdfs:comment xml:lang="en">Typically, the common feature is that the dependency does not conduct foreign affairs, and relegates this authority to the sovereign state.  But otherwise, it is largely or completely autonomous relative to the administrative subdivisions.  Examples include Puerto Rico (U.S.), Guam (U.S.), Greenland (Denmark), French Polynesia (France), and Falkland Islands (United Kingdom). </rdfs:comment>
         <rdfs:label xml:lang="en">geopolitical dependency</rdfs:label>
     </owl:Class>
-    
 
 
-    <!-- http://purl.obolibrary.org/obo/GEO_000000102 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+    <!-- http://purl.obolibrary.org/obo/GEO_000000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">geographical entity of astronomical body</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A material entity that is (1) a bona fide or fiat object part of the crust, any bodies of liquid on or contained within the crust, or planetary boundary layer (if present) of a terrestrial planet (including Earth), dwarf planet, exoplanet, natural satellite, planetesimal, or small Solar System body, and that (2) overlaps the planetary surface (including having a boundary that coincides with part of the planetary surface).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Includes atmosphere, crust, geographical regions (e.g., the geographical region over which the state of Florida has jurisdiction), bodies of water, mountains, etc.
+
+Generally, an individual organism is a distinct object that is not a part of the Earth, although this requires more thought.  But the intent is definitely for this class to NOT subsume organism universally.  Human beings are contained within, but not part of, the Earth, for example.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Note that despite the word &apos;planetary&apos; in &apos;planetary surface&apos;, it refers generally to surface of dwarf planets, asteroids, moons, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that not all planets have a surface per se (e.g., gas giants such as Jupiter and Saturn).  So only planets, natural satellites, etc. with a planetary surface (with or without a planetary boundary layer) have geographical entities.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We note that the term &apos;geography&apos; is also applied to the Earth&apos;s moon, Mars, Venus, and possibly even other moons and planets in our own solar system and beyond.  
+
+Thus, we are attempting to define things generally enough that they could be reused for the geographical entities/features on the Moon, Mars, other planets, exoplanets, other natural satellites (a.k.a moons), asteroids, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">geographical entity</rdfs:label>
     </owl:Class>
     
 
+    
+    <!-- http://purl.obolibrary.org/obo/GEO_000000372 -->
 
-    <!-- http://purl.obolibrary.org/obo/GEO_000000151 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000102"/>
-        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/geo.owl</obo:IAO_0000412>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000370"/>
+        <obo:IAO_0000115 xml:lang="en">A geographical entity that is demarcated at least in part by one or more closed fiat boundaries all of whose lines are part of the planetary surface.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">François Modave</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Matt Diller</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">geographical region</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/GEO_000000396 -->
