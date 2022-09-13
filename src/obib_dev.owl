@@ -711,15 +711,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GEO_000000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000372"/>
     
 
 
@@ -10329,7 +10329,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A textual entity that is part of a postal address and denotes a human settlement for the purpose of delivering mail.</obo:IAO_0000115>
@@ -11071,7 +11071,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GEO_000000372"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
