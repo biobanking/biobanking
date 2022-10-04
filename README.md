@@ -1,13 +1,12 @@
-[![Powered by the ROBOT](https://img.shields.io/static/v1?label=Powered%20by&message=ROBOT&color=green&style=flat)](http://robot.obolibrary.org/)
-<a href="http://dashboard.obofoundry.org/dashboard/obib/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fcl%2Fdashboard-qc-badge.json" /></a>
-<a href="http://dashboard.obofoundry.org/dashboard/obib/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fcl%2Fdashboard-score-badge.json" /></a>
+\*Deprecated\*
+==========
+
+The ontology source code has been moved to a separate repository: [ontology](https://github.com/biobanking/ontology). Please view the latest changes of OBIB in this repository.
 
 Ontology for Biobanking (OBIB)
 ==========
 
 The Ontology for Biobanking (OBIB) is an ontology for the annotation and modeling of the activities, contents, and administration of a biobank. Biobanks are facilities that store specimens, such as bodily fluids and tissues, typically along with specimen annotation and clinical data. OBIB is based on a subset of the Ontology for Biomedical Investigation (OBI), has the Basic Formal Ontology (BFO) as its upper ontology, and is developed following OBO Foundry principles. The first version of OBIB resulted from the merging of two existing biobank-related ontologies, OMIABIS and biobank ontology.
-
-The ontology source code has been moved to a separate repository: [ontology](https://github.com/biobanking/ontology). Please view most latest changes of OBIB in this repository.
 
 A publication describing OBIB:<br>
 Mathias Brochhausen, Jie Zheng, David Birtwell, Heather Williams, Anna Maria Masci, Helena Judge Ellis and Christian J. Stoeckert Jr. “OBIB-a novel ontology for biobanking” Journal of Biomedical Semantics (2016) 7:23 
