@@ -1,0 +1,50 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_CL.owl
+
+[Source ontology]
+#comment here
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000001 #primary cultured cell
+http://purl.obolibrary.org/obo/CL_0000003 #native cell
+http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
+http://purl.obolibrary.org/obo/CL_0000232 #erythrocyte
+http://purl.obolibrary.org/obo/CL_0000558 #reticulocyte
+http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
+http://purl.obolibrary.org/obo/CL_0000738 #leukocyte
+http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000001 #primary cultured cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
+http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
+http://purl.obolibrary.org/obo/CL_0000232 #erythrocyte
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000558 #reticulocyte
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000578 #experimentally modified cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
+http://purl.obolibrary.org/obo/CL_0000738 #leukocyte
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0001034 #cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+http://purl.obolibrary.org/obo/CL_0000003 #native cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+

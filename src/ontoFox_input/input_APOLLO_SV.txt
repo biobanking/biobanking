@@ -1,0 +1,31 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_APOLLO_SV.owl
+
+[Source ontology]
+#comment here
+APOLLO_SV
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_00000496 #ORCID
+http://purl.obolibrary.org/obo/APOLLO_SV_00000085 #age data by age brackets
+http://purl.obolibrary.org/obo/APOLLO_SV_00000032 #count
+http://purl.obolibrary.org/obo/APOLLO_SV_00000033 #counting
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_00000496
+subClassOf http://purl.obolibrary.org/obo/IAO_0020000
+http://purl.obolibrary.org/obo/APOLLO_SV_00000085 #age data by age brackets
+subClassOf http://purl.obolibrary.org/obo/IAO_0000100 #data set
+http://purl.obolibrary.org/obo/APOLLO_SV_00000032 #count
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/APOLLO_SV_00000033 #counting
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+includeAllAxiomsRecursively

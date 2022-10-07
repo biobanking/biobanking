@@ -1,0 +1,121 @@
+OMIABIS IRI	new OBIB IRI	Label
+http://purl.obolibrary.org/obo/OMIABIS_0000000	http://purl.obolibrary.org/obo/OBIB_0000616	biobank
+http://purl.obolibrary.org/obo/OMIABIS_0000001	http://purl.obolibrary.org/obo/OBIB_0000617	human biobank
+http://purl.obolibrary.org/obo/OMIABIS_0000002	http://purl.obolibrary.org/obo/OBIB_0000618	settlement part of address of sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000003	http://purl.obolibrary.org/obo/OBIB_0000619	biobank proper name
+http://purl.obolibrary.org/obo/OMIABIS_0000004	http://purl.obolibrary.org/obo/OBIB_0000620	ISO 3166-1 alpha-2 code
+http://purl.obolibrary.org/obo/OMIABIS_0000005	http://purl.obolibrary.org/obo/OBIB_0000621	biobank idenfier with ISO 3166-1 alpha-2 code
+http://purl.obolibrary.org/obo/OMIABIS_0000007	http://purl.obolibrary.org/obo/OBIB_0000622	ISO 3166-1 alpha-2 code for sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000010	http://purl.obolibrary.org/obo/OBIB_0000623	biobank organization
+http://purl.obolibrary.org/obo/OMIABIS_0000011	http://purl.obolibrary.org/obo/OBIB_0000624	contacting
+http://purl.obolibrary.org/obo/OMIABIS_0000012	http://purl.obolibrary.org/obo/OBIB_0000625	contact role
+http://purl.obolibrary.org/obo/OMIABIS_0000013	http://purl.obolibrary.org/obo/OBIB_0000626	biobank contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000014	http://purl.obolibrary.org/obo/OBIB_0000627	name of biobank contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000015	http://purl.obolibrary.org/obo/OBIB_0000628	email address of biobank contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000016	http://purl.obolibrary.org/obo/OBIB_0000629	postal address of biobank contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000017	http://purl.obolibrary.org/obo/OBIB_0000630	department
+http://purl.obolibrary.org/obo/OMIABIS_0000018	http://purl.obolibrary.org/obo/OBIB_0000631	department of biobank contact
+http://purl.obolibrary.org/obo/OMIABIS_0000019	http://purl.obolibrary.org/obo/OBIB_0000632	unique resource locator
+http://purl.obolibrary.org/obo/OMIABIS_0000020	http://purl.obolibrary.org/obo/OBIB_0000633	biobank's unique resource locator
+http://purl.obolibrary.org/obo/OMIABIS_0000021	http://purl.obolibrary.org/obo/OBIB_0000634	telephone number
+http://purl.obolibrary.org/obo/OMIABIS_0000022	http://purl.obolibrary.org/obo/OBIB_0000635	telephone number of biobank contact
+http://purl.obolibrary.org/obo/OMIABIS_0000023	http://purl.obolibrary.org/obo/OBIB_0000636	post-office box number
+http://purl.obolibrary.org/obo/OMIABIS_0000024	http://purl.obolibrary.org/obo/OBIB_0000637	post-office box
+http://purl.obolibrary.org/obo/OMIABIS_0000025	http://purl.obolibrary.org/obo/OBIB_0000638	telephone number of sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000027	http://purl.obolibrary.org/obo/OBIB_0000639	postal code of biobank contact
+http://purl.obolibrary.org/obo/OMIABIS_0000028	http://purl.obolibrary.org/obo/OBIB_0000640	ISO 3166-1 alpha-2 code for biobank contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000029	http://purl.obolibrary.org/obo/OBIB_0000641	settlement part of address
+http://purl.obolibrary.org/obo/OMIABIS_0000030	http://purl.obolibrary.org/obo/OBIB_0000642	settlement part of address biobank contact
+http://purl.obolibrary.org/obo/OMIABIS_0000031	http://purl.obolibrary.org/obo/OBIB_0000643	intra-settlement specification part of address
+http://purl.obolibrary.org/obo/OMIABIS_0000032	http://purl.obolibrary.org/obo/OBIB_0000644	intra-settlement specification part of address of biobank contact
+http://purl.obolibrary.org/obo/OMIABIS_0000033	http://purl.obolibrary.org/obo/OBIB_0000645	hosted study collection
+http://purl.obolibrary.org/obo/OMIABIS_0000034	http://purl.obolibrary.org/obo/OBIB_0000646	name of hosted study collection
+http://purl.obolibrary.org/obo/OMIABIS_0000035	http://purl.obolibrary.org/obo/OBIB_0000647	email address of sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000036	http://purl.obolibrary.org/obo/OBIB_0000648	sample collection or study aim description
+http://purl.obolibrary.org/obo/OMIABIS_0000037	http://purl.obolibrary.org/obo/OBIB_0000649	study proper name
+http://purl.obolibrary.org/obo/OMIABIS_0000038	http://purl.obolibrary.org/obo/OBIB_0000650	name of sample collection responsible or principal investigator
+http://purl.obolibrary.org/obo/OMIABIS_0000039	http://purl.obolibrary.org/obo/OBIB_0000651	name of sample collection or study contact person
+http://purl.obolibrary.org/obo/OMIABIS_0000040	http://purl.obolibrary.org/obo/OBIB_0000652	department of sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000041	http://purl.obolibrary.org/obo/OBIB_0000653	street
+http://purl.obolibrary.org/obo/OMIABIS_0000043	http://purl.obolibrary.org/obo/OBIB_0000654	intra-settlement specification part of address of sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000044	http://purl.obolibrary.org/obo/OBIB_0000655	postal code for sample collection or study contact
+http://purl.obolibrary.org/obo/OMIABIS_0000045	http://purl.obolibrary.org/obo/OBIB_0000656	biobank location ISO 3166-1 alpha-2 code
+http://purl.obolibrary.org/obo/OMIABIS_0000046	http://purl.obolibrary.org/obo/OBIB_0000657	CTEP organization identifier
+http://purl.obolibrary.org/obo/OMIABIS_0000047	http://purl.obolibrary.org/obo/OBIB_0000658	biobank identifier with ISO 3166-1 alpha-2 code and CTEP organization identifier
+http://purl.obolibrary.org/obo/OMIABIS_0000050	http://purl.obolibrary.org/obo/OBIB_0000659	fixed tissue specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000051	http://purl.obolibrary.org/obo/OBIB_0000660	fixed tissue block specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000052	http://purl.obolibrary.org/obo/OBIB_0000661	fixed tissue slide specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000053	http://purl.obolibrary.org/obo/OBIB_0000662	flash frozen specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000054	http://purl.obolibrary.org/obo/OBIB_0000663	fresh tissue specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000055	http://purl.obolibrary.org/obo/OBIB_0000664	frozen tissue block specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000056	http://purl.obolibrary.org/obo/OBIB_0000665	frozen tissue slide specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000057	http://purl.obolibrary.org/obo/OBIB_0000666	microdissected specimen
+http://purl.obolibrary.org/obo/OMIABIS_0000060	http://purl.obolibrary.org/obo/OBIB_0000667	survey data
+http://purl.obolibrary.org/obo/OMIABIS_0000061	http://purl.obolibrary.org/obo/OBIB_0000668	sampling specimens for biobank
+http://purl.obolibrary.org/obo/OMIABIS_0000093	http://purl.obolibrary.org/obo/OBIB_0000669	biobank contact role
+http://purl.obolibrary.org/obo/OMIABIS_0000094	http://purl.obolibrary.org/obo/OBIB_0000670	sample collection or study contact role
+http://purl.obolibrary.org/obo/OMIABIS_0000099	http://purl.obolibrary.org/obo/OBIB_0000671	sample collection or study contact person
+http://purl.obolibrary.org/obo/OMIABIS_00001006	http://purl.obolibrary.org/obo/OBIB_0000672	specimen disease state datum
+http://purl.obolibrary.org/obo/OMIABIS_00001010	http://purl.obolibrary.org/obo/OBIB_0000673	diseased state specimen datum
+http://purl.obolibrary.org/obo/OMIABIS_00001011	http://purl.obolibrary.org/obo/OBIB_0000674	mixed state specimen datum
+http://purl.obolibrary.org/obo/OMIABIS_00001012	http://purl.obolibrary.org/obo/OBIB_0000675	normal state specimen datum
+http://purl.obolibrary.org/obo/OMIABIS_0000911	http://purl.obolibrary.org/obo/OBIB_0000676	fixation
+http://purl.obolibrary.org/obo/OMIABIS_0001000	http://purl.obolibrary.org/obo/OBIB_0000677	age interval information
+http://purl.obolibrary.org/obo/OMIABIS_0001001	http://purl.obolibrary.org/obo/OBIB_0000678	average age
+http://purl.obolibrary.org/obo/OMIABIS_0001002	http://purl.obolibrary.org/obo/OBIB_0000679	patient registry data
+http://purl.obolibrary.org/obo/OMIABIS_0001004	http://purl.obolibrary.org/obo/OBIB_0000680	date of data entry
+http://purl.obolibrary.org/obo/OMIABIS_0001005	http://purl.obolibrary.org/obo/OBIB_0000681	date of data update
+http://purl.obolibrary.org/obo/OMIABIS_0001006	http://purl.obolibrary.org/obo/OBIB_0000682	end date of sampling for biobank
+http://purl.obolibrary.org/obo/OMIABIS_0001007	http://purl.obolibrary.org/obo/OBIB_0000683	start date of sampling for biobank
+http://purl.obolibrary.org/obo/OMIABIS_0001008	http://purl.obolibrary.org/obo/OBIB_0000684	comorbidity
+http://purl.obolibrary.org/obo/OMIABIS_0001009	http://purl.obolibrary.org/obo/OBIB_0000685	primary diagnosis
+http://purl.obolibrary.org/obo/OMIABIS_0001010	http://purl.obolibrary.org/obo/OBIB_0000686	count of current sampled human study participant
+http://purl.obolibrary.org/obo/OMIABIS_0001011	http://purl.obolibrary.org/obo/OBIB_0000687	count of current total human study participant
+http://purl.obolibrary.org/obo/OMIABIS_0001012	http://purl.obolibrary.org/obo/OBIB_0000688	physiological measurement data
+http://purl.obolibrary.org/obo/OMIABIS_0001013	http://purl.obolibrary.org/obo/OBIB_0000689	storage temperature setting
+http://purl.obolibrary.org/obo/OMIABIS_0001014	http://purl.obolibrary.org/obo/OBIB_0000690	omics experiment on specimen
+http://purl.obolibrary.org/obo/OMIABIS_0001015	http://purl.obolibrary.org/obo/OBIB_0000691	number of sampled human study participants objective
+http://purl.obolibrary.org/obo/OMIABIS_0001016	http://purl.obolibrary.org/obo/OBIB_0000692	number of total human study participant objective
+http://purl.obolibrary.org/obo/OMIABIS_0001017	http://purl.obolibrary.org/obo/OBIB_0000693	case control study design
+http://purl.obolibrary.org/obo/OMIABIS_0001018	http://purl.obolibrary.org/obo/OBIB_0000694	cross sectional study design
+http://purl.obolibrary.org/obo/OMIABIS_0001019	http://purl.obolibrary.org/obo/OBIB_0000695	longitudinal study design
+http://purl.obolibrary.org/obo/OMIABIS_0001020	http://purl.obolibrary.org/obo/OBIB_0000696	cohort study design
+http://purl.obolibrary.org/obo/OMIABIS_0001021	http://purl.obolibrary.org/obo/OBIB_0000697	panel study design
+http://purl.obolibrary.org/obo/OMIABIS_0001022	http://purl.obolibrary.org/obo/OBIB_0000698	population based study design
+http://purl.obolibrary.org/obo/OMIABIS_0001023	http://purl.obolibrary.org/obo/OBIB_0000699	quality control study design
+http://purl.obolibrary.org/obo/OMIABIS_0001024	http://purl.obolibrary.org/obo/OBIB_0000700	twin study design
+http://purl.obolibrary.org/obo/OMIABIS_0001025	http://purl.obolibrary.org/obo/OBIB_0000701	survey plan specification
+http://purl.obolibrary.org/obo/OMIABIS_0001026	http://purl.obolibrary.org/obo/OBIB_0000702	medical record
+http://purl.obolibrary.org/obo/OMIABIS_0001027	http://purl.obolibrary.org/obo/OBIB_0000703	sample medical record
+http://purl.obolibrary.org/obo/OMIABIS_0001028	http://purl.obolibrary.org/obo/OBIB_0000704	sample handling summary
+http://purl.obolibrary.org/obo/OMIABIS_0001029	http://purl.obolibrary.org/obo/OBIB_0000705	age interval information for sampled donors
+http://purl.obolibrary.org/obo/OMIABIS_0001031	http://purl.obolibrary.org/obo/OBIB_0000706	donor patient registry data
+http://purl.obolibrary.org/obo/OMIABIS_0001032	http://purl.obolibrary.org/obo/OBIB_0000707	study subject survey data
+http://purl.obolibrary.org/obo/OMIABIS_0001033	http://purl.obolibrary.org/obo/OBIB_0000708	sample collection data entry
+http://purl.obolibrary.org/obo/OMIABIS_0001034	http://purl.obolibrary.org/obo/OBIB_0000709	sample collection data update
+http://purl.obolibrary.org/obo/OMIABIS_0001035	http://purl.obolibrary.org/obo/OBIB_0000710	survey execution
+http://purl.obolibrary.org/obo/OMIABIS_0001036	http://purl.obolibrary.org/obo/OBIB_0000711	temperature regulating
+http://purl.obolibrary.org/obo/OMIABIS_0001037	http://purl.obolibrary.org/obo/OBIB_0000712	comment from tissue procurement
+http://purl.obolibrary.org/obo/OMIABIS_0001038	http://purl.obolibrary.org/obo/OBIB_0000713	specimen measurement
+http://purl.obolibrary.org/obo/OMIABIS_0001039	http://purl.obolibrary.org/obo/OBIB_0000714	date of specimen collection
+http://purl.obolibrary.org/obo/OMIABIS_0001040	http://purl.obolibrary.org/obo/OBIB_0000715	specimen meeting specification
+http://purl.obolibrary.org/obo/OMIABIS_0001041	http://purl.obolibrary.org/obo/OBIB_0000716	surgical procedure
+http://purl.obolibrary.org/obo/OMIABIS_0001042	http://purl.obolibrary.org/obo/OBIB_0000717	specimen preparation contact
+http://purl.obolibrary.org/obo/OMIABIS_0001043	http://purl.obolibrary.org/obo/OBIB_0000718	time in formalin measurement
+http://purl.obolibrary.org/obo/OMIABIS_0001044	http://purl.obolibrary.org/obo/OBIB_0000719	specimen surgical removal
+http://purl.obolibrary.org/obo/OMIABIS_0001045	http://purl.obolibrary.org/obo/OBIB_0000720	specimen freezing
+http://purl.obolibrary.org/obo/OMIABIS_0001046	http://purl.obolibrary.org/obo/OBIB_0000721	specimen ID
+http://purl.obolibrary.org/obo/OMIABIS_0001047	http://purl.obolibrary.org/obo/OBIB_0000722	case ID
+http://purl.obolibrary.org/obo/OMIABIS_0001048	http://purl.obolibrary.org/obo/OBIB_0000723	specimen measurement specification
+http://purl.obolibrary.org/obo/OMIABIS_0001049	http://purl.obolibrary.org/obo/OBIB_0000724	time of specimen freezing
+http://purl.obolibrary.org/obo/OMIABIS_0001050	http://purl.obolibrary.org/obo/OBIB_0000725	time of surgical removal of specimen
+http://purl.obolibrary.org/obo/OMIABIS_0001054	http://purl.obolibrary.org/obo/OBIB_0000726	normal specimen
+http://purl.obolibrary.org/obo/OMIABIS_0001078	http://purl.obolibrary.org/obo/OBIB_0000727	hosting biobank
+http://purl.obolibrary.org/obo/OMIABIS_0001079	http://purl.obolibrary.org/obo/OBIB_0000728	specimen donor
+http://purl.obolibrary.org/obo/OMIABIS_0001080	http://purl.obolibrary.org/obo/OBIB_0000729	sample handling
+http://purl.obolibrary.org/obo/OMIABIS_0001081	http://purl.obolibrary.org/obo/OBIB_0000730	start of sampling specimens for biobank
+http://purl.obolibrary.org/obo/OMIABIS_0001082	http://purl.obolibrary.org/obo/OBIB_0000731	end of sampling specimens for biobank
+http://purl.obolibrary.org/obo/OMIABIS_0000008	http://purl.obolibrary.org/obo/OBIB_0000732	owns
+http://purl.obolibrary.org/obo/OMIABIS_0000009	http://purl.obolibrary.org/obo/OBIB_0000733	administrates
+http://purl.obolibrary.org/obo/OMIABIS_0000042	http://purl.obolibrary.org/obo/OBIB_0000734	is contact information about
+http://purl.obolibrary.org/obo/OMIABIS_0000048	http://purl.obolibrary.org/obo/OBIB_0000735	is owned by

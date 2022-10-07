@@ -1,0 +1,31 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_GO.owl
+
+[Source ontology]
+#comment here
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0006955 #immune response
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0006955 #immune response 
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex 
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

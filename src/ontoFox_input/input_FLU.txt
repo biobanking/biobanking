@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_FLU.owl
+
+[Source ontology]
+#comment here
+FLU
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FLU_0001019 #specimen barcode
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000721 #specimen ID 
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

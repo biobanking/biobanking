@@ -1,0 +1,47 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_OGMS.owl
+
+[Source ontology]
+#comment here
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
+http://purl.obolibrary.org/obo/OGMS_0000097 #health care encounter
+http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+http://purl.obolibrary.org/obo/OGMS_0000148 #medication role
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016
+http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027
+http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OGMS_0000097 #health care encounter
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/OGMS_0000023 #phenotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/OGMS_0000148 #medication role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage

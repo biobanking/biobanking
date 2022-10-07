@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl#"
+     xml:base="http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050933"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050934"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1520"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3907"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3910"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4451"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5828"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C106501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115>The method by which conception or impregnation is prevented. This may be achieved through the use of devices, drugs or surgery.</obo:IAO_0000115>
+        <obo:IAO_0000118>BCMETHOD</obo:IAO_0000118>
+        <obo:IAO_0000118>Birth Control Method</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Birth Control Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
+        <obo:IAO_0000115>A rare, cytologically high grade carcinoma that arises from the renal parenchyma. It is characterized by the presence of prominently dilated cystic spaces in a bland, fibrotic stroma. The lining cells have large irregular nuclei with prominent nucleoli and abundant eosinophilic cytoplasm. Necrosis and mitotic figures are not present. It rarely metastasizes.</obo:IAO_0000115>
+        <obo:IAO_0000118>Tubulocystic Renal Cell Cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>Tubulocystic Renal Cell Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Tubulocystic renal cell carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Tubulocystic Renal Cell Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in any of the countries of the central part of the African continent: Burundi, the Central African Republic, Chad, the Democratic Republic of the Congo, and Rwanda.</obo:IAO_0000115>
+        <obo:IAO_0000118>Central African</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Central African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in any of the countries of the northern part of the African continent: Algeria, Egypt, Libya, Morocco, Sudan, Tunisia, and Western Sahara.</obo:IAO_0000115>
+        <obo:IAO_0000118>North African</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>North African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in the country of South Africa.</obo:IAO_0000115>
+        <obo:IAO_0000118>South African</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>South African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in any of the Asian countries south of China, east of India, west of New Guinea and north of Australia.</obo:IAO_0000115>
+        <obo:IAO_0000118>SOUTHEAST ASIAN</obo:IAO_0000118>
+        <obo:IAO_0000118>Southeast Asian</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Southeast Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in any of the Asian countries between the Caspian Sea in the west, China in the east, Afghanistan in the south, and Russia in the north.</obo:IAO_0000115>
+        <obo:IAO_0000118>CENTRAL ASIAN</obo:IAO_0000118>
+        <obo:IAO_0000118>Central Asian</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Central Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in the country or continent of Australia.</obo:IAO_0000115>
+        <obo:IAO_0000118>Australian</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Australian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in the country of New Zealand.</obo:IAO_0000115>
+        <obo:IAO_0000118>New Zealander</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>New Zealander</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C126538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in the countries of Scandinavia: Denmark, Norway and Sweden. Finland and Iceland are generally included as part of the Scandinavian region.</obo:IAO_0000115>
+        <obo:IAO_0000118>Scandinavian</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Scandinavian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C128458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+        <obo:IAO_0000115>A collection of ethnic geographical categories including Australian and New Zealander.</obo:IAO_0000115>
+        <obo:IAO_0000118>Australian/New Zealand</obo:IAO_0000118>
+        <obo:IAO_0000118>Australian/New Zealand Ethnicity</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Australian/New Zealand Ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15477">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>An indicator that a person previously received radiation treatment for the same condition.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior RT</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Radiation</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Radiation Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Radiotherapy</obo:IAO_0000118>
+        <obo:IAO_0000118>previously irradiated</obo:IAO_0000118>
+        <obo:IAO_0000118>previously_irradiated</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Prior Radiation Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16212"/>
+        <obo:IAO_0000115>Any therapy that is administered to augment or stimulate other treatment modalities or to minimize or prevent disease recurrence subsequent to the main treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000118>AJ-Adjuvant Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Adjuvant Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>adjunct therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>adjunctive therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>adjuvant therapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Adjuvant Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>Originally, therapeutic administration of serum or gamma globulin containing preformed antibodies produced by another individual; currently, immunotherapy includes nonspecific systemic stimulation, adjuvants, active specific immunotherapy, and adoptive immunotherapy.  New forms of immunotherapy include the use of monoclonal antibodies.  This approach has been widely adopted by cancer specialists, often in cases which fail to respond to other treatment.  Immunotherapy aims to boost immune system function, as with the administration of interferons and interleukin-2, or to attack cancerous cells directly, as with the injection of monoclonal antibodies.  Various immunotherapeutic techniques have also been employed among AIDS patients.  In addition, a number of alternative medical practices are claimed to enhance immune function, and various over-the-counter substances (e.g., goldenseal, lysine have gained popularity for this supposed property.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Immunotherapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Prior Immunotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>Previous chemotherapy administered as treatment for this cancer.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Chemotherapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Prior Chemotherapy Regimens</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Prior Chemotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>An indication that an individual has been previously treated with hormonal therapy.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prior Hormone Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>prior hormonal therapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Prior Hormone Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>Any intervention for management of a malignant neoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000118>Cancer Therapeutic Procedure</obo:IAO_0000118>
+        <obo:IAO_0000118>Cancer Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Cancer Treatment</obo:IAO_0000118>
+        <obo:IAO_0000118>Malignant Neoplasm Therapy</obo:IAO_0000118>
+        <obo:IAO_0000118>Malignant Neoplasm Treatment</obo:IAO_0000118>
+        <obo:IAO_0000118>anticancer therapy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Cancer Therapeutic Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C27891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C27891">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4451"/>
+        <obo:IAO_0000115>A group of renal cell carcinomas characterized by the presence of different translocations involving the chromosome Xp11.2. These translocations result in the creation of gene fusions involving the TFE3 gene. Patients are usually children and young adults. Morphologically, the malignant epithelial cells form papillary patterns.</obo:IAO_0000115>
+        <obo:IAO_0000118>Renal Cell Cancer Associated with Xp11.2 Translocations/TFE3 Gene Fusions</obo:IAO_0000118>
+        <obo:IAO_0000118>Renal Cell Carcinoma Associated with Xp11.2 Translocations/TFE3 Gene Fusions</obo:IAO_0000118>
+        <obo:IAO_0000118>TFE3-Rearranged Renal Cell Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Xp11.2 Translocation-Related Renal Cell Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>tRCC</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Renal Cell Carcinoma Associated with Xp11.2 Translocations/TFE3 Gene Fusions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A record of an individual&apos;s background in regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarette smoked, attempts to quit, and others.</obo:IAO_0000115>
+        <obo:IAO_0000118>Smoking History</obo:IAO_0000118>
+        <obo:IAO_0000118>Tobacco Smoking History</obo:IAO_0000118>
+        <obo:IAO_0000118>Tobacco Use</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Tobacco Smoking History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C40037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C40037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_6067"/>
+        <obo:IAO_0000115>A neoplasm of low malignant potential arising from the ovary.  It is characterized by the proliferation of neoplastic mucinous epithelial cells that resemble intestinal epithelial cells.  There is no evidence of stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Mucinous Tumor, Intestinal Type</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Mucinous Tumor, Intestinal Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C40038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C40038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_6067"/>
+        <obo:IAO_0000115>A neoplasm of low malignant potential arising from the ovary.  It is characterized by the proliferation of neoplastic epithelial cells that resemble endocervical epithelial cells.  There is no evidence of stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Mucinous Tumor, Endocervical-Like</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Mucinous Tumor, Endocervical-Like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C40080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C40080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050934"/>
+        <obo:IAO_0000115>An epithelial neoplasm with low malignant potential affecting the ovary.  It is characterized by the presence of clear or hobnail cells.  In some cases, the cells may display nuclear atypia and prominent nucleoli.  When such cells are present, they remain confined to the glands.  There is no evidence of stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Clear Cell Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Clear Cell Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Clear cell cystic tumor of borderline malignancy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Clear Cell Tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C40088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C40088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4000"/>
+        <obo:IAO_0000115>An ovarian epithelial neoplasm that resembles the transitional cell neoplasms found in the urinary tract. It is characterized by the presence of atypia and absence of stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Transitional Cell Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Transitional Cell Tumor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Transitional Cell Tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C41263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C41263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person whose ancestry is in the countries of the Indian sub-continent, including India, Pakistan, Bangladesh, and Sri Lanka.</obo:IAO_0000115>
+        <obo:IAO_0000118>SOUTH ASIAN</obo:IAO_0000118>
+        <obo:IAO_0000118>South Asian</obo:IAO_0000118>
+        <obo:IAO_0000118>South Asians</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>South Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C43851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43851">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes the inhabitants of any of the countries of Europe, a person from there, or their descendants elsewhere.</obo:IAO_0000115>
+        <obo:IAO_0000118>EUROPEAN</obo:IAO_0000118>
+        <obo:IAO_0000118>European</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>European</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C4509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
+        <obo:IAO_0000115>An aggressive carcinoma arising from the ovary.  Most patients present with advanced disease.  Microscopically, it is characterized by significant cytologic atypia, increased mitotic activity, and necrosis.  The prognosis is usually poor.</obo:IAO_0000115>
+        <obo:IAO_0000118>Anaplastic Carcinoma of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Anaplastic Carcinoma of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Anaplastic Ovarian Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Undifferentiated Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Carcinoma of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Carcinoma of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Ovarian Cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Ovarian Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Ovarian Undifferentiated Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3907"/>
+        <obo:IAO_0000115>A morphologic variant of squamous cell lung carcinoma characterized by the presence of papillary structures.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Squamous Cell Carcinoma, Papillary Variant</obo:IAO_0000118>
+        <obo:IAO_0000118>Squamous Cell Lung Carcinoma, Papillary Variant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lung Squamous Cell Carcinoma, Papillary Variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3907"/>
+        <obo:IAO_0000115>A morphologic variant of squamous cell lung carcinoma characterized by the presence of clear cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Squamous Cell Carcinoma, Clear Cell Variant</obo:IAO_0000118>
+        <obo:IAO_0000118>Squamous Cell Lung Carcinoma, Clear Cell Variant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lung Squamous Cell Carcinoma, Clear Cell Variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3907"/>
+        <obo:IAO_0000115>A poorly differentiated morphologic variant of squamous cell lung carcinoma characterized by the presence of small tumor cells with focal squamous differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Squamous Cell Carcinoma, Small Cell Variant</obo:IAO_0000118>
+        <obo:IAO_0000118>Squamous Cell Lung Carcinoma, Small Cell Variant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lung Squamous Cell Carcinoma, Small Cell Variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
+        <obo:IAO_0000115>A morphologic variant of lung adenocarcinoma characterized by the presence of mucin pools containing islands of well differentiated adenocarcinoma cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Colloid Adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Lung Mucinous Cystadenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Lung Mucinous Cystic Tumor of Borderline Malignancy</obo:IAO_0000118>
+        <obo:IAO_0000118>Mucinous cystic tumor of borderline malignancy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lung Colloid Adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
+        <obo:IAO_0000115>A morphologic variant of lung adenocarcinoma characterized by the presence of signet ring cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Signet Ring Cell Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lung Signet Ring Cell Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C5226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C5226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050933"/>
+        <obo:IAO_0000115>A low grade serous epithelial neoplasm arising from the ovary.  It is characterized by an atypical proliferation of serous-type epithelial cells without evidence of stromal invasion.  It is often asymptomatic but rarely it may present with abdominal pain or abdominal enlargement due to rupture or torsion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Serous Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Serous Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Serous Neoplasm of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Serous Neoplasm of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Serous Tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Serous Tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Serous Neoplasm of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Serous Tumor of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Ovarian Serous Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Ovarian Serous Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Serous Neoplasm of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Serous Neoplasm of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Serous Tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Serous Tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Neoplasm of Ovary with Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Neoplasm of the Ovary with Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Ovarian Neoplasm of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Ovarian Tumor of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Tumor of Ovary with Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Serous Tumor of the Ovary with Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Serous Tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C5651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C5651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3910"/>
+        <obo:IAO_0000115>A morphologic variant of lung adenocarcinoma characterized by the presence of polygonal malignant cells forming sheets. Acinar, papillary, micropapillary, or lepidic growth patterns are absent.  If the tumor is 100 percent solid, intracellular mucin should be present in at least five tumor cells in each of two high-power fields and confirmed with mucin immunohistochemical stains. Tumors formerly classified as large cell carcinomas expressing pneumocyte immunohistochemical markers, even if intracellular mucin is absent, are now included in this category.</obo:IAO_0000115>
+        <obo:IAO_0000118>Lung Solid Adenocarcinoma with Mucin</obo:IAO_0000118>
+        <obo:IAO_0000118>Pulmonary Solid Adenocarcinoma with Mucin</obo:IAO_0000118>
+        <obo:IAO_0000118>Solid Adenocarcinoma of Lung with Mucin</obo:IAO_0000118>
+        <obo:IAO_0000118>Solid Adenocarcinoma of the Lung with Mucin</obo:IAO_0000118>
+        <obo:IAO_0000118>Solid Lung Adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Solid adenocarcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Solid Lung Adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C7100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1520"/>
+        <obo:IAO_0000115>An invasive malignant epithelial tumor that arises from the colon.  There is no morphologic, immunophenotypic, or molecular biological evidence of glandular or squamous differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Carcinoma Simplex of the Colon.</obo:IAO_0000118>
+        <obo:IAO_0000118>Colon Anaplastic Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Colon Undifferentiated Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Carcinoma of Colon</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Carcinoma of the Colon</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Colon Cancer</obo:IAO_0000118>
+        <obo:IAO_0000118>Undifferentiated Colonic Carcinoma</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Colon Undifferentiated Carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C7281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2152"/>
+        <obo:IAO_0000115>A low grade, non-invasive mixed epithelial proliferative neoplasm that arises from the ovary. It is composed predominantly of serous and endocervical-type mucinous cells.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Ovarian Seromucinous Tumor/Atypical Proliferative Ovarian Seromucinous Tumor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Seromucinous Tumor/Atypical Proliferative Ovarian Seromucinous Tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C73993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C73993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000115>A quantification of lifetime tobacco exposure defined as (number of cigarettes smoked per day x number of years smoked)/20. One pack-year is smoking 20 cigarettes a day for one year.</obo:IAO_0000115>
+        <obo:IAO_0000118>Pack Year</obo:IAO_0000118>
+        <obo:IAO_0000118>Pack Year: The number of cigarettes smoked per day times the number of years smoked divided by 20 (the number of cigarettes in a pack)</obo:IAO_0000118>
+        <obo:IAO_0000118>Pack-Year</obo:IAO_0000118>
+        <obo:IAO_0000118>pack year</obo:IAO_0000118>
+        <obo:IAO_0000118>{Pack Year}</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Pack Year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C77811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person having origins in any of the countries abutting the Mediterranean Sea, principally those of Europe.</obo:IAO_0000115>
+        <obo:IAO_0000118>MEDITERRANEAN</obo:IAO_0000118>
+        <obo:IAO_0000118>Mediterranean</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Mediterranean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C77817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43851"/>
+        <obo:IAO_0000115>Denotes a person having origins in any of the countries of Western Europe such as Spain, Portugal, or France.</obo:IAO_0000115>
+        <obo:IAO_0000118>WESTERN EUROPEAN</obo:IAO_0000118>
+        <obo:IAO_0000118>Western European</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Western European</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C77819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77819">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43851"/>
+        <obo:IAO_0000115>Denotes a person having origins in any of the countries of Eastern Europe such as Czechoslovakia, Poland, Croatia, Hungary, Slovenia, Former Soviet Union, or Finland. It also includes persons who call themselves Gypsies from this region.</obo:IAO_0000115>
+        <obo:IAO_0000118>EASTERN EUROPEAN</obo:IAO_0000118>
+        <obo:IAO_0000118>Eastern European</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Eastern European</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C77820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77820">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115>Denotes a person having origins in the region of southwest Asia, between the India subcontinent and Europe, including Kuwait, Turkey, Lebanon, Israel, Iraq, Iran, Jordan, Saudi Arabia, lands east of Pakistan or the other countries of the Arabian Peninsula.  Also includes people of Jewish ethnicity including Sephardic and Ashkenazic.</obo:IAO_0000115>
+        <obo:IAO_0000118>MIDDLE EASTERN</obo:IAO_0000118>
+        <obo:IAO_0000118>Middle Eastern</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Middle Eastern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C7983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5828"/>
+        <obo:IAO_0000115>An epithelial neoplasm that arises from the ovary characterized by the presence of glandular or cystic spaces which contain atypical glandular epithelial cells resembling endometrial cells. The surrounding ovarian stroma is often fibrotic. There is no evidence of stromal invasion.</obo:IAO_0000115>
+        <obo:IAO_0000118>Borderline Endometrioid Neoplasm of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Endometrioid Neoplasm of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Endometrioid Tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Endometrioid Tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Endometrioid Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Endometrioid Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Borderline Ovarian Endometrioid Tumor/Atypical Proliferative Ovarian Endometrioid Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>EBT/APET</obo:IAO_0000118>
+        <obo:IAO_0000118>Endometrioid Neoplasm of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Endometrioid Neoplasm with Proliferating Activity, Ovarian</obo:IAO_0000118>
+        <obo:IAO_0000118>Endometrioid Tumor of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Endometrioid Tumor with Proliferating Activity, Ovarian</obo:IAO_0000118>
+        <obo:IAO_0000118>Endometrioid tumor of low malignant potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Endometrioid Neoplasm of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Endometrioid Neoplasm of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Endometrioid Tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Endometrioid Tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Ovarian Endometrioid Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Low Malignant Potential Ovarian Endometrioid Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Borderline Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Borderline Tumor</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Neoplasm of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Neoplasm with Proliferating Activity</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Tumor of Low Malignant Potential</obo:IAO_0000118>
+        <obo:IAO_0000118>Ovarian Endometrioid Tumor with Proliferating Activity</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Endometrioid Neoplasm of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Endometrioid Neoplasm of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Endometrioid Tumor of Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Endometrioid Tumor of the Ovary</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Ovarian Endometrioid Neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>Proliferating Ovarian Endometrioid Tumor</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Borderline Ovarian Endometrioid Tumor/Atypical Proliferative Ovarian Endometrioid Tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A description of an individual&apos;s current and past experience with alcoholic beverage consumption.</obo:IAO_0000115>
+        <obo:IAO_0000118>Alcohol History</obo:IAO_0000118>
+        <obo:IAO_0000118>Alcohol Use</obo:IAO_0000118>
+        <obo:IAO_0000118>Alcohol Use History</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Alcohol Use History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
