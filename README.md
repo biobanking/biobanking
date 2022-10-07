@@ -13,9 +13,7 @@ The source code of the ontology is under src directory:
    * imports/ : directory contains obib_dev.owl imported OWL files
    * external/ : directory contains ontodog, ontofox input files used to retrieve terms from OBO Foundry ontologies
 
-The latest version of the ontology can always be found at:
-
-   [http://purl.obolibrary.org/obo/obib.owl](http://purl.obolibrary.org/obo/obib.owl)
+The latest version of the ontology can always be found at: [http://purl.obolibrary.org/obo/obib.owl](http://purl.obolibrary.org/obo/obib.owl)
 
 A publication describing OBIB:<br>
 Mathias Brochhausen, Jie Zheng, David Birtwell, Heather Williams, Anna Maria Masci, Helena Judge Ellis and Christian J. Stoeckert Jr. “OBIB-a novel ontology for biobanking” Journal of Biomedical Semantics (2016) 7:23 
