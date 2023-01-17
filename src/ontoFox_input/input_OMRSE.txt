@@ -7,7 +7,7 @@ OMRSE
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000023 #collection of humans
-http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+http://purl.obolibrary.org/obo/OMRSE_00002072 #role in human social processes
 http://purl.obolibrary.org/obo/OMRSE_00000033 #aggregate of organizations
 http://purl.obolibrary.org/obo/OMRSE_00000038 #legal person role
 http://purl.obolibrary.org/obo/OMRSE_00000213 #racial identity ICE
