@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_PR.owl
+
+[Source ontology]
+#comment here
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+http://purl.obolibrary.org/obo/PR_000009054 #insulin
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/PR_000009054
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 #protein
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

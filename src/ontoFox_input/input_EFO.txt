@@ -1,0 +1,39 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_EFO.owl
+
+[Source ontology]
+#comment here
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0004318 #smoking behavior
+http://www.ebi.ac.uk/efo/EFO_0004774 #chewing tobacco behavior
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0004318
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://www.ebi.ac.uk/efo/EFO_0004774
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004953 #date of diagnosis
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0003919 #risk factor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://www.ebi.ac.uk/efo/EFO_0003961 #hormone replacement therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/alternative_term
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115

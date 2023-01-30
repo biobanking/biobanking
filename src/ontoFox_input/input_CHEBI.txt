@@ -1,0 +1,164 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_CHEBI.owl
+
+[Source ontology]
+#comment here
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_42191
+http://purl.obolibrary.org/obo/CHEBI_53258
+http://purl.obolibrary.org/obo/CHEBI_18723
+http://purl.obolibrary.org/obo/CHEBI_16842 #formaldehyde
+http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
+http://purl.obolibrary.org/obo/CHEBI_27338 #xylene
+http://purl.obolibrary.org/obo/CHEBI_49575 #diazepam
+http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepam
+http://purl.obolibrary.org/obo/CHEBI_35717 #sedative
+http://purl.obolibrary.org/obo/CHEBI_119915 #fentanyl
+http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphone
+http://purl.obolibrary.org/obo/CHEBI_6754 #Meperidine
+http://purl.obolibrary.org/obo/CHEBI_17303 #morphine
+http://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesic
+http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
+http://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetron
+http://purl.obolibrary.org/obo/CHEBI_50919 #antiemetic
+http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidine
+http://purl.obolibrary.org/obo/CHEBI_65265 #antacid
+http://purl.obolibrary.org/obo/CHEBI_6456 #lidocaine
+http://purl.obolibrary.org/obo/CHEBI_8430 #procaine
+http://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetic
+http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacaine
+http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodium
+http://purl.obolibrary.org/obo/CHEBI_4910 #etomidate
+http://purl.obolibrary.org/obo/CHEBI_6121 #ketamine
+http://purl.obolibrary.org/obo/CHEBI_44915 #propofol
+http://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodium
+http://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anesthetic
+http://purl.obolibrary.org/obo/CHEBI_7907 #pancuronium
+http://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)
+http://purl.obolibrary.org/obo/CHEBI_9939 #vecuronium
+http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxant
+http://purl.obolibrary.org/obo/CHEBI_6015 #isoflurane
+http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxide
+http://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anesthetic
+http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+http://purl.obolibrary.org/obo/CHEBI_50913 #fixative
+http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
+http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_16991 #deoxyribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33697 #ribonucleic acid
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_23367 #CHEBI:molecular entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #BFO:material entity
+http://purl.obolibrary.org/obo/CHEBI_42191
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_53258
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_18723
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_16842
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_27338 #xylene
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_49575 #diazepam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_52993 #lormetazepam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_35717 #sedative
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_119915 #fentanyl
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_5790 #hydromorphone
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_6754 #Meperidine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_17303 #morphine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_35482 #opiod analgesic
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_7773 #Ondansetron
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_50919 #antiemetic
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_8776 #ranitidine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_65265 #antacid
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_6456 #lidocaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_8430 #procaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_3215 #bupivacaine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_36333 #local anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_6834 #methohexitol sodium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_4910 #etomidate
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_6121 #ketamine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_44915 #propofol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_9561 #thiopental sodium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38877 #intravenous anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_7907 #pancuronium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_61219 #succinylcholine chloride (anhydrous)
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_9939 #vecuronium
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_51371 #muscle relaxant
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_6015 #isoflurane
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_17045 #dinitrogen oxide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_38870 #inhalation anesthetic
+subClassOf http://purl.obolibrary.org/obo/CHEBI_38867 #anesthetic
+http://purl.obolibrary.org/obo/CHEBI_35341 #steroid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000148
+http://purl.obolibrary.org/obo/CHEBI_50913 #fixative
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_30879 #alcohol
+http://purl.obolibrary.org/obo/CHEBI_16991 #deoxyribonucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_33697 #ribonucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

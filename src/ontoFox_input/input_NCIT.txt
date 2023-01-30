@@ -1,0 +1,96 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_NCIT.owl
+
+[Source ontology]
+#comment here
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedurehttp://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central African http://purl.obolibrary.org/obo/NCIT_C126529 #North African http://purl.obolibrary.org/obo/NCIT_C126530 #South African http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity http://purl.obolibrary.org/obo/NCIT_C126535 #Australian http://purl.obolibrary.org/obo/NCIT_C126536 #New Zealanderhttp://purl.obolibrary.org/obo/NCIT_C43851 #European http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian http://purl.obolibrary.org/obo/NCIT_C77817 #Western European http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C45514 #Lung Signet Ring Cell Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C5651 #Solid Lung Adenocarcinomahttp://purl.obolibrary.org/obo/NCIT_C45502 #Squamous Cell Lung Carcinoma,Papillary Variant
+http://purl.obolibrary.org/obo/NCIT_C45503 #Squamous Cell Lung Carcinoma,ClearCell Variant
+http://purl.obolibrary.org/obo/NCIT_C45504 #Squamous Cell Lung Carcinoma,SmallCell Variant
+http://purl.obolibrary.org/obo/NCIT_C27891 #RenalCellCarcinomaAssociatedwithXp11.2Transloc
+http://purl.obolibrary.org/obo/NCIT_C126303 #Tubulocystic Renal Cell Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C40080 #Borderline Ovarian Clear Cell Tumorhttp://purl.obolibrary.org/obo/NCIT_C7983  #BorderlineOvarianEndometrioidTumor/AtypicalPro
+http://purl.obolibrary.org/obo/NCIT_C7281 #BorderlineOvarianSeromucinousTumor/AtypicalProl
+http://purl.obolibrary.org/obo/NCIT_C40038 #BorderlineOvarianMucinousTumor,Endocervical-Li
+http://purl.obolibrary.org/obo/NCIT_C40037 #BorderlineOvarianMucinous Tumor,IntestinalType
+http://purl.obolibrary.org/obo/NCIT_C5226 #Borderline Ovarian Serous Tumor
+http://purl.obolibrary.org/obo/NCIT_C40088 #Borderline Ovarian Transitional Cell Tumor
+http://purl.obolibrary.org/obo/NCIT_C4509 #Undifferentiated Ovarian Carcinoma
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C16171 #Prior Chemotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C15477 #Prior Radiation Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16168 #Prior Hormone Therapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C16175 #Prior Immunotherapy
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C29719 #Smoking History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C81229 #Alcohol Use History
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/NCIT_C73993 #Pack Year
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/NCIT_C106501 #Birth Control Method
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic ProceduresubClassOf http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
+http://purl.obolibrary.org/obo/NCIT_C15675 #Adjuvant Therapy 
+subClassOf http://purl.obolibrary.org/obo/NCIT_C16212 #Cancer Therapeutic Procedure
+http://purl.obolibrary.org/obo/NCIT_C126528 #Central African 
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126529 #North African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126530 #South African subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126533 #Southeast Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C41263 #South Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126534 #Central Asian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C128458 #Australian/New Zealand Ethnicity
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category  http://purl.obolibrary.org/obo/NCIT_C126535 #Australian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126536 #New ZealandersubClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C43851 #European subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77819 #Eastern European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77811 #Mediterranean subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C126538 #Scandinavian subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C77817 #Western European subClassOf http://purl.obolibrary.org/obo/NCIT_C43851http://purl.obolibrary.org/obo/NCIT_C77820 #Middle Eastern subClassOf http://purl.obolibrary.org/obo/OBI_0000181http://purl.obolibrary.org/obo/NCIT_C7100 #Colon Undifferentiated Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_1520
+http://purl.obolibrary.org/obo/NCIT_C45512 #Lung Colloid Adenocarcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C45514 #Lung Signet Ring Cell Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C5651 #Solid Lung AdenocarcinomasubClassOf http://purl.obolibrary.org/obo/DOID_3910
+http://purl.obolibrary.org/obo/NCIT_C45502 #Squamous Cell Lung Carcinoma,Papillary Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C45503 #Squamous Cell Lung Carcinoma,ClearCell Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C45504 #Squamous Cell Lung Carcinoma,SmallCell Variant
+subClassOf http://purl.obolibrary.org/obo/DOID_3907
+http://purl.obolibrary.org/obo/NCIT_C27891 #RenalCellCarcinomaAssociatedwithXp11.2Transloc
+subClassOf http://purl.obolibrary.org/obo/DOID_4451
+http://purl.obolibrary.org/obo/NCIT_C126303 #Tubulocystic Renal Cell Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4451
+http://purl.obolibrary.org/obo/NCIT_C40080 #Borderline Ovarian Clear Cell TumorsubClassOf http://purl.obolibrary.org/obo/DOID_0050934
+http://purl.obolibrary.org/obo/NCIT_C7983  #BorderlineOvarianEndometrioidTumor/AtypicalPro
+subClassOf http://purl.obolibrary.org/obo/DOID_5828
+http://purl.obolibrary.org/obo/NCIT_C7281 #BorderlineOvarianSeromucinousTumor/AtypicalProl
+subClassOf http://purl.obolibrary.org/obo/DOID_2152
+http://purl.obolibrary.org/obo/NCIT_C40038 #BorderlineOvarianMucinousTumor,Endocervical-Li
+subClassOf http://purl.obolibrary.org/obo/DOID_6067
+http://purl.obolibrary.org/obo/NCIT_C40037 #BorderlineOvarianMucinous Tumor,IntestinalType
+subClassOf http://purl.obolibrary.org/obo/DOID_6067
+http://purl.obolibrary.org/obo/NCIT_C5226 #Borderline Ovarian Serous Tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_0050933
+http://purl.obolibrary.org/obo/NCIT_C40088 #Borderline Ovarian Transitional Cell Tumor
+subClassOf http://purl.obolibrary.org/obo/DOID_4000
+http://purl.obolibrary.org/obo/NCIT_C4509 #Undifferentiated Ovarian Carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_2394
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

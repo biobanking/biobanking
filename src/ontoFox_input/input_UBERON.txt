@@ -1,0 +1,381 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_UBERON.owl
+
+[Source ontology]
+#comment here
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001153 #cecum
+http://purl.obolibrary.org/obo/UBERON_0001156 #ascending colon
+http://purl.obolibrary.org/obo/UBERON_0001158 #descending colon
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+http://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colon
+http://purl.obolibrary.org/obo/UBERON_0001052 #rectum
+http://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colon
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+http://purl.obolibrary.org/obo/UBERON_0002358 #peritoneum
+http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tube
+http://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundary
+http://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemius
+http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aorta
+http://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventricle
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liver
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lung
+http://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreas
+http://purl.obolibrary.org/obo/UBERON_0001161 #body of stomach
+http://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0002116 #ileum
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+http://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosa
+http://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junction
+http://purl.obolibrary.org/obo/UBERON_0005448 #greater omentum
+http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+http://purl.obolibrary.org/obo/UBERON_0001835 #lower lip
+http://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary gland
+http://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skin
+http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
+http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
+http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
+http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
+http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
+http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagushttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinehttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodehttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuehttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinehttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lung
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001134 #skeletal muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0002048 #lung
+http://purl.obolibrary.org/obo/UBERON_0002097 #skin of body
+http://purl.obolibrary.org/obo/UBERON_0002369 #adrenal gland
+http://purl.obolibrary.org/obo/UBERON_0000002 #uterine cervix
+http://purl.obolibrary.org/obo/UBERON_0000007 #pituitary gland
+http://purl.obolibrary.org/obo/UBERON_0000057 #urethra
+http://purl.obolibrary.org/obo/UBERON_0000173 #amniotic fluid
+http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0000310 #breast
+http://purl.obolibrary.org/obo/UBERON_0000316 #cervical mucus
+http://purl.obolibrary.org/obo/UBERON_0000341 #throat
+http://purl.obolibrary.org/obo/UBERON_0000362 #renal medulla
+http://purl.obolibrary.org/obo/UBERON_0000473 #testis
+http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0000945 #stomach
+http://purl.obolibrary.org/obo/UBERON_0000947 #aorta
+http://purl.obolibrary.org/obo/UBERON_0000948 #heart
+http://purl.obolibrary.org/obo/UBERON_0000955 #brain
+http://purl.obolibrary.org/obo/UBERON_0000956 #cerebral cortex
+http://purl.obolibrary.org/obo/UBERON_0000970 #eye
+http://purl.obolibrary.org/obo/UBERON_0001004 #respiratory system
+http://purl.obolibrary.org/obo/UBERON_0001013 #adipose tissue
+http://purl.obolibrary.org/obo/UBERON_0001037 #strand of hair
+http://purl.obolibrary.org/obo/UBERON_0001087 #pleural fluid
+http://purl.obolibrary.org/obo/UBERON_0001088 #urine
+http://purl.obolibrary.org/obo/UBERON_0001089 #sweat
+http://purl.obolibrary.org/obo/UBERON_0001090 #synovial fluid
+http://purl.obolibrary.org/obo/UBERON_0001155 #colon
+http://purl.obolibrary.org/obo/UBERON_0001225 #cortex of kidney
+http://purl.obolibrary.org/obo/UBERON_0001255 #urinary bladder
+http://purl.obolibrary.org/obo/UBERON_0001264 #pancreas
+http://purl.obolibrary.org/obo/UBERON_0001268 #peritoneal fluid
+http://purl.obolibrary.org/obo/UBERON_0001323 #tibial nerve
+http://purl.obolibrary.org/obo/UBERON_0001359 #cerebrospinal fluid
+http://purl.obolibrary.org/obo/UBERON_0001557 #upper respiratory tract
+http://purl.obolibrary.org/obo/UBERON_0001621 #coronary artery
+http://purl.obolibrary.org/obo/UBERON_0001728 #nasopharynx
+http://purl.obolibrary.org/obo/UBERON_0001797 #vitreous humor
+http://purl.obolibrary.org/obo/UBERON_0001836 #saliva
+http://purl.obolibrary.org/obo/UBERON_0001913 #milk
+http://purl.obolibrary.org/obo/UBERON_0001968 #semen
+http://purl.obolibrary.org/obo/UBERON_0001970 #bile
+http://purl.obolibrary.org/obo/UBERON_0001987 #placenta
+http://purl.obolibrary.org/obo/UBERON_0002037 #cerebellum
+http://purl.obolibrary.org/obo/UBERON_0002046 #thyroid gland
+http://purl.obolibrary.org/obo/UBERON_0002106 #spleen
+http://purl.obolibrary.org/obo/UBERON_0002367 #prostate gland
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002409 #pericardial fluid
+http://purl.obolibrary.org/obo/UBERON_0002469 #esophagus mucosa
+http://purl.obolibrary.org/obo/UBERON_0004648 #esophagus muscularis mucosa
+http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0006618 #atrium auricular region
+http://purl.obolibrary.org/obo/UBERON_0006911 #digestive system secreted substance
+http://purl.obolibrary.org/obo/UBERON_0007106 #chorionic villus
+http://purl.obolibrary.org/obo/UBERON_0007109 #meconium
+http://purl.obolibrary.org/obo/UBERON_0007311 #sputum
+http://purl.obolibrary.org/obo/UBERON_0007610 #tibial artery
+http://purl.obolibrary.org/obo/UBERON_0012168 #umbilical cord blood
+http://purl.obolibrary.org/obo/UBERON_0013755 #arterial blood
+http://purl.obolibrary.org/obo/UBERON_0013756 #venous blood
+http://purl.obolibrary.org/obo/UBERON_0013757 #capillary blood
+http://purl.obolibrary.org/obo/UBERON_0000165 #mouth
+http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0001567 #cheek
+http://purl.obolibrary.org/obo/UBERON_0001723 #tongue
+http://purl.obolibrary.org/obo/UBERON_0001729 #oropharynx
+http://purl.obolibrary.org/obo/UBERON_0001988 #feces
+http://purl.obolibrary.org/obo/UBERON_0002032 #areola
+http://purl.obolibrary.org/obo/UBERON_0002199 #integument
+http://purl.obolibrary.org/obo/UBERON_0002415 #tail
+http://purl.obolibrary.org/obo/UBERON_0010414 #omental fat pad
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0035944 #life-death temporal boundary
+subClassOf http://purl.obolibrary.org/obo/BFO_0000035 #process boundary
+http://purl.obolibrary.org/obo/UBERON_0001153 #cecum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001156 #ascending colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001158 #descending colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0022277 #hepatic flexure of colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001052 #rectum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0022276 #splenic flexure of colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002358 #peritoneum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0003889 #fallopian tube
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001388 #gastrocnemius
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001134
+http://purl.obolibrary.org/obo/UBERON_0001234 #left adrenal gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+http://purl.obolibrary.org/obo/UBERON_0001233 #right adrenal gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002369 
+http://purl.obolibrary.org/obo/UBERON_0001496 #ascending aorta
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001157 #tranverse colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002084 #heart left ventricle
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002078 #right cardiac atrium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002081 #cardiac atrium
+http://purl.obolibrary.org/obo/UBERON_0001114 #right lobe of liver
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0008954 #lingula of left lung
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001150 #body of pancreas
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001161 #body of stomach
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001120 #left lobe of thyroid gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001119 #right lobe of thyroid gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0002116 #ileum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001159 #sigmoid colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0035840 #esophagogastric junction muscularis mucosa
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0007650 #esophagastric junction
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0005448 #greater omentum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0003688 #omentum
+http://purl.obolibrary.org/obo/UBERON_0001835 #lower lip
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001830 #minor salivary gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0036149 #suprapubic skin
+subClassOf http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000992 #female gonad
+http://purl.obolibrary.org/obo/UBERON_0009853 #body of uterus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0000995 #uterus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0000996 #vagina
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0036214 #rectosigmoid junction
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+http://purl.obolibrary.org/obo/UBERON_0001981 #blood vesselsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002368 #endocrine glandsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0001043 #esophagussubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000059 #large intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0000029 #lymph nodesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0003714 #neural tissuesubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0000990 #reproductive systemsubClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entityhttp://purl.obolibrary.org/obo/UBERON_0002108 #small intestinesubClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ parthttp://purl.obolibrary.org/obo/UBERON_0004538 #left kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0004539 #right kidneysubClassOf http://purl.obolibrary.org/obo/UBERON_0002113 #kidneyhttp://purl.obolibrary.org/obo/UBERON_0002168 #left lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lunghttp://purl.obolibrary.org/obo/UBERON_0002167 #right lungsubClassOf http://purl.obolibrary.org/obo/UBERON_0002048 #lung
+http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entitysubClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/UBERON_0001134 #skeletal muscle tissue
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002048 #lung
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002097 #skin of body
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002369 #adrenal gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000002 #uterine cervix
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000007 #pituitary gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000057 #urethra
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000173 #amniotic fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0000310 #breast
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000316 #cervical mucus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0000341 #throat
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000362 #renal medulla
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0000473 #testis
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/UBERON_0000945 #stomach
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000947 #aorta
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000948 #heart
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000955 #brain
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000956 #cerebral cortex
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0000970 #eye
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001004 #respiratory system
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001013 #adipose tissue
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0001037 #strand of hair
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001087 #pleural fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001088 #urine
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0001089 #sweat
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001090 #synovial fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001155 #colon
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001225 #cortex of kidney
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001255 #urinary bladder
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001264 #pancreas
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001268 #peritoneal fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001323 #tibial nerve
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000477 #anatomical cluster
+http://purl.obolibrary.org/obo/UBERON_0001359 #cerebrospinal fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001557 #upper respiratory tract
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001621 #coronary artery
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001728 #nasopharynx
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001797 #vitreous humor
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0001836 #saliva
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0001913 #milk
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001968 #semen
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0001970 #bile
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0001987 #placenta
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002037 #cerebellum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0002046 #thyroid gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002106 #spleen
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002367 #prostate gland
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0002409 #pericardial fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+http://purl.obolibrary.org/obo/UBERON_0002469 #esophagus mucosa
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0004648 #esophagus muscularis mucosa
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0006314 #bodily fluid
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0006618 #atrium auricular region
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+http://purl.obolibrary.org/obo/UBERON_0006911 #digestive system secreted substance
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0007106 #chorionic villus
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0007109 #meconium
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001988 #feces
+http://purl.obolibrary.org/obo/UBERON_0007311 #sputum
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0007610 #tibial artery
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0012168 #umbilical cord blood
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0013755 #arterial blood
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0013756 #venous blood
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0013757 #capillary blood
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0000165 #mouth
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000481 #multi-tissue structure
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001567 #cheek
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001723 #tongue
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001729 #oropharynx
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0001988 #feces
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000463 #organism substance
+http://purl.obolibrary.org/obo/UBERON_0002032 #areola
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002199 #integument
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0002415 #tail
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465 #material anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0010414 #omental fat pad
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001013 #adipose tissue
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

@@ -1,0 +1,45 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_PATO.owl
+
+[Source ontology]
+#comment here
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000128 #weight
+http://purl.obolibrary.org/obo/PATO_0000119 #height
+http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
+http://purl.obolibrary.org/obo/PATO_0000918 #volume
+http://purl.obolibrary.org/obo/PATO_0001985 #frozen
+http://purl.obolibrary.org/obo/PATO_0000011 #age
+http://purl.obolibrary.org/obo/PATO_0000169 #viability
+http://purl.obolibrary.org/obo/PATO_0001421 #alive
+http://purl.obolibrary.org/obo/PATO_0001422 #dead
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+http://purl.obolibrary.org/obo/PATO_0001442 #wholeness
+http://purl.obolibrary.org/obo/PATO_0000140 #position
+http://purl.obolibrary.org/obo/PATO_0000146 #temperature
+http://purl.obolibrary.org/obo/PATO_0000918 #volume
+http://purl.obolibrary.org/obo/PATO_0001985 #frozen
+http://purl.obolibrary.org/obo/PATO_0000011 #age
+http://purl.obolibrary.org/obo/PATO_0000051 #morphology
+http://purl.obolibrary.org/obo/PATO_0000122 #length
+http://purl.obolibrary.org/obo/PATO_0000125 #mass
+http://purl.obolibrary.org/obo/PATO_0000165 #time
+http://purl.obolibrary.org/obo/PATO_0001710 #3-D extent
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0001241 #PATO:physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0015009 #humidity
+subClassOf http://purl.obolibrary.org/obo/PATO_0001018 #physical quality
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #definition
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

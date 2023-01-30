@@ -1,0 +1,89 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_UO_instance.owl
+
+[Source ontology]
+#replace 'owl:Class' by 'owl:NamedIndividual' of imported terms (not their parent classes)
+#replace 'rdfs:subClassOf' by 'rdf:type'
+UO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UO_0000062 #molar
+http://purl.obolibrary.org/obo/UO_0000063 #millimolar
+http://purl.obolibrary.org/obo/UO_0000064 #micromolar
+http://purl.obolibrary.org/obo/UO_0000065 #nanomolar
+http://purl.obolibrary.org/obo/UO_0000066 #picomolar
+http://purl.obolibrary.org/obo/UO_0000163 #mass percentage
+http://purl.obolibrary.org/obo/UO_0000164 #mass volume percentage
+http://purl.obolibrary.org/obo/UO_0000165 #volume percentage
+http://purl.obolibrary.org/obo/UO_0000175 #gram per liter
+http://purl.obolibrary.org/obo/UO_0000176 #milligram per milliliter
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+http://purl.obolibrary.org/obo/UO_0000212 #colony forming unit per volume
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+http://purl.obolibrary.org/obo/UO_0000010 #second
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+http://purl.obolibrary.org/obo/UO_0000033 #day
+http://purl.obolibrary.org/obo/UO_0000034 #week
+http://purl.obolibrary.org/obo/UO_0000035 #month
+http://purl.obolibrary.org/obo/UO_0000036 #year
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UO_0000062 #molar
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000063 #millimolar
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000064 #micromolar
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000065 #nanomolar
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000066 #picomolar
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000163 #mass percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000164 #mass volume percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000165 #volume percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000175 #gram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000176 #milligram per milliliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000212 #colony forming unit per volume
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000010 #second
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000033 #day
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000034 #week
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000035 #month
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000036 #year
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

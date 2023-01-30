@@ -1,0 +1,46 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_HANCESTRO.owl
+
+[Source ontology]
+#comment here
+HANCESTRO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
+http://purl.obolibrary.org/obo/HANCESTRO_0463 #American
+http://purl.obolibrary.org/obo/HANCESTRO_0568 #African American
+http://purl.obolibrary.org/obo/HANCESTRO_0590 #European-American
+http://purl.obolibrary.org/obo/HANCESTRO_0014 #Hispanic or Latin American
+http://purl.obolibrary.org/obo/HANCESTRO_0008 #Asian
+http://purl.obolibrary.org/obo/HANCESTRO_0021 #Chinese
+http://purl.obolibrary.org/obo/HANCESTRO_0019 #Japanese
+http://purl.obolibrary.org/obo/HANCESTRO_0487 #Indian
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
+subClassOf http://purl.obolibrary.org/obo/OBI_0000181 #population
+http://purl.obolibrary.org/obo/HANCESTRO_0463 #American
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
+http://purl.obolibrary.org/obo/HANCESTRO_0568 #African American
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0463 #American
+http://purl.obolibrary.org/obo/HANCESTRO_0590 #European-American
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0463 #American
+http://purl.obolibrary.org/obo/HANCESTRO_0014 #Hispanic or Latin American
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
+http://purl.obolibrary.org/obo/HANCESTRO_0008 #Asian
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0004 #ancestry category
+http://purl.obolibrary.org/obo/HANCESTRO_0021 #Chinese
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0008 #Asian
+http://purl.obolibrary.org/obo/HANCESTRO_0019 #Japanese
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0008 #Asian
+http://purl.obolibrary.org/obo/HANCESTRO_0487 #Indian
+subClassOf http://purl.obolibrary.org/obo/HANCESTRO_0008 #Asian
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118

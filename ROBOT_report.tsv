@@ -1,0 +1,531 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	OBI:0001213	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001224	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001287	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001312	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001320	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001321	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001338	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001340	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001347	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001355	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001372	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001375	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001424	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001428	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001431	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001434	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001443	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0001458	IAO:0000115	A supplier of flow cytometry analyzers
+ERROR	duplicate_definition	OBI:0000299	IAO:0000115	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.@en
+ERROR	duplicate_definition	OBI:0000312	IAO:0000115	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.@en
+ERROR	duplicate_definition	OBI:0000293	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en
+ERROR	duplicate_definition	OBI:0000295	IAO:0000115	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.@en
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	be5f6463-75b3-4968-8cdf-bd6dae7972aagenid48
+ERROR	multiple_equivalent_classes	APOLLO_SV:00000033	owl:equivalentClass	be5f6463-75b3-4968-8cdf-bd6dae7972aagenid52
+ERROR	deprecated_property_reference	RO:0004097	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0004096>
+ERROR	misused_obsolete_label	ICO:0000075	rdfs:label	obsolete authorization document
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en
+ERROR	multiple_definitions	BFO:0000004	IAO:0000115	<b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en>
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en
+ERROR	multiple_definitions	BFO:0000015	IAO:0000115	<p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en>
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	<b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en>
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en
+ERROR	multiple_definitions	BFO:0000031	IAO:0000115	<b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en>
+ERROR	multiple_definitions	CLO:0000001	IAO:0000115	A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture@en
+ERROR	multiple_definitions	CLO:0000001	IAO:0000115	"A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture
+"
+ERROR	multiple_definitions	CLO:0000001	IAO:0000115	一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+ERROR	multiple_definitions	CLO:0000001	IAO:0000115	"一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+"
+ERROR	multiple_definitions	CLO:0000019	IAO:0000115	A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line.
+ERROR	multiple_definitions	CLO:0000019	IAO:0000115	A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line.@en
+ERROR	multiple_definitions	CLO:0000019	IAO:0000115	预期能够进行无限次分裂的细胞系细胞，作为永生细胞系一部分，能够支持体外无限增殖。
+ERROR	multiple_definitions	CLO:0000031	IAO:0000115	A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture). @en
+ERROR	multiple_definitions	CLO:0000031	IAO:0000115	"A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture).  
+"
+ERROR	multiple_definitions	CLO:0000031	IAO:0000115	一个培养细胞群体，其代表具有共同增殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。@zh
+ERROR	multiple_definitions	CLO:0000031	IAO:0000115	"培养的细胞群体代表具有共同繁殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。 
+"
+ERROR	multiple_definitions	OMRSE:00000033	IAO:0000115	An aggregate of organizations that have some feature in common, but is not itself an organization.@en
+ERROR	multiple_definitions	OMRSE:00000033	IAO:0000115	An object aggregate that is not itself an organization and whose members are only organizations that have some feature in common@en
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.
+ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0003919	IAO:0000115	Any aspect of an individual's life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.
+ERROR	multiple_labels	CLO:0000001	rdfs:label	cell line cell
+ERROR	multiple_labels	CLO:0000001	rdfs:label	cell line cell@en
+ERROR	multiple_labels	CLO:0000001	rdfs:label	细胞系细胞@zh
+ERROR	multiple_labels	CLO:0000019	rdfs:label	immortal cell line cell
+ERROR	multiple_labels	CLO:0000019	rdfs:label	immortal cell line cell@en
+ERROR	multiple_labels	CLO:0000019	rdfs:label	永生细胞系细胞@zh
+ERROR	multiple_labels	CLO:0000031	rdfs:label	cell line@en
+ERROR	multiple_labels	CLO:0000031	rdfs:label	细胞系@zh
+ERROR	multiple_labels	CL:0000000	rdfs:label	cell
+ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en
+ERROR	label_whitespace	ERO:0001092	rdfs:label	medical device 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	<(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] >
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	<(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] >
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	<(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] >
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	<(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] >
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	<(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] >
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	<(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] >
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	<(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] >
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	<(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] >
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	<(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] >
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	<(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] >
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	<(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] >
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	<(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] >
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	<(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] >
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	<(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] >
+WARN	annotation_whitespace	BFO:0000009	IAO:0000602	<(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] >
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	<(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] >
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	<(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] >
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	<(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] >
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	<(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] >
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	<(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] >
+WARN	annotation_whitespace	BFO:0000015	IAO:0000602	<(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] >
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	<(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] >
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	<(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] >
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	<(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] >
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	<(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] >
+WARN	annotation_whitespace	BFO:0000018	IAO:0000602	<(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] >
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	<(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] >
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	<(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] >
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	<(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] >
+WARN	annotation_whitespace	BFO:0000023	IAO:0000602	<(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] >
+WARN	annotation_whitespace	BFO:0000024	IAO:0000602	<(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] >
+WARN	annotation_whitespace	BFO:0000026	IAO:0000602	<(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] >
+WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000602	<(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] >
+WARN	annotation_whitespace	BFO:0000028	IAO:0000602	<(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] >
+WARN	annotation_whitespace	BFO:0000029	IAO:0000602	<(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] >
+WARN	annotation_whitespace	BFO:0000031	IAO:0000602	<(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] >
+WARN	annotation_whitespace	BFO:0000034	IAO:0000602	<(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] >
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	<(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] >
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	<(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] >
+WARN	annotation_whitespace	BFO:0000038	IAO:0000602	<(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] >
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	<(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] >
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	<(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] >
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	<(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] >
+WARN	annotation_whitespace	BFO:0000140	IAO:0000602	<(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] >
+WARN	annotation_whitespace	BFO:0000142	IAO:0000602	<(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] >
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	<(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] >
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	<(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] >
+WARN	annotation_whitespace	BFO:0000145	IAO:0000602	<(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] >
+WARN	annotation_whitespace	BFO:0000146	IAO:0000602	<(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] >
+WARN	annotation_whitespace	BFO:0000147	IAO:0000602	<(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] >
+WARN	annotation_whitespace	BFO:0000148	IAO:0000602	<(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] >
+WARN	annotation_whitespace	CLO:0000001	IAO:0000115	"A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture
+"
+WARN	annotation_whitespace	CLO:0000001	IAO:0000115	"一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+"
+WARN	annotation_whitespace	CLO:0000031	IAO:0000112	"<He, Tong-Chuan, et al., Identification of c-MYC as a target of the APC pathway. Science 281.5382 (1998): 1509-1512.: \""To evaluate the transcriptional effects of APC, we studied a human colorectal cancer cell line (HT29-APC) containing a zinc-inducible APC gene and a control cell line (HT29–β-Gal) containing an analogous inducible lacZ gene\"". 	Note that common usage in the literature is often of the form \""a human colorectal cancer cell line\"", as seen above. But such references to studies in \""a line\"" refer to the fact that discrete populations of cells that are input into culturing or experiments, not an entire lineage of cells. It is these discrete populations that we refer to as 'cell lines'.>"
+WARN	annotation_whitespace	CLO:0000031	IAO:0000112	"<He, Tong-Chuan, et al., Identification of c-MYC as a target of the APC pathway. Science 281.5382 (1998): 1509-1512.: \""To evaluate the transcriptional effects of APC, we studied a human colorectal cancer cell line (HT29-APC) containing a zinc-inducible APC gene and a control cell line (HT29–β-Gal) containing an analogous inducible lacZ gene\"". Note that common usage in the literature is often of the form \""a human colorectal cancer cell line\"", as seen above. But such references to studies in \""a line\"" refer to the fact that discrete populations of cells that are input into culturing or experiments, not an entire lineage of cells. It is these discrete populations that we refer to as 'cell lines'.>"
+WARN	annotation_whitespace	CLO:0000031	IAO:0000112	"<He, Tong-Chuan, et al., Identification of c-MYC as a target of the APC pathway. Science 281.5382 (1998): 1509-1512.: \""为了评估APC的转录效应，我们研究了含有锌诱导型APC基因的人结直肠癌细胞系（HT29-APC）和含有类似诱导型lacZ基因的对照细胞系（HT29-β-Gal）\"". 请注意，文献中的常见用法通常是“人类结直肠癌细胞系”的形式\"",如上所见。 但是对\""一个细胞系\""研究的这种引用，指的是输入培养或实验的离散细胞群体，而不是整个细胞系。 我们将这些离散的群体称为'细胞系'。>"
+WARN	annotation_whitespace	CLO:0000031	IAO:0000115	A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture). @en
+WARN	annotation_whitespace	CLO:0000031	IAO:0000115	"A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture).  
+"
+WARN	annotation_whitespace	CLO:0000031	IAO:0000115	"培养的细胞群体代表具有共同繁殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。 
+"
+WARN	annotation_whitespace	ERO:0001092	rdfs:label	medical device 
+WARN	annotation_whitespace	ERO:0001978	IAO:0000115	"A Jewish ethnic group comprised of persons who are descendants of Jews from Germany, Poland, Austria and Eastern Europe.
+"
+WARN	annotation_whitespace	GEO:000000006	rdfs:comment	Typically, the common feature is that the dependency does not conduct foreign affairs, and relegates this authority to the sovereign state.  But otherwise, it is largely or completely autonomous relative to the administrative subdivisions.  Examples include Puerto Rico (U.S.), Guam (U.S.), Greenland (Denmark), French Polynesia (France), and Falkland Islands (United Kingdom). @en
+WARN	annotation_whitespace	IAO:0000009	IAO:0000232	<9/22/11 BP: changed the rdfs:label for this class from 'label' to 'datum label' to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. >
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	<2012-04-05: Barry SmithThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions' is terrible.Can you fix to something like:A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.Alan RuttenbergYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. On the specifics of the proposed definition:We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with. @en>
+WARN	annotation_whitespace	IAO:0000424	IAO:0000112	"<ObjectProperty: RO_0002104Label: has plasma membrane partAnnotations: IAO_0000424 \""http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\""@en>"
+WARN	annotation_whitespace	IAO:0000425	IAO:0000112	"<ObjectProperty: RO???Label: spatially disjoint fromAnnotations: expand_assertion_to \""DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X) (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\""@en>"
+WARN	annotation_whitespace	IAO:0000579	IAO:0000112	PubMed is a CRID registry. It has a dataset of PubMed identifiers associated with journal articles. @en
+WARN	annotation_whitespace	IAO:0000597	IAO:0000112	"<Datatype: idrange:1Annotations: 'has ID range allocated to': \""Chris Mungall\""EquivalentTo: xsd:integer[> 2151 , <= 2300]@en>"
+WARN	annotation_whitespace	IAO:0020023	IAO:0000112	 I order a beer and the bartender authenticates my age by looking at my DOB on my driver's license.  I sign into my email account, and the system authenticates my permission to read the email by checking the password I enter against my password listed in the database.
+WARN	annotation_whitespace	IAO:0020023	IAO:0000115	"Authentication is the act of checking or verifying an identity claim (that is either tacit or explicit).
+@en"
+WARN	annotation_whitespace	OBI:0000070	IAO:0000116	<12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. >
+WARN	annotation_whitespace	OBI:0000086	IAO:0000232	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.
+
+May 28 2013. Updated definition taken from ReO based on discussions initiated in Philly 2011 workshop.  Former defnition described a narrower view of reagents in chemistry that restricts bearers of the role to be chemical entities (\""a role played by a molecular entity used to produce a chemical reaction to detect, measure, or produce other substances\"").  Updated definition allows for broader view of reagents in the domain of biomedical research to include larger materials that have parts that participate chemically in a molecular reaction or interaction.
+"
+WARN	annotation_whitespace	OBI:0000097	IAO:0000232	<Following OBI call November 2012,26th: 1. it was decided there was no need for moving the children class and making them siblings of study subject role.2. it also settles the disambiguation about 'study subject'. This is about the individual participating in the investigation/study, Not the 'topic' (as in 'toxicity study') of the investigation/studyThis note closes the issue and validates the class definition to be part of the OBI coreeditor = PRS@en>
+WARN	annotation_whitespace	OBI:0000124	IAO:0000112	"The relation between the conclusion \""Gene tpbA is involved in EPS production\"" and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. "
+WARN	annotation_whitespace	OBI:0000338	IAO:0000112	Concluding that a gene is upregulated in a tissue sample based on the band intensity in a western blot.  Concluding that a patient has a infection based on measurement of an elevated body temperature and reported headache. Concluding that there were problems in an investigation because data from PCR and microarray are conflicting. Concluding that 'defects in gene XYZ cause cancer due to improper DNA repair' based on data from experiments in that study that gene XYZ is involved in DNA repair, and the conclusion of a previous study that cancer patients have an increased number of mutations in this gene. 
+WARN	annotation_whitespace	OBI:0000339	IAO:0000116	<7/18/2011 BP: planning used to itself be a planned process. Barry Smith pointed out that this would lead to an infinite regression, as there would have to be a plan to conduct a planning process, which in itself would be the result of planning etc. Therefore, the restrictions on 'planning' were loosened to allow for informal processes that result in an 'ad hoc plan '. This required changing from 'has_specified_output some plan specifiction' to 'has_participant some plan specification'. >
+WARN	annotation_whitespace	OBI:0000651	IAO:0000116	<4/10/2011BP: It seems to me that the editor notes refer to a previous version, and are no longer relevant. >
+WARN	annotation_whitespace	OBI:0000968	IAO:0000116	"<2012-12-17 JAO: In common lab usage, there is a distinction made between devices and reagents that is difficult to model. Therefore we have chosen to specifically exclude reagents from the definition of \""device\"", and are enumerating the types of roles that a reagent can perform.2013-6-5 MHB: The following clarifications are outcomes of the May 2013 Philly Workshop. Reagents are distinguished from devices that also participate in scientific techniques by the fact that reagents are chemical or biological in nature and necessarily participate in some chemical interaction or reaction during the realization of their experimental role. By contrast, devices do not participate in such chemical reactions/interactions. Note that there are cases where devices use reagent components during their operation, where the reagent-device distinction is less clear. For example:(1) An HPLC machine is considered a device, but has a column that holds a stationary phase resin as an operational component. This resin qualifies as a device if it participates purely in size exclusion, but bears a reagent role that is realized in the running of a column if it interacts electrostatically or chemically with the evaluant. The container the resin is in (“the column”) considered alone is a device. So the entire column as well as the entire HPLC machine are devices that have a reagent as an operating part.(2) A pH meter is a device, but its electrode component bears a reagent role in virtue of its interacting directly with the evaluant in execution of an assay.(3) A gel running box is a device that has a metallic lead as a component that participates in a chemical reaction with the running buffer when a charge is passed through it. This metallic lead is considered to have a reagent role as a component of this device realized in the running of a gel.In the examples above, a reagent is an operational component of a device, but the device itself does not realize a reagent role (as bearing a reagent role is not transitive across the part_of relation). In this way, the asserted disjointness between a reagent and device holds, as both roles are never realized in the same bearer during execution of an assay. >"
+WARN	annotation_whitespace	OBI:0001000	IAO:0000116	<JT: It plays a role in collecting data that could be fleshed out more; but I'm thinking it is, in itself, an edited document. JZ: based on textual definition of edited document, it can be defined as N&S. I prefer to leave questionnaire as a document now. We can add more restrictions in the future and use that to determine it is an edited document or not. @en>
+WARN	annotation_whitespace	OBI:0001004	IAO:0000115	The Edinburgh Handedness Inventory is a set of questions used to assess the dominance of a person's right or left hand in everyday activities. @en
+WARN	annotation_whitespace	OBI:0001167	IAO:0000116	"note that we are currently defining subtypes of age measurement datum that specify when the age is relative to, e.g. planting, as we don't have adequate temporal predicates yet.
+life of bearer doesn't imply organism
+this assay measures time not developmental stage. we recognize that development can take different time periods under different conditions such as media / temperature
+age as a quality is dubious; we plan to revisit
+stages in development are currently handled with controlled vocabulary, such as 2-somite stage "
+WARN	annotation_whitespace	OBI:0001173	IAO:0000112	providing a training course for UCSD employees how to run a DNA sequencer; sequencing a DNA sample provided by a service consumer restricted to non-human samples; giving access to tissue samples in a biobank within OHSU; JAX shipping mice from their colony 
+WARN	annotation_whitespace	OBI:0001404	IAO:0000232	<MO definition:The genotype of the individual organism from which the biomaterial was derived. Individual genetic characteristics include polymorphisms, disease alleles, and haplotypes.examples in ArrayExpresswild_typeMutaMouse (CD2F1 mice with lambda-gt10LacZ integration)AlfpCre; SNF5 flox/knockoutp53 knock outC57Bl/6 gp130lox/lox MLC2vCRE/+fer-15; fem-1df/dfpat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)@en>
+WARN	annotation_whitespace	OBI:0001637	IAO:0000115	A relationship between two material entitites that each have disposition to form a complex with the other. 
+WARN	annotation_whitespace	OBI:0001866	IAO:0000115	A cultured cell that has been passaged or derives from a cell that has been passaged in culture. 
+WARN	annotation_whitespace	OBI:0001909	IAO:0000116	"In the Philly 2013 workshop, we recognized the limitations of \""conclusion textual entity\"", and we introduced this as more general. The need for the 'textual entity' term going forward is up for future debate. "
+WARN	annotation_whitespace	OBI:0001912	IAO:0000115	A processed material that serves as a liquid vehicle for freezing cells for long term quiescent stroage, which contains chemicls needed to sustain cell viability across freeze-thaw cycles. 
+WARN	annotation_whitespace	OBI:0002205	IAO:0000112	< G4: Undifferentiated>
+WARN	annotation_whitespace	OBI:0002205	IAO:0000112	<G1:Well differentiated >
+WARN	annotation_whitespace	OBI:0002216	IAO:0000115	A histologic grade for ovarian tumor that is from a two-tier histological classification of tumors. 
+WARN	annotation_whitespace	OBI:0002316	IAO:0000115	A clinical tumor stage group according to AJCC 7th edition indicating a carcinoma in situ (or melanoma in situ for melanoma of the skin or germ cell neoplasia in situ for testicular germ cell tumors) and generally is considered to have no metastatic potential. 
+WARN	annotation_whitespace	OBI:0002333	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion. 
+WARN	annotation_whitespace	OBI:0002334	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion <4.0 cm in greatest dimension. 
+WARN	annotation_whitespace	OBI:0002335	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina without parametrial invasion and clinically visible lesion >4.0 cm in greatest dimension. 
+WARN	annotation_whitespace	OBI:0002336	IAO:0000115	An International Federation of Gynecology and Obstetrics cervical cancer stage value specification indicating cervical carcinoma invades beyond the uterus, but not to the pelvic wall or to the lower third of the vagina with obvious parametrial invasion. 
+WARN	annotation_whitespace	OBI:0002390	IAO:0000115	A clinical history in which there has been second hand exposure to tobacco smoking. 
+WARN	annotation_whitespace	OBI:0002426	IAO:0000112	An exclusion criterion defined by the pathologist is defined as whether the individual received chemotherapy within the last two years. 
+WARN	annotation_whitespace	OBI:0002427	IAO:0000112	An exclusion criterion defined by the pathologist is defined as whether the individual received  radiation therapy within the last two years. 
+WARN	annotation_whitespace	OBI:0002434	IAO:0000115	An exclusion criterion defined  as whether an individual has a history of repeatedly reactive screening assays for HIV-1 or HIV-2 antibody regardless of the results of supplemental assays, which if met, makes the individual unsuitable for a given task or participation in a given process. 
+WARN	annotation_whitespace	OBI:0002435	IAO:0000112	Donor eligibility based on whether the donor has been exposed to HIV/AIDS. 
+WARN	annotation_whitespace	OBI:0002516	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002517	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002518	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002519	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002520	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002521	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002522	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002523	IAO:0000115	A specimen that is derived from breast. 
+WARN	annotation_whitespace	OBI:0002523	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002524	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002525	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002526	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002527	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002528	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002529	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002530	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002531	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002532	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002533	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002534	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002535	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002536	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002537	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002538	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002539	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002540	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002541	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002542	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002543	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002544	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002545	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002546	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002547	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002548	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002549	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002550	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002551	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002552	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002553	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002554	IAO:0000119	Chris Stoeckert, NCI BBRB 
+WARN	annotation_whitespace	OBI:0002603	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002604	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002605	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002606	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002607	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002608	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002609	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002610	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002611	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002612	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0002613	IAO:0000119	Chris Stoeckert, OBIB 
+WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
+defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
+@en"
+WARN	annotation_whitespace	OBI:2000000	IAO:0000115	A specimen that is derived from some uterine cervix 
+WARN	annotation_whitespace	OBI:2000001	IAO:0000115	A specimen that is derived from some urethra 
+WARN	annotation_whitespace	OBI:2000002	IAO:0000115	A specimen that is derived from some cervical mucus 
+WARN	annotation_whitespace	OBI:2000003	IAO:0000115	A specimen that is derived from some throat 
+WARN	annotation_whitespace	OBI:2000004	IAO:0000115	A specimen that is derived from some eye 
+WARN	annotation_whitespace	OBI:2000005	IAO:0000115	A specimen that is derived from some respiratory system 
+WARN	annotation_whitespace	OBI:2000006	IAO:0000115	A specimen that is derived from some upper respiratory tract 
+WARN	annotation_whitespace	OBI:2000007	IAO:0000115	A specimen that is derived from some nasopharynx 
+WARN	annotation_whitespace	OBI:2000010	IAO:0000115	A specimen that is derived from some chorionic villus 
+WARN	annotation_whitespace	OBI:2000011	IAO:0000115	A specimen that is derived from some meconium 
+WARN	annotation_whitespace	OBI:2000017	IAO:0000115	A specimen that is derived from some reticulocytes 
+WARN	annotation_whitespace	OMIABIS:0000053	IAO:0000119	<http://en.wikipedia.org/wiki/Flash_freezing>
+WARN	annotation_whitespace	OMIABIS:0000057	IAO:0000119	<http://www.ncbi.nlm.nih.gov/pubmed/11269646>
+WARN	annotation_whitespace	OMIABIS:0001029	IAO:0000119	<http://www.abta.org/Dictionary/67>
+WARN	annotation_whitespace	OMIABIS:0001080	IAO:0000119	<http://www.exchangenetwork.net/standards/SampleHandling_01_06_2006_Final.pdf>
+WARN	annotation_whitespace	OMRSE:00000010	IAO:0000115	A role in human social processes that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, or undergoing diagnosis. @en
+WARN	annotation_whitespace	OMRSE:00000012	IAO:0000117	"Mathias Brochhausen
+@en"
+WARN	annotation_whitespace	OMRSE:00000033	rdfs:comment	It is often convenient to group organizations together that otherwise might not even interact with one another. @en
+WARN	duplicate_exact_synonym	OBI:0002325	IAO:0000118	Stage IVB
+WARN	duplicate_exact_synonym	OBI:0002340	IAO:0000118	Stage IVB
+WARN	duplicate_exact_synonym	OBI:0002324	IAO:0000118	Stage IVA
+WARN	duplicate_exact_synonym	OBI:0002339	IAO:0000118	Stage IVA
+WARN	duplicate_exact_synonym	OBI:0002322	IAO:0000118	Stage IIIB
+WARN	duplicate_exact_synonym	OBI:0002338	IAO:0000118	Stage IIIB
+WARN	duplicate_exact_synonym	OBI:0002321	IAO:0000118	Stage IIIA
+WARN	duplicate_exact_synonym	OBI:0002337	IAO:0000118	Stage IIIA
+WARN	duplicate_exact_synonym	OBI:0002319	IAO:0000118	Stage IIB
+WARN	duplicate_exact_synonym	OBI:0002336	IAO:0000118	Stage IIB
+WARN	duplicate_exact_synonym	OBI:0002318	IAO:0000118	Stage IIA
+WARN	duplicate_exact_synonym	OBI:0002333	IAO:0000118	Stage IIA
+WARN	duplicate_exact_synonym	OBI:0002270	IAO:0000118	<pN: Pathologic spread colon lymph nodes (AJCC 7th Edition)>
+WARN	duplicate_exact_synonym	OBI:0002279	IAO:0000118	<pN: Pathologic spread colon lymph nodes (AJCC 7th Edition)>
+WARN	duplicate_exact_synonym	OBI:0002209	IAO:0000118	G4
+WARN	duplicate_exact_synonym	OBI:0002223	IAO:0000118	G4
+WARN	duplicate_exact_synonym	OBI:0002208	IAO:0000118	G3
+WARN	duplicate_exact_synonym	OBI:0002222	IAO:0000118	G3
+WARN	duplicate_exact_synonym	OBI:0002207	IAO:0000118	G2
+WARN	duplicate_exact_synonym	OBI:0002221	IAO:0000118	G2
+WARN	duplicate_exact_synonym	OBI:0002206	IAO:0000118	G1
+WARN	duplicate_exact_synonym	OBI:0002220	IAO:0000118	G1
+WARN	missing_definition	BFO:0000141	IAO:0000115	
+WARN	missing_definition	CHEBI:27338	IAO:0000115	
+WARN	missing_definition	CHEBI:38870	IAO:0000115	
+WARN	missing_definition	CHEBI:38877	IAO:0000115	
+WARN	missing_definition	CHEBI:42191	IAO:0000115	
+WARN	missing_definition	CHEBI:6015	IAO:0000115	
+WARN	missing_definition	CHEBI:7773	IAO:0000115	
+WARN	missing_definition	DOID:2155	IAO:0000115	
+WARN	missing_definition	DOID:3029	IAO:0000115	
+WARN	missing_definition	DOID:3033	IAO:0000115	
+WARN	missing_definition	DOID:4463	IAO:0000115	
+WARN	missing_definition	DOID:4472	IAO:0000115	
+WARN	missing_definition	DOID:6482	IAO:0000115	
+WARN	missing_definition	DOID:6727	IAO:0000115	
+WARN	missing_definition	DOID:7045	IAO:0000115	
+WARN	missing_definition	DOID:7267	IAO:0000115	
+WARN	missing_definition	DRON:00015464	IAO:0000115	
+WARN	missing_definition	DRON:00017834	IAO:0000115	
+WARN	missing_definition	ERO:0001979	IAO:0000115	
+WARN	missing_definition	ERO:0002063	IAO:0000115	
+WARN	missing_definition	ERO:0002076	IAO:0000115	
+WARN	missing_definition	ERO:0002087	IAO:0000115	
+WARN	missing_definition	ERO:0002090	IAO:0000115	
+WARN	missing_definition	FMA:15584	IAO:0000115	
+WARN	missing_definition	FMA:17181	IAO:0000115	
+WARN	missing_definition	FMA:19972	IAO:0000115	
+WARN	missing_definition	FMA:19973	IAO:0000115	
+WARN	missing_definition	FMA:22109	IAO:0000115	
+WARN	missing_definition	FMA:22110	IAO:0000115	
+WARN	missing_definition	FMA:242207	IAO:0000115	
+WARN	missing_definition	FMA:24980	IAO:0000115	
+WARN	missing_definition	FMA:24981	IAO:0000115	
+WARN	missing_definition	FMA:37829	IAO:0000115	
+WARN	missing_definition	FMA:37830	IAO:0000115	
+WARN	missing_definition	FMA:43899	IAO:0000115	
+WARN	missing_definition	FMA:57987	IAO:0000115	
+WARN	missing_definition	FMA:63008	IAO:0000115	
+WARN	missing_definition	FMA:63062	IAO:0000115	
+WARN	missing_definition	FMA:83876	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0019	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0021	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0463	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0487	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0568	IAO:0000115	
+WARN	missing_definition	HANCESTRO:0590	IAO:0000115	
+WARN	missing_definition	IAO:0000004	IAO:0000115	
+WARN	missing_definition	IAO:0000039	IAO:0000115	
+WARN	missing_definition	IAO:0000114	IAO:0000115	
+WARN	missing_definition	IAO:0000426	IAO:0000115	
+WARN	missing_definition	IAO:0000429	IAO:0000115	
+WARN	missing_definition	IAO:0000582	IAO:0000115	
+WARN	missing_definition	IAO:8000000	IAO:0000115	
+WARN	missing_definition	IAO:8000016	IAO:0000115	
+WARN	missing_definition	IAO:8000017	IAO:0000115	
+WARN	missing_definition	IAO:8000019	IAO:0000115	
+WARN	missing_definition	IAO:8000020	IAO:0000115	
+WARN	missing_definition	IDO:0000660	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10239	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10292	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10358	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10376	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10407	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11103	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11646	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11676	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11709	IAO:0000115	
+WARN	missing_definition	NCBITaxon:117571	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2157	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2759	IAO:0000115	
+WARN	missing_definition	NCBITaxon:314146	IAO:0000115	
+WARN	missing_definition	NCBITaxon:32523	IAO:0000115	
+WARN	missing_definition	NCBITaxon:32524	IAO:0000115	
+WARN	missing_definition	NCBITaxon:33154	IAO:0000115	
+WARN	missing_definition	NCBITaxon:33213	IAO:0000115	
+WARN	missing_definition	NCBITaxon:388799	IAO:0000115	
+WARN	missing_definition	NCBITaxon:40674	IAO:0000115	
+WARN	missing_definition	NCBITaxon:7742	IAO:0000115	
+WARN	missing_definition	NCBITaxon:9606	IAO:0000115	
+WARN	missing_definition	OMRSE:00000048	IAO:0000115	
+WARN	missing_definition	OMRSE:00000050	IAO:0000115	
+WARN	missing_definition	RO:0000092	IAO:0000115	
+WARN	missing_definition	RO:0002222	IAO:0000115	
+WARN	missing_definition	RO:0002297	IAO:0000115	
+WARN	missing_definition	RO:0002305	IAO:0000115	
+WARN	missing_definition	RO:0004046	IAO:0000115	
+WARN	missing_definition	UBERON:0006911	IAO:0000115	
+WARN	missing_definition	UO:0000001	IAO:0000115	
+WARN	missing_definition	UO:0000002	IAO:0000115	
+WARN	missing_definition	UO:0000003	IAO:0000115	
+WARN	missing_definition	UO:0000005	IAO:0000115	
+WARN	missing_definition	UO:0000051	IAO:0000115	
+WARN	missing_definition	UO:0000095	IAO:0000115	
+WARN	missing_definition	obo:cl#lacks_part	IAO:0000115	
+WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115	
+WARN	missing_obsolete_label	RO:0004096	rdfs:label	DEPRECATED inheres in@en
+WARN	missing_obsolete_label	RO:0004097	rdfs:label	DEPRECATED bearer of@en
+INFO	lowercase_definition	BFO:0000004	IAO:0000115	<b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en>
+INFO	lowercase_definition	BFO:0000015	IAO:0000115	<p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en>
+INFO	lowercase_definition	BFO:0000016	IAO:0000600	<b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en>
+INFO	lowercase_definition	BFO:0000019	IAO:0000600	<a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])@en>
+INFO	lowercase_definition	BFO:0000020	IAO:0000115	<b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en>
+INFO	lowercase_definition	BFO:0000023	IAO:0000600	<b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])@en>
+INFO	lowercase_definition	BFO:0000024	IAO:0000600	<b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])@en>
+INFO	lowercase_definition	BFO:0000027	IAO:0000600	<b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])@en>
+INFO	lowercase_definition	BFO:0000029	IAO:0000600	<b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])@en>
+INFO	lowercase_definition	BFO:0000030	IAO:0000600	<b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])@en>
+INFO	lowercase_definition	BFO:0000031	IAO:0000115	<b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en>
+INFO	lowercase_definition	BFO:0000035	IAO:0000115	<p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])@en>
+INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en
+INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en
+INFO	lowercase_definition	BFO:0000054	IAO:0000600	<[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en>
+INFO	lowercase_definition	BFO:0000055	IAO:0000600	<to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en>
+INFO	lowercase_definition	BFO:0000062	IAO:0000115	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	BFO:0000063	IAO:0000115	<x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	BFO:0000066	IAO:0000115	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	BFO:0000067	IAO:0000115	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	BFO:0000140	IAO:0000115	<b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])@en>
+INFO	lowercase_definition	BFO:0000142	IAO:0000600	<a one-dimensional continuant fiat boundary is a continuous fiat line whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [032-001])@en>
+INFO	lowercase_definition	BFO:0000144	IAO:0000115	<b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])@en>
+INFO	lowercase_definition	BFO:0000144	IAO:0000600	<b process_profile_of c holds when b proper_occurrent_part_of c& there is some proper_occurrent_part d of c which has no parts in common with b & is mutually dependent on b& is such that b, c and d occupy the same temporal region (axiom label in BFO2 Reference: [094-005])@en>
+INFO	lowercase_definition	BFO:0000145	IAO:0000115	<b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])@en>
+INFO	lowercase_definition	BFO:0000146	IAO:0000600	<a two-dimensional continuant fiat boundary (surface) is a self-connected fiat surface whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [033-001])@en>
+INFO	lowercase_definition	BFO:0000147	IAO:0000600	<a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])@en>
+INFO	lowercase_definition	BFO:0000156	IAO:0000600	<[copied from inverse property 'occupies temporal region'] p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])>
+INFO	lowercase_definition	BFO:0000184	IAO:0000115	[copied from inverse property 'has history'] b has_history c iff c history_of b [XXX-001
+INFO	lowercase_definition	BFO:0000184	IAO:0000600	<b history_of c if c is a material entity or site and b is a history that is the unique history of cAxiom: if b history_of c and b history_of d then c=d [XXX-001@en>
+INFO	lowercase_definition	BFO:0000185	IAO:0000115	b has_history c iff c history_of b [XXX-001@en
+INFO	lowercase_definition	BFO:0000185	IAO:0000600	<[copied from inverse property 'history of'] b history_of c if c is a material entity or site and b is a history that is the unique history of cAxiom: if b history_of c and b history_of d then c=d [XXX-001>
+INFO	lowercase_definition	CLO:0000001	IAO:0000115	一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+INFO	lowercase_definition	CLO:0000001	IAO:0000115	"一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+"
+INFO	lowercase_definition	CLO:0000019	IAO:0000115	预期能够进行无限次分裂的细胞系细胞，作为永生细胞系一部分，能够支持体外无限增殖。
+INFO	lowercase_definition	CLO:0000031	IAO:0000115	一个培养细胞群体，其代表具有共同增殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。@zh
+INFO	lowercase_definition	CLO:0000031	IAO:0000115	"培养的细胞群体代表具有共同繁殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。 
+"
+INFO	lowercase_definition	GEO:000000004	IAO:0000115	a governmental organization that has a local, regional, or territorial government that recognizes a sovereign state as its higher political authority@en
+INFO	lowercase_definition	IAO:0000221	IAO:0000115	m is a quality measurement of q at t. When q is a quality, there is a measurement process p that has specified output m, a measurement datum, that is about q@en
+INFO	lowercase_definition	IAO:0000235	IAO:0000115	inverse of the relation 'denotes'@en
+INFO	lowercase_definition	IAO:0000413	IAO:0000115	relates a process to a time-measurement-datum that represents the duration of the process@en
+INFO	lowercase_definition	IAO:0000417	IAO:0000115	inverse of the relation of is quality measurement of@en
+INFO	lowercase_definition	IAO:0000581	IAO:0000115	relates a time stamped measurement datum to the time measurement datum that denotes the time when the measurement was taken@en
+INFO	lowercase_definition	IAO:0000583	IAO:0000115	relates a time stamped measurement datum to the measurement datum that was measured@en
+INFO	lowercase_definition	IAO:0020012	IAO:0000115	x designates y, if for any given group of language users, x is an information content entity, is about y, and represents y in a linguistic context..@en
+INFO	lowercase_definition	IAO:0020018	IAO:0000115	p1 is designated by p2, if p2 is an information content entity that represents p1 in a linguistic context.@en
+INFO	lowercase_definition	OBIB:0000733	IAO:0000115	a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a.@en
+INFO	lowercase_definition	OBIB:0000734	IAO:0000115	a is contact information for b, if a is a information content entity, b is a human being or an organization and a identifies a physical location or electronic resource that allows to initiate communication with a.@en
+INFO	lowercase_definition	OBIB:0000735	IAO:0000115	a is owned by b if b has complete power over a. All rights and obligations of ownership are grounded in this (primitive) relation. The claims and obligations of ownership can be partially transferred to a third party by the owner, b.@en
+INFO	lowercase_definition	OBI:0000014	IAO:0000115	a regulatory role involved with making and/or enforcing relevant legislation and governmental orders@en
+INFO	lowercase_definition	OBI:0000017	IAO:0000115	a role which inheres in material entities and is realized in the processes of making, enforcing or being defined by legislation or orders issued by a governmental body.@en
+INFO	lowercase_definition	OBI:0000018	IAO:0000115	a role realized through the process of supplying materials such as animal subjects, reagents or other materials used in an investigation.@en
+INFO	lowercase_definition	OBI:0000066	IAO:0000115	<a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).@en>
+INFO	lowercase_definition	OBI:0000067	IAO:0000115	a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role@en
+INFO	lowercase_definition	OBI:0000079	IAO:0000115	a processed material that provides the needed nourishment for microorganisms or cells grown in vitro.
+INFO	lowercase_definition	OBI:0000093	IAO:0000115	a role which inheres in a person and is realized by the process of being under the care of a physician or health care provider@en
+INFO	lowercase_definition	OBI:0000102	IAO:0000115	a study personnel role played by a party who is accountable for the execution of a study component and can make decisions about the conduct of the study@en
+INFO	lowercase_definition	OBI:0000103	IAO:0000115	a responsible party role played by a person responsible for the overall conduct of a study@en
+INFO	lowercase_definition	OBI:0000112	IAO:0000115	a role borne by a material entity that is gained during a specimen collection process and that can be realized by use of the specimen in an investigation@en
+INFO	lowercase_definition	OBI:0000116	IAO:0000115	a personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline@en
+INFO	lowercase_definition	OBI:0000181	IAO:0000115	a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area@en
+INFO	lowercase_definition	OBI:0000274	IAO:0000115	is a process with the objective to place a material entity bearing the 'material to be added role' into a material bearing the 'target of material addition role'.@en
+INFO	lowercase_definition	OBI:0000319	IAO:0000115	material to be added role is a protocol participant role realized by a material which is added into a material bearing the target of material addition role in a material addition process@en
+INFO	lowercase_definition	OBI:0000339	IAO:0000115	a process of creating or modifying a plan specification@en
+INFO	lowercase_definition	OBI:0000423	IAO:0000115	an extract is a material entity which results from an extraction process@en
+INFO	lowercase_definition	OBI:0000434	IAO:0000115	is the specification of an objective to add a material into a target material. The adding is asymmetric in the sense that the target material largely retains its identity@en
+INFO	lowercase_definition	OBI:0000437	IAO:0000115	an assay objective to determine the presence or concentration of an analyte in the evaluant@en
+INFO	lowercase_definition	OBI:0000441	IAO:0000115	an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)@en
+INFO	lowercase_definition	OBI:0000444	IAO:0000115	target of material addition role is a role realized by an entity into which a material is added in a material addition process
+INFO	lowercase_definition	OBI:0000456	IAO:0000115	an objective specifiction that creates an specific output object from input materials.@en
+INFO	lowercase_definition	OBI:0000458	IAO:0000115	is the objective to manufacture a material of a certain function (device)@en
+INFO	lowercase_definition	OBI:0000471	IAO:0000115	a planned process that carries out a study design
+INFO	lowercase_definition	OBI:0000639	IAO:0000115	is an objective to transform a material entity into spatially separated components.
+INFO	lowercase_definition	OBI:0000643	IAO:0000115	the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car.
+INFO	lowercase_definition	OBI:0000651	IAO:0000115	a portion of urine collected from an organism
+INFO	lowercase_definition	OBI:0000652	IAO:0000115	is a material processing with the objective to combine two or more material entities as input into a single material entity as output.
+INFO	lowercase_definition	OBI:0000655	IAO:0000115	a material entity derived from a portion of blood collected from an organism
+INFO	lowercase_definition	OBI:0000671	IAO:0000115	a material obtained from an organism in order to be a representative of the whole
+INFO	lowercase_definition	OBI:0000686	IAO:0000115	is an objective to obtain an output material that contains several input materials.
+INFO	lowercase_definition	OBI:0000838	IAO:0000115	a process with that achieves the objective to maintain some or all of the characteristics of an input material over time
+INFO	lowercase_definition	OBI:0000852	IAO:0000115	a information content entity created to indicate that information about something is not available to the person recording it.
+INFO	lowercase_definition	OBI:0000873	IAO:0000115	a specimen that was taken from a live organism
+INFO	lowercase_definition	OBI:0000880	IAO:0000115	an extract which is the output of an extraction process in which RNA molecules are isolated from a specimen.
+INFO	lowercase_definition	OBI:0000927	IAO:0000115	a storage process with input material entity and output freeze dried material for long time storage
+INFO	lowercase_definition	OBI:0000941	IAO:0000115	a role which inheres in a person who uses a service
+INFO	lowercase_definition	OBI:0000947	IAO:0000115	is a role which inheres in a person or organization and is realized in in a planned process which provides access to training, materials or execution of protocols for an organization or person
+INFO	lowercase_definition	OBI:0000950	IAO:0000115	a specimen that is output of a paraffin storage process in which specimen is embedded in paraffin
+INFO	lowercase_definition	OBI:0000965	IAO:0000115	a specimen that is output of a lyophilization storage process in which specimen is lyophilized for storage.
+INFO	lowercase_definition	OBI:0000971	IAO:0000115	a specimen that is output of a specimen creation process used for an investigation without storage.
+INFO	lowercase_definition	OBI:0000977	IAO:0000115	a storage process with input organism or anatomical entity and paraffin and output material embedded in paraffin for long term storage
+INFO	lowercase_definition	OBI:0000981	IAO:0000115	a specimen that is output of a process that cell culture inoculated into agar for long term storage.
+INFO	lowercase_definition	OBI:0001003	IAO:0000115	a storage process with input cell culture and agar and output agar stab for long time storage
+INFO	lowercase_definition	OBI:0001404	IAO:0000115	a data item that is about genetic material including polymorphisms, disease alleles, and haplotypes.@en
+INFO	lowercase_definition	OBI:0001867	IAO:0000115	a process whereby a new type of cell line is created, either through passaging of a primary cell culture to relative genetic stability and compositional homogeneity, or through some experimental modification of an existing cell line to produce a new line with novel characteristics  (e.g. immortalization or some other stable genetic modification, or selection of some defined subset).
+INFO	lowercase_definition	OBI:0001936	IAO:0000115	a material entity that is the specified output of an addition of molecular label process that aims to label some molecular target to allow for its detection in a detection of molecular label assay
+INFO	lowercase_definition	OBI:0100016	IAO:0000115	a material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.@en
+INFO	lowercase_definition	OBI:0302885	IAO:0000115	filtration is a process which separates components suspended in a fluid based on granularity properties relying on a filter device@en
+INFO	lowercase_definition	OBI:0302886	IAO:0000115	centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation@en
+INFO	lowercase_definition	OBI:0302908	IAO:0000115	is a planned process with specified input original document and specified output edited document@en
+INFO	lowercase_definition	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
+defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
+@en"
+INFO	lowercase_definition	OBI:0500027	IAO:0000115	an inclusion criterion (rule) is_a *eligibility criterion*  which defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. For instance, in a study protocol, inclusion criteria indicate the conditions that prospective subjects MUST meet to be eligible for participation in a study.@en
+INFO	lowercase_definition	OBI:0500028	IAO:0000115	an exclusion criterion (rule) is_a *eligibility criterion*  which defines and states a condition which, if met, makes an entity unsuitable for a given task or participation in a given process. For instance, in a study protocol, exclusion criteria indicate the conditions that prospective subjects SHOULD NOT meet to be eligible for participation in a study@en
+INFO	lowercase_definition	OBI:0600005	IAO:0000115	a process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation@en
+INFO	lowercase_definition	OBI:0600014	IAO:0000115	a material processing in which components of an input material become segregated in space@en
+INFO	lowercase_definition	OBI:0600016	IAO:0000115	physical combination of several instances of like material@en
+INFO	lowercase_definition	OBI:0600018	IAO:0000115	a material processing in which the input substance is partitioned into a number of portions that are similar in composition.@en
+INFO	lowercase_definition	OBI:0600024	IAO:0000115	a protocol application in which cells are kept alive in a defined environment outside of an organism.  part of cell_culturing@en
+INFO	lowercase_definition	OBI:0600036	IAO:0000115	a process through which a new type of cell culture or cell line is created, either through the isolation and culture of one or more cells from a fresh source, or the deliberate experimental modification of an existing cell culture (e.g passaging a primary culture to become a secondary culture or line, or the immortalization or stable genetic modification of an existing culture or line).
+INFO	lowercase_definition	OBI:0600038	IAO:0000115	a material processing technique intended to add a molecular label to some input material entity, to allow detection of the molecular target of this label in a detection of molecular label assay@en
+INFO	lowercase_definition	OBI:0600052	IAO:0000115	a protocol application that uses diffusion through a semi-permeable membrane to separate an input material into two fractions of different composition@en
+INFO	lowercase_definition	OBI:0666667	IAO:0000115	a material separation to recover the nucleic acid fraction of an input material@en
+INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.@en
+INFO	lowercase_definition	RO:0000056	IAO:0000115	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	RO:0000057	IAO:0000115	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	RO:0000079	IAO:0000115	a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000080	IAO:0000115	a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000081	IAO:0000115	a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000085	IAO:0000115	a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000086	IAO:0000115	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000091	IAO:0000115	a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0001000	IAO:0000115	a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en
+INFO	lowercase_definition	RO:0001001	IAO:0000115	a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en
+INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en
+INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en
+INFO	lowercase_definition	RO:0002000	IAO:0000115	a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity@en
+INFO	lowercase_definition	RO:0002002	IAO:0000115	a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity@en
+INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	RO:0002211	IAO:0000115	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with
+INFO	lowercase_definition	RO:0002233	IAO:0000115	<p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.>
+INFO	lowercase_definition	RO:0002234	IAO:0000115	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
+INFO	lowercase_definition	RO:0002295	IAO:0000115	p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).
+INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological relation between a item and a collection.
+INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.
+INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input
+INFO	lowercase_definition	RO:0002353	IAO:0000115	inverse of has output
+INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+INFO	lowercase_definition	RO:0002418	IAO:0000115	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+INFO	lowercase_definition	UBERON:0000057	IAO:0000115	the fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening
+INFO	lowercase_definition	UBERON:0000362	IAO:0000115	the inner portion of the kidney consisting of the renal pyramids
+INFO	lowercase_definition	UBERON:0000992	IAO:0000115	the gonad of a female organism which contains germ cells
+INFO	lowercase_definition	UBERON:0000995	IAO:0000115	the female muscular organ of gestation in which the developing embryo or fetus is nourished until birth
+INFO	lowercase_definition	UBERON:0001052	IAO:0000115	the terminal portion of the intestinal tube, terminating with the anus
+INFO	lowercase_definition	UBERON:0001255	IAO:0000115	distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].
+INFO	lowercase_definition	UBERON:0001728	IAO:0000115	the section of the pharynx that lies above the soft palate
+INFO	lowercase_definition	UBERON:0001729	IAO:0000115	the portion of the pharynx that lies between the soft palate and the upper edge of the epiglottis
+INFO	lowercase_definition	UBERON:0001970	IAO:0000115	vital aqueous secretion of the liver that is formed by hepatocytes and modified down stream by absorptive and secretory properties of the bile duct epithelium.
+INFO	lowercase_definition	UBERON:0001987	IAO:0000115	organ of metabolic interchange between fetus and mother, partly of embryonic origin and partly of maternal origin[GO]. The fetal portion of the placenta is known as the villous chorion. The maternal portion is known as the decidua basalis. The two portions are held together by anchoring villi that are anchored to the decidua basalis by the cytotrophoblastic shell.
+INFO	lowercase_definition	UBERON:0002106	IAO:0000115	the organ that functions to filter blood and to store red corpuscles and platelets
+INFO	lowercase_definition	UBERON:0002116	IAO:0000115	the portion of the small intestine that extends from the jejunum to the colon
+INFO	lowercase_definition	UBERON:0002371	IAO:0000115	the soft tissue that fills the cavities of bones
+INFO	lowercase_definition	UBERON:0010414	IAO:0000115	encapsulated adipose tissue associated with the fold of peritoneal tissue that extends from the stomach to the posterior abdominal wall after associating with the transverse colon
+INFO	lowercase_definition	UBERON:0012168	IAO:0000115	blood that remains in the placenta and in the attached umbilical cord after childbirth[WP].
+INFO	lowercase_definition	UBERON:0035840	IAO:0000115	muscularis mucosa from the lowest portion of the esophagus, just proximal to the stomach.

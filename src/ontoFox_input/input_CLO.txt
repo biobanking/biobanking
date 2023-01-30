@@ -1,0 +1,32 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/obib/dev/import_CLO.owl
+
+[Source ontology]
+#comment here
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
+http://purl.obolibrary.org/obo/CLO_0000031 #cell line
+http://purl.obolibrary.org/obo/CLO_0009828 #immortal cell line
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+subClassOf http://purl.obolibrary.org/obo/OBI_0001866 #secondary cultured cell
+http://purl.obolibrary.org/obo/CLO_0000019 #immortal cell line cell
+subClassOf http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+http://purl.obolibrary.org/obo/CLO_0000031 #cell line
+subClassOf http://purl.obolibrary.org/obo/OBI_0001905 #secondary cultured cell population
+http://purl.obolibrary.org/obo/CLO_0009828 #immortal cell line
+subClassOf http://purl.obolibrary.org/obo/CLO_0000031 #cell line
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000112 #example of usage
+
