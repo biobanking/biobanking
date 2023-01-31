@@ -9818,7 +9818,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000625">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
@@ -13511,9 +13511,9 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00002072 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000024"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
     
 
 
