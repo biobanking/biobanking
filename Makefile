@@ -46,7 +46,7 @@ ROBOT := java -jar build/robot.jar
 #
 # Use Ontofox to regenerate fresh import OWL files
 build/import_%.owl: src/ontoFox_input/input_%.txt | build/robot.jar build
-	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
+	curl -s -F file=@$< -o $@ https://ontofox.hegroup.org/service.php
 
 # Use ROBOT to remove external axioms
 src/imports/import_EFO.owl: build/import_EFO.owl
