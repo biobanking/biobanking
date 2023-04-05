@@ -44,17 +44,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00015464">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraffin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00017834 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00017834">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Midazolam</rdfs:label>
+        <rdfs:label>Paraffin</rdfs:label>
     </owl:Class>
     
 

@@ -62,15 +62,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001866"/>
         <obo:IAO_0000115 xml:lang="en">A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture
-</obo:IAO_0000115>
-        <obo:IAO_0000115>一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分
+        <obo:IAO_0000115>A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture
 </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-        <rdfs:label xml:lang="en">cell line cell</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</rdfs:label>
-        <rdfs:label xml:lang="zh">细胞系细胞</rdfs:label>
     </owl:Class>
     
 
@@ -80,18 +75,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <obo:IAO_0000115>A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line.</obo:IAO_0000115>
-        <obo:IAO_0000115>预期能够进行无限次分裂的细胞系细胞，作为永生细胞系一部分，能够支持体外无限增殖。</obo:IAO_0000115>
         <obo:IAO_0000118>continuous cell line cell</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">continuous cell line cell</obo:IAO_0000118>
         <obo:IAO_0000118>permanent cell line cell</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">permanent cell line cell</obo:IAO_0000118>
-        <obo:IAO_0000118>永久细胞系细胞</obo:IAO_0000118>
-        <obo:IAO_0000118>连续细胞系细胞</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-        <rdfs:label xml:lang="en">immortal cell line cell</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immortal cell line cell</rdfs:label>
-        <rdfs:label xml:lang="zh">永生细胞系细胞</rdfs:label>
     </owl:Class>
     
 
@@ -104,23 +91,11 @@
 	
 Note that common usage in the literature is often of the form &quot;a human colorectal cancer cell line&quot;, as seen above. But such references to studies in &quot;a line&quot; refer to the fact that discrete populations of cells that are input into culturing or experiments, not an entire lineage of cells.  It is these discrete populations that we refer to as &apos;cell lines&apos;.
 </obo:IAO_0000112>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He, Tong-Chuan, et al., Identification of c-MYC as a target of the APC pathway. Science 281.5382 (1998): 1509-1512.:  &quot;To evaluate the transcriptional effects of APC, we studied a human colorectal cancer cell line (HT29-APC) containing a zinc-inducible APC gene and a control cell line (HT29–β-Gal) containing an analogous inducible lacZ gene&quot;. 
-
-Note that common usage in the literature is often of the form &quot;a human colorectal cancer cell line&quot;, as seen above. But such references to studies in &quot;a line&quot; refer to the fact that discrete populations of cells that are input into culturing or experiments, not an entire lineage of cells.  It is these discrete populations that we refer to as &apos;cell lines&apos;.
-</obo:IAO_0000112>
-        <obo:IAO_0000112>He, Tong-Chuan, et al., Identification of c-MYC as a target of the APC pathway. Science 281.5382 (1998): 1509-1512.:  &quot;为了评估APC的转录效应，我们研究了含有锌诱导型APC基因的人结直肠癌细胞系（HT29-APC）和含有类似诱导型lacZ基因的对照细胞系（HT29-β-Gal）&quot;.  
-
-请注意，文献中的常见用法通常是“人类结直肠癌细胞系”的形式&quot;,如上所见。 但是对&quot;一个细胞系&quot;研究的这种引用，指的是输入培养或实验的离散细胞群体，而不是整个细胞系。 我们将这些离散的群体称为&apos;细胞系&apos;。
-</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture). </obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture).  
-</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="zh">一个培养细胞群体，其代表具有共同增殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。</obo:IAO_0000115>
-        <obo:IAO_0000115>培养的细胞群体代表具有共同繁殖历史（即已经在培养中一起连续传代）的遗传稳定且同质的培养细胞群体。 
+        <obo:IAO_0000115>A cultured cell population that represents a genetically stable and homogenous population of cultured cells that shares a common propagation history (i.e. has been successively passaged together in culture).  
 </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label xml:lang="en">cell line</rdfs:label>
-        <rdfs:label xml:lang="zh">细胞系</rdfs:label>
     </owl:Class>
     
 
