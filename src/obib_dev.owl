@@ -9539,10 +9539,15 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000619">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0020012"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0020012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000115 xml:lang="en">An identifier in natural language referring  to a biobank.</obo:IAO_0000115>
@@ -12130,10 +12135,15 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000704">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000729"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000729"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document that outlines the procedures employed to preserve and protect the material collected during specimen collection as an indication of sample quality.</obo:IAO_0000115>
