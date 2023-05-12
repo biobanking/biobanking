@@ -2,10 +2,6 @@
 <a href="http://dashboard.obofoundry.org/dashboard/obib/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fcl%2Fdashboard-qc-badge.json" /></a>
 <a href="http://dashboard.obofoundry.org/dashboard/obib/dashboard.html"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FOBOFoundry%2Fobo-dash.github.io%2Fgh-pages%2Fdashboard%2Fcl%2Fdashboard-score-badge.json" /></a>
 
-\*New Release\*
-==========
-A new version will be released on May 12, 2023.  Release notes can be found [here](https://github.com/biobanking/biobanking/releases/tag/untagged-e47b3a48ec7298bc85d5).  Please leave comments or issues on the [pull request](https://github.com/biobanking/biobanking/pull/104) before May 12. 
-
 Ontology for Biobanking (OBIB)
 ==========
 
