@@ -360,12 +360,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tetracarboxylic acid anion formed by deprotonation of all four carboxy groups in ethylenediaminetetraacetic acid (EDTA).</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ethane-1,2-diyldinitrilo)tetraacetate</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(ethane-1,2-diyldinitrilo)tetraacetic acid</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethylenediaminetetraacetic acid</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylenediaminetetraacetic acid</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylenediaminetetraacetic acid</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDTA(4-)</rdfs:label>
     </owl:Class>
     
 
@@ -413,6 +411,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1,4-benzodiazepinone that is 1,3-dihydro-2H-1,4-benzodiazepin-2-one substituted by a chloro group at position 7, a methyl group at position 1 and a phenyl group at position 5.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7-chloro-1-methyl-5-phenyl-1,3-dihydro-2H-1,4-benzodiazepin-2-one</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diazepam</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diazepam</rdfs:label>

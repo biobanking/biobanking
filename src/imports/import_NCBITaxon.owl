@@ -50,7 +50,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
+        <rdfs:label>Viruses</rdfs:label>
     </owl:Class>
     
 
@@ -60,7 +60,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herpesviridae</rdfs:label>
+        <rdfs:label>Herpesviridae</rdfs:label>
     </owl:Class>
     
 
@@ -70,7 +70,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10292"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytomegalovirus</rdfs:label>
+        <rdfs:label>Cytomegalovirus</rdfs:label>
     </owl:Class>
     
 
@@ -79,13 +79,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10292"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epstein Barr virus</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epstein-Barr virus</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epstein-Barr virus EBV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human herpesvirus 4</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human herpesvirus type 4</obo:IAO_0000118>
+        <obo:IAO_0000118>Epstein Barr virus</obo:IAO_0000118>
+        <obo:IAO_0000118>Epstein-Barr virus</obo:IAO_0000118>
+        <obo:IAO_0000118>Epstein-Barr virus EBV</obo:IAO_0000118>
+        <obo:IAO_0000118>Human herpesvirus 4</obo:IAO_0000118>
+        <obo:IAO_0000118>Human herpesvirus type 4</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human gammaherpesvirus 4</rdfs:label>
+        <rdfs:label>Human gammaherpesvirus 4</rdfs:label>
     </owl:Class>
     
 
@@ -94,13 +94,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10407">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human hepatitis B virus</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis B virus (HBV)</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis B virus HBV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis B virus, HBV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human hepatitis B virus HBV</obo:IAO_0000118>
+        <obo:IAO_0000118>Human hepatitis B virus</obo:IAO_0000118>
+        <obo:IAO_0000118>hepatitis B virus (HBV)</obo:IAO_0000118>
+        <obo:IAO_0000118>hepatitis B virus HBV</obo:IAO_0000118>
+        <obo:IAO_0000118>hepatitis B virus, HBV</obo:IAO_0000118>
+        <obo:IAO_0000118>human hepatitis B virus HBV</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis B virus</rdfs:label>
+        <rdfs:label>Hepatitis B virus</rdfs:label>
     </owl:Class>
     
 
@@ -109,14 +109,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepatitis C virus</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatitis C virus HCV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human hepatitis C virus</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human hepatitis C virus HCV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human hepatitis virus C HCV</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-transfusion hepatitis non A non B virus</obo:IAO_0000118>
+        <obo:IAO_0000118>Hepatitis C virus</obo:IAO_0000118>
+        <obo:IAO_0000118>hepatitis C virus HCV</obo:IAO_0000118>
+        <obo:IAO_0000118>human hepatitis C virus</obo:IAO_0000118>
+        <obo:IAO_0000118>human hepatitis C virus HCV</obo:IAO_0000118>
+        <obo:IAO_0000118>human hepatitis virus C HCV</obo:IAO_0000118>
+        <obo:IAO_0000118>post-transfusion hepatitis non A non B virus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hepacivirus C</rdfs:label>
+        <rdfs:label>Hepacivirus C</rdfs:label>
     </owl:Class>
     
 
@@ -125,9 +125,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentivirinae</obo:IAO_0000118>
+        <obo:IAO_0000118>Lentivirinae</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lentivirus</rdfs:label>
+        <rdfs:label>Lentivirus</rdfs:label>
     </owl:Class>
     
 
@@ -136,16 +136,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11676">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11646"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus 1 HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type 1 HIV 1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type 1 HIV1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type 1, HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type I HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type-1 HIV-1</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus-1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus 1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV 1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1 HIV1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 1, HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type I HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type-1 HIV-1</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus-1 HIV-1</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human immunodeficiency virus 1</rdfs:label>
+        <rdfs:label>Human immunodeficiency virus 1</rdfs:label>
     </owl:Class>
     
 
@@ -154,13 +154,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11709">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11646"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV type 2</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human immunodeficiency virus type 2</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human immunodeficiency virus-2</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type 2 HIV-2</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human immunodeficiency virus type 2, HIV-2</obo:IAO_0000118>
+        <obo:IAO_0000118>HIV type 2</obo:IAO_0000118>
+        <obo:IAO_0000118>Human immunodeficiency virus type 2</obo:IAO_0000118>
+        <obo:IAO_0000118>Human immunodeficiency virus-2</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 2 HIV-2</obo:IAO_0000118>
+        <obo:IAO_0000118>human immunodeficiency virus type 2, HIV-2</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human immunodeficiency virus 2</rdfs:label>
+        <rdfs:label>Human immunodeficiency virus 2</rdfs:label>
     </owl:Class>
     
 
@@ -169,9 +169,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bony vertebrates</obo:IAO_0000118>
+        <obo:IAO_0000118>bony vertebrates</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euteleostomi</rdfs:label>
+        <rdfs:label>Euteleostomi</rdfs:label>
     </owl:Class>
     
 
@@ -180,9 +180,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eubacteria</obo:IAO_0000118>
+        <obo:IAO_0000118>eubacteria</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria</rdfs:label>
+        <rdfs:label>Bacteria</rdfs:label>
     </owl:Class>
     
 
@@ -192,7 +192,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaea</rdfs:label>
+        <rdfs:label>Archaea</rdfs:label>
     </owl:Class>
     
 
@@ -201,10 +201,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</obo:IAO_0000118>
+        <obo:IAO_0000118>eucaryotes</obo:IAO_0000118>
+        <obo:IAO_0000118>eukaryotes</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+        <rdfs:label>Eukaryota</rdfs:label>
     </owl:Class>
     
 
@@ -214,7 +214,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euarchontoglires</rdfs:label>
+        <rdfs:label>Euarchontoglires</rdfs:label>
     </owl:Class>
     
 
@@ -223,9 +223,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32523">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117571"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrapods</obo:IAO_0000118>
+        <obo:IAO_0000118>tetrapods</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetrapoda</rdfs:label>
+        <rdfs:label>Tetrapoda</rdfs:label>
     </owl:Class>
     
 
@@ -234,9 +234,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32523"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amniotes</obo:IAO_0000118>
+        <obo:IAO_0000118>amniotes</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amniota</rdfs:label>
+        <rdfs:label>Amniota</rdfs:label>
     </owl:Class>
     
 
@@ -246,7 +246,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthokonta</rdfs:label>
+        <rdfs:label>Opisthokonta</rdfs:label>
     </owl:Class>
     
 
@@ -256,7 +256,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33154"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilateria</rdfs:label>
+        <rdfs:label>Bilateria</rdfs:label>
     </owl:Class>
     
 
@@ -266,7 +266,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_388799">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11676"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIV-1 group O</rdfs:label>
+        <rdfs:label>HIV-1 group O</rdfs:label>
     </owl:Class>
     
 
@@ -275,9 +275,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammals</obo:IAO_0000118>
+        <obo:IAO_0000118>mammals</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+        <rdfs:label>Mammalia</rdfs:label>
     </owl:Class>
     
 
@@ -286,10 +286,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrates</obo:IAO_0000118>
+        <obo:IAO_0000118>Vertebrata</obo:IAO_0000118>
+        <obo:IAO_0000118>vertebrates</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;vertebrates&gt;</rdfs:label>
+        <rdfs:label>Vertebrata &lt;vertebrates&gt;</rdfs:label>
     </owl:Class>
     
 
@@ -298,10 +298,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man</obo:IAO_0000118>
+        <obo:IAO_0000118>human</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
+        <rdfs:label>Homo sapiens</rdfs:label>
     </owl:Class>
     
 
