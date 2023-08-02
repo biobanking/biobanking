@@ -13091,7 +13091,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000111>specimen storage location</obo:IAO_0000111>
         <obo:IAO_0000112>"molecular lab" was recorded as the sample storage location.</obo:IAO_0000112>
-        <obo:IAO_0000115>A data item which indicates the location where a specimen is stored, usually of a room or freezer.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity which indicates the location where a specimen is stored, usually of a room or freezer.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000118>sample storage location</obo:IAO_0000118>
         <obo:IAO_0000119>http://gensc.org/ns/mixs/samp_store_loc</obo:IAO_0000119>
