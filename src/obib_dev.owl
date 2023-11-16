@@ -9434,11 +9434,41 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000616 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000616">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <obo:IAO_0000115 xml:lang="en">A biobank is a collections of samples of biological substances
-(e.g. tissue, blood, DNA) which are linked to data about the samples and their donors. They have a dual nature as collections of samples and data.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                            <owl:Restriction>
+                                <owl:onProperty>
+                                    <rdf:Description>
+                                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                    </rdf:Description>
+                                </owl:onProperty>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000736"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Collection of specimens that are of biological relevance and that are linked to data about them and their donors.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">definition derived from the definition of &apos;human biobank&apos;, based on http://www.ethikrat.org/files/der_opinion_human-biobanks.pdf</obo:IAO_0000119>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
         <rdfs:label xml:lang="en">biobank</rdfs:label>
     </owl:Class>
     
@@ -12890,6 +12920,43 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000616"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Information content entity that is a collection of other information content entities that are about specimens in the same biobank.</obo:IAO_0000115>
+        <dc:contributor xml:lang="en">S. Clint Dowland</dc:contributor>
+        <rdfs:label xml:lang="en">biobank databank</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002000">
@@ -13090,7 +13157,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000111>specimen storage location</obo:IAO_0000111>
-        <obo:IAO_0000112>"molecular lab" was recorded as the sample storage location.</obo:IAO_0000112>
+        <obo:IAO_0000112>&quot;molecular lab&quot; was recorded as the sample storage location.</obo:IAO_0000112>
         <obo:IAO_0000115>An information content entity which indicates the location where a specimen is stored, usually of a room or freezer.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
         <obo:IAO_0000118>sample storage location</obo:IAO_0000118>
@@ -13475,12 +13542,6 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00002072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
@@ -13490,6 +13551,12 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000038"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00002072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
     
 
 
